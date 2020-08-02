@@ -2,7 +2,7 @@
 
 class BankAccount {
 
-	public static void main(String[] args) {
+	public stat void main(String[] args) {
 
 
 	}
