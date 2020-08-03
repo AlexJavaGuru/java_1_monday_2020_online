@@ -1,4 +1,4 @@
-package student_Renars_Ranka.homework.lesson_1;
+package student_renars_ranka.homework.lesson_1;
 
 public class HomeWork11 {
 
