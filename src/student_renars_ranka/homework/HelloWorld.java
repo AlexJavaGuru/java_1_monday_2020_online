@@ -1,4 +1,4 @@
-package student_renars_ranka;
+package student_renars_ranka.homework;
 
 public class HelloWorld {
 
