@@ -1,4 +1,4 @@
 package student_renars_ranka;
 
-public class HeloWorld2 {
+public class HeloWorldV2 {
 }
