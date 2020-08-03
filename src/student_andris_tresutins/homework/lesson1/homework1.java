@@ -2,6 +2,7 @@ package student_andris_tresutins.homework.lesson1;
 
 public class homework1 {
     public static void main(String[] args) {
+
         int sum, div;
         sum= 74+36;
         div= 50/3;

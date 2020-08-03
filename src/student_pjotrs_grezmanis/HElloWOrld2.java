@@ -1,4 +1,4 @@
 package student_pjotrs_grezmanis;
 
-public class HelloWorld {
+public class HElloWOrld2 {
 }
