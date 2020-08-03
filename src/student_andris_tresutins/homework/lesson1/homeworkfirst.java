@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson1;
 
-public class homework1 {
+public class homeworkfirst {
     public static void main(String[] args) {
 
         int sum, div;
