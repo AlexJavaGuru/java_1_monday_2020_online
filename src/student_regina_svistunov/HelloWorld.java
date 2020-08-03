@@ -1,9 +1,8 @@
-package student_Regina_Svistunov.homework.lesson_1;
+package student_regina_svistunov;
 
 public class HelloWorld {
     public static void main(String[] args)
     {
         System.out.println("Hello, World!");
-        System.out.println("Regina Svsitunov");
     }
 }
