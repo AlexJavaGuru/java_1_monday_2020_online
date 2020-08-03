@@ -1,4 +1,4 @@
-package student_Arturs_Arusanovs;
+package student_arturs_arusanovs;
 
 public class Div {
     public static void main(String[] args){

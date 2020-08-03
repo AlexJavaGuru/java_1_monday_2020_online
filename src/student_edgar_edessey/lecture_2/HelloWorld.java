@@ -1,4 +1,4 @@
-package student_edgar_edessey.lecture_1;
+package student_edgar_edessey.lecture_2;
 
 public class HelloWorld {
 
