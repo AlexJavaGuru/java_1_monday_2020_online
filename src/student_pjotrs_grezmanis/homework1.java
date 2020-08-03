@@ -1,6 +1,6 @@
-package Peti4;
+package student_pjotrs_grezmanis;
 
-public class homework_Peti4 {
+public class homework1 {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
