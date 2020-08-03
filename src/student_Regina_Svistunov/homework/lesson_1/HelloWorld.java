@@ -1,4 +1,4 @@
-package homework.lesson_1;
+package student_Regina_Svistunov.homework.lesson_1;
 
 public class HelloWorld {
     public static void main(String[] args)
