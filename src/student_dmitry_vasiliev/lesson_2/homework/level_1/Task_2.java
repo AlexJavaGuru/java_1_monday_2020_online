@@ -8,10 +8,10 @@ public class Task_2 {
     public static void main(String[] args){
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter first number");
+        System.out.println("Enter first number with (,)");
         float num1 = in.nextFloat();
 
-        System.out.println("Enter second number");
+        System.out.println("Enter second number with (,)");
         float num2 = in.nextFloat();
         float c = num1 + num2;
         System.out.println("Result of addition  is - " +c);
