@@ -2,7 +2,7 @@ package student_andris_tresutins.homework.lesson_2.level_3;
 
 import java.util.Scanner;
 
-public class task_10 {
+public class Task_10 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("input radius");
