@@ -1,4 +1,4 @@
-package student_dmitry_vasiliev.lesson_2.homework.level_1;
+package student_dmitry_vasiliev.lesson_2.homework.level_5;
 
 import java.util.Scanner;
 
