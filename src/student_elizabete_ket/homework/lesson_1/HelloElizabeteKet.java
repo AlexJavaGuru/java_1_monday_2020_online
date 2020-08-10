@@ -1,4 +1,4 @@
-package student_elizabete_ket.homework.lesson1;
+package student_elizabete_ket.homework.lesson_1;
 
 public class HelloElizabeteKet {
     public static void main (String[] args) {
