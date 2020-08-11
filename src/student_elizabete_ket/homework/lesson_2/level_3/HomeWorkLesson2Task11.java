@@ -14,6 +14,7 @@ public class HomeWorkLesson2Task11 {
 
         System.out.println("Enter third number:");
         int thirdNumber = input.nextInt();
+        //Тут у вас чуть-чуть не хватает пробелов, чтобы строка читалась легче -> int average = (firstNumnber + secondNumber + thirdNumber) / 3;
         int average = (firstNumnber+secondNumber+thirdNumber)/3;
 
         System.out.print("Average of 3 numbers: ");

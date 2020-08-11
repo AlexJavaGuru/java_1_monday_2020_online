@@ -2,6 +2,7 @@ package student_artur_martinenko.homework.lesson_2.level_1;
 
 import java.util.Scanner;
 
+// Артур, вы молодец ) Есть какой-то опыт или вы изучаете темы быстрее нас? ))) Можно ответить мне в телеге )
 public class Task_1 {
 
     public static void main(String[] args) {

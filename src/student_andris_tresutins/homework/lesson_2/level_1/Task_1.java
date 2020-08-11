@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task_1 {
     public static void main(String[] args) {
+        //TODO: У вас чуть-чуть уехали строки с виводом на экран. В данном случае, все должно быть выровнено по правому краю, как Scanner или int - они стоят правильно.
         Scanner input = new Scanner(System.in);
             System.out.println( "enter number 1");
         int num1 = input.nextInt();
