@@ -1,0 +1,9 @@
+Правильные с точки зрения Java кода названия классам:
+
+book            -> Book
+Bankaccount     -> BankAccount
+systemUnit      -> SystemUnit
+Login_Service   -> LoginService
+banktransaction -> BankTransaction
+task1           -> TaskOne
+
