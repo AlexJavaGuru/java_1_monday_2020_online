@@ -1,5 +1,6 @@
 package student_andris_tresutins.homework.lesson_3.level_2;
 
+
 import java.util.Scanner;
 
 public class Task_9 {

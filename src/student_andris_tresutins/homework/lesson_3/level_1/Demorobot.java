@@ -1,6 +1,5 @@
 package student_andris_tresutins.homework.lesson_3.level_1;
 
-import javax.xml.namespace.QName;
 
 public class Demorobot {
     public static void main(String[] args) {
