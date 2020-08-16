@@ -1,5 +1,7 @@
 package student_arturs_arusanovs.lesson_3.level_6;
 
+
+//Формат
 public class Computer {
     private String manufacturer;
     private String model;
