@@ -55,7 +55,7 @@ class Calc {
         else if(firstNumber < thirdNumber && secondNumber < thirdNumber ){
             return thirdNumber;
         }
-        else if(firstNumber == secondNumber && firstNumber == thirdNumber){
+        else if(firstNumber == secondNumber && secondNumber == thirdNumber){
             return irrelevantNumber3;
         }
         else{
