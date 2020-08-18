@@ -1,4 +1,4 @@
-package student_artur_martinenko.homework.lesson_2.level_5;
+ package student_artur_martinenko.homework.lesson_2.level_5;
 
 public class Task_18 {
 }
