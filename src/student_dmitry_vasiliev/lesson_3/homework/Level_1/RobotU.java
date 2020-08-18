@@ -1,7 +1,6 @@
 package student_dmitry_vasiliev.lesson_3.homework.Level_1;
 
-class Task_2 {
-    class RobotU {
+public class RobotU {
 
         public String name;
 
@@ -10,6 +9,13 @@ class Task_2 {
             this.name = name;
         }
 
+        public RobotU() {
+
+        }
+    public void sayHello1()
+    {
+        System.out.println("Hello!!!");
+    }
         public void sayHello()
         {
             System.out.println("Hello from " + name);
@@ -20,11 +26,5 @@ class Task_2 {
             System.out.println("My name is " + name); // == this.name
 
         }
-
-        public RobotU() {
-
-        }
     }
-}
-
 
