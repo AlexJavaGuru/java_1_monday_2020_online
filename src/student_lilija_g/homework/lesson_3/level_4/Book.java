@@ -6,7 +6,7 @@ class Book {
     Book(String bookTitle) {
         this.title = bookTitle;    } // newTitle -> bookTitle;
 
-    public String getTitle() {
+    String getTitle() {
         return this.title;
     }
 

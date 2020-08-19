@@ -6,14 +6,14 @@ class CircleDemo {
         int result_x, result_y, resultRadius;
         double resultArea;
 
-        Circle circleDemo = new Circle();
-        circleDemo.setCircle(10, 5, 3);
+        Circle myCircle = new Circle();
+        myCircle.setCircle(10, 5, 3);
 
-        result_x = circleDemo.getCoordinate_x();
-        result_y = circleDemo.getCoordinate_y();
-        resultRadius = circleDemo.getRadius();
+        result_x = myCircle.getCoordinate_x();
+        result_y = myCircle.getCoordinate_y();
+        resultRadius = myCircle.getRadius();
 
-        resultArea = circleDemo.area(resultRadius);
+        resultArea = myCircle.area(resultRadius);
 
         System.out.println("Circle coordinate X: "+result_x);
         System.out.println("Circle coordinate Y: "+result_y);

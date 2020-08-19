@@ -4,15 +4,15 @@ class Dog {
 
     private String dogName;
 
-    public Dog(String name) {
+    Dog(String name) {
         this.dogName = name;
     }
 
-    public String getName() {
+    String getName() {
         return dogName;
     }
 
-    public void voice() {
+    void voice() {
         System.out.println("My name is " + getName() + "! "+ getName() + "! "+ getName() + "!");
 
     }

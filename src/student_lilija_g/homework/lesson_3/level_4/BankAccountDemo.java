@@ -1,6 +1,6 @@
 package student_lilija_g.homework.lesson_3.level_4;
 
-public class BankAccountDemo {
+class BankAccountDemo {
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount("Viktor", "Savonin", 100000);
         String ownerFirstName = bankAccount.getOwnerFirstName();

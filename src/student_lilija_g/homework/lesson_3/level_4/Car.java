@@ -1,14 +1,14 @@
 package student_lilija_g.homework.lesson_3.level_4;
 
-public class Car {
+class Car {
 
     private String model;
 
-    public Car(String newModel) {
+    Car(String newModel) {
         this.model = newModel;
     }
 
-    public String getModel() { // ()
+    String getModel() { // ()
         return this.model;     // ;
     }
 }

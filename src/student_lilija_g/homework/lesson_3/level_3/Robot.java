@@ -4,15 +4,16 @@ class Robot {
 
     private String name;
 
-    public Robot(String robotName) {
+    Robot(String robotName) {
         this.name = robotName;
     }
-        public void sayHello() {
+
+        void sayHello() {
 
             System.out.println("Hello!");
         }
 
-        public void sayYourName() {
+        void sayYourName() {
 
             System.out.println("My name is " + name);
         }

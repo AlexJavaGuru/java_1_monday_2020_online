@@ -6,6 +6,6 @@ class Phone
 
 Ответ:
 
-public class Phone {
+class Phone {
 
 }

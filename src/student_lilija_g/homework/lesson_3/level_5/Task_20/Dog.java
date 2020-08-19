@@ -5,24 +5,24 @@ class Dog {
     private String dogName;
     int dogAge;
 
-    public Dog(String name, int age) {
+    Dog(String name, int age) {
         this.dogName = name;
         this.dogAge = age;
     }
 
-    public String getName() {
+    String getName() {
         return dogName;
     }
 
-    public int getAge() {
+    int getAge() {
         return dogAge;
     }
 
-    public void voice() {
+    void voice() {
         System.out.println("My name is " + getName()+"! "+getName()+"! "+getName()+"!");
         System.out.println("I am " + getAge() + " years old.");
     }
-    public void happyBirthday() {
+    void happyBirthday() {
         this.dogAge += 1;
         System.out.println("Today my birthday!");
     }

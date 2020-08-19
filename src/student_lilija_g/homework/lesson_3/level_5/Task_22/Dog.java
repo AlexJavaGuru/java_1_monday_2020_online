@@ -10,36 +10,36 @@ class Dog {
 
     public enum dogColour {Red, Black, White, Yellow}
 
-    public Dog(String name, int age, String colour) {
+    Dog(String name, int age, String colour) {
         this.dogName = name;
         this.dogAge = age;
         this.dogColour = colour;
     }
 
-    public void voice() {
+    void voice() {
         System.out.println("My name is " + getName() + "!");
         System.out.println("I am " + getAge() + " years old.");
         System.out.println("My colour is " + getColour()+".");
     }
 
-    public void happyBirthday() {
+    void happyBirthday() {
         this.dogAge += 1;
         System.out.println("Today my birthday!");
     }
 
-    public void changeColor(String newColor) {
+    void changeColor(String newColor) {
          this.dogColour = newColor;
             }
 
-    public String getName() {
+    String getName() {
         return dogName;
     }
 
-    public int getAge() {
+    int getAge() {
         return dogAge;
     }
 
-    public String getColour() {
+    String getColour() {
         return dogColour;
     }
 }

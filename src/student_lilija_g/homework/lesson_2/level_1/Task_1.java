@@ -1,6 +1,6 @@
 package student_lilija_g.homework.lesson_2.level_1;
 
-public class Task_1 {
+class Task_1 {
     public static void main(String[] args) {
 
         int numberOne = 48;

@@ -2,18 +2,18 @@ package student_lilija_g.homework.lesson_3.level_1;
 
  class Robot {
 
-    public String robotName;
+    String robotName;
 
-    public Robot(String name) {
+    Robot(String name) {
         this.robotName = name;
     }
 
-    public void sayHello() {
+    void sayHello() {
 
         System.out.println("Hello!");
     }
 
-    public void sayYourName() {
+    void sayYourName() {
 
         System.out.println("My name is " + robotName);
     }

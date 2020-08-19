@@ -1,0 +1,28 @@
+Тема: Переменная среды окружения JAVA_HOME в операционной системе (OS).
+
+Найдите в интеренете, что такое JAVA_HOME.
+Установите на своём компьютере JAVA_HOME.
+
+
+
+
+
+Ответ:
+
+JAVA_HOME - это переменная окружения, указывающая на директорию с установленным JDK (Java Development Kit, комплект разработчика Java).
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\lilija>java -version
+openjdk version "1.8.0_262"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_262-b10)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.262-b10, mixed mode)
+
+C:\Users\lilija>javac -version
+javac 1.8.0_262
+
+C:\Users\lilija>echo %JAVA_HOME%
+C:\Program Files\AdoptOpenJDK\jdk-8.0.262.10-hotspot
+
+C:\Users\lilija>

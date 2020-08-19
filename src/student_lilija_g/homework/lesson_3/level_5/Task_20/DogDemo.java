@@ -4,10 +4,10 @@ public class DogDemo {
 
     public static void main(String[] args) {
 
-        Dog dog = new Dog("Chappy", 3);
+        Dog myDog = new Dog("Chappy", 3);
 
-        dog.voice();
-        dog.happyBirthday();
-        dog.voice();
+        myDog.voice();
+        myDog.happyBirthday();
+        myDog.voice();
        }
 }

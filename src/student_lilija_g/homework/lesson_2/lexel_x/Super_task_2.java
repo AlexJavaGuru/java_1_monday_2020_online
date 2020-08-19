@@ -1,6 +1,6 @@
 package student_lilija_g.homework.lesson_2.lexel_x;
 
-public class Super_task_2 { // SumTwoNumbers
+class Super_task_2 { // SumTwoNumbers
     public static void main(String[] args) {
 
         int numberOne = 10;

@@ -1,6 +1,5 @@
 package student_lilija_g.homework.lesson_2.level_5;
 
-import java.util.Arrays;
 
      class Task_18 {
 

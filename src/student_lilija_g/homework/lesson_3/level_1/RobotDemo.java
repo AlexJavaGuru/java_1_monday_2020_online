@@ -1,6 +1,6 @@
 package student_lilija_g.homework.lesson_3.level_1;
 
-public class RobotDemo { //Task_6
+class RobotDemo { //Task_6
 
     public static void main(String[] args) {
         Robot robotOne = new Robot("ROBOONE");

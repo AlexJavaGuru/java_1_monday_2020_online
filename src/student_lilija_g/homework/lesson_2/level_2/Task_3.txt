@@ -6,7 +6,7 @@ class Book {
 
 Ответ:
 
-public class Book {
+class Book {
 
 }
 
