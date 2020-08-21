@@ -2,6 +2,7 @@ package student_artur_martinenko.homework.lesson_2.level_3;
 
 import java.util.Scanner;
 
+// Math.PI -> отлично!
 public class Task_10 {
 
     public static void main(String[] args) {

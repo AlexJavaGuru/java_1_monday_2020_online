@@ -2,6 +2,7 @@ package student_andris_tresutins.homework.lesson_2.level_3;
 
 import java.util.Scanner;
 
+//TODO: Хорошо )))
 public class Task_9 {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
