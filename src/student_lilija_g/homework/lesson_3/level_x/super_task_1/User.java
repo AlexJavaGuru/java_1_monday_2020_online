@@ -1,7 +1,7 @@
 package student_lilija_g.homework.lesson_3.level_x.super_task_1;
 
 class User {
-
+	//Сами придумали? =)
 	private static final int MAX_ATTEMPTS_COUNT = 3;
 
     private String login;

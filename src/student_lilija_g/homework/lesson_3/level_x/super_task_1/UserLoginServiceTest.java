@@ -1,5 +1,5 @@
 package student_lilija_g.homework.lesson_3.level_x.super_task_1;
-
+//Ох =) как трудно читать ваши методы тут. Есть такое правило хорошего стиля: один тест - один assertion (в вашем случае один checkResults =))
 class UserLoginServiceTest {
 
 	public static void main(String[] args) {

@@ -2,6 +2,7 @@ package student_artur_martinenko.homework.lesson_4.level_2;
 
 import java.util.Scanner;
 
+//Выполните программу => введите одинаковые числа => исправте баг =)
 class Task_6 {
 
     public static void main(String[] args) {

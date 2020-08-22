@@ -34,6 +34,8 @@ class Task_10 {
 //        }
 
         //Тут подсказала 'Идея' как скратить код, самому бы не вхатило мысли.
+
+        //Все верно, у вас верхние условия исключают нижние. Простая алгоритмика )
         if(!oneIsBiggerTwo && !oneIsBiggerThree && !twoISBiggerThree){
             System.out.println("The biggest is " + three);
         }else if (!oneIsBiggerTwo && !oneIsBiggerThree) {

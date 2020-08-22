@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_4.level_4;
 
+//Так...очень много дублированного кода. Вы можете лучше. Сделайте check метод (если надо, то сделайте несколько check методов), которые вы будете вызывать
+// из ваших тестов для проверки результата. Смотрите наш пример с урока!
 class CalculatorTest {
 
     public static void main(String[] args) {

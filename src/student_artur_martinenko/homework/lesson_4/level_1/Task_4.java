@@ -1,7 +1,8 @@
 package student_artur_martinenko.homework.lesson_4.level_1;
 
 import java.util.Scanner;
-
+//Нажмите кнопки ctrl + alt + L
+//обратите внимание, сколько не хватает всяких пробелов ) Так все хорошо.
 class Task_4 {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {

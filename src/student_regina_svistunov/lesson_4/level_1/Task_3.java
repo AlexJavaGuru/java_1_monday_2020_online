@@ -2,6 +2,7 @@ package student_regina_svistunov.lesson_4.level_1;
 
 import java.util.Scanner;
 
+//Switch бы тут лучше подошел )
 public class Task_3 {
 
 

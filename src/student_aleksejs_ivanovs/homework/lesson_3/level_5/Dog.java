@@ -1,5 +1,11 @@
 package student_aleksejs_ivanovs.homework.lesson_3.level_5;
 
+//Все хорошо, только хотел уточнить, что в методах
+//public String getDogName() {
+//  return this.dogName;
+//}
+//Нам необязательно писать слово this.
+//Внутри этого метода, нету конфликта имен, так что джава без проблем понимает, какой именно dogName ей надо вернуть
 class Dog {
 
     public String dogName;

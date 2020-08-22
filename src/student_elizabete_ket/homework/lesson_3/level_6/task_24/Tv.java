@@ -1,5 +1,5 @@
 package student_elizabete_ket.homework.lesson_3.level_6.task_24;
-
+//С форматом все плохо. не хватает новых строк между методами и левый край у вас где-то не там...
 class Tv {
 
     //Свойства:

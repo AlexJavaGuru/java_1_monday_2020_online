@@ -1,7 +1,7 @@
 package student_renars_ranka.homework.lesson_4.level_1;
 
 import java.util.Scanner;
-
+//Поправить форматирование
 class Task_1 {
 
     public static void main(String[] args) {

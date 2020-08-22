@@ -1,5 +1,6 @@
 package student_artur_martinenko.homework.lesson_4.level_6;
 
+//Ну не хватает мне check методов )))
 class StockTest {
 
     public static void main(String[] args) {

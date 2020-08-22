@@ -11,6 +11,7 @@ class Task_2 {
         System.out.println("Write the number please.");
         int number = scanner.nextInt();
 
+        //Последние условие у вас всегда будет true, потому, что все другие варианты вы уже исключили. Можно было просто использовать else в конце
         if (number > 0) {
             System.out.println("Your number is positive.");
         } else if (number < 0) {

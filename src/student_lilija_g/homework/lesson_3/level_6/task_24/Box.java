@@ -6,6 +6,7 @@ class Box {
     int boxDepth;     // глубина коробки
     String boxColour; // цвет коробки
 
+    //Вы не используете эту переменныю. Для чего она?
     public enum boxColour {Red, Black, White, Yellow}
 
     double boxVolume(int boxWidth, int boxHeight, int boxDepth) { // объем коробки

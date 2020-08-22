@@ -2,6 +2,7 @@ package student_arturs_arusanovs.lesson_4.level_1;
 
 import java.util.Scanner;
 
+//Для этой задачи, лучше бы смотрелся оператор switch...нет? =)
 class Task_3 {
 
     public static void main(String[] args) {

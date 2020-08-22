@@ -1,5 +1,5 @@
 package student_arturs_arusanovs.lesson_4.level_4;
-
+//Почему столько лишнего кода? Мы смотрели на уроке, как делать check методы, для тестирования...
 class CalculatorTest {
 
     public static void main(String[] args) {
