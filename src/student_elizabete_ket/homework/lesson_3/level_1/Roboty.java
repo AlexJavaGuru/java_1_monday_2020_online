@@ -1,6 +1,6 @@
 package student_elizabete_ket.homework.lesson_3.level_1;
 
-public class Roboty {
+ class Roboty {
 
     private String name;
 

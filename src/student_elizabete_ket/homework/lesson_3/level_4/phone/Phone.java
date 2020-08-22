@@ -1,6 +1,6 @@
 package student_elizabete_ket.homework.lesson_3.level_4.phone;
 
-public class Phone {
+class Phone {
     private String model;
 
     public Phone(String newModel) {

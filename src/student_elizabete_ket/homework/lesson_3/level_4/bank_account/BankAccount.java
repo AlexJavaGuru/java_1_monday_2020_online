@@ -1,6 +1,6 @@
 package student_elizabete_ket.homework.lesson_3.level_4.bank_account;
 
-public class BankAccount {
+class BankAccount {
     private String ownerFirstName;
     private String ownerLastName;
     private int moneyAmount;

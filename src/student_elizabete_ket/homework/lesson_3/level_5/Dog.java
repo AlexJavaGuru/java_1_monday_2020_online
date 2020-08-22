@@ -1,6 +1,6 @@
 package student_elizabete_ket.homework.lesson_3.level_5;
 
-public class Dog {
+class Dog {
     private String name = "Mailo";
     private int age;
     private String dogColour;
