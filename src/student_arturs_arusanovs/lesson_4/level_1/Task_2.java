@@ -16,7 +16,7 @@ class Task_2 {
             System.out.println("Your number is positive.");
         } else if (number < 0) {
             System.out.println("Your number is negative.");
-        } else if (number == 0) {
+        } else {
             System.out.println("Your number is zero.");
         }
     }
