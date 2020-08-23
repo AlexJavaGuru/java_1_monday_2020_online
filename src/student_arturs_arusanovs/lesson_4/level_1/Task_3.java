@@ -8,27 +8,34 @@ class Task_3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Write a number between 1 and 7 please.");
+        int number = scanner.nextInt();
 
-        while (true) {
-            System.out.println("Write a number from 1 to 7.");
-            int number = scanner.nextInt();
-
-            if (number == 1) {
+        switch (number) {
+            case 1:
                 System.out.println("Monday");
-            } else if (number == 2) {
+                break;
+            case 2:
                 System.out.println("Tuesday");
-            } else if (number == 3) {
+                break;
+            case 3:
                 System.out.println("Wednesday");
-            } else if (number == 4) {
+                break;
+            case 4:
                 System.out.println("Thursday");
-            } else if (number == 5) {
+                break;
+            case 5:
                 System.out.println("Friday");
-            } else if (number == 6) {
+                break;
+            case 6:
                 System.out.println("Saturday");
-            } else if (number == 7) {
+                break;
+            case 7:
                 System.out.println("Sunday");
-            }
-
+                break;
+            default:
+                System.out.println("Invalid number entered.");
         }
+
     }
 }
