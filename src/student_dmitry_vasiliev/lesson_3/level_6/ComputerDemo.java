@@ -1,6 +1,6 @@
-package student_dmitry_vasiliev.lesson_3.homework.Level_6;
+package student_dmitry_vasiliev.lesson_3.level_6;
 
-public class ComputerDemo {
+class ComputerDemo {
     public static void main(String[] args) {
         Computer dell = new Computer("Dell", "XXX-1");
         String manufacturer = dell.getManufacturer();

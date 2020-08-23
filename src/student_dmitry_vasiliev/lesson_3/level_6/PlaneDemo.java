@@ -1,8 +1,8 @@
-package student_dmitry_vasiliev.lesson_3.homework.Level_6;
+package student_dmitry_vasiliev.lesson_3.level_6;
 
 import java.util.Scanner;
 
-public class PlaneDemo {
+class PlaneDemo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 

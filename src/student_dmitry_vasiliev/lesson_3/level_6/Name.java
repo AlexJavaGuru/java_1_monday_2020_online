@@ -1,6 +1,6 @@
-package student_dmitry_vasiliev.lesson_3.homework.Level_6;
+package student_dmitry_vasiliev.lesson_3.level_6;
 
-public class Name {
+class Name {
     private String firstName;
     private String secondName;
     private int age;

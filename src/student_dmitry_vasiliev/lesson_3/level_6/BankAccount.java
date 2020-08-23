@@ -1,6 +1,6 @@
-package student_dmitry_vasiliev.lesson_3.homework.Level_6;
+package student_dmitry_vasiliev.lesson_3.level_6;
 
-public class BankAccount {
+class BankAccount {
 
         private String owner;
         private int money;
