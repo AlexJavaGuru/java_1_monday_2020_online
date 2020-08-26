@@ -14,7 +14,8 @@ class CalculatorTest {
         test.mulTest();
         test.isEven();
         test.maxOfTwoNumbers();
-    }
+        test.maxOfThreeNumbersFirst();
+            }
         public void sumTest() {
             int firstNumber = 10;
             int secondNumber = 5;
@@ -69,24 +70,37 @@ class CalculatorTest {
             System.out.println("IsEven test = FAIL. Expected result " + number + " is even - " + result + ".");
         }
     }
+
     public void maxOfTwoNumbers() {
-        int firstNumber = -1;
-        int secondNumber = -10;
+        int firstNumber = 7;
+        int secondNumber = 8;
+
         Calculator calculator = new Calculator();
-        int result = calculator.sub(firstNumber, secondNumber);
-        if (result > 0) {
-            System.out.println("Test is OK. "+ firstNumber + " is larger than " + secondNumber + ".");
+        if ((firstNumber - secondNumber) >= 0 && firstNumber == calculator.maxOfTwoNumbers(firstNumber, secondNumber)) //Math.max(firstNumber, secondNumber);
+            System.out.println("Test maxOfTwoNumbers is OK. Actual result "+ firstNumber + ", expected result " + calculator.maxOfTwoNumbers(firstNumber,secondNumber) + ".");
+
+        else if ((firstNumber - secondNumber) < 0 && secondNumber == calculator.maxOfTwoNumbers(firstNumber, secondNumber))
+            System.out.println("Test maxOfTwoNumbers is OK. Actual result "+ secondNumber + ", expected result " + calculator.maxOfTwoNumbers(firstNumber,secondNumber) + ".");
+        else
+            System.out.println("Test maxOfTwoNumbers is not OK. Actual result "+ firstNumber + ", expected result " + calculator.maxOfTwoNumbers(firstNumber,secondNumber) + ".");
         }
-        else if (result < 0) {
-                System.out.println("Test is OK. " + firstNumber + " is smaller than " + secondNumber + ".");
-        }
-        else {
-            System.out.println("Test is OK. " + firstNumber + " is equal " + secondNumber + ".");
-        }
-// Отдельные тесты на каждый из вариантов отношения чисел делать не стал, не увидел сакрального смысла. Но
-        // если это действительно надо - сделаю)).
+
+    public void maxOfThreeNumbersFirst() {
+        int firstNumber = 10;
+        int secondNumber = 8;
+        int thirdNumber = 19;
+        Calculator calculator = new Calculator();
+
+        if ((firstNumber - secondNumber) > 0 && firstNumber - thirdNumber > 0 && firstNumber == calculator.maxOfThreeNumbersFirst(firstNumber, secondNumber, thirdNumber))
+            System.out.println("Test maxOfThreeNumbersFirst is OK. Actual result "+ firstNumber + ", expected result " + calculator.maxOfThreeNumbersFirst(firstNumber, secondNumber, thirdNumber) + ".");
+
+        else
+            System.out.println("Test maxOfThreeNumbersFirst is not OK. Actual result "+ firstNumber + ", expected result " + calculator.maxOfThreeNumbersFirst(firstNumber, secondNumber, thirdNumber) + ".");
     }
-    }
+}
+
+
+
 
 
 

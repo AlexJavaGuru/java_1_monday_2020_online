@@ -17,6 +17,19 @@ public class Calculator {
     public boolean isEven (int number) {
         return  (number % 2) == 0;
         }
-
+    public int maxOfTwoNumbers (int firstNumber, int secondNumber) {
+        if ((firstNumber - secondNumber) > 0)
+            return firstNumber ;
+        else  return secondNumber ;
     }
+    public int maxOfThreeNumbersFirst (int firstNumber, int secondNumber, int thirdNumber) {
+        if ((firstNumber - secondNumber) > 0 && firstNumber - thirdNumber > 0)
+            return firstNumber ;
+        else  return (firstNumber + 10) ;
+    }
+}
+
+
+
+
 
