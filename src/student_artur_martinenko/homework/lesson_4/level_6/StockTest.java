@@ -1,6 +1,7 @@
 package student_artur_martinenko.homework.lesson_4.level_6;
 
 //Ну не хватает мне check методов )))
+//->Намотал на ус, что нужно больше их делать в будующем. Спасибо за совет!
 class StockTest {
 
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package student_artur_martinenko.homework.lesson_4.level_5;
 
 //Такая же проблема - много лишнего кода. Метод check вам должен помоч
+//->Полностью согласен, слелал задание не CleanCode, но в супер таске переделал уже все красиво.
 class LightColorDetectorTest {
 
     public static void main(String[] args) {
