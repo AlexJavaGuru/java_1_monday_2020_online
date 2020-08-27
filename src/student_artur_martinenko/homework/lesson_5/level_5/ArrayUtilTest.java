@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_5.level_5;
 
+import java.util.ArrayList;
+
 class ArrayUtilTest {
 
     public static void main(String[] args) {
@@ -8,6 +10,8 @@ class ArrayUtilTest {
         test.shouldFillArrayWithRandomNumbers();
         test.shouldFindMaxNumber();
         test.shouldFindMinNumber();
+        test.shouldFindEvenNumber();
+        test.shouldFindOddNumber();
     }
 
     public void check(boolean isTrue, String testName) {
@@ -17,6 +21,30 @@ class ArrayUtilTest {
             System.out.println("Test " + testName + " - FAILED");
         }
     }
+
+    public boolean oddEvenCheck(ArrayList<Integer> array, boolean isEven) {
+        if (isEven) {
+            for (int i : array) {
+                if (i % 2 != 0) {
+                    isEven = false;
+                    break;
+                }
+            }
+        } else {
+//            for(int i : array){       //my logic
+//                if(i % 2 == 0){
+//                    return false;
+//                } else {
+//                    return true;
+//                }
+//            }
+            for (int i : array) {       //intelliJ simplification
+                return i % 2 != 0;
+            }
+        }
+        return isEven;
+    }
+
 
     public void shouldCreateArray() {
         ArrayUtil arrayUtil = new ArrayUtil();
@@ -48,6 +76,20 @@ class ArrayUtilTest {
         ArrayUtil arrayUtil = new ArrayUtil();
         int[] temp = {5, -15, 50, -100, 1, 75, -21, 100, 9, -1};
         check(arrayUtil.findMinNumber(temp) == -100, "shouldFindMinNumber");
+    }
+
+    public void shouldFindEvenNumber() {
+        ArrayUtil arrayUtil = new ArrayUtil();
+        int[] temp = {5, -15, 50, -100, 1, 75, -21, 100, 9, -1};
+        ArrayList<Integer> evenArray = arrayUtil.findEvenNumber(temp);
+        check(oddEvenCheck(evenArray, true), "shouldFindEvenNumber");
+    }
+
+    public void shouldFindOddNumber() {
+        ArrayUtil arrayUtil = new ArrayUtil();
+        int[] temp = {5, -15, 50, -100, 1, 75, -21, 100, 9, -1};
+        ArrayList<Integer> oddArray = arrayUtil.findOddNumber(temp);
+        check(oddEvenCheck(oddArray, false), "shouldFindOddNumber");
     }
 
 

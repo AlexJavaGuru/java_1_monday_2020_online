@@ -1,8 +1,9 @@
 package student_artur_martinenko.homework.lesson_5.level_5;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
-class ArrayUtil {
+public class ArrayUtil {    //The class have to be public, otherwise it's not possible to use it in other packages.
 
     public static void main(String[] args) {
     }
@@ -40,5 +41,26 @@ class ArrayUtil {
         }
         return min;
     }
+
+    public ArrayList<Integer> findEvenNumber(int[] array){
+        ArrayList<Integer> evenNumberArray = new ArrayList<>();
+        for (int i : array) {
+            if (i % 2 == 0 && i != 0) {
+                evenNumberArray.add(i);
+            }
+        }
+        return evenNumberArray;
+    }
+
+    public ArrayList<Integer> findOddNumber(int[] array){
+        ArrayList<Integer> oddNumberArray = new ArrayList<>();
+        for (int i : array) {
+            if (i % 2 != 0) {
+                oddNumberArray.add(i);
+            }
+        }
+        return oddNumberArray;
+    }
+
 
 }

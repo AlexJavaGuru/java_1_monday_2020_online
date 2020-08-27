@@ -13,6 +13,6 @@ class Task_14 {
         for (int i : regularArray) {
             sum += i;
         }
-        System.out.println(sum);
+        System.out.println("The sum of all array numbers is = " + sum);
     }
 }
