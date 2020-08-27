@@ -1,7 +1,12 @@
 package student_dmitry_vasiliev.lesson_3.level_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А где вы взяли это задание?")
 class PlaneDemo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

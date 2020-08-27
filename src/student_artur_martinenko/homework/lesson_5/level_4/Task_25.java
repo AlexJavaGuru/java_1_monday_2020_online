@@ -1,8 +1,13 @@
 package student_artur_martinenko.homework.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Жаль, что все слито в один метод. Вы же уже умете методы писать? =D Что случилось?")
 class Task_25 {
 
     public static void main(String[] args) {

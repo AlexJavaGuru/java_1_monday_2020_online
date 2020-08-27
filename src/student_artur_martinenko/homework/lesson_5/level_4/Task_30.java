@@ -3,6 +3,7 @@ package student_artur_martinenko.homework.lesson_5.level_4;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 class Task_30 {
 
     public static void main(String[] args) {

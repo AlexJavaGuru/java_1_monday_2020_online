@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_3.homework.Level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class BankAccount {
     private String ownerFirstName;
     private String ownerLastName;

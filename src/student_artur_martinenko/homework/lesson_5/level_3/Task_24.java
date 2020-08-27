@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_5.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_24 {
 }
 

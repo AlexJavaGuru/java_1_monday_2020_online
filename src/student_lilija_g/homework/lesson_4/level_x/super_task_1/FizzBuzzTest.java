@@ -1,5 +1,10 @@
 package student_lilija_g.homework.lesson_4.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Это не тесты. Это просто вывод на консоль")
 public class FizzBuzzTest {
 
     public static void main(String[] args) {

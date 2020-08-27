@@ -1,7 +1,13 @@
 package student_dmitry_vasiliev.lesson_3.homework.Level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "То же самое, что в DogColor. Что тут происходит? В демо должна быть работа с объектом класса. А объект собаки вы тут даже не создали. ")
 public class DogDemo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

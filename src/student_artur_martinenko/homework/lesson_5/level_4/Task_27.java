@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class Task_27 {
 
     public static void main(String[] args) {

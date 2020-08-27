@@ -1,5 +1,9 @@
 package student_dmitry_vasiliev.lesson_3.level_6;
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
+
+@CodeReview(approved = true)
 class NameDemo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
