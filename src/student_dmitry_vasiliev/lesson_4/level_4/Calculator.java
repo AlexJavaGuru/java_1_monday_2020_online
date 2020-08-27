@@ -23,9 +23,49 @@ public class Calculator {
         else  return secondNumber ;
     }
     public int maxOfThreeNumbersFirst (int firstNumber, int secondNumber, int thirdNumber) {
-        if ((firstNumber - secondNumber) > 0 && firstNumber - thirdNumber > 0)
+        if ((firstNumber - secondNumber) > 0 && firstNumber - thirdNumber >= 0)
             return firstNumber ;
         else  return (firstNumber + 10) ;
+    }
+    public int maxOfThreeNumbersSecond (int firstNumber, int secondNumber, int thirdNumber) {
+        if ((firstNumber - secondNumber) < 0 && secondNumber - thirdNumber > 0)
+            return secondNumber ;
+        else  return (secondNumber + 10) ;
+    }
+    public int maxOfThreeNumbersThird (int firstNumber, int secondNumber, int thirdNumber) {
+        if ((firstNumber - thirdNumber) < 0 && secondNumber - thirdNumber < 0)
+            return thirdNumber ;
+        else  return (thirdNumber + 10) ;
+    }
+    public int firstEquSecondLargerThird (int firstNumber, int secondNumber, int thirdNumber) {
+        if (firstNumber == secondNumber && secondNumber > thirdNumber)
+            return 1 ;
+        else  return 0 ;
+    }
+    public int firstEquSecondSmallerThird (int firstNumber, int secondNumber, int thirdNumber) {
+        if (firstNumber == secondNumber && secondNumber < thirdNumber)
+            return 1 ;
+        else  return 0 ;
+    }
+    public int thirdEquSecondSmallerFirst (int firstNumber, int secondNumber, int thirdNumber) {
+        if (thirdNumber == secondNumber && secondNumber < firstNumber)
+            return 1 ;
+        else  return 0 ;
+    }
+    public int thirdEquSecondLargerFirst (int firstNumber, int secondNumber, int thirdNumber) {
+        if (thirdNumber == secondNumber && secondNumber > firstNumber)
+            return 1 ;
+        else  return 0 ;
+    }
+    public int thirdEquFirstLargerSecond (int firstNumber, int secondNumber, int thirdNumber) {
+        if (thirdNumber == firstNumber && secondNumber < firstNumber)
+            return 1 ;
+        else  return 0 ;
+    }
+    public int thirdEquFirstSmallerSecond (int firstNumber, int secondNumber, int thirdNumber) {
+        if (thirdNumber == firstNumber && secondNumber > firstNumber)
+            return 1 ;
+        else  return 0 ;
     }
 }
 
