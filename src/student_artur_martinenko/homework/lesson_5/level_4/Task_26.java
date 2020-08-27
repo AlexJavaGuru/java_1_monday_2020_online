@@ -2,6 +2,8 @@ package student_artur_martinenko.homework.lesson_5.level_4;
 
 import teacher.annotations.CodeReview;
 
+import student_artur_martinenko.homework.lesson_5.level_5.ArrayUtil;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -34,7 +36,11 @@ class Task_26 {
             scanner.nextLine();
         }
 
-        System.out.println("\nPrinting out your newly created array = " + Arrays.toString(intArray));
+//        System.out.println("\nPrinting out your newly created array = " + Arrays.toString(intArray));
+
+        ArrayUtil arrayUtil = new ArrayUtil();
+        System.out.print("\nPrinting out your newly created array = ");
+        arrayUtil.printArrayToConsole(intArray);
 
     }
 }

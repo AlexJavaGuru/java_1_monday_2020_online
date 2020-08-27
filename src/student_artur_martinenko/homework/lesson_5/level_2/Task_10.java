@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_5.level_2;
 
+import student_artur_martinenko.homework.lesson_5.level_5.ArrayUtil;
+
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
@@ -14,8 +16,11 @@ class Task_10 {
             regularArray[i] = (int) (Math.random() * 10);
         }
 
-        for (int i : regularArray) {
-            System.out.println(i);
-        }
+        ArrayUtil arrayUtil = new ArrayUtil();
+        arrayUtil.printArrayToConsole(regularArray);
+
+//        for (int i : regularArray) {
+//            System.out.println(i);
+//        }
     }
 }

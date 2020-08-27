@@ -16,7 +16,7 @@ class Task_13 {
         for (int i : regularArray) {
             sum += i;
         }
-        System.out.println(sum);
-        System.out.println(sum / regularArray.length);
+        System.out.println("The array is = " + sum);
+        System.out.println("The average value (integer) of this array is = " + sum / regularArray.length);
     }
 }
