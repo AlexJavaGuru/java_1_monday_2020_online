@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 @CodeReview(approved = true)
-class ArrayUtil {
 public class ArrayUtil {    //The class have to be public, otherwise it's not possible to use it in other packages.
 
     public static void main(String[] args) {
