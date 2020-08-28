@@ -5,10 +5,10 @@ class BankAccount {
     private String owner;
     private int money;
 
-    BankAccount(String ownerFirstName,int moneyAmount) {
+    BankAccount(String ownerFirstName, int moneyAmount) {
         this.owner = ownerFirstName;
         this.money = moneyAmount;
-        }
+    }
 
     String getOwner() {
         return owner;

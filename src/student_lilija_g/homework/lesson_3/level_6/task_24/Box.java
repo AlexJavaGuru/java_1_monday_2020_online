@@ -7,6 +7,7 @@ class Box {
     String boxColour; // цвет коробки
 
     //Вы не используете эту переменныю. Для чего она?
+    //Ответ: В BoxDemo устанавливала цвет коробки, в методе boxParameters с учетом цвета коробки выводила параметры... Что-то не так поняла?
     public enum boxColour {Red, Black, White, Yellow}
 
     double boxVolume(int boxWidth, int boxHeight, int boxDepth) { // объем коробки

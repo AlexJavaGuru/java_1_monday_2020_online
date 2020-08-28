@@ -1,5 +1,9 @@
 package student_lilija_g.homework.lesson_3.level_x.super_task_1;
 //Ох =) как трудно читать ваши методы тут. Есть такое правило хорошего стиля: один тест - один assertion (в вашем случае один checkResults =))
+
+// код был взят из solutions.super_task_1... Для того, чтобы в нем разобраться и понять, как работает были мною вставлены в классы User, UserLoginService System.out.println...
+
+
 class UserLoginServiceTest {
 
 	public static void main(String[] args) {
@@ -62,7 +66,7 @@ class UserLoginServiceTest {
 		checkResults(!user.isBlocked(), "shouldSetAttemptsLeftTo3AfterSuccessfulLogin");
 	}
 
-	void checkResults(boolean condition, String testName) {
+	private void checkResults(boolean condition, String testName) {
 		if (condition) {
 			System.out.println(testName + " = OK");
 		} else {
