@@ -4,7 +4,7 @@ public class IfElseExample {
 
     public static void main(String[] args) {
 
-        boolean flag = true;
+        boolean flag = false;
 
         if (flag) {
             System.out.println("Hello from IF body");
