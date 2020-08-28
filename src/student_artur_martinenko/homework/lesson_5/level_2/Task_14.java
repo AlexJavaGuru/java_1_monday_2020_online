@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_14 {
 
     public static void main(String[] args) {
@@ -13,6 +16,6 @@ class Task_14 {
         for (int i : regularArray) {
             sum += i;
         }
-        System.out.println(sum);
+        System.out.println("The sum of all array numbers is = " + sum);
     }
 }

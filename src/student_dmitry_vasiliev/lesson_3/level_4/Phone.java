@@ -1,6 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_4;
+package student_dmitry_vasiliev.lesson_3.homework.Level_4;
 
-class Phone {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+public class Phone {
     private String model;
 
     public Phone (String newModel) {

@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_4.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 //Выполните программу => введите одинаковые числа => исправте баг =)
 //->Точно, спасибо за подсказку. Не заметил сразу. Точно таке же с FizzBuzz нужно было выети одно условие перед другим.
 class Task_6 {

@@ -1,6 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_4;
+package student_dmitry_vasiliev.lesson_3.homework.Level_4;
 
-class BankAccount {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+public class BankAccount {
     private String ownerFirstName;
     private String ownerLastName;
     private int moneyAmount;

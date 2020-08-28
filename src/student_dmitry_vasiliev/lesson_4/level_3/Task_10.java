@@ -1,7 +1,13 @@
 package student_dmitry_vasiliev.lesson_4.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень трудно понять, что делает этот код. А еще...где тесты? Код скорее всего не правильно работает. Можно было бы просто вравнивать на больше или меньше" +
+        "а не отнимать одно число от другого. Трудно читать одним словом.")
 class Task_10 {
 
     public static void main(String[] args) {

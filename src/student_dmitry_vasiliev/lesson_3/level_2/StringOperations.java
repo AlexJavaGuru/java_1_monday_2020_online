@@ -1,6 +1,13 @@
-package student_dmitry_vasiliev.lesson_3.level_2;
+package student_dmitry_vasiliev.lesson_3.homework.Level_2;
 
-class StringOperations {
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Плохо, что вы используете не понятные названия переменных. Это очень важно. Сейчас у вас всего 1 класс и он не выходит за пределы экрана." +
+        "Когда у вас их будет много, то переменные с названием s1,s2 будут сильно зактрюднять код. Не ленитесь. Привыкайте писать название переменных правильно." +
+        "То же самое с длинной. len1 -> lengthOne")
+public class StringOperations {
 
         public static void main(String args[]) {
             // Определение длины строки s1 и s2.

@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_3.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Product {
 
     private String name;

@@ -1,7 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_1;
+package student_dmitry_vasiliev.lesson_3.homework.Level_1;
 
+import teacher.annotations.CodeReview;
 
-class RobotUDemo {
+@CodeReview(approved = true)
+public class RobotUDemo {
 
         public static void main(String[] args) {
             RobotU myRobotU = new RobotU("ROBO");

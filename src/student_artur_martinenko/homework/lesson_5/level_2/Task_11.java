@@ -1,7 +1,14 @@
 package student_artur_martinenko.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+import student_artur_martinenko.homework.lesson_5.level_5.ArrayUtil;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Тоже можно было разбить на методы.")
 class Task_11 {
     private static Scanner scanner = new Scanner(System.in);
 
@@ -23,8 +30,11 @@ class Task_11 {
         }
 
         System.out.println("\nThe array has next integers:");
-        for (int i : regularArray) {
-            System.out.println(i);
-        }
+
+        ArrayUtil arrayUtil = new ArrayUtil();
+        arrayUtil.printArrayToConsole(regularArray);
+//        for (int i : regularArray) {
+//            System.out.println(i);
+//        }
     }
 }

@@ -1,7 +1,13 @@
 package student_dmitry_vasiliev.lesson_4.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
-class Task_8 {
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Такая же проблема как и в прошлых заданиях.")
+public class Task_8 {
     private int num;
     public static void main(String[] args) {
 

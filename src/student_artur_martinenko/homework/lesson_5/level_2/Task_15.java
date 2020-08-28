@@ -1,5 +1,10 @@
 package student_artur_martinenko.homework.lesson_5.level_2;
 
+import student_artur_martinenko.homework.lesson_5.level_5.ArrayUtil;
+
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_15 {
 
     public static void main(String[] args) {
@@ -9,18 +14,21 @@ class Task_15 {
             regularArray[i] = (int) (Math.random() * 10);
         }
 
-        for (int i : regularArray) {
-            System.out.println(i);
-        }
+        ArrayUtil arrayUtil = new ArrayUtil();
+        arrayUtil.printArrayToConsole(regularArray);
+//        for (int i : regularArray) {
+//            System.out.println(i);
+//        }
 
         for (int i = 0; i < regularArray.length; i++) {
             regularArray[i] += 2;
         }
 
         System.out.print("\n");
-        for (int i : regularArray) {
-            System.out.println(i);
-        }
+        arrayUtil.printArrayToConsole(regularArray);
+//        for (int i : regularArray) {
+//            System.out.println(i);
+//        }
 
 
     }

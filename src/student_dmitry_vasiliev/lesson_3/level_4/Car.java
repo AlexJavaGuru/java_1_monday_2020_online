@@ -1,6 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_4;
+package student_dmitry_vasiliev.lesson_3.homework.Level_4;
 
-class Car {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+public class Car {
     private String model;
 
     public Car(String newModel) {

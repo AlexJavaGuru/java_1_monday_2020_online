@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_5.level_4;
 
+import student_artur_martinenko.homework.lesson_5.level_5.ArrayUtil;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 
 class Task_30 {
 
@@ -13,12 +16,15 @@ class Task_30 {
         }
         System.out.println(Arrays.toString(myArray));
 
-        ArrayList<Integer> oddNumberArray = new ArrayList<>();
-        for (int i = 0; i < myArray.length; i++) {
-            if (myArray[i] % 2 != 0 && myArray[i] != 0) {
-                oddNumberArray.add(myArray[i]);
-            }
-        }
+//        ArrayList<Integer> oddNumberArray = new ArrayList<>();
+//        for (int i = 0; i < myArray.length; i++) {
+//            if (myArray[i] % 2 != 0 && myArray[i] != 0) {
+//                oddNumberArray.add(myArray[i]);
+//            }
+//        }
+
+        ArrayUtil arrayUtil = new ArrayUtil();
+        ArrayList<Integer> oddNumberArray = arrayUtil.findOddNumber(myArray);
 
         System.out.println("\nOdd number ArrayList = " + oddNumberArray);
 

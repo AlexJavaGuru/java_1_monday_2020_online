@@ -1,6 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_5;
+package student_dmitry_vasiliev.lesson_3.homework.Level_5;
 
-class Dog {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+public class Dog {
     private String name;
     private String color;
     private int age;

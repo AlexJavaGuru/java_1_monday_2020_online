@@ -1,6 +1,9 @@
-package student_dmitry_vasiliev.lesson_3.level_4;
+package student_dmitry_vasiliev.lesson_3.homework.Level_4;
 
-class Book {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+public class Book {
 
         private String title;
 

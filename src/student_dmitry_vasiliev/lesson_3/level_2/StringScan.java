@@ -1,8 +1,11 @@
-package student_dmitry_vasiliev.lesson_3.level_2;
+package student_dmitry_vasiliev.lesson_3.homework.Level_2;
+
+import teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 
-class StringScan {
+@CodeReview(approved = true)
+public class StringScan {
     public static void main(String[] args) {
         System.out.println("Enter Yor name please...");
         Scanner scan = new Scanner(System.in);
