@@ -1,8 +1,7 @@
 package student_dmitry_vasiliev.lesson_4.level_3;
 
 import java.util.Scanner;
-
-public class Task_8 {
+class Task_8 {
     private int num;
     public static void main(String[] args) {
 

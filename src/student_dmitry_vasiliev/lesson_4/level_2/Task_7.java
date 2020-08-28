@@ -2,7 +2,8 @@ package student_dmitry_vasiliev.lesson_4.level_2;
 
 import java.util.Scanner;
 
-class Task_5 {
+class Task_7 {
+
     private int num;
     public static void main(String[] args) {
 
@@ -15,10 +16,10 @@ class Task_5 {
 
         int result = num1 - num2;
         if (result>0)
-            System.out.println(num1 + " is greater that " + num2 + ".");
+            System.out.println("Numbers are different.");
         if (result<0)
-            System.out.println(num2 + " is greater that " + num1 + ".");
+            System.out.println("Numbers are different.");
         else
-            System.out.println(num2 + " is equal " + num1 + ".");
+            System.out.println("Numbers are equals.");
     }
 }
