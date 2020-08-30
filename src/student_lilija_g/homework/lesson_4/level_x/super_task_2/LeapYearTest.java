@@ -11,22 +11,22 @@ public class LeapYearTest {
 
         LeapYear myLeapYear = new LeapYear();
 
-        int myYear = 2020;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
+        LeapYearTest leapYearTest = new LeapYearTest();
 
-        myYear = 2019;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
+        leapYearTest.totalTest(true, myLeapYear.isLeapYear(2020), "2020 true");
+        leapYearTest.totalTest(false, myLeapYear.isLeapYear(2019), "2019 false");
+        leapYearTest.totalTest(true,myLeapYear.isLeapYear(2016),"2016 true");
+        leapYearTest.totalTest(false,myLeapYear.isLeapYear(2015),"2015 false");
+        leapYearTest.totalTest(true,myLeapYear.isLeapYear(2000),"2000 true");
+        leapYearTest.totalTest(false,myLeapYear.isLeapYear(1900),"1900 false");
 
-        myYear = 2016;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
+    }
 
-        myYear = 2015;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
-
-        myYear = 2000;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
-
-        myYear = 1900;
-        System.out.println("Year=" + myYear + " - Leap year is "+ myLeapYear.isLeapYear(myYear));
+    void totalTest(boolean expectedValue, boolean actualValue, String testName) {
+        if (expectedValue == actualValue) {
+            System.out.println(testName + " test = OK");
+        } else {
+            System.out.println(testName + " test = FAIL");
+        }
     }
 }
