@@ -13,15 +13,9 @@ class LeapYear {
             if (year % 100 != 0) {
                 return true;
             } else {
-                if (year % 400 == 0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return year % 400 == 0;
             }
         }
-
-
     }
 }
 

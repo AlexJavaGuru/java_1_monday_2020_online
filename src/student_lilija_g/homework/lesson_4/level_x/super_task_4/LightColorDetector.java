@@ -6,14 +6,10 @@ import teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Этому классу не нужно состояние. Можно смело убрать ему waveLength. Все, что тут должно бюыть, это один метод detect. " +
         "Однако, вы его почему-то не вызываете даже")
+
 class LightColorDetector {
 
-    final private int wavelength;
-    public LightColorDetector(int wavelength){
-        this.wavelength = wavelength;
-    }
-
-    String detect(int wavelength) {
+     String detect(int wavelength) {
 
         if (wavelength >= 380 && wavelength <= 449) {
             return "Violet";

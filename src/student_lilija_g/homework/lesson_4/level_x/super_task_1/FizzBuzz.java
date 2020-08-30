@@ -13,7 +13,7 @@ class FizzBuzz {
                 return "Buzz";
             } else {
                 if (number % 3 != 0 && number % 5 != 0) {
-                    return "" + number;
+                    return "number";
                 } else {
                     return "FizzBuzz";
                 }

@@ -8,11 +8,23 @@ import teacher.annotations.CodeReviewComment;
 public class FizzBuzzTest {
 
     public static void main(String[] args) {
+
         FizzBuzz myFizzBuzz = new FizzBuzz();
 
-        System.out.printf("\n  3: " + myFizzBuzz.detect(3));
-        System.out.printf("\n  5: " + myFizzBuzz.detect(5));
-        System.out.printf("\n 15: " + myFizzBuzz.detect(15));
-        System.out.printf("\n 17: " + myFizzBuzz.detect(17));
+        FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();
+
+        fizzBuzzTest.totalTest("Fizz",myFizzBuzz.detect(3),"Fizz");
+        fizzBuzzTest.totalTest("Buzz",myFizzBuzz.detect(5),"Buzz");
+        fizzBuzzTest.totalTest("FizzBuzz",myFizzBuzz.detect(15),"FizzBuzz");
+        fizzBuzzTest.totalTest("number",myFizzBuzz.detect(17),"17");
+
+    }
+
+    void totalTest(String expectedValue, String actualValue, String testName) {
+        if (expectedValue == actualValue) {
+            System.out.println(testName + " test = OK");
+        } else {
+            System.out.println(testName + " test = FAIL");
+        }
     }
 }
