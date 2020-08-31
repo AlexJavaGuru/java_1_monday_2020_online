@@ -5,21 +5,52 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Это не тесты")
+
 class StockTest {
 
     public static void main(String[] args) {
 
-        Stock google = new Stock("GOOG", 10.00);
-        String priceInformation = google.getPriceInformation();
+        Stock stock = new Stock("GOOG", 10.00);
 
-        System.out.println(priceInformation);
+        double stockMaxPrice = stock.getMaxPrice();
 
-        google.updatePrice(15);
-        google.updatePrice(7);
-        google.updatePrice(14);
+        StockTest stockTest = new StockTest();
 
-        System.out.println(google.getPriceInformation());
+        stockTest.totalTest(10.00, stockMaxPrice, "Max Price");
+        System.out.println(stock.getPriceInformation());
 
+        // 10 -> 12 -> 5 -> 7 -> 99 -> 77
+        stock.updatePrice(12);
+        System.out.println(stock.getPriceInformation());
+        stock.updatePrice(5);
+        System.out.println(stock.getPriceInformation());
+        stock.updatePrice(7);
+        System.out.println(stock.getPriceInformation());
+        stock.updatePrice(99);
+        System.out.println(stock.getPriceInformation());
+        stock.updatePrice(77);
+        System.out.println(stock.getPriceInformation());
+
+        stock.updatePrice(999.00);
+        stockTest.totalTest(999.00, stock.getMaxPrice(), "Max Price");
+
+        stock.updatePrice(1.00);
+        stockTest.totalTest(999.00, stock.getMaxPrice(), "Max Price");
+
+        stock.updatePrice(1000.00);
+        stockTest.totalTest(1000.00, stock.getMaxPrice(), "Max Price");
+
+        stock.updatePrice(8.00);
+        stockTest.totalTest(1000.00, stock.getMaxPrice(), "Max Price");
+    }
+
+    void totalTest(double expectedValue, double actualValue, String testName) {
+        if (expectedValue == actualValue) {
+            System.out.println(testName + " test = OK");
+        } else {
+            System.out.println(testName + " test = FAIL");
+        }
     }
 }
+
 

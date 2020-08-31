@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_4.level_4;
 
-public class Calcdemo {
+class Calcdemo {
     public static void main(String[] args) {
         Calctest test = new Calctest();
 

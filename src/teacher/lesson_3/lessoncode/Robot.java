@@ -16,7 +16,4 @@ public class Robot {
         System.out.println("My name is " + name); // == this.name
     }
 
-    public String getName() {
-        return name; // == this.name
-    }
 }
