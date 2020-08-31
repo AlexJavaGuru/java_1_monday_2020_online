@@ -57,8 +57,8 @@ class Calctest {
         int firstInt = 20;
 
         Calc victim = new Calc();
-        int result5 = victim.iseven(firstInt);
-        int expectedres = 0;
+        boolean result5 = victim.iseven(firstInt);
+        boolean expectedres = true;
         check(expectedres, result5, "Even test");
     }
 
@@ -91,7 +91,7 @@ class Calctest {
 
         Calc victim = new Calc();
         int result6 = victim.isbiggerTwoInt(firstInt, secondInt);
-        int expectedres = 0;
+        int expectedres = 22;
 
         check(expectedres, result6, "Max of two test (both integers are the same)");
     }
@@ -104,7 +104,7 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
         int expectedres = firstInt  ;
 
@@ -118,7 +118,7 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
         int expectedres = secondInt  ;
 
@@ -133,7 +133,7 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
         int expectedres = thirdInt  ;
 
@@ -147,9 +147,9 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
-        int expectedres = 12  ;
+        int expectedres = 25  ;
 
         check(expectedres, result7, "Max of three test (First and Second int are equal and bigger than the third int)");
     }
@@ -162,9 +162,9 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
-        int expectedres = 3  ;
+        int expectedres = 28  ;
 
         check(expectedres, result7, "Max of three test (First and Second int are equal and smaller than the third int)");
     }
@@ -176,14 +176,22 @@ class Calctest {
 
         Calc victim = new Calc();
 
-        int result7 = victim.isbiggerThreeInt(firstInt, secondInt, thirdInt);
+        int result7 = victim.isBiggerThreeInt(firstInt, secondInt, thirdInt);
 
-        int expectedres = 123  ;
+        int expectedres = 25  ;
 
         check(expectedres, result7, "Max of three test (All integers are equal)");
     }
 
 
+    public void check(boolean expectedRes, boolean result, String testName) {
+        if (expectedRes == result) {
+            System.out.println(testName + " has passed");
+        } else {
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was " + expectedRes + " but actual result " + result);
+        }
+    }
 
     public void check(int expectedRes, int result, String testName) {
         if (expectedRes == result) {
