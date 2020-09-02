@@ -1,7 +1,12 @@
 package student_aleksejs_ivanovs.homework.lesson_4.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо, но думаю, что можно было сделать чуть-чуть компактнее")
 class TaskTen {
 
     public static void main(String[] args) {
