@@ -6,13 +6,13 @@ class Task_1 {
     private int num;
     public static void main(String[] args) {
 
-        System.out.println("Enter please number for check...");
+        System.out.println("Enter please integer number for check...");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
 
         if (num>=0)
-            System.out.println(num + " is a positive number");
+            System.out.println(num + " is a positive number.");
         else
-            System.out.println(num + " is a negative number");
+            System.out.println(num + " is a negative number.");
     }
 }
