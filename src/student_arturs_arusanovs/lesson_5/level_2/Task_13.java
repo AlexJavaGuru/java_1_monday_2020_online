@@ -9,10 +9,11 @@ class Task_13 {
 
     public static void main (String[] args) {
 
-        int[] numbers = {3, 6, 9};
+        int[] numbers = new int[3];
         int sum = 0;
 
         for (int i = 0; i < numbers.length; i++){
+            numbers[i] = (int) (Math.random() * 100);
             sum += numbers[i];
         }
 
