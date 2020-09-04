@@ -1,5 +1,10 @@
 package student_andris_tresutins.homework.lesson_4.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Отлично")
 class Calctest {
 
 

@@ -1,9 +1,12 @@
 package student_dmitry_vasiliev.lesson_2.level_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_11 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Enter first number");
@@ -13,8 +16,8 @@ public class Task_11 {
         System.out.println("Enter third number");
         int num3 = in.nextInt();
         int c = (num1 + num2 + num3) / 3;
-        System.out.println("Average  is - " +c);
+        System.out.println("Average  is - " + c);
 
 
-}
+    }
 }
