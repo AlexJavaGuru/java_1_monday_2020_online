@@ -9,10 +9,11 @@ class Task_27 {
 
     public static void main(String[] args) {
 
-        int[] numbers = {3, 10, 20, 14};
+        int[] numbers = new int[4];
 
             for (int i = 0; i < numbers.length; i++) {
-            System.out.println("[" + i + "] = " + numbers[i]);
+                numbers[i] = (int) (Math.random() * 100);
+                System.out.println("[" + i + "] = " + numbers[i]);
         }
 
         int max = numbers[0];
