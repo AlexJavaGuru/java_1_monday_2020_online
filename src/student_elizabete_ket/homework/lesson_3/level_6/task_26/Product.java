@@ -1,6 +1,11 @@
 package student_elizabete_ket.homework.lesson_3.level_6.task_26;
 //Форматирование страдает опять
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Скажите, почему у вас в классе всегда одинаковое значение у переменной productName? ")
 class Product {
 
     private String productName = "Cat";

@@ -8,9 +8,14 @@ package student_lilija_g.homework.lesson_5.level_4;
 - найдите наибольшее число в массиве и выведети его на консоль.
  */
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Конечно можно было разделить два действия =). Заполнение массива и поиск числа ))) А то у вас выходит, что поиск происходит на лету. Это экономит ресурсы однозначно," +
+        "но в реальности такое супер редко бывает )")
 class Task_27 {
 
     public int[] createArray(int arrayLength) {

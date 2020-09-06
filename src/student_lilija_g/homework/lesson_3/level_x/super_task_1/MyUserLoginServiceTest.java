@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_3.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class MyUserLoginServiceTest {
 
     public static void main(String[] args) {

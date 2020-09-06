@@ -1,25 +1,32 @@
 package student_regina_svistunov.lesson_3.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Product {
     public String name;
     public double regularPrice;
     public double discount;
 
-    Product (String name) {
+    Product(String name) {
         this.name = name;
     }
+
     public void setRegularPrice(double regularPrice) {
         this.regularPrice = regularPrice;
     }
+
     public void setDiscount(double discount) {
         this.discount = discount;
     }
+
     public double actualPrice() {
-        regularPrice -= ((regularPrice/100)*discount);
+        regularPrice -= ((regularPrice / 100) * discount);
         return regularPrice;
     }
+
     public void printInfomation() {
-        System.out.println(name + " price is " + regularPrice + " euro. " );
+        System.out.println(name + " price is " + regularPrice + " euro. ");
     }
 
 }

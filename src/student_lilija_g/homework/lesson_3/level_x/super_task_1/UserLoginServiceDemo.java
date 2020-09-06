@@ -12,6 +12,9 @@ package student_lilija_g.homework.lesson_3.level_x.super_task_1;
         service.login(userOne, "user-password"); //Should return true
 */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class UserLoginServiceDemo {
 
     public static void main(String[] args) {

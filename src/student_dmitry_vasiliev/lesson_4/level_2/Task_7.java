@@ -1,7 +1,12 @@
 package student_dmitry_vasiliev.lesson_4.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Такая же проблема. Почему не используете if else if? забываете про пробелы между знаками <> ")
 class Task_7 {
 
     private int num;

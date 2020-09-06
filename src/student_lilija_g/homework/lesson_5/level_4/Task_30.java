@@ -8,9 +8,12 @@ package student_lilija_g.homework.lesson_5.level_4;
 - найдите все нечётные числа в массиве и выведети их на консоль.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_30 {
     public int[] createArray(int arrayLength) {
         return new int[arrayLength];

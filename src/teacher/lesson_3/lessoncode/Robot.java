@@ -1,5 +1,8 @@
 package teacher.lesson_3.lessoncode;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Robot {
 
     public String name;

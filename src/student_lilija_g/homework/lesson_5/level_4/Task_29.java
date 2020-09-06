@@ -8,9 +8,12 @@ package student_lilija_g.homework.lesson_5.level_4;
 - найдите все чётные числа в массиве и выведети их на консоль.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_29 {
 
     public int[] createArray(int arrayLength) {

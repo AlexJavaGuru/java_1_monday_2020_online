@@ -1,6 +1,10 @@
 package student_regina_svistunov.lesson_3.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Лучше в одном классе не делать два класса на данном этапе ))")
 class Book {
 
     private String title;
