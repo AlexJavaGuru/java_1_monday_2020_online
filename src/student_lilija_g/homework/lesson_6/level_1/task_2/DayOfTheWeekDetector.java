@@ -1,7 +1,5 @@
 package student_lilija_g.homework.lesson_6.level_1.task_2;
 
-import java.util.Scanner;
-
 class DayOfTheWeekDetector {
 
     public String detectDayName(int number) {
