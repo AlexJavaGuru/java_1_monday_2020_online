@@ -9,9 +9,10 @@ class Task_30 {
 
     public static void main(String[] args) {
 
-        int[] numbers = {14, 3, 5, 24, 10, 99};
+        int[] numbers =new int[6];
 
         for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = (int) (Math.random() * 100);
             System.out.println("[" + i + "] = " + numbers[i]);
         }
 
