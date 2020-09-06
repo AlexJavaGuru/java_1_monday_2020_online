@@ -10,7 +10,6 @@ class DayOfTheWeekDetectorTest {
 
         DayOfTheWeekDetectorTest myDayOfTheWeekDetectorTest = new DayOfTheWeekDetectorTest();
         myDayOfTheWeekDetectorTest.TestScenario();
-
     }
 
     void TestScenario() {

@@ -12,6 +12,7 @@ class DayOfTheWeekDetector {
             case 6 -> "Saturday";
             case 7 -> "Sunday";
             default -> "Please input a valid number between 1 and 7";
+
         };
     }
 }
