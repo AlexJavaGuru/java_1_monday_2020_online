@@ -4,33 +4,23 @@ class DayOfTheWeekDetector {
 
     public String detectDayName(int number) {
 
-    String weekDay;
         switch (number) {
             case 1:
-                weekDay = "Monday";
-                break;
+                return "Monday";
             case 2:
-                weekDay = "Tuesday";
-                break;
+                return "Tuesday";
             case 3:
-                weekDay = "Wednesday";
-                break;
+                return "Wednesday";
             case 4:
-                weekDay = "Thursday";
-                break;
+                return "Thursday";
             case 5:
-                weekDay = "Friday";
-                break;
+                return "Friday";
             case 6:
-                weekDay = "Saturday";
-                break;
+                return "Saturday";
             case 7:
-                weekDay = "Sunday";
-                break;
+                return "Sunday";
             default:
-                weekDay = "Please input a valid number between 1 and 7";
-                break;
+                return "Please input a valid number between 1 and 7";
         }
-        return weekDay;
     }
 }
