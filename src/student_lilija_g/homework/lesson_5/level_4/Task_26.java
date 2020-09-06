@@ -8,9 +8,12 @@ package student_lilija_g.homework.lesson_5.level_4;
         - распечатайте на консоль все элементы массива.
 */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 import java.util.Random;
 
+@CodeReview(approved = true)
 class Task_26 {
     public static void main(String[] args) {
 

@@ -3,7 +3,14 @@ package student_lilija_g.homework.lesson_3.level_x.super_task_1;
 
 // код был взят из solutions.super_task_1... Для того, чтобы в нем разобраться и понять, как работает были мною вставлены в классы User, UserLoginService System.out.println...
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "код был взят из solutions.super_task_1... Для того, чтобы в нем разобраться и понять, как работает были мною вставлены в классы User, UserLoginService System.out.println..." +
+		"Смотрите, я бы хотел чтобы вы писали код сами, ручками. Не надо брать код чтобы потом разобраться. Надо писать его самостоятельно и понимать каждую строчку, которую вы пишите." +
+		"Этот репозиторий не удалиться, когда вы закончите курс, и этот пример всегда будет там даже на вашем локальном git. Так что просто нет смысла копировать их. Я же проверяю ваши домашние работы," +
+		"а тут готовый чей-то код =)")
 class UserLoginServiceTest {
 
 	public static void main(String[] args) {

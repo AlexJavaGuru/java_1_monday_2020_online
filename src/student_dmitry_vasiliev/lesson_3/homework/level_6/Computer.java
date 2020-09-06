@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_3.homework.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Computer {
     private String manufacturer;
     private String model;

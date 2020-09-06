@@ -3,8 +3,8 @@ package student_lilija_g.homework.lesson_4.level_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Это не тесты")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Отлично. Спасибо")
 
 class StockTest {
 

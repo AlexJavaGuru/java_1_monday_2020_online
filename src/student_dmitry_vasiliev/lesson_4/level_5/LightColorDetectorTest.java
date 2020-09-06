@@ -1,5 +1,10 @@
 package student_dmitry_vasiliev.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Это не похоже на тесты, которые я вас учил писать ). Лучше сделайте хотябы 3 теста но правильных.")
 class LightColorDetectorTest {
 
     public static void main(String[] args) {

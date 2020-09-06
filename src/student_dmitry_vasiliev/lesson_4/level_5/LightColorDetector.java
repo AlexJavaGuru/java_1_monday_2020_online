@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetector {
     public static String wave(int waveSize) {
         if (waveSize >= 380 && waveSize <=449)

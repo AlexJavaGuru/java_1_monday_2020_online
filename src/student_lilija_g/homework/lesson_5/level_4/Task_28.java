@@ -8,9 +8,12 @@ package student_lilija_g.homework.lesson_5.level_4;
 - найдите наименьшее число в массиве и выведети его на консоль.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_28 {
 
     public int[] createArray(int arrayLength) {
