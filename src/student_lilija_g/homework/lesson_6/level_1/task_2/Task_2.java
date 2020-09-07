@@ -40,6 +40,7 @@ import java.util.Scanner;
 
 public class Task_2 {
     public static void main(String[] args) {
+        /*
         Scanner myInput = new Scanner(System.in);
 
         System.out.print("Input integer number between 1 and 7 : ");
@@ -58,5 +59,6 @@ public class Task_2 {
         else {
             System.out.println("Please input a valid number between 1 and 7");
         }
+        */
     }
 }
