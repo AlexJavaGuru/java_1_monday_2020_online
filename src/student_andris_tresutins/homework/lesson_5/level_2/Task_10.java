@@ -1,8 +1,11 @@
 package student_andris_tresutins.homework.lesson_5.level_2;
 
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class Task_10 {
 
     public static void main(String[] args) {

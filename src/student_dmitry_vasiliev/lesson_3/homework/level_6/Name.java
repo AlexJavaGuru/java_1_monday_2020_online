@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_3.homework.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Name {
     private String firstName;
     private String secondName;

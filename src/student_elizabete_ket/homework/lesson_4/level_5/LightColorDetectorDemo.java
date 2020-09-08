@@ -1,7 +1,10 @@
 package student_elizabete_ket.homework.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class LightColorDetectorDemo {
 
     public static void main(String[] args) {

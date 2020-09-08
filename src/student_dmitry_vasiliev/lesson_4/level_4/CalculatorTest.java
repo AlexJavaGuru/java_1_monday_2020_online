@@ -1,13 +1,9 @@
 package student_dmitry_vasiliev.lesson_4.level_4;
 
 
-//import teacher.annotations.CodeReview;
-import teacher.annotations.CodeReviewComment;
+import teacher.annotations.CodeReview;
 
-import java.util.concurrent.Callable;
-
-//@CodeReview(approved = false)
-//@CodeReviewComment(comment = "Надо исправить. Формат. Следите за отступами от края. Почему не используете отдельные методы для проверки? Переделать.")
+@CodeReview(approved = true)
 class CalculatorTest {
 
     public static void main(String[] args) {

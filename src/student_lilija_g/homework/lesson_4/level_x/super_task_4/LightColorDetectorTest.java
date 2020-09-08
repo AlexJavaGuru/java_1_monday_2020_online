@@ -3,8 +3,7 @@ package student_lilija_g.homework.lesson_4.level_x.super_task_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Почему вы создали еще метод с логикой класса, который надо протестировать? Почему в тестах к классу LightColorDetector, вы ни разу его не вызвали?.")
+@CodeReview(approved = true)
 class LightColorDetectorTest {
 
     LightColorDetector lightColorDetector = new LightColorDetector();

@@ -1,7 +1,10 @@
 package student_dmitry_vasiliev.lesson_3.homework.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DogColor {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

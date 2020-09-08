@@ -8,15 +8,16 @@ import java.util.Scanner;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Радиус надо должен считать сам circle.")
 class CircleDemo {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        Circle circle1 = new Circle(2);
 
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
         System.out.println("Please enter radius...");
         double radius = in.nextDouble();
 
-        double calculateArea = Math.PI * (radius*radius);
-        System.out.println("Area is  " + calculateArea);
+        Circle circle1 = new Circle();
+        double print = circle1.circle(radius);
+        System.out.println("Area is  " + print);
 
-            }
+        }
 }

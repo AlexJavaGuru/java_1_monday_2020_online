@@ -1,5 +1,8 @@
 package student_elizabete_ket.homework.lesson_3.level_6.task_25;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class CircleDemo {
     public static void main(String[] args) {
         Circle radius1 = new Circle ();

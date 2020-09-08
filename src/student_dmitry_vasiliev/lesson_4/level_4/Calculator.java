@@ -3,8 +3,7 @@ package student_dmitry_vasiliev.lesson_4.level_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Не хватает пропусков между методами. Формат поехал...")
+@CodeReview(approved = true)
 public class Calculator {
 
     public int sum (int firstNumber, int secondNumber) {

@@ -1,5 +1,9 @@
 package student_elizabete_ket.homework.lesson_4.level_4;
 
+
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

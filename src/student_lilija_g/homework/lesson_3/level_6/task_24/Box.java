@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_3.level_6.task_24;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Box {
     int boxWidth;     // ширина коробки
     int boxHeight;    // высота коробки
@@ -8,6 +11,7 @@ class Box {
 
     //Вы не используете эту переменныю. Для чего она?
     //Ответ: В BoxDemo устанавливала цвет коробки, в методе boxParameters с учетом цвета коробки выводила параметры... Что-то не так поняла?
+    //Нет, просто вы сделали переменную которую не используете совсем )
     public enum boxColour {Red, Black, White, Yellow}
 
     double boxVolume(int boxWidth, int boxHeight, int boxDepth) { // объем коробки

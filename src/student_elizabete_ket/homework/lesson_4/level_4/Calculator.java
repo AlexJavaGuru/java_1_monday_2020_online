@@ -1,5 +1,15 @@
 package student_elizabete_ket.homework.lesson_4.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Метод maxOfThreeNumbers можно было сделать на много проще, всего из 3ех блоков. Посмотрите, как мы это делали на лекции." +
+        "Метод isEven написан чуть-чуть с лишними выражениями. Весь метод может выглядеть так: " +
+        "    public boolean isEven (int number) {\n" +
+        "        boolean result = (number % 2) == 0;\n" +
+        "        return result;\n" +
+        "    }")
 class Calculator {
 
     public int sumNumbers (int firstNumber, int secondNumber) {

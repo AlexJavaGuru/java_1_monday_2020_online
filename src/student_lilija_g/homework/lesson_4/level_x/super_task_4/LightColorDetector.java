@@ -3,10 +3,7 @@ package student_lilija_g.homework.lesson_4.level_x.super_task_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Этому классу не нужно состояние. Можно смело убрать ему waveLength. Все, что тут должно бюыть, это один метод detect. " +
-        "Однако, вы его почему-то не вызываете даже")
-
+@CodeReview(approved = true)
 class LightColorDetector {
 
      String detect(int wavelength) {
