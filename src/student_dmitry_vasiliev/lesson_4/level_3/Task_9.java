@@ -22,7 +22,6 @@ class Task_9 {
         int num3 = in.nextInt();
 
         int result1 = num1 - num2;
-        int result2 = num1 - num3;
         int result3 = num3 - num2;
         if (result1 < 0 && result3 > 0)
             System.out.println("Numbers are increasing.");
