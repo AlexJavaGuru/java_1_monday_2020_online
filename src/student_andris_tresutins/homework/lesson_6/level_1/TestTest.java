@@ -14,6 +14,41 @@ package student_andris_tresutins.homework.lesson_6.level_1;
          test.weekOfTheDayDoctorfive();
          test.weekOfTheDayDoctorsix();
          test.weekOfTheDayDoctorseven();
+         test.fizzbuzztest();
+         test.fizzbuzztest2();
+         test.fizzbuzztest3();
+
+     }
+
+     public void fizzbuzztest(){
+         int initialNumber = 33;
+         FizzyBuzz test = new FizzyBuzz();
+
+         String actualresult = test.detect(initialNumber);
+         String expectedresult = "Fizz";
+
+         check(expectedresult, actualresult, "fizzBuzz test (Fizz)");
+
+     }
+
+     public void fizzbuzztest2(){
+         int initialNumber = 55;
+         FizzyBuzz test = new FizzyBuzz();
+
+         String actualresult = test.detect(initialNumber);
+         String expectedresult = "Buzz";
+
+         check(expectedresult, actualresult, "fizzBuzz test (Buzz)");
+
+     }
+
+     public void fizzbuzztest3(){
+         int initialNumber = 43;
+         FizzyBuzz test = new FizzyBuzz();
+
+         boolean actualresult = test.detect(initialNumber).equals("The result is " + initialNumber);
+         boolean expectedresult = true;
+         check(expectedresult, actualresult, "fizzBuzz test (43)");
 
      }
 
@@ -119,7 +154,7 @@ package student_andris_tresutins.homework.lesson_6.level_1;
              System.out.println(testName + " has passed");
          } else {
              System.out.println(testName + " failed!");
-             System.out.println("Expected result was " + expectedRes + " but actual result " + result);
+             System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
          }
      }
 
@@ -129,7 +164,7 @@ package student_andris_tresutins.homework.lesson_6.level_1;
              System.out.println(testName + " has passed");
          } else {
              System.out.println(testName + " failed!");
-             System.out.println("Expected result was " + expectedRes + " but actual result " + result);
+             System.out.println("Expected result was : " + expectedRes + " but actual result : " + result);
          }
      }
 
