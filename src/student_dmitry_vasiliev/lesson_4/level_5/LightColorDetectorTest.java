@@ -12,26 +12,24 @@ class LightColorDetectorTest {
 
         test.colorTest();
     }
-        public void colorTest() {
-            int waveSize = 750;
-            LightColorDetector detector = new LightColorDetector();
-            String lightWaveSize = LightColorDetector.wave(waveSize);
-            if ("Violet" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Violet.");
-            else if ("Blue" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Blue.");
-            else if ("Green" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Green.");
-            else if ("Yellow" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Yellow.");
-            else if ("Orange" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Orange.");
-            else if ("Red" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is Red.");
-            else if ("Invisible light" == LightColorDetector.wave(waveSize))
-                System.out.println("Test OK. Light is invisible.");
-            else
-                System.out.println("Test not OK.");
+
+    public void colorTest() {
+        //int waveSize = 750;
+        LightColorDetector detector = new LightColorDetector();
+        //String lightWaveSize = LightColorDetector.wave(waveSize);
+
+        generalCh ("Red", detector.wave(750), "-Red-");
+        generalCh ("Invisible light", detector.wave(379), "-Invisible light_down-");
+        generalCh ("Invisible light", detector.wave(751), "-Invisible light_up-");
+
+    }
+
+    public void  generalCh (String actualValue, String expectedValue, String testName) {
+        if (actualValue == expectedValue) {
+            System.out.println("Test " + testName + " has passed.");
+        } else {
+            System.out.println("Test " + testName + " failed.");
         }
     }
+}
 
