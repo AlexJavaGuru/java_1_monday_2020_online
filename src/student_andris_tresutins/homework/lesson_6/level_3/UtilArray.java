@@ -1,9 +1,6 @@
 package student_andris_tresutins.homework.lesson_6.level_3;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 
 class UtilArray {
