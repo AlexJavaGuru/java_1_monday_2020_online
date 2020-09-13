@@ -5,8 +5,11 @@ package student_lilija_g.homework.lesson_6.level_4.task_16;
 для циклов while и for.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_16 {
 
     public static void main(String[] args) {

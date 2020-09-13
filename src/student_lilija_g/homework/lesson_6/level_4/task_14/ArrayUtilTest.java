@@ -1,5 +1,11 @@
 package student_lilija_g.homework.lesson_6.level_4.task_14;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "shouldRevers - какой страшный тест ) Очень много строк. Для чего? Ведь для проверки результата, мы можем просто создать второй массив, который" +
+        "будет уже отсартирован правильным образом. Останется только сравнить эти массивы по элементно. ")
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

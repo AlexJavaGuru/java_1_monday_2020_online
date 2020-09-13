@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
         public static void main(String[] args) {

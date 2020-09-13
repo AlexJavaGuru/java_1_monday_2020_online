@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Такая же проблема. Почему не используете if else if? забываете про пробелы между знаками <> ")
+@CodeReview(approved = true)
 public class Task_5 {
     private int num;
     public static void main(String[] args) {

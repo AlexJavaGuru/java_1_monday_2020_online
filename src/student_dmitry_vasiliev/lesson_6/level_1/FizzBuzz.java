@@ -1,4 +1,8 @@
 package student_dmitry_vasiliev.lesson_6.level_1;
+
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 /*Разберитесь, что делает класс указанный ниже.
         Это реализация одного из супер тасков предыдущего урока.
         Создайте класс FizzBuzzTest и напишите автоматические тесты
@@ -9,6 +13,8 @@ package student_dmitry_vasiliev.lesson_6.level_1;
         Или метод detect можно реализовать без него?
 
  */
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Дмитрий, я не вижу исправления класса. Он все так же не красиво выглядит. Надо ним надо поработать...не просто закомментить переменную =D")
 class FizzBuzz {
 
         //private int initialNumber;

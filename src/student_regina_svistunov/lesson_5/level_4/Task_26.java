@@ -1,9 +1,12 @@
 package student_regina_svistunov.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_26 {
 
     public static void main(String[] args) {
@@ -16,7 +19,7 @@ public class Task_26 {
 
         int[] userArrays = new int[arraysLength];
 
-        for (int i=0; i< arraysLength; i++) {
+        for (int i = 0; i < arraysLength; i++) {
             userArrays[i] = random.nextInt(100);
         }
         System.out.println("Random array is: ");

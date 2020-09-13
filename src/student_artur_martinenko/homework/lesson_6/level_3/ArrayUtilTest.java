@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

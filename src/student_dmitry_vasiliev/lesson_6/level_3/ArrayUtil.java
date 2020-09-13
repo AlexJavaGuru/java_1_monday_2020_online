@@ -1,8 +1,15 @@
 package student_dmitry_vasiliev.lesson_6.level_3;
 
 //import java.lang.reflect.Array;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Есть методы, которые вы даже не вызываете из тестов. Как проверить, что они работают? Зачем у вас во всех методах есть else со строчкой" +
+        "minNumber = minNumber - для чего это? Как вы думаете, к чему это операция приводит и зачем она вам вообщу тут нужна?" +
+        "")
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

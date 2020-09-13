@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_6.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
 
     public static void main(String[] args) {

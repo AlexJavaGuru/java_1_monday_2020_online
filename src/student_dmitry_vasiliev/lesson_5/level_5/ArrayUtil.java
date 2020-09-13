@@ -1,8 +1,16 @@
 package student_dmitry_vasiliev.lesson_5.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.lang.reflect.Array;
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Лишнее действие:" +
+        "else {\n" +
+        "                maxNumber = maxNumber;\n" +
+        "            }")
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

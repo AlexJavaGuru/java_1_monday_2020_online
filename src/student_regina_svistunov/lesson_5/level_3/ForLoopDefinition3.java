@@ -1,12 +1,15 @@
 package student_regina_svistunov.lesson_5.level_3;
 
- class ForLoopDefinition3 {
+import teacher.annotations.CodeReview;
 
-     public static void main(String[] args) {
-         for (int i = 0; i < 10; i++) {
-             System.out.println(i);
-         }
-     }
+@CodeReview(approved = true)
+class ForLoopDefinition3 {
 
- }
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+    }
+
+}
 

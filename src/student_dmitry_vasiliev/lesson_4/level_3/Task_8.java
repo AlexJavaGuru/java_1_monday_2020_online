@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Такая же проблема как и в прошлых заданиях.")
+@CodeReview(approved = true)
 public class Task_8 {
     private int num;
     public static void main(String[] args) {

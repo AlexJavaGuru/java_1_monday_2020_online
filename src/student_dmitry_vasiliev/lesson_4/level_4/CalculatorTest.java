@@ -2,12 +2,13 @@ package student_dmitry_vasiliev.lesson_4.level_4;
 
 
 //import teacher.annotations.CodeReview;
+
+import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 import java.util.concurrent.Callable;
 
-//@CodeReview(approved = false)
-//@CodeReviewComment(comment = "Надо исправить. Формат. Следите за отступами от края. Почему не используете отдельные методы для проверки? Переделать.")
+@CodeReview(approved = true)
 class CalculatorTest {
 
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ class CalculatorTest {
         test.isEven();
         test.maxOfTwoNumbers();
         test.maxOfThreeNumbers();
-        }
+    }
 
     public void sumTest() {
         int firstNumber = 10;
@@ -73,10 +74,10 @@ class CalculatorTest {
         int number = 2;
         Calculator calculator = new Calculator();
         boolean result = calculator.isEven(number);
-        checkBoolean (result);
+        checkBoolean(result);
     }
 
-    private void checkBoolean (boolean result) {
+    private void checkBoolean(boolean result) {
         if (result) {
             System.out.println("Test has passed!");
         } else {
@@ -91,7 +92,7 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int result = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
 
-        check (secondNumber, result, "TestMaxOfTwoNumbers");
+        check(secondNumber, result, "TestMaxOfTwoNumbers");
     }
 
     public void maxOfThreeNumbers() {
@@ -102,14 +103,14 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int result = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
 
-        check (firstNumber, result, "TestMaxOfThreeNumbers");
+        check(firstNumber, result, "TestMaxOfThreeNumbers");
     }
 
-    private  void check (int expectedResult, int actualResult, String testName) {
+    private void check(int expectedResult, int actualResult, String testName) {
         if (expectedResult == actualResult) {
-            System.out.println("Test " + testName + " has passed! Actual result is "+ actualResult + ", expected result is " + expectedResult + ".");
+            System.out.println("Test " + testName + " has passed! Actual result is " + actualResult + ", expected result is " + expectedResult + ".");
         } else {
-            System.out.println("Test " + testName + " failed! Actual result is "+ actualResult + ", expected result is " + expectedResult + ".");
+            System.out.println("Test " + testName + " failed! Actual result is " + actualResult + ", expected result is " + expectedResult + ".");
         }
     }
 }
