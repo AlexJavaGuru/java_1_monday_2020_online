@@ -1,8 +1,13 @@
 package student_dmitry_vasiliev.lesson_6.level_4;
 
 //import java.lang.reflect.Array;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Вы перекопировали ошибки из одного класса в другой?")
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
