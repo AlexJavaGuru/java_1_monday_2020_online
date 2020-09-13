@@ -1,8 +1,5 @@
-package student_dmitry_vasiliev.lesson_5.level_5;
+package student_dmitry_vasiliev.lesson_6.level_4;
 
-import teacher.annotations.CodeReview;
-
-@CodeReview(approved = true)
 class ArrayUtilTest {
 
         public static void main(String[] args) {
@@ -11,6 +8,12 @@ class ArrayUtilTest {
             test.shouldFillArrayWithRandomNumbers();
             test.shouldFindMaxNumber();
             test.shouldFindMinNumber();
+            test.shouldFindSelectedNumber();
+            test.shouldCountSelectedNumber();
+            test.shouldChangeFirstSelectedNumber();
+            test.shouldChangeAllSelectedNumber();
+            test.shouldArrayRotate();
+            test.shouldArraySortMinMax();
         }
 
         public void shouldCreateArray() {
@@ -61,6 +64,60 @@ class ArrayUtilTest {
             int[] array = {9,2,3,4,5,6,7,8};
             int result = arrayUtil.findMinNumberReturn(array);
             printTestResult(result == 2, testName);
+        }
+
+        public void shouldFindSelectedNumber() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldFindSelectedNumber";
+            int[] array = {9,2,3,4,5,6,7,8};
+            int selectedNumber = 8;
+            int result = arrayUtil.findSelectedNumberReturn(array, selectedNumber);
+            printTestResult(result == 8, testName);
+        }
+
+        public void shouldCountSelectedNumber() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldCountSelectedNumber";
+            int[] array = {9,2,3,4,5,6,7,9};
+            int countNumber = 2;
+            int result = arrayUtil.findSelectedNumberReturn(array, countNumber);
+            printTestResult(result == 2, testName);
+        }
+
+        public void shouldChangeFirstSelectedNumber() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldChangeFirstSelectedNumber";
+            int[] array = {9,2,3,4,5,11,11,9};
+            int selectedNumber = 11;
+            int newNumber = 10;
+            int result = arrayUtil.changeFirstSelectedNumber(array, selectedNumber, newNumber);
+            printTestResult(result == 5, testName);
+        }
+
+        public void shouldChangeAllSelectedNumber() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldChangeAllSelectedNumber";
+            int[] array = {9,11,3,4,5,11,11,9};
+            int selectedNumber = 11;
+            int newNumber = 10;
+            int result = arrayUtil.changeAllSelectedNumber(array, selectedNumber, newNumber);
+            printTestResult(result == 3, testName);
+        }
+
+        public void shouldArrayRotate() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldArrayRotate";
+            int[] array = {1,2,3,4,5,6,7,8};
+            int result = arrayUtil.arrayRotate(array);
+            printTestResult(result == 8, testName);
+        }
+
+        public void shouldArraySortMinMax() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldArraySortMinMax";
+            int[] array = {8,2,3,5,5,6,1,1};
+            int result = arrayUtil.arraySortMinMax(array);
+            printTestResult(result == 1, testName);
         }
 
         public void printTestResult (boolean check, String testName) {

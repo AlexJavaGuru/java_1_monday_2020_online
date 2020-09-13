@@ -4,6 +4,7 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 import java.util.Random;
 
 @CodeReview(approved = true)
@@ -21,13 +22,13 @@ class ArrayUtil {
     public void fillArrayWithRandomNumbers(int[] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-        array[i] = random.nextInt(50);
+            array[i] = random.nextInt(50);
         }
     }
 
     public void printArrayToConsole(int[] array) {
         for (int i = 0; i < array.length; i++) {
-        System.out.println(array[i]);
+            System.out.println(array[i]);
         }
     }
 
@@ -66,5 +67,45 @@ class ArrayUtil {
         }
         return maxNumber;
     }
-    
+
+    public void findMinNumberPrint(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        int minNumber = maxNumber;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minNumber) {
+                minNumber = array[i];
+            } else {
+                minNumber = minNumber;
+            }
+        }
+        System.out.println("Min number of array is " + minNumber + ".");
+    }
+
+    public int findMinNumberReturn(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        int minNumber = maxNumber;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minNumber) {
+                minNumber = array[i];
+            } else {
+                minNumber = minNumber;
+            }
+        }
+        return minNumber;
+    }
+
 }
