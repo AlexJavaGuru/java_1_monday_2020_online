@@ -1,8 +1,11 @@
 package student_aleksejs_ivanovs.homework.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class taskTwentySix {
 
     public static void main(String[] args) {

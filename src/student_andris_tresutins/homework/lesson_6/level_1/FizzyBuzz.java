@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class FizzyBuzz {
 
     private int initialNumber;

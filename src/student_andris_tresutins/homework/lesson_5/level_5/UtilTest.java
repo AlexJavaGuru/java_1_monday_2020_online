@@ -1,5 +1,9 @@
 package student_andris_tresutins.homework.lesson_5.level_5;
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
+
+@CodeReview(approved = true)
 public class UtilTest {
 
     public static void main(String[] args) {

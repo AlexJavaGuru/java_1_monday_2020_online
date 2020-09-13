@@ -11,8 +11,11 @@ class ArrayUtil {
 }
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
     public int[] createArray(int arrayLength) {
         return new int[arrayLength];

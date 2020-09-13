@@ -1,171 +1,176 @@
 package student_andris_tresutins.homework.lesson_6.level_1;
 
- class TestTest {
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
-     public static void main(String[] args) {
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "У вас прям во всех классах лишний отступ какой-то ) Поправил")
+class TestTest {
 
-         TestTest test = new TestTest();
+    public static void main(String[] args) {
 
-         test.testisEven();
-         test.weekOfTheDayDoctorOne();
-         test.weekOfTheDayDoctorTwo();
-         test.weekOfTheDayDoctorThree();
-         test.weekOfTheDayDoctorfour();
-         test.weekOfTheDayDoctorfive();
-         test.weekOfTheDayDoctorsix();
-         test.weekOfTheDayDoctorseven();
-         test.fizzbuzztest();
-         test.fizzbuzztest2();
-         test.fizzbuzztest3();
+        TestTest test = new TestTest();
 
-     }
+        test.testisEven();
+        test.weekOfTheDayDoctorOne();
+        test.weekOfTheDayDoctorTwo();
+        test.weekOfTheDayDoctorThree();
+        test.weekOfTheDayDoctorfour();
+        test.weekOfTheDayDoctorfive();
+        test.weekOfTheDayDoctorsix();
+        test.weekOfTheDayDoctorseven();
+        test.fizzbuzztest();
+        test.fizzbuzztest2();
+        test.fizzbuzztest3();
 
-     public void fizzbuzztest(){
-         int initialNumber = 33;
-         FizzyBuzz test = new FizzyBuzz();
+    }
 
-         String actualresult = test.detect(initialNumber);
-         String expectedresult = "Fizz";
+    public void fizzbuzztest() {
+        int initialNumber = 33;
+        FizzyBuzz test = new FizzyBuzz();
 
-         check(expectedresult, actualresult, "fizzBuzz test (Fizz)");
+        String actualresult = test.detect(initialNumber);
+        String expectedresult = "Fizz";
 
-     }
+        check(expectedresult, actualresult, "fizzBuzz test (Fizz)");
 
-     public void fizzbuzztest2(){
-         int initialNumber = 55;
-         FizzyBuzz test = new FizzyBuzz();
+    }
 
-         String actualresult = test.detect(initialNumber);
-         String expectedresult = "Buzz";
+    public void fizzbuzztest2() {
+        int initialNumber = 55;
+        FizzyBuzz test = new FizzyBuzz();
 
-         check(expectedresult, actualresult, "fizzBuzz test (Buzz)");
+        String actualresult = test.detect(initialNumber);
+        String expectedresult = "Buzz";
 
-     }
+        check(expectedresult, actualresult, "fizzBuzz test (Buzz)");
 
-     public void fizzbuzztest3(){
-         int initialNumber = 43;
-         FizzyBuzz test = new FizzyBuzz();
+    }
 
-         boolean actualresult = test.detect(initialNumber).equals("The result is " + initialNumber);
-         boolean expectedresult = true;
-         check(expectedresult, actualresult, "fizzBuzz test (43)");
+    public void fizzbuzztest3() {
+        int initialNumber = 43;
+        FizzyBuzz test = new FizzyBuzz();
 
-     }
+        boolean actualresult = test.detect(initialNumber).equals("The result is " + initialNumber);
+        boolean expectedresult = true;
+        check(expectedresult, actualresult, "fizzBuzz test (43)");
 
-     public void testisEven(){
+    }
 
-         int firstInt = 20;
-         Calc victim = new Calc();
+    public void testisEven() {
 
-         boolean result5 = victim.isEven(firstInt);
-         boolean expectedres = true;
+        int firstInt = 20;
+        Calc victim = new Calc();
 
-         check(expectedres, result5, "Even test");
+        boolean result5 = victim.isEven(firstInt);
+        boolean expectedres = true;
 
+        check(expectedres, result5, "Even test");
 
-     }
 
-     public void weekOfTheDayDoctorOne(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorOne() {
 
-         String actualresult = victim.detectDayName(1);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Monday";
+        String actualresult = victim.detectDayName(1);
 
-         check(expectedresult, actualresult, "Week Of The day : Monday");
+        String expectedresult = "Monday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Monday");
 
-     public void weekOfTheDayDoctorTwo(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorTwo() {
 
-         String actualresult = victim.detectDayName(2);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Tuesday";
+        String actualresult = victim.detectDayName(2);
 
-         check(expectedresult, actualresult, "Week Of The day : Tuesday");
+        String expectedresult = "Tuesday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Tuesday");
 
-     public void weekOfTheDayDoctorThree(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorThree() {
 
-         String actualresult = victim.detectDayName(3);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Wednesday";
+        String actualresult = victim.detectDayName(3);
 
-         check(expectedresult, actualresult, "Week Of The day : Wednesday");
+        String expectedresult = "Wednesday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Wednesday");
 
-     public void weekOfTheDayDoctorfour(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorfour() {
 
-         String actualresult = victim.detectDayName(4);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Thursday";
+        String actualresult = victim.detectDayName(4);
 
-         check(expectedresult, actualresult, "Week Of The day : Thursday");
+        String expectedresult = "Thursday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Thursday");
 
-     public void weekOfTheDayDoctorsix(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorsix() {
 
-         String actualresult = victim.detectDayName(5);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Friday";
+        String actualresult = victim.detectDayName(5);
 
-         check(expectedresult, actualresult, "Week Of The day : Friday");
+        String expectedresult = "Friday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Friday");
 
-     public void weekOfTheDayDoctorseven(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorseven() {
 
-         String actualresult = victim.detectDayName(6);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Saturday";
+        String actualresult = victim.detectDayName(6);
 
-         check(expectedresult, actualresult, "Week Of The day : Saturday");
+        String expectedresult = "Saturday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Saturday");
 
-     public void weekOfTheDayDoctorfive(){
+    }
 
-         Task_2 victim = new Task_2();
+    public void weekOfTheDayDoctorfive() {
 
-         String actualresult = victim.detectDayName(7);
+        Task_2 victim = new Task_2();
 
-         String expectedresult = "Sunday";
+        String actualresult = victim.detectDayName(7);
 
-         check(expectedresult, actualresult, "Week Of The day : Sunday");
+        String expectedresult = "Sunday";
 
-     }
+        check(expectedresult, actualresult, "Week Of The day : Sunday");
 
-     public void check(String expectedRes, String result, String testName) {
-         if (expectedRes == result) {
-             System.out.println(testName + " has passed");
-         } else {
-             System.out.println(testName + " failed!");
-             System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
-         }
-     }
+    }
 
+    public void check(String expectedRes, String result, String testName) {
+        if (expectedRes == result) {
+            System.out.println(testName + " has passed");
+        } else {
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
+        }
+    }
 
-     public void check(boolean expectedRes, boolean result, String testName) {
-         if (expectedRes == result) {
-             System.out.println(testName + " has passed");
-         } else {
-             System.out.println(testName + " failed!");
-             System.out.println("Expected result was : " + expectedRes + " but actual result : " + result);
-         }
-     }
+
+    public void check(boolean expectedRes, boolean result, String testName) {
+        if (expectedRes == result) {
+            System.out.println(testName + " has passed");
+        } else {
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was : " + expectedRes + " but actual result : " + result);
+        }
+    }
 
 }

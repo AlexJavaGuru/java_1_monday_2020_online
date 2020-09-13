@@ -1,7 +1,13 @@
 package student_lilija_g.homework.lesson_6.level_1.task_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Использовать в тестах сканнер не лучшая идея. Тесты должны быть полностью не зависимы от человека. Идея теста в том, чтобы исключить" +
+        "человеческое вмешательство в работу теста, иначе, этот тест не стабилен.")
 class DayOfTheWeekDetectorTest {
 
     DayOfTheWeekDetector myDayOfTheWeekDetector = new DayOfTheWeekDetector();

@@ -1,7 +1,12 @@
 package student_aleksejs_ivanovs.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Наверное только надо было сначала увеличить каждое значение на +2 а потом вывести на консоль все элементы. Как бы разделить операции")
 class TaskFifteen {
 
     public static void main(String[] args) {

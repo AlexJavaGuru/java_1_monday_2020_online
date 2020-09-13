@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_5.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_21 {
 
     //Найдите логическую ошибку в программе и исправить её:

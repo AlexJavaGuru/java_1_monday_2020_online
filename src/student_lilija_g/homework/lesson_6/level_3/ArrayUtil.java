@@ -23,8 +23,11 @@ Task_13
 Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализацяия метода работает правильно.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
     public int[] createArray(int arrayLength) {
         return new int[arrayLength];

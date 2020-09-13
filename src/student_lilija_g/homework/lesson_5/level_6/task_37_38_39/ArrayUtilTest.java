@@ -59,6 +59,10 @@ class ArrayUtilTest {
     }
 }
  */
+
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

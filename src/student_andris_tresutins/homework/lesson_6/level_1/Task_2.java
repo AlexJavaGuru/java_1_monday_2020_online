@@ -1,7 +1,12 @@
 package student_andris_tresutins.homework.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Почитайте про сравнение Объектов типа String между собой.")
 public class Task_2 {
 
     public static void main(String[] args) {
