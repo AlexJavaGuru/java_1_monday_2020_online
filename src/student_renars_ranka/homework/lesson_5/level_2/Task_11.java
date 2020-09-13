@@ -1,7 +1,12 @@
 package student_renars_ranka.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Попробуйте переделать программу, чтобы она работала, даже когда я поставлю размер массива 5 или 10 или любое другое число.")
 class Task_11 {
 }
 class ArraysOfIntTwo {

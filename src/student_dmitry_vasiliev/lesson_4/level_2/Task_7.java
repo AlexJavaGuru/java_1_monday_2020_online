@@ -20,11 +20,12 @@ class Task_7 {
         int num2 = in.nextInt();
 
         int result = num1 - num2;
-        if (result>0)
+        if (result > 0) {
             System.out.println("Numbers are different.");
-        if (result<0)
+        } else if (result < 0) {
             System.out.println("Numbers are different.");
-        else
+        } else {
             System.out.println("Numbers are equals.");
+        }
     }
 }

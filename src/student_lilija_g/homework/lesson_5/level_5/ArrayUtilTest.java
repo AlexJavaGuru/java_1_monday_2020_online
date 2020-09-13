@@ -1,4 +1,8 @@
 package student_lilija_g.homework.lesson_5.level_5;
+
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 /*
 Task_32:
 Создайте класс ArrayUtilTest.
@@ -41,7 +45,7 @@ class ArrayUtilTest {
     }
 }
  */
-
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

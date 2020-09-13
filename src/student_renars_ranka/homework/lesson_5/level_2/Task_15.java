@@ -1,7 +1,10 @@
 package student_renars_ranka.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 public class Task_15 {
 }
 class ArraysOfIntSix {

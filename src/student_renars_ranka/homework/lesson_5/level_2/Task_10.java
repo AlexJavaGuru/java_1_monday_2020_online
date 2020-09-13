@@ -1,8 +1,11 @@
 package student_renars_ranka.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class Task_10 {
 }
 

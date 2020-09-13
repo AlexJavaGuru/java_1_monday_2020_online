@@ -36,8 +36,11 @@ String detectDayName(int number).
 автоматические тесты для всех сценариев.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_2 {
     public static void main(String[] args) {
 

@@ -1,7 +1,11 @@
 package student_renars_ranka.homework.lesson_5.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_16 {
 }
+
 
 class ForLoopDefinition1 {
 

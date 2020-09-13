@@ -24,12 +24,13 @@ public class Task_8 {
         int result1 = num1 - num2;
         int result2 = num1 - num3;
         int result3 = num3 - num2;
-        if (result1 == 0 && result2 == 0 && result3 == 0)
+        if (result1 == 0 && result2 == 0 && result3 == 0) {
             System.out.println("All numbers are equal.");
-        if (result1 != 0 && result2 != 0 && result3 != 0)
+        } else if (result1 != 0 && result2 != 0 && result3 != 0) {
             System.out.println("All numbers are different.");
-        else
+        } else {
             System.out.println("Neither all are equal or different.");
+        }
     }
 }
 
