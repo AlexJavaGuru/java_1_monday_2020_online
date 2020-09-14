@@ -5,7 +5,7 @@ import teacher.annotations.CodeReview;
 @CodeReview(approved = true)
 class DayOfTheWeekDetectorTest {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         DayOfTheWeekDetectorTest dayOfTheWeekDetectorTest = new DayOfTheWeekDetectorTest();
         dayOfTheWeekDetectorTest.detectMondayTest();
         dayOfTheWeekDetectorTest.detectTuesdayTest();
@@ -83,7 +83,7 @@ class DayOfTheWeekDetectorTest {
         DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
         String day = dayOfTheWeekDetector.detectDayName(0);
         check(!notNull(day), day == null, "detectNullTest2");
-    }
+    }*/
 
 
 

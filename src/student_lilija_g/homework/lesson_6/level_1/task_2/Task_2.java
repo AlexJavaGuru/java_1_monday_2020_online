@@ -46,7 +46,7 @@ public class Task_2 {
 
         Scanner myInput = new Scanner(System.in);
 
-        System.out.print("Input integer number between 1 and 7 : ");
+  /*      System.out.print("Input integer number between 1 and 7 : ");
         int firstNumber = myInput.nextInt();
         if ((firstNumber >=1) && (firstNumber <= 7)) {
             switch (firstNumber) {
@@ -62,6 +62,8 @@ public class Task_2 {
         else {
             System.out.println("Please input a valid number between 1 and 7");
         }
+
+   */
 
     }
 }
