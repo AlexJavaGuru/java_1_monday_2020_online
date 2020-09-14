@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_2.level_x;
 
-public class Super_task_5 {
+ class Super_task_5 {
     public static void main(String[]args){
 
         int numberOne =10;

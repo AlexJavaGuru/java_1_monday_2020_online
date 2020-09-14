@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_2.level_x;
 
-public class Super_task_2 {
+ class Super_task_2 {
    // public class SumTwoNumbers {
 
         public static void main(String[] args) {

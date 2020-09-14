@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_2.level_x;
 
-public class Super_task_3 {
+ class Super_task_3 {
    // public class CorrectDataTypes {
 
         public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_3.level_4;
 
-public class DemoPhone {
+ class DemoPhone {
     public static void main(String[] args) {
         Phone myPhone = new Phone("Huawei");
         String phoneModel = myPhone.getModel();

@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_3.level_2;
 
-public class Task_10 {
+ class Task_10 {
 
     /*
 

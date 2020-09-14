@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_3.level_4;
 
-public class DemoBook {
+ class DemoBook {
     public static void main(String[] args) {
         Book myBook = new Book("Principles");
         String bookTitle = myBook.getTitle();

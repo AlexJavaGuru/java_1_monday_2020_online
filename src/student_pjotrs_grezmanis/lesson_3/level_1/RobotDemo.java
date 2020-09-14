@@ -2,7 +2,7 @@ package student_pjotrs_grezmanis.lesson_3.level_1;
 
 import student_pjotrs_grezmanis.lesson_3.level_1.Robot;
 
-public class RobotDemo {
+ class RobotDemo {
     public static void main(String[] args) {
         Robot robot1 = new Robot();
         robot1.sayHello();

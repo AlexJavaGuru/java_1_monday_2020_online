@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_3.level_4;
 
-public class Book {
+ class Book {
     private String title;
     public Book (String bookTitle) {
         this.title = bookTitle;
