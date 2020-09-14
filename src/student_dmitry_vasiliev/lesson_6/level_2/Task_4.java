@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_6.level_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_4 {
 
     //class WhileDefinition1 {

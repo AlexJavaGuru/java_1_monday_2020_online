@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_4.task_18;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
 
     public static void main(String[] args) {

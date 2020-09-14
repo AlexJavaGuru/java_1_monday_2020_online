@@ -1,4 +1,4 @@
-package student_dmitry_vasiliev.lesson_6.level_3;
+package student_dmitry_vasiliev.lesson_6.level_4;
 
 //import java.lang.reflect.Array;
 import teacher.annotations.CodeReview;
@@ -7,9 +7,7 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Random;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Есть методы, которые вы даже не вызываете из тестов. Как проверить, что они работают? Зачем у вас во всех методах есть else со строчкой" +
-        "minNumber = minNumber - для чего это? Как вы думаете, к чему это операция приводит и зачем она вам вообщу тут нужна?" +
-        "")
+@CodeReviewComment(comment = "Вы перекопировали ошибки из одного класса в другой?")
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
@@ -194,4 +192,37 @@ class ArrayUtil {
             }
             return number;
         }
+
+        public int arraySortMinMax(int[] array) {
+            int maxNumber = 0;
+            int value = 0;
+            int nextNum = array.length - 1;
+            int[] newArray = new int[array.length];
+
+            System.out.print("Old array - ");
+            for (int i = 0; i < array.length; i++) {
+                System.out.print( array[i] + " ");
+            }
+
+            for (int i = 0; i < array.length; i++) {
+                for (int k = 0; k < array.length; k++) {
+                    if (array[k] > maxNumber) {
+                        maxNumber = array[k];
+                        value = k;
+                    } else {
+                        maxNumber = maxNumber;
+                        }
+                }
+                newArray[nextNum] = maxNumber;
+                nextNum--;
+                maxNumber = 0;
+                array[value] = 0;
+            }
+            System.out.print("; New array - ");
+            for (int i = 0; i < newArray.length; i++) {
+                System.out.print( newArray[i] + " ");
+            }
+            return newArray[0];
+        }
 }
+

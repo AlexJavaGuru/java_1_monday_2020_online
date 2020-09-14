@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTest {
 
     public static void main(String[] args) {

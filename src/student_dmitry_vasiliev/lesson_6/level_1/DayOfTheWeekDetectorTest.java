@@ -1,7 +1,10 @@
 package student_dmitry_vasiliev.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorTest {
 
         DayOfTheWeekDetector testOfDay = new DayOfTheWeekDetector();

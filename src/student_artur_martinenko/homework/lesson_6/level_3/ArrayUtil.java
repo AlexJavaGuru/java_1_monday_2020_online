@@ -1,8 +1,14 @@
 package student_artur_martinenko.homework.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошие методы. Все четко. У меня один вопрос. Как мне потом считать этот класс за N разных заданий? Мой скрипт не сможет посчитать" +
+        "что вы в одном классе сделали сразу N заданий...Пока ничего переделывать не надо. Я подумаю над этим вопросом")
 class ArrayUtil {
 
     public static void main(String[] args) {

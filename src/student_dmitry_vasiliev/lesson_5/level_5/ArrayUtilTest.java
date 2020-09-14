@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_5.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
         public static void main(String[] args) {
@@ -7,6 +10,7 @@ class ArrayUtilTest {
             test.shouldCreateArray();
             test.shouldFillArrayWithRandomNumbers();
             test.shouldFindMaxNumber();
+            test.shouldFindMinNumber();
         }
 
         public void shouldCreateArray() {
@@ -25,6 +29,7 @@ class ArrayUtilTest {
             arrayUtil.fillArrayWithRandomNumbers(newArray1);
             arrayUtil.printArrayToConsoleString(newArray1);
             arrayUtil.findMaxNumberPrint(newArray1);
+            arrayUtil.findMinNumberPrint(newArray1);
             int sumFirst = 0;
             for (int i = 0; i < newArray1.length; i++) {
                 sumFirst += newArray1[i];
@@ -33,6 +38,7 @@ class ArrayUtilTest {
             arrayUtil.fillArrayWithRandomNumbers(newArray2);
             arrayUtil.printArrayToConsoleString(newArray2);
             arrayUtil.findMaxNumberPrint(newArray2);
+            arrayUtil.findMinNumberPrint(newArray2);
             int sumSecond = 0;
             for (int i = 0; i < newArray2.length; i++) {
                 sumSecond += newArray2[i];
@@ -42,11 +48,19 @@ class ArrayUtilTest {
         }
 
         public void shouldFindMaxNumber() {
-        ArrayUtil arrayUtil = new ArrayUtil();
-        String testName = "shouldFindMaxNumber";
-        int[] array = {1,2,3,4,5,6,7,8};
-        int result = arrayUtil.findMaxNumberReturn(array);
-        printTestResult(result == 8, testName);
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldFindMaxNumber";
+            int[] array = {1,2,3,4,9,6,7,8};
+            int result = arrayUtil.findMaxNumberReturn(array);
+            printTestResult(result == 9, testName);
+        }
+
+        public void shouldFindMinNumber() {
+            ArrayUtil arrayUtil = new ArrayUtil();
+            String testName = "shouldFindMinNumber";
+            int[] array = {9,2,3,4,5,6,7,8};
+            int result = arrayUtil.findMinNumberReturn(array);
+            printTestResult(result == 2, testName);
         }
 
         public void printTestResult (boolean check, String testName) {

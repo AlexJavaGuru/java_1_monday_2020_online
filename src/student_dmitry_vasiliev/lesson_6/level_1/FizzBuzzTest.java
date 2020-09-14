@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTest {
     FizzBuzz test = new FizzBuzz();
 

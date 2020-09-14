@@ -1,7 +1,10 @@
 package student_arturs_arusanovs.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int getArrayLengthFromUser() {
