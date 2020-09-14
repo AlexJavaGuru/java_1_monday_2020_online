@@ -11,11 +11,15 @@ class TaskFourteen {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int[] numbers = new int[3];
+        int arrayLength = 3;
+        int[] numbers = new int[arrayLength];
+        int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(100);
+            sum += numbers[i];
+            System.out.print(numbers[i] + " ");
         }
-        int sum = (numbers[0] + numbers[1] + numbers[2]) / 3;
-        System.out.println("Average of array cells = " + sum);
+        sum = sum / arrayLength;
+        System.out.println("\nAverage of array cells = " + sum);
     }
 }

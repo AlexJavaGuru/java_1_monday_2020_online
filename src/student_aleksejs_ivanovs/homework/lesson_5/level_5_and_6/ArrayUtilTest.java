@@ -19,11 +19,11 @@ class ArrayUtilTest {
         ArrayUtil array = new ArrayUtil();
         int[] newArray = array.createArray(3);
 
-        if (newArray.length == 3) {
-            System.out.println("Ok");
-        } else {
-            System.out.println("Bad");
-        }
+        int actualResult = newArray.length;
+
+        int expectedResult = 3;
+
+        check(expectedResult, actualResult, "shouldCreateArray");
     }
 
     public void shouldFillArrayWithRandomNumbers() {
@@ -37,33 +37,40 @@ class ArrayUtilTest {
         }
 
         if (sum > 0) {
-            System.out.println("Ok");
+            System.out.println("FillArrayWithRandom Has passed");
         } else {
-            System.out.println("Bad");
+            System.out.println("FillArrayWithRandom Failed");
         }
     }
 
     public void shouldFindMaxNumber() {
         ArrayUtil array = new ArrayUtil();
         int[] newArray = {52, 59, 56, 67, 48};
-        int arrayMax = array.findMaxNumber(newArray);
 
-        if (arrayMax == 67) {
-            System.out.println("Ok");
-        } else {
-            System.out.println("Bad");
-        }
+        int actualResult = array.findMaxNumber(newArray);
+
+        int expectedResult = 67;
+
+        check(expectedResult, actualResult, "shouldFindMaxNumber");
     }
 
     public void shouldFindMinNumber() {
         ArrayUtil array = new ArrayUtil();
-        int[] newArray = {18, 24, 33, 36, 41};
-        int arrayMax = array.findMinNumber(newArray);
+        int[] newArray = {24, 18, 33, 36, 41};
 
-        if (arrayMax == 18) {
-            System.out.println("Ok");
+        int actualResult = array.findMinNumber(newArray);
+
+        int expectedResult = 18;
+
+        check(expectedResult, actualResult, "shouldFindMinNumber");
+    }
+
+    private void check(int expectedResult, int actualResult, String testName) {
+        if (expectedResult == actualResult) {
+            System.out.println(testName + " has passed");
         } else {
-            System.out.println("Bad");
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was : " + expectedResult + " but actual result was : " + actualResult);
         }
     }
 }

@@ -12,10 +12,12 @@ class TaskThirteen {
     public static void main(String[] args) {
         Random random = new Random();
         int[] numbers = new int[3];
+        int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(100);
+            sum += numbers[i];
+            System.out.print(numbers[i] + " ");
         }
-        int sum = numbers[0] + numbers[1] + numbers[2];
-        System.out.println("Sum of array cells = " + sum);
+        System.out.println("\nSum of array cells = " + sum);
     }
 }
