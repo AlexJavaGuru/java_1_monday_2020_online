@@ -1,0 +1,111 @@
+package student_dmitry_vasiliev.lesson_5.level_5;
+
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
+import java.util.Random;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Лишнее действие:" +
+        "else {\n" +
+        "                maxNumber = maxNumber;\n" +
+        "            }")
+class ArrayUtil {
+
+    public int[] createArray(int arrayLength) {
+        int[] newArray = new int[arrayLength];
+        return  newArray;
+    }
+
+    public void fillArrayWithRandomNumbers(int[] array) {
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(50);
+        }
+    }
+
+    public void printArrayToConsole(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+
+    public void printArrayToConsoleString(int[] array) {
+        String str = "{";
+        for (int i = 0; i < array.length; i++) {
+            str = str + array[i];
+            if (i < array.length - 1) {
+                str = str + ",";
+            }
+        }
+        System.out.println("Array is: " + str + "}");
+
+    }
+
+    public void findMaxNumberPrint(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        System.out.println("Max number of array is " + maxNumber + ".");
+    }
+
+    public int findMaxNumberReturn(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        return maxNumber;
+    }
+
+    public void findMinNumberPrint(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        int minNumber = maxNumber;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minNumber) {
+                minNumber = array[i];
+            } else {
+                minNumber = minNumber;
+            }
+        }
+        System.out.println("Min number of array is " + minNumber + ".");
+    }
+
+    public int findMinNumberReturn(int[] array) {
+        int maxNumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            } else {
+                maxNumber = maxNumber;
+            }
+        }
+        int minNumber = maxNumber;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minNumber) {
+                minNumber = array[i];
+            } else {
+                minNumber = minNumber;
+            }
+        }
+        return minNumber;
+    }
+
+}

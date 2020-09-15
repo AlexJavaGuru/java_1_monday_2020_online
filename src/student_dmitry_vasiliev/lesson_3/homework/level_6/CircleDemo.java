@@ -5,8 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Радиус надо должен считать сам circle.")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Ознакомиться с комментарием в классе Circle")
 class CircleDemo {
 
     public static void main(String[] args) {

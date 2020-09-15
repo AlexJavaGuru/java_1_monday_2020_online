@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_1.task_1;
+
+import teacher.annotations.CodeReview;
+
 /*
 Упростите метод boolean isEven(int number).
 Код внутри этого метода может быть записан в одну строку.
@@ -17,6 +20,7 @@ class Calculator {
 
 }
  */
+@CodeReview(approved = true)
 class Calculator {
 
     public boolean isEven(int number) {

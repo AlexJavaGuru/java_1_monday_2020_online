@@ -36,13 +36,17 @@ String detectDayName(int number).
 автоматические тесты для всех сценариев.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_2 {
     public static void main(String[] args) {
+
         Scanner myInput = new Scanner(System.in);
 
-        System.out.print("Input integer number between 1 and 7 : ");
+  /*      System.out.print("Input integer number between 1 and 7 : ");
         int firstNumber = myInput.nextInt();
         if ((firstNumber >=1) && (firstNumber <= 7)) {
             switch (firstNumber) {
@@ -58,5 +62,8 @@ public class Task_2 {
         else {
             System.out.println("Please input a valid number between 1 and 7");
         }
+
+   */
+
     }
 }

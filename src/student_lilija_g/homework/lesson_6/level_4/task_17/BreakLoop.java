@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_4.task_17;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class BreakLoop {
     public static void main(String[] args) {
 

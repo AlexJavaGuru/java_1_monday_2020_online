@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Такая же проблема. Почему не используете if else if? забываете про пробелы между знаками <> ")
+@CodeReview(approved = true)
 class Task_7 {
 
     private int num;
@@ -20,11 +19,12 @@ class Task_7 {
         int num2 = in.nextInt();
 
         int result = num1 - num2;
-        if (result>0)
+        if (result > 0) {
             System.out.println("Numbers are different.");
-        if (result<0)
+        } else if (result < 0) {
             System.out.println("Numbers are different.");
-        else
+        } else {
             System.out.println("Numbers are equals.");
+        }
     }
 }

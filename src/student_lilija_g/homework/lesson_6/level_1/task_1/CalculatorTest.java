@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_1.task_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class CalculatorTest {
 
     Calculator calculator = new Calculator();

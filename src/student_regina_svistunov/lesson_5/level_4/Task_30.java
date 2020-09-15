@@ -1,9 +1,12 @@
 package student_regina_svistunov.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_30 {
 
     public static void main(String[] args) {

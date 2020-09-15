@@ -1,7 +1,12 @@
 package student_lilija_g.homework.lesson_6.level_4.task_18;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Чуть-чуть поправил вам вывод на консоль для двумерного массива. Вы молодец! :)")
 class TwoDimensionalArray {
 
     public int[][] createArray(int arrayLengthOne, int arrayLengthTwo) {
@@ -29,7 +34,7 @@ class TwoDimensionalArray {
 
     public void printTwoDimensionalArrayToConsole(int[][] array) {
 
-        StringBuilder myString = new StringBuilder("Array: {");
+        StringBuilder myString = new StringBuilder("Array: \n{");
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
@@ -37,7 +42,7 @@ class TwoDimensionalArray {
                 if (j < array[0].length - 1) {
                     myString.append(",");
                 } else {
-                    myString.append("}");
+                    myString.append("}\n");
                 }
             }
             if (i != array.length - 1) {

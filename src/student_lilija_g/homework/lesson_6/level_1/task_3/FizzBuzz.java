@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_1.task_3;
+
+import teacher.annotations.CodeReview;
+
 /*
 
 Разберитесь, что делает класс указанный ниже.
@@ -30,6 +33,7 @@ class FizzBuzz {
  - иначе возвращает само число в виде строки (return "" + number)
 
  */
+@CodeReview(approved = true)
 public class FizzBuzz {
 
     public String detect(int number) {
