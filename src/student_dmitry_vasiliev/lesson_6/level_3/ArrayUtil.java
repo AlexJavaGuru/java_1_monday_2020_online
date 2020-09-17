@@ -42,71 +42,27 @@ class ArrayUtil {
 
     }
 
-    public void findMaxNumberPrint(int[] array) {
-        int maxNumber = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > maxNumber) {
-                maxNumber = array[i];
-            } else {
-                maxNumber = maxNumber;
-            }
-        }
-        System.out.println("Max number of array is " + maxNumber + ".");
-    }
-
     public int findMaxNumberReturn(int[] array) {
         int maxNumber = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > maxNumber) {
                 maxNumber = array[i];
-            } else {
-                maxNumber = maxNumber;
             }
         }
         return maxNumber;
     }
 
-    public void findMinNumberPrint(int[] array) {
-        int maxNumber = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > maxNumber) {
-                maxNumber = array[i];
-            } else {
-                maxNumber = maxNumber;
-            }
-        }
-        int minNumber = maxNumber;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < minNumber) {
-                minNumber = array[i];
-            } else {
-                minNumber = minNumber;
-            }
-        }
-        System.out.println("Min number of array is " + minNumber + ".");
-    }
-
     public int findMinNumberReturn(int[] array) {
-        int maxNumber = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > maxNumber) {
-                maxNumber = array[i];
-            } else {
-                maxNumber = maxNumber;
-            }
-        }
-        int minNumber = maxNumber;
+        int minNumber = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < minNumber) {
                 minNumber = array[i];
-            } else {
-                minNumber = minNumber;
             }
         }
         return minNumber;
     }
 
-    public void findSelectedNumberPrint(int[] array, int selectedNumber) {
+    public int findSelectedNumberReturn(int[] array, int selectedNumber) {
         int number = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == selectedNumber) {
@@ -115,83 +71,71 @@ class ArrayUtil {
                 selectedNumber = selectedNumber;
             }
         }
-        if (number == selectedNumber) {
-            System.out.println("Array contains the selected number " + selectedNumber + ".");
-        } else {
-            System.out.println("Array does not contain the selected number " + selectedNumber + ".");
-        }
+        return number;
 
     }
 
-        public int findSelectedNumberReturn(int[] array, int selectedNumber) {
-            int number = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == selectedNumber) {
-                    number = array[i];
-                } else {
-                    selectedNumber = selectedNumber;
-                }
-            }
-            return number;
-
-        }
-
-        public int counterSelectedNumber(int[] array, int selectedNumber) {
-            int number = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == selectedNumber) {
-                    number++;
-                } else {
-                    selectedNumber = selectedNumber;
-                }
-            }
-            return number;
-
-        }
-
-        public int changeFirstSelectedNumber(int[] array, int selectedNumber, int newNumber) {
-            int number = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == selectedNumber) {
-                    array[i] = newNumber;
-                    number = i;
-                    i = array.length;
-                } else {
-                    selectedNumber = selectedNumber;
-                }
-            }
-            return number;
-        }
-
-        public int changeAllSelectedNumber(int[] array, int selectedNumber, int newNumber) {
-            int number = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == selectedNumber) {
-                    array[i] = newNumber;
-                    number++;
-                } else {
-                    selectedNumber = selectedNumber;
-                }
-                System.out.print( array[i] + " ");
-            }
-            return number;
-        }
-
-        public int arrayRotate(int[] array) {
-            int number = 0;
-            int k = array.length - 1;
-            int[] newArray = new int[array.length];
-            System.out.print("Old array - ");
-            for (int i = 0; i < array.length; i++) {
-                newArray[k] = array[i];
-                k--;
+    public int counterSelectedNumber(int[] array, int selectedNumber) {
+        int number = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == selectedNumber) {
                 number++;
-                System.out.print( array[i] + " ");
             }
-            System.out.print("; New array - ");
-            for (int i = 0; i < newArray.length; i++) {
-                System.out.print( newArray[i] + " ");
-            }
-            return number;
         }
+        return number;
+
+    }
+
+    public int changeFirstSelectedNumber(int[] array, int selectedNumber, int newNumber) {
+        int number = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == selectedNumber) {
+                array[i] = newNumber;
+                number = i;
+                i = array.length;
+            }
+        }
+        return number;
+    }
+
+    public int changeAllSelectedNumber(int[] array, int selectedNumber, int newNumber) {
+        int number = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == selectedNumber) {
+                array[i] = newNumber;
+                number++;
+            }
+            System.out.print( array[i] + " ");
+        }
+        return number;
+    }
+
+    public int[] arrayRotate(int[] array) {
+        int number = 0;
+        int k = array.length - 1;
+        int[] newArray = new int[array.length];
+        System.out.print("Old array - ");
+        for (int i = 0; i < array.length; i++) {
+            newArray[k] = array[i];
+            k--;
+            number++;
+            System.out.print( array[i] + " ");
+        }
+        System.out.print("; New array - ");
+        for (int i = 0; i < newArray.length; i++) {
+            System.out.print( newArray[i] + " ");
+        }
+        return newArray;
+    }
+
+    public int twoAarraysCompare(int[] testArray, int[] newArray) {
+        ArrayUtilTest arrayUtil = new ArrayUtilTest();
+        int checkNumber = 0;
+        for (int i = 0; i < newArray.length; i++) {
+            if (newArray[i] == testArray[i]) {
+                checkNumber++;
+            }
+        }
+        return checkNumber;
+    }
 }
