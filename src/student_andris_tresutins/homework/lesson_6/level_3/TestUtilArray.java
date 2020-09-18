@@ -1,7 +1,10 @@
 package student_andris_tresutins.homework.lesson_6.level_3;
 
+import jdk.jshell.execution.Util;
 import teacher.annotations.CodeReview;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 @CodeReview(approved = true)
@@ -13,6 +16,7 @@ class TestUtilArray {
         test.replaceNumberTest();
         test.replaceAllNumbersTest();
         test.reverseArray();
+        test.sortArrayTest();
     }
 
     public void searchnumresult() {
@@ -52,7 +56,7 @@ class TestUtilArray {
         int numberstoreplace = 54;
         int newNumber = 13;
 
-        boolean actualresult = victim.replaceAllNumbers(numberstoreplace, newNumber).equals("[12, 13, 13, 13, 458]");
+        boolean actualresult = victim.replaceAllNumbers(numberstoreplace, newNumber).equals("[13, 13, 3, 13, 458]");
         boolean expectedresult = true;
 
         check(expectedresult, actualresult, "Replace All specific Numbers in Array test");
@@ -62,7 +66,10 @@ class TestUtilArray {
     public void reverseArray() {
         UtilArray victim = new UtilArray();
 
-        boolean actualresult = victim.reverseArray().equals("[458, 14, 54, 13, 12]");
+        int[] array = {458, 7, 3, 54, 12};
+        int[] arraycompare = victim.reverseArray();
+
+        boolean actualresult = Arrays.equals(array, arraycompare);
         boolean expectedresult = true;
 
         check(expectedresult, actualresult, "Reverse Array test");
@@ -70,6 +77,32 @@ class TestUtilArray {
 
     }
 
+    public void sortArrayTest(){
+        UtilArray victim = new UtilArray();
+
+        int[] array = {3, 7, 12, 54, 458};
+        int[] arraycompare = victim.sortArray();
+
+
+    boolean actualresult = Arrays.equals(array, arraycompare);
+    boolean expectedresult = true;
+
+
+        check(expectedresult, actualresult, "Sort Array test");
+
+
+    }
+
+
+    public void check(int[] expectedRes, int[] result, String testName) {
+
+        if (expectedRes == result) {
+            System.out.println(testName + " has passed");
+        } else {
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
+        }
+    }
 
     public void check(String expectedRes, String result, String testName) {
 

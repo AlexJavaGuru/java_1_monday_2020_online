@@ -11,22 +11,25 @@ import java.util.Arrays;
         "То же замечание ко всем методам.")
 class UtilArray {
 
+    public int[] arrayOne (){
+        int[] array = {12, 54, 3, 7, 458};
+        return array;
+    }
+
+    public int[] arraydupes (){
+        int[] array = {54, 54, 3, 54, 458};
+        return array;
+    }
+
     public String numberSearch(int searchnum) {
 
-
-        int[] Array = new int[5];
-
-        Array[0] = 12;
-        Array[1] = 54;
-        Array[2] = 3;
-        Array[3] = 7;
-        Array[4] = 458;
-
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arrayOne();
 
         int i;
         boolean found = false;
-        for (i = 0; i < Array.length; i++) {
-            if (searchnum == Array[i]) {
+        for (i = 0; i < array.length; i++) {
+            if (searchnum == array[i]) {
                 found = true;
                 break;
             }
@@ -42,20 +45,15 @@ class UtilArray {
 
     public int numberSearchMultiple(int searchnum) {
 
-        int[] Array = new int[5];
-
-        Array[0] = 54;
-        Array[1] = 7;
-        Array[2] = 54;
-        Array[3] = 54;
-        Array[4] = 458;
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arraydupes();
 
 
         int i;
         int foundnumcount = 0;
         boolean found = false;
-        for (i = 0; i < Array.length; i++) {
-            if (searchnum == Array[i]) {
+        for (i = 0; i < array.length; i++) {
+            if (searchnum == array[i]) {
                 foundnumcount++;
                 found = true;
             }
@@ -69,27 +67,22 @@ class UtilArray {
 
     public int replaceNumber(int numberToReplace, int newNumber) {
 
-        int[] Array = new int[5];
-
-        Array[0] = 12;
-        Array[1] = 54;
-        Array[2] = 3;
-        Array[3] = 7;
-        Array[4] = 458;
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arrayOne();
 
 
         int i;
         boolean found = false;
-        for (i = 0; i < Array.length; i++) {
-            if (numberToReplace == Array[i]) {
+        for (i = 0; i < array.length; i++) {
+            if (numberToReplace == array[i]) {
 
                 found = true;
                 break;
             }
         }
         if (found) {
-            Array[i] = newNumber;
-            return Array[i];
+            array[i] = newNumber;
+            return array[i];
         } else {
             return 0;
         }
@@ -98,25 +91,20 @@ class UtilArray {
 
     public String replaceAllNumbers(int numberToReplace, int newNumber) {
 
-        int[] Array = new int[5];
-
-        Array[0] = 12;
-        Array[1] = 54;
-        Array[2] = 54;
-        Array[3] = 54;
-        Array[4] = 458;
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arraydupes();
 
 
         int i;
         boolean found = false;
-        for (i = 0; i < Array.length; i++) {
-            if (numberToReplace == Array[i]) {
-                Array[i] = newNumber;
+        for (i = 0; i < array.length; i++) {
+            if (numberToReplace == array[i]) {
+                array[i] = newNumber;
                 found = true;
             }
         }
         if (found) {
-            return Arrays.toString(Array);
+            return Arrays.toString(array);
         } else {
             return "something went wrong :/";
         }
@@ -124,17 +112,28 @@ class UtilArray {
     }
 
 
-    public String reverseArray() {
+    public int[] reverseArray() {
 
-        int[] Array = {12, 13, 54, 14, 458};
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arrayOne();
 
-        for (int i = 0; i < Array.length / 2; i++) {
-            int arr = Array[i];
-            Array[i] = Array[Array.length - i - 1];
-            Array[Array.length - i - 1] = arr;
+        for (int i = 0; i < array.length / 2; i++) {
+            int arr = array[i];
+            array[i] = array[array.length - i - 1];
+            array[array.length - i - 1] = arr;
         }
 
-        return Arrays.toString(Array);
+        return array;
+
+    }
+
+    public int[] sortArray() {
+
+        UtilArray victim = new UtilArray();
+        int[] array = victim.arrayOne();
+
+        Arrays.sort(array);
+        return array;
 
     }
 

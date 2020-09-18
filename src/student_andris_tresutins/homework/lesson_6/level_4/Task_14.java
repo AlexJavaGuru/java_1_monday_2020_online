@@ -11,12 +11,6 @@ import java.util.Arrays;
         "У вас кстати класс почему-то UtilArray...Я это понимаю как - Массив Утелит :D")
 public class Task_14 {
 
-    public String sortArray() {
-
-        int[] Array = {12, 13, 54, 14, 458};
-        Arrays.sort(Array);
-        return Arrays.toString(Array);
-
-    }
+    //added to utilArray
 
 }

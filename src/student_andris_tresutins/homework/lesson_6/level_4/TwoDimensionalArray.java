@@ -2,6 +2,7 @@ package student_andris_tresutins.homework.lesson_6.level_4;
 
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
+import java.util.Random;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "В задании сказано:" +
@@ -12,14 +13,21 @@ import teacher.annotations.CodeReviewComment;
         "Не вижу два последних пункта.")
 public class TwoDimensionalArray {
     public static void main(String[] args) {
+
         int[][] arr = new int[10][10];
-        arr[0][0] = 1;
-        arr[1][0] = 2;
-        arr[0][1] = 3;
+        Random rand = new Random();
+
+        arr[0][0] = rand.nextInt(100);
+        arr[1][0] = rand.nextInt(100);
+        arr[0][1] = rand.nextInt(100);
 
 
         System.out.println(arr[0][0]);
         System.out.println(arr[1][0]);
         System.out.println(arr[0][1]);
+
+        int arraySum = arr[0][0] +  arr[1][0] + arr[0][1];
+
+        System.out.println("Sum : " + arraySum );
     }
 }
