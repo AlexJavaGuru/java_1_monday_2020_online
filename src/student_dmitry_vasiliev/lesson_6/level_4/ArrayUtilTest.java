@@ -36,8 +36,6 @@ class ArrayUtilTest {
 
         arrayUtil.fillArrayWithRandomNumbers(newArray1);
         arrayUtil.printArrayToConsoleString(newArray1);
-        arrayUtil.findMaxNumberPrint(newArray1);
-        arrayUtil.findMinNumberPrint(newArray1);
         int sumFirst = 0;
         for (int i = 0; i < newArray1.length; i++) {
             sumFirst += newArray1[i];
@@ -45,8 +43,6 @@ class ArrayUtilTest {
 
         arrayUtil.fillArrayWithRandomNumbers(newArray2);
         arrayUtil.printArrayToConsoleString(newArray2);
-        arrayUtil.findMaxNumberPrint(newArray2);
-        arrayUtil.findMinNumberPrint(newArray2);
         int sumSecond = 0;
         for (int i = 0; i < newArray2.length; i++) {
             sumSecond += newArray2[i];
@@ -112,9 +108,11 @@ class ArrayUtilTest {
     public void shouldArrayRotate() {
         ArrayUtil arrayUtil = new ArrayUtil();
         String testName = "shouldArrayRotate";
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8};
-        int result = arrayUtil.arrayRotate(array);
-        printTestResult(result == 8, testName);
+        int[] oldArray = {1,2,3,4,5,6,7,8};
+        int[] newArray = {8,7,6,5,4,3,2,1};
+        int[] result = arrayUtil.arrayRotate(oldArray);
+        int resultNumber = arrayUtil.twoAarraysCompare(result, newArray);
+        printTestResult(resultNumber == 8, testName);
     }
 
     public void shouldArraySortMinMax() {
