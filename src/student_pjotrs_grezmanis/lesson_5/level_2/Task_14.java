@@ -1,15 +1,20 @@
 package student_pjotrs_grezmanis.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
 public class Task_14 {
     public static void main(String[] args) {
 
         Random random = new Random();
 
-        int [] randomNumber = new int[3];
+        int[] randomNumber = new int[3];
 
-        int averageNumber = 0 ;
+        int averageNumber = 0;
 
         for (int r = 0; r < randomNumber.length; r++) {
             int number = random.nextInt(30);
@@ -17,11 +22,11 @@ public class Task_14 {
 
         }
 
-        for (int r = 0; r < randomNumber.length; r++){
-            System.out.println(randomNumber[r] );
-            averageNumber = (randomNumber[0] + randomNumber[1] + randomNumber[2]) / 3 ;
+        for (int r = 0; r < randomNumber.length; r++) {
+            System.out.println(randomNumber[r]);
+            averageNumber = (randomNumber[0] + randomNumber[1] + randomNumber[2]) / 3;
 
         }
-        System.out.println("Average number = "+ averageNumber);
+        System.out.println("Average number = " + averageNumber);
     }
 }

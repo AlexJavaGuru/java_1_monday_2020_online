@@ -1,6 +1,9 @@
 package student_pjotrs_grezmanis.lesson_3.level_6;
 
- class Computer {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+class Computer {
     private String manufacturer;
     private String model;
 
@@ -8,9 +11,11 @@ package student_pjotrs_grezmanis.lesson_3.level_6;
         this.manufacturer = manufacturer;
         this.model = model;
     }
+
     public String getManufacturer() {
         return this.manufacturer;
     }
+
     public String getModel() {
         return this.model;
     }

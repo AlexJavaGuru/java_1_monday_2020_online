@@ -1,7 +1,12 @@
 package student_pjotrs_grezmanis.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
 public class Task_13 {
     public static void main(String[] args) {
 

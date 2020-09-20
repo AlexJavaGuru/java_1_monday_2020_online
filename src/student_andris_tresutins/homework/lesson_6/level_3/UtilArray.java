@@ -6,9 +6,8 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Метод numberSearch должен уметь принять массив и искомое число (аргумент написан без camel case). Поиск должен осуществляться именно по" +
-        "подаваемомму массиву. " +
-        "То же замечание ко всем методам.")
+@CodeReviewComment(comment = "Andris, the method numberSearch MUST take two arguments -> Array and the number. This method is useless, because I can't use it for any other array." +
+        "Please remove these arrayOne, arraydupes methods. Fix the class so it could work with any arrays.")
 class UtilArray {
 
     public int[] arrayOne (){

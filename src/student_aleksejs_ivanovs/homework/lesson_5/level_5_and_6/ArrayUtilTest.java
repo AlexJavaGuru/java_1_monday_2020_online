@@ -3,8 +3,7 @@ package student_aleksejs_ivanovs.homework.lesson_5.level_5_and_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Сделайте refactoring. Сократите повторяющийся код в тестах. Для этого необходимо вынести проверку в отдельный метод.")
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

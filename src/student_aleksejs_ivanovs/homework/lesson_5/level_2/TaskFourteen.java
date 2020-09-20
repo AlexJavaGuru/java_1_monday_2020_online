@@ -5,8 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Сделайте так, чтобы программа не зависила от размерности массива. Чтобы если я подставил там int[10], весь код бы работал правильным образом без изменений.")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо")
 class TaskFourteen {
 
     public static void main(String[] args) {

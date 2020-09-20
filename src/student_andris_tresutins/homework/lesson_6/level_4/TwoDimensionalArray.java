@@ -10,7 +10,9 @@ import java.util.Random;
         "- создать класс TwoDimensionalArray,\n" +
         "- создать метод для заполнения массива случайными числами,\n" +
         "- создать метод для подсчёта суммы всех чисел в массиве." +
-        "Не вижу два последних пункта.")
+        "Не вижу два последних пункта." +
+        "" +
+        "Andris, the whole array must be filled with the numbers...not only three items. Please correct.")
 public class TwoDimensionalArray {
     public static void main(String[] args) {
 
