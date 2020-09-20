@@ -1,5 +1,8 @@
 package student_pjotrs_grezmanis.lesson_3.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
  class ComputerDemo {
     public static void main(String[] args) {
         Computer dell = new Computer("Dell", "XXX-1");

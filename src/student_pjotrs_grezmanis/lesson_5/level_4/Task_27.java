@@ -1,11 +1,16 @@
 package student_pjotrs_grezmanis.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
- class Task_27 {
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
+class Task_27 {
     public static void main(String[] args) {
 
-        int [] randomNumber = new int[8];
+        int[] randomNumber = new int[8];
 
         Random random = new Random();
         System.out.println("Random numbers:");
@@ -14,15 +19,12 @@ import java.util.Random;
             randomNumber[r] = number;
             System.out.println(randomNumber[r]);
         }
-        int max = 0 ;
-        for (int r = 0; r < randomNumber.length ; r++)
-        {
+        int max = 0;
+        for (int r = 0; r < randomNumber.length; r++) {
             if (max < randomNumber[r])
                 max = randomNumber[r];
         }
-        System.out.println("Max: "+max);
-
-
+        System.out.println("Max: " + max);
 
 
     }

@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Формат кода.")
  class LightColorDetector {
 
   public String detect(int wavelength) {

@@ -1,7 +1,10 @@
 package student_pjotrs_grezmanis.lesson_3.level_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
   public class RobotDemo {
       public static void main(String[] args) {
 

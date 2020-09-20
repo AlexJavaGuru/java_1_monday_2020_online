@@ -1,7 +1,10 @@
 package student_pjotrs_grezmanis.lesson_3.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class UserName {
     private static Scanner in = new Scanner(System.in);
 

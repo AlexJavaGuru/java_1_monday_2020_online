@@ -1,8 +1,11 @@
 package student_pjotrs_grezmanis.lesson_2.level_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
  class Task_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

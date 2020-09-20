@@ -1,7 +1,12 @@
 package student_pjotrs_grezmanis.lesson_4.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Почему не используете if else? было бы меньше кода. Зачем проверять на оба условия каждый раз? Если можно не проверять второе, если первое истина.")
  class Task_1 {
 
     public static void main (String[] args) {

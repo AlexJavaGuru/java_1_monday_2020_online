@@ -1,5 +1,11 @@
 package student_pjotrs_grezmanis.lesson_3.level_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Не все требования выполнены. Если я правильно понял, то это задание 26. Там сказано, что необходимо в продукт добавлять стоимость и скидку. " +
+        "При выводе стоимости продукта, продукт должен сам посчитать свою скидку и показать пользователю. ")
  class Product {
     public String name;
     public double regularPrice;

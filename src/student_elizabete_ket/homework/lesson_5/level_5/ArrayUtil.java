@@ -1,7 +1,10 @@
 package student_elizabete_ket.homework.lesson_5.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
