@@ -1,0 +1,17 @@
+/*Дан код, нужно исправить ошибку компиляции.
+
+  public class BankAccount {
+
+  	public static void main(String[] args) {
+
+  }
+*/
+
+Ответ:
+
+public class BankAccount {
+
+	public static void main(String[] args) {
+
+	}
+}
