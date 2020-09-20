@@ -1,5 +1,8 @@
 package student_pjotrs_grezmanis.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetector lightColorDetector = new LightColorDetector();

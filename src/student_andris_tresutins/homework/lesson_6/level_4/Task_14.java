@@ -4,11 +4,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Вам надо было добавить метод сортировки в класс ArrayUtil." +
-        "Метод так же должен быть способен сортировать входящий массив, а не создавать новый. Иначе, этот метод бесполезный как утилита. Он может работать только" +
-        "с одним массивом. Зачем нам такой ограниченный метод?" +
-        "У вас кстати класс почему-то UtilArray...Я это понимаю как - Массив Утелит :D")
+@CodeReview(approved = true)
 public class Task_14 {
 
     //added to utilArray

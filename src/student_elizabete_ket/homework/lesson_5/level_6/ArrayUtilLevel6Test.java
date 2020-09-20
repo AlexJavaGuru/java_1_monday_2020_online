@@ -1,5 +1,8 @@
 package student_elizabete_ket.homework.lesson_5.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilLevel6Test {
 
     public static void main(String[] args) {

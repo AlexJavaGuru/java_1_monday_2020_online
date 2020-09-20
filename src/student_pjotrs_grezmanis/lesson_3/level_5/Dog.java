@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_3.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо, только мне не хватает форматирования. Между методами должны быть пропуски.")
  class Dog {
 
     public String name;

@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Слишком много лишнего кода. Все проверки можно было вынести в отдельный метод и переиспользовать.")
 public class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();

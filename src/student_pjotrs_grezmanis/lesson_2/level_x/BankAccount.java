@@ -1,4 +1,7 @@
 package student_pjotrs_grezmanis.lesson_2.level_x;
 
- class BankAccount {
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
+class BankAccount {
 }

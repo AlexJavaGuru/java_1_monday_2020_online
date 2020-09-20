@@ -6,10 +6,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Есть методы, которые вы даже не вызываете из тестов. Как проверить, что они работают? Зачем у вас во всех методах есть else со строчкой" +
-        "minNumber = minNumber - для чего это? Как вы думаете, к чему это операция приводит и зачем она вам вообщу тут нужна?" +
-        "")
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

@@ -1,6 +1,11 @@
 package student_pjotrs_grezmanis.lesson_4.level_3;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "плохое название переменных. Исправить формат.")
 class Task_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

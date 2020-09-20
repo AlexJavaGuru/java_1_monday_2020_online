@@ -1,7 +1,10 @@
 package student_elizabete_ket.homework.lesson_5.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class Task_13 {
 
     public static void main(String[] args) {

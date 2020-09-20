@@ -1,7 +1,12 @@
 package student_pjotrs_grezmanis.lesson_5.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Формат кода. Сделайте во всех конструкциях фигурные скобки - только на правельных местах.")
  class Task_30 {
     public static void main(String[] args) {
 
