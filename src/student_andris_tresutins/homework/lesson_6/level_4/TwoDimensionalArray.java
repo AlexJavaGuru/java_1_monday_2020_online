@@ -13,22 +13,23 @@ import java.util.Random;
         "Не вижу два последних пункта." +
         "" +
         "Andris, the whole array must be filled with the numbers...not only three items. Please correct.")
+        //Corrected :D
 public class TwoDimensionalArray {
     public static void main(String[] args) {
 
-        int[][] arr = new int[10][10];
+        int[][] arr = new int[3][3];
         Random rand = new Random();
 
-        arr[0][0] = rand.nextInt(100);
-        arr[1][0] = rand.nextInt(100);
-        arr[0][1] = rand.nextInt(100);
+
+        int arraySum = 0;
+        for(int i = 0; i< arr.length; i++)
+            for (int j = 0; j < arr.length; j++) {
+                arr[i][j] = rand.nextInt(100);
+                System.out.println(arr[i][j]);
+                arraySum += arr[i][j];
+            }
 
 
-        System.out.println(arr[0][0]);
-        System.out.println(arr[1][0]);
-        System.out.println(arr[0][1]);
-
-        int arraySum = arr[0][0] +  arr[1][0] + arr[0][1];
 
         System.out.println("Sum : " + arraySum );
     }
