@@ -4,7 +4,7 @@ import student_pjotrs_grezmanis.lesson_3.level_1.Robot;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
- class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         Robot robot1 = new Robot();
         robot1.sayHello();

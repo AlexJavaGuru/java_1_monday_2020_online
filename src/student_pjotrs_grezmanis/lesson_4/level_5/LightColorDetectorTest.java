@@ -5,7 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Слишком много лишнего кода. Все проверки можно было вынести в отдельный метод и переиспользовать.")
-public class LightColorDetectorTest {
+class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();
         lightColorDetectorTest.test1();

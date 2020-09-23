@@ -9,7 +9,7 @@ import teacher.annotations.CodeReviewComment;
 class UserLoginServiceTest {
  public static void main(String[] args) {
 
- /* test.shouldSuccessfullyLogin();
+  /*test.shouldSuccessfullyLogin();
   test.shouldLoginFail_attempts_2();
   test.shouldLoginFail_attempts_1();
   test.shouldLoginFail_attempts_0();

@@ -10,20 +10,17 @@ import java.util.Scanner;
 class Task_6 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner inputNumber = new Scanner(System.in);
         System.out.println("Enter wholeNumber One");
-        int a = scanner.nextInt();
+        int numberOne = inputNumber.nextInt();
         System.out.println("Enter wholeNumber Two");
-        int b = scanner.nextInt();
+        int numberTwo = inputNumber.nextInt();
 
-        if (a <= b ){
-            System.out.println(a);
+        if (numberOne <= numberTwo) {
+            System.out.println(numberOne);
+        } else {
+            System.out.println(numberTwo);
         }
-
-        if (b <= a){
-            System.out.println(b);
-        }
-
 
 
     }

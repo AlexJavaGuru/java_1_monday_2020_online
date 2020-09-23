@@ -5,40 +5,36 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Исправте формат. ")
- class Stock {
-    private  String nameCompany;
+class Stock {
+    private String nameCompany;
     private int currentPrice;
     private int minimumPrice;
-    private int maximumPrice ;
+    private int maximumPrice;
 
 
+    public Stock(String nameCompany, int currentPrice, int maximumPrice, int minimumPrice) {
+        this.nameCompany = nameCompany;
+        this.currentPrice = currentPrice;
+        this.minimumPrice = minimumPrice;
+        this.maximumPrice = maximumPrice;
 
-     public Stock (String nameCompany,int currentPrice,int maximumPrice,int minimumPrice){
-         this.nameCompany = nameCompany ;
-         this.currentPrice = currentPrice;
-         this.minimumPrice = minimumPrice;
-         this.maximumPrice = maximumPrice;
 
+    }
 
-     }
-
-        void updatePrice(int newPrice)
-         {
-         if (newPrice > maximumPrice)
-         {
-             maximumPrice = newPrice;
-         }
-         if (newPrice < minimumPrice)
-         {
+    void updatePrice(int newPrice) {
+        if (newPrice > maximumPrice) {
+            maximumPrice = newPrice;
+        }
+        if (newPrice < minimumPrice) {
             minimumPrice = newPrice;
 
-         }
-         currentPrice = newPrice;
-         }
-         public String getPriceInformation()
-         {
-           return ("Company = " + nameCompany + ", Current price = "+ currentPrice + ", Minimum price = "+ minimumPrice + ", Maximum price = "+ maximumPrice);
+        }
+        currentPrice = newPrice;
+    }
 
-         }
+    public String getPriceInformation() {
+        return ("Company = " + nameCompany + ", Current price = " + currentPrice + ", Minimum price = " + minimumPrice + ", Maximum price = " + maximumPrice);
 
-     }
+    }
+
+}

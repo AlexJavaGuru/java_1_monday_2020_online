@@ -8,25 +8,25 @@ import java.util.Scanner;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "плохое название переменных. Совершенно не возможно читать код из за плохого названия переменных.")
- class Task_10 {
+class Task_10 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         System.out.println("Enter wholeNumber One");
-        int a = scanner.nextInt();
+        int numberOne = number.nextInt();
         System.out.println("Enter wholeNumber Two");
-        int b = scanner.nextInt();
+        int numberTwo = number.nextInt();
         System.out.println("Enter wholeNumber Three");
-        int c = scanner.nextInt();
+        int numberThree = number.nextInt();
 
-        if (a >= b && a >= c) {
-            System.out.println(a);
+        if (numberOne >= numberTwo && numberOne >= numberThree) {
+            System.out.println(numberOne);
         }
 
-        if (b >= a && b >= c) {
-            System.out.println(b);
+        if (numberTwo >= numberOne && numberTwo >= numberThree) {
+            System.out.println(numberTwo);
         }
-        if (c >= a && c >= b) {
-            System.out.println(c);
+        if (numberThree >= numberOne && numberThree >= numberTwo) {
+            System.out.println(numberThree);
         }
     }
 }

@@ -11,8 +11,8 @@ public class UserName {
     public static void main(String[] args) {
         System.out.print("Enter your name: ");
 
-    String userName = in.nextLine();
-    System.out.println("Hello " + userName + "!");
+        String userName = in.nextLine();
+        System.out.println("Hello " + userName + "!");
     }
 }
 

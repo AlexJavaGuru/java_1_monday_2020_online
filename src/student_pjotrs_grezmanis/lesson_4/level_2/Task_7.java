@@ -9,20 +9,17 @@ import java.util.Scanner;
 @CodeReviewComment(comment = "плохое название переменных. Сделать меньше проверок, использовав if else")
 class Task_7 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner inputNumber = new Scanner(System.in);
         System.out.println("Enter wholeNumber One");
-        int a = scanner.nextInt();
+        int numberOne = inputNumber.nextInt();
         System.out.println("Enter wholeNumber Two");
-        int b = scanner.nextInt();
+        int numberTwo = inputNumber.nextInt();
 
-        if (a == b ){
+        if (numberOne == numberTwo) {
             System.out.println("Numbers are equals");
-        }
-
-        if (b != a){
+        } else {
             System.out.println("Numbers are different");
         }
-
 
 
     }

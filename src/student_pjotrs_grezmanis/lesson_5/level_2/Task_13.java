@@ -7,14 +7,14 @@ import java.util.Random;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
-public class Task_13 {
+class Task_13 {
     public static void main(String[] args) {
 
         Random random = new Random();
 
-        int [] randomNumber = new int[3];
+        int[] randomNumber = new int[3];
 
-        int sum = 0 ;
+        int sum = 0;
 
         for (int r = 0; r < randomNumber.length; r++) {
             int number = random.nextInt(30);
@@ -22,11 +22,11 @@ public class Task_13 {
 
         }
 
-        for (int r = 0; r < randomNumber.length; r++){
-            System.out.println(randomNumber[r] );
+        for (int r = 0; r < randomNumber.length; r++) {
+            System.out.println(randomNumber[r]);
             sum = randomNumber[0] + randomNumber[1] + randomNumber[2];
 
         }
-           System.out.println("Sum = "+ sum);
+        System.out.println("Sum = " + sum);
     }
 }

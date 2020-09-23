@@ -6,7 +6,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
- class Task_11 {
+class Task_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("input number1");

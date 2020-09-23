@@ -3,7 +3,7 @@ package student_pjotrs_grezmanis.lesson_4.level_5;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
-public class LightColorDetector {
+class LightColorDetector {
     public String detect(int wavelength) {
 
         if (wavelength >= 380 && wavelength <= 449) {

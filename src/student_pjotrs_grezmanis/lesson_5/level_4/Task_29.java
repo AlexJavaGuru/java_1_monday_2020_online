@@ -20,10 +20,11 @@ class Task_29 {
             System.out.println(randomNumber[r]);
         }
         System.out.println("Even numbers:");
-        for (int r = 0; r < randomNumber.length; r++)
+        for (int r = 0; r < randomNumber.length; r++) {
             if (randomNumber[r] % 2 == 0)
 
                 System.out.println(randomNumber[r]);
+        }
 
     }
 }

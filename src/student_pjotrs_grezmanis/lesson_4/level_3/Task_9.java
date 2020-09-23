@@ -7,19 +7,19 @@ import java.util.Scanner;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "плохое название переменных.")
- class Task_9 {
+class Task_9 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         System.out.println("Enter number One");
-        int a = scanner.nextInt();
+        int numberOne = number.nextInt();
         System.out.println("Enter number Two");
-        int b = scanner.nextInt();
+        int numberTwo = number.nextInt();
         System.out.println("Enter number Three");
-        int c = scanner.nextInt();
+        int numberThree = number.nextInt();
 
-        if (a < b && b < c) {
+        if (numberOne < numberTwo && numberTwo < numberThree) {
             System.out.println("increasing");
-        } else if (a > b && b > c) {
+        } else if (numberOne > numberTwo && numberTwo > numberThree) {
             System.out.println("decreasing");
         } else {
             System.out.println("Neither increasing or decreasing order");

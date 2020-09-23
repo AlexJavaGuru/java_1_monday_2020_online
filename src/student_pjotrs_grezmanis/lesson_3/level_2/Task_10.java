@@ -4,7 +4,7 @@ package student_pjotrs_grezmanis.lesson_3.level_2;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
- class Task_10 {
+class Task_10 {
 
     /*
 

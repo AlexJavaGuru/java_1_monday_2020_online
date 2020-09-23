@@ -5,12 +5,12 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Исправте формат. ")
- class StockTest {
-     public static void main(String[] args) {
+class StockTest {
+    public static void main(String[] args) {
 
-         Stock google = new Stock("GOOG", 10,10,10);
+        Stock google = new Stock("GOOG", 10, 10, 10);
 
-          String priceInformation = google.getPriceInformation();
+        String priceInformation = google.getPriceInformation();
         System.out.println(priceInformation);
 
         google.updatePrice(15);
@@ -21,6 +21,5 @@ import teacher.annotations.CodeReviewComment;
         System.out.println(priceInformation);
 
 
-
-         }
-     }
+    }
+}

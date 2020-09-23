@@ -5,8 +5,8 @@ import teacher.annotations.CodeReview;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-  public class RobotDemo {
-      public static void main(String[] args) {
+public class RobotDemo {
+    public static void main(String[] args) {
 
         Robot robot1 = new Robot("Electro");
         robot1.sayHello();

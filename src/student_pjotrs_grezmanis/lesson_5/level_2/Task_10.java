@@ -3,7 +3,7 @@ package student_pjotrs_grezmanis.lesson_5.level_2;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
-public class Task_10 {
+class Task_10 {
     public static void main(String[] args) {
         int[] number = new int[3];
         number[0] = 2;

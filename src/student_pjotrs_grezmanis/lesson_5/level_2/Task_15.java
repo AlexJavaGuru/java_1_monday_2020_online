@@ -7,7 +7,7 @@ import java.util.Random;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
-public class Task_15 {
+class Task_15 {
     public static void main(String[] args) {
 
         Random random = new Random();

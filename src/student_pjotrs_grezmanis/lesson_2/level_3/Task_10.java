@@ -5,7 +5,7 @@ import teacher.annotations.CodeReview;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
- class Task_10 {
+class Task_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input Radius");

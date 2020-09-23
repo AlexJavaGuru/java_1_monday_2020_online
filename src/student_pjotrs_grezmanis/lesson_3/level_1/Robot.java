@@ -5,19 +5,13 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Исправить формат.")
+class Robot {
 
- class Robot {
-
-     void sayHello() {
+    void sayHello() {
         System.out.println("Hello");
-
     }
-      void sayYourName() {
-
+    void sayYourName() {
         System.out.println("My name is ROBO");
     }
-
-
-
 
 }

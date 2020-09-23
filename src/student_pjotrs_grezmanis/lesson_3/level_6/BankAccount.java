@@ -3,7 +3,7 @@ package student_pjotrs_grezmanis.lesson_3.level_6;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
- class BankAccount {
+class BankAccount {
 
     private String owner;
     private int money;
@@ -12,11 +12,12 @@ import teacher.annotations.CodeReview;
         this.owner = owner;
         this.money = money;
     }
+
     public String getOwner() {
         return this.owner;
     }
 
     public String getMoney() {
-        return String.valueOf (this.money);
+        return String.valueOf(this.money);
     }
 }

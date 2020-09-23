@@ -1,4 +1,5 @@
 package student_pjotrs_grezmanis.lesson_4.level_3;
+
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
@@ -8,27 +9,24 @@ import java.util.Scanner;
 @CodeReviewComment(comment = "плохое название переменных. Исправить формат.")
 class Task_8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         System.out.println("Enter number One");
-        int a = scanner.nextInt();
+        int numberOne = number.nextInt();
         System.out.println("Enter number Two");
-        int b = scanner.nextInt();
+        int numberTwo = number.nextInt();
         System.out.println("Enter number Three");
-        int c = scanner.nextInt();
+        int numberThree = number.nextInt();
 
-        if (a == b && b == c) {
+        if (numberOne == numberTwo && numberTwo == numberThree) {
 
             System.out.println("all three numbers are equal");
-        }
-        else if (a != b && b != c && c != a) {
+        } else if (numberOne != numberTwo && numberTwo != numberThree && numberThree != numberOne) {
 
             System.out.println("all three numbers are differen");
-        }
-
-        else{
+        } else {
             System.out.println("Neither all are equal or different");
 
-                }
-            }
- }
+        }
+    }
+}
 

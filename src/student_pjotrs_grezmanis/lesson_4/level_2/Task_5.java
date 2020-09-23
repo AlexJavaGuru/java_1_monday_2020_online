@@ -7,23 +7,20 @@ import java.util.Scanner;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "плохое название переменных. ")
- class Task_5 {
-     public static void main(String[] args) {
-         Scanner scanner = new Scanner(System.in);
-         System.out.println("Enter wholeNumber One");
-         int a = scanner.nextInt();
-         System.out.println("Enter wholeNumber Two");
-         int b = scanner.nextInt();
+class Task_5 {
+    public static void main(String[] args) {
+        Scanner inputNumber = new Scanner(System.in);
+        System.out.println("Enter wholeNumber One");
+        int numberOne = inputNumber.nextInt();
+        System.out.println("Enter wholeNumber Two");
+        int numberTwo = inputNumber.nextInt();
 
-         if (a >= b ){
-             System.out.println(a);
-         }
-
-         if (b >= a){
-             System.out.println(b);
-         }
+        if (numberOne >= numberTwo) {
+            System.out.println(numberOne);
+        } else {
+            System.out.println(numberTwo);
+        }
 
 
-
-     }
+    }
 }
