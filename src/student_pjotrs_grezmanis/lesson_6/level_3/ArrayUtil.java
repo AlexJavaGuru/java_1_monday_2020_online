@@ -18,19 +18,16 @@ class ArrayUtil {
     }
 
 
-    public static int replace(int[] array, int numberToReplace, int newNumber) {
+    public static void replace(int[] array, int numberToReplace, int newNumber) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == numberToReplace) {
                 array[i] = newNumber;
                 break;
             }
-
         }
-
-        return newNumber;
     }
 
-    public static int replaceAll(int[] array, int numberToReplace, int newNumber) {
+    public static void replaceAll(int[] array, int numberToReplace, int newNumber) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == numberToReplace) {
                 array[i] = newNumber;
@@ -38,19 +35,16 @@ class ArrayUtil {
             }
 
         }
-        return newNumber;
-
     }
 
-
-    public int[] changeNumbersArray(int[] array) {
-        int j = 0;
-        int[] myChangeNumberArray = new int[array.length];
-        for (int i = array.length - 1; i <= 0; i--) {
-            myChangeNumberArray[j] = array[i];
-            j++;
+    public static int[] reverseNumbersInArray(int[] array) {
+        int reversedArrayIndex = 0;
+        int[] reversedArray = new int[array.length];
+        for (int arrayIndex = array.length - 1; arrayIndex >= 0; arrayIndex--) {
+            reversedArray[reversedArrayIndex] = array[arrayIndex];
+            reversedArrayIndex++;
         }
-        return myChangeNumberArray;
+        return reversedArray;
     }
 
 
