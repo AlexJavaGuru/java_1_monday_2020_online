@@ -1,6 +1,6 @@
 package student_pjotrs_grezmanis.lesson_6.level_3;
 
-public class ArrayUtilTest {
+class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest arrayUtilTest = new ArrayUtilTest();
         arrayUtilTest.testFindNumberOne();//Task_9_10
@@ -9,8 +9,8 @@ public class ArrayUtilTest {
         arrayUtilTest.testReplaceNumber(); //Task_11
         arrayUtilTest.testReplaceAll(); //Task_12
         arrayUtilTest.testReverseNumbersInArray(); //Task_13
+        arrayUtilTest.testSortNumbersArray(); //Task_14
     }
-
     public void testFindNumberOne() {
         int[] array = new int[6];
         array[0] = 5;
@@ -24,7 +24,6 @@ public class ArrayUtilTest {
         } else
             System.out.println("testFindNumberOne() - FAILED");
     }
-
     public void testFindNumberTwo() {
         int[] myArray = {100, 66, -2, 845, -2, -965, -2};
         if (ArrayUtil.numberRepeatsInArray(myArray, -2) == 3) {
@@ -32,7 +31,6 @@ public class ArrayUtilTest {
         } else
             System.out.println("testFindNumberTwo() - FAILED");
     }
-
     public void testNegativeFindNumber() {
         int[] myArray = {1, 2, 3, 4, 5, 6, 7};
         if (ArrayUtil.numberRepeatsInArray(myArray, 8) == 0) {
@@ -52,7 +50,6 @@ public class ArrayUtilTest {
         }
 
     }
-
     public void testReplaceAll() {
         int[] myArray = {67, 98, 54, 8, 2, 16, 8, 63, 8, 0};
         ArrayUtil.replaceAll(myArray, 8, 7);
@@ -62,7 +59,6 @@ public class ArrayUtilTest {
             System.out.println("testReplaceAll() - FAILED");
         }
     }
-
     public void testReverseNumbersInArray() {
         int[] myArray = {95, 5, 3, 77, 44};
         int[] resultArray = ArrayUtil.reverseNumbersInArray(myArray);
@@ -76,6 +72,20 @@ public class ArrayUtilTest {
             System.out.println("testReverseNumbersInArray() - FAILED");
         }
     }
+    public void testSortNumbersArray() {
+        int[] myArray = {3, 2, 5, 1, 4};
+        int[] resultArray = ArrayUtil.sortNumbersArray(myArray);
+        if (resultArray[0] == 1
+                && resultArray[1] == 2
+                && resultArray[2] == 3
+                && resultArray[3] == 4
+                && resultArray[4] == 5) {
+            System.out.println("testSortNumbersArray() - OK");
+        } else {
+            System.out.println("testSortNumbersArray() - FAILED");
+        }
+    }
+
 }
 
 
