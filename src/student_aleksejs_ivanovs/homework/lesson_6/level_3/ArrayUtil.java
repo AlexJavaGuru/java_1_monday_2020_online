@@ -12,7 +12,6 @@ class ArrayUtil {
         }
         return num;
     }
-
     public int howManyTimesArrayContainSpecifiedNumber(int[] array, int number) {
         int num = 0;
         for (int i : array) {
@@ -31,7 +30,6 @@ class ArrayUtil {
             }
         }
     }
-
     public void replaceAll(int[] array, int numberToReplace, int newNumber) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == numberToReplace) {
@@ -39,7 +37,6 @@ class ArrayUtil {
             }
         }
     }
-
     public int[] flipArray(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
             int temp = array[array.length - i - 1];
@@ -53,13 +50,13 @@ class ArrayUtil {
     public int[] arraySort(int[] array) {
         boolean sorted = false;
         int temp;
-        while(!sorted) {
+        while (!sorted) {
             sorted = true;
             for (int i = 0; i < array.length - 1; i++) {
-                if (array[i] > array[i+1]) {
+                if (array[i] > array[i + 1]) {
                     temp = array[i];
-                    array[i] = array[i+1];
-                    array[i+1] = temp;
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
                     sorted = false;
                 }
             }

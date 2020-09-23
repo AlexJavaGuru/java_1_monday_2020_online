@@ -101,5 +101,4 @@ class ArrayUtilTest {
             System.out.println("Expected result was : " + Arrays.toString(expectedResult) + " but actual result was : " + Arrays.toString(actualResult));
         }
     }
-
 }
