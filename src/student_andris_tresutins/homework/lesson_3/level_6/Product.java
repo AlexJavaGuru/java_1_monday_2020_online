@@ -1,13 +1,13 @@
 package student_andris_tresutins.homework.lesson_3.level_6;
 
-public class Product {
+ class Product {
 
-    String Product;
+    String name;
     double price;
     double discount;
 
-    public void setProductName(String name){
-       this.Product = name;
+    public Product(String name ){
+       this.name = name;
     }
 
     public void setPrice(double price){
@@ -24,7 +24,7 @@ public class Product {
     }
 
     public void printInformation(){
-        System.out.println("the initial price for "+ Product + " is: "+ price +" the discount is: " + discount + "% and the final price is: " + actualPrice() );
+        System.out.println("the initial price for "+ name + " is: "+ price +" the discount is: " + discount + "% and the final price is: " + actualPrice() );
     }
 
 }
