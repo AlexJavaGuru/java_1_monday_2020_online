@@ -3,7 +3,7 @@ package student_andris_tresutins.homework.lesson_6.level_2;
 import teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
-public class Task_4 {
+ class Task_4 {
 
         public static void main(String[] args) {
             int i = 1;

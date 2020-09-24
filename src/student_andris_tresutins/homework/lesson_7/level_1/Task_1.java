@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class Task_1 {
+class Task_1 {
 
 
 

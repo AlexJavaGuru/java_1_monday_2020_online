@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_4.level_5;
 
-public class LightColorDetector {
+ class LightColorDetector {
 
     public String detect(int color){
 

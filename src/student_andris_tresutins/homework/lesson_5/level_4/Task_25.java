@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 @CodeReview(approved = true)
-public class Task_25 {
+class Task_25 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

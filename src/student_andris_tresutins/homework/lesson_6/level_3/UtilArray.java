@@ -20,10 +20,7 @@ class UtilArray {
         return array;
     }
 
-    public String numberSearch(int searchnum) {
-
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arrayOne();
+    public String numberSearch(int[] array, int searchnum) {
 
         int i;
         boolean found = false;
@@ -42,11 +39,7 @@ class UtilArray {
     }
 
 
-    public int numberSearchMultiple(int searchnum) {
-
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arraydupes();
-
+    public int numberSearchMultiple(int[] array, int searchnum) {
 
         int i;
         int foundnumcount = 0;
@@ -88,10 +81,11 @@ class UtilArray {
 
     }
 
-    public String replaceAllNumbers(int numberToReplace, int newNumber) {
+    public int[] replaceAllNumbers(int numberToReplace, int newNumber) {
 
         UtilArray victim = new UtilArray();
         int[] array = victim.arraydupes();
+        int[] array123 = {0,0,0,0,0}
 
 
         int i;
@@ -103,9 +97,9 @@ class UtilArray {
             }
         }
         if (found) {
-            return Arrays.toString(array);
+            return array;
         } else {
-            return "something went wrong :/";
+            return array123;
         }
 
     }

@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 @CodeReview(approved = true)
-public class Task_14 {
+class Task_14 {
 
     public static void main(String[] args) {
         Random randInt = new Random();

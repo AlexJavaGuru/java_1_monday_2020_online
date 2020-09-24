@@ -14,7 +14,7 @@ import java.util.Random;
         "" +
         "Andris, the whole array must be filled with the numbers...not only three items. Please correct.")
         //Corrected :D
-public class TwoDimensionalArray {
+ class TwoDimensionalArray {
     public static void main(String[] args) {
 
         int[][] arr = new int[3][3];

@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_3.level_6;
 
-public class Computer {
+ class Computer {
     private String manufacturer;
     private String model;
 

@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-public class Task_27 {
+ class Task_27 {
 
     public static void main(String[] args) {
 

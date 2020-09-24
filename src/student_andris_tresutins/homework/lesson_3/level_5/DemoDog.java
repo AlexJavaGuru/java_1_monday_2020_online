@@ -1,7 +1,7 @@
 package student_andris_tresutins.homework.lesson_3.level_5;
 
 
-public class DemoDog {
+ class DemoDog {
     public static void main(String[] args) {
         Dog newdog = new Dog();
         String klichka ="klichka : " + newdog.getDogName();

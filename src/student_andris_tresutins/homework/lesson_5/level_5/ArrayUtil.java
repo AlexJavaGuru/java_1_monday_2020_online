@@ -8,7 +8,7 @@ import java.util.Random;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Внес поправки по формату. Метод CreateArray можно сократить до одной строчки")
-public class ArrayUtil {
+class ArrayUtil {
 
     public static void main(String[] args) {
         ArrayUtil victim = new ArrayUtil();

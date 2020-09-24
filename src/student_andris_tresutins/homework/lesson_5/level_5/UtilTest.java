@@ -5,7 +5,7 @@ import teacher.annotations.CodeReview;
 import java.util.Arrays;
 
 @CodeReview(approved = true)
-public class UtilTest {
+ class UtilTest {
 
     public static void main(String[] args) {
         UtilTest test = new UtilTest();

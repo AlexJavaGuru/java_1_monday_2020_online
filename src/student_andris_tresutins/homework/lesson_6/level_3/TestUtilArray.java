@@ -59,7 +59,10 @@ class TestUtilArray {
         int numberstoreplace = 54;
         int newNumber = 13;
 
-        boolean actualresult = victim.replaceAllNumbers(numberstoreplace, newNumber).equals("[13, 13, 3, 13, 458]");
+        int[] array = {13, 13, 3, 13, 458};
+        int[] arraycompare = victim.replaceAllNumbers(numberstoreplace, newNumber);
+
+        boolean actualresult = Arrays.equals(array, arraycompare);
         boolean expectedresult = true;
 
         check(expectedresult, actualresult, "Replace All specific Numbers in Array test");
@@ -97,15 +100,6 @@ class TestUtilArray {
     }
 
 
-    public void check(int[] expectedRes, int[] result, String testName) {
-
-        if (expectedRes == result) {
-            System.out.println(testName + " has passed");
-        } else {
-            System.out.println(testName + " failed!");
-            System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
-        }
-    }
 
     public void check(String expectedRes, String result, String testName) {
 

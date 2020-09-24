@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_7.level_6;
 
-public class PowerCalcTest {
+ class PowerCalcTest {
     public static void main(String[] args) {
         PowerCalcTest test = new PowerCalcTest();
         test.test();

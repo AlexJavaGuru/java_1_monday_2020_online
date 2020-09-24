@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_7.level_6;
 
-public class Task_10 {
+class Task_10 {
 
 
 

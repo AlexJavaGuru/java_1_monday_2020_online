@@ -1,6 +1,6 @@
 package student_andris_tresutins.homework.lesson_4.level_5;
 
-public class LightColorDetectorTest {
+ class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest test = new LightColorDetectorTest();
         test.violet();

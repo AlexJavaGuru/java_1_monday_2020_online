@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 @CodeReview(approved = true)
-public class Task_26 {
+ class Task_26 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

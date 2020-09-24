@@ -2,7 +2,7 @@ package student_andris_tresutins.homework.lesson_7.level_1;
 
 import java.util.Arrays;
 
-public class Testtest {
+ class Testtest {
     public static void main(String[] args) {
         Testtest test = new Testtest();
 
