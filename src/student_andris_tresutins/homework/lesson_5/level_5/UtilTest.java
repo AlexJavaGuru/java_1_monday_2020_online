@@ -1,4 +1,5 @@
 package student_andris_tresutins.homework.lesson_5.level_5;
+
 import teacher.annotations.CodeReview;
 
 import java.util.Arrays;
@@ -11,6 +12,8 @@ public class UtilTest {
 
         test.shouldCreateArray();
         test.shouldFillArrayWithRandomNumbers();
+        test.shouldFindMaxNumber();
+        test.shouldFindMinNumber();
     }
 
     public void shouldCreateArray() {
@@ -31,9 +34,29 @@ public class UtilTest {
         int[] arrayFillArray = victim.fillArray(1);
 
         int actualresult = arrayFillArray.length;
-        int expectedresult = array.length ;
+        int expectedresult = array.length;
 
         check(expectedresult, actualresult, "Array is filled test");
+    }
+
+    public void shouldFindMaxNumber() {
+        ArrayUtil victim = new ArrayUtil();
+
+        int actualresult = victim.findMaxNumber();
+        int expectedResult = 99;
+
+        check(expectedResult, actualresult, "should find max number");
+
+    }
+
+    public void shouldFindMinNumber() {
+        ArrayUtil victim = new ArrayUtil();
+
+        int actualresult = victim.findMinNumber();
+        int expectedResult = 15;
+
+        check(expectedResult, actualresult, "should find min number");
+
     }
 
     public void check(int expectedRes, int result, String testName) {
