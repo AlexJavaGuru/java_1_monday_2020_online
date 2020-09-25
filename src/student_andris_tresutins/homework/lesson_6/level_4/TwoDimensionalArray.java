@@ -4,16 +4,8 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "В задании сказано:" +
-        "Найти в интернете и написать пример кода в котором:\n" +
-        "- создать класс TwoDimensionalArray,\n" +
-        "- создать метод для заполнения массива случайными числами,\n" +
-        "- создать метод для подсчёта суммы всех чисел в массиве." +
-        "Не вижу два последних пункта." +
-        "" +
-        "Andris, the whole array must be filled with the numbers...not only three items. Please correct.")
-        //Corrected :D
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Nice, why arr name is used? Don't hesitate to write full name array or twoDemantionalArray")
  class TwoDimensionalArray {
     public static void main(String[] args) {
 

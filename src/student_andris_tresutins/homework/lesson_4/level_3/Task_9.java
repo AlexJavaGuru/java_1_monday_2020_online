@@ -1,7 +1,12 @@
 package student_andris_tresutins.homework.lesson_4.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "input 3 is unused. num1 num2 num3 is a bad naming")
 class Task_9 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);

@@ -6,8 +6,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "плохое название переменных. Совершенно не возможно читать код из за плохого названия переменных.")
+@CodeReview(approved = true)
 class Task_10 {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);

@@ -1,7 +1,12 @@
 package student_pjotrs_grezmanis.lesson_5.level_5_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "В качестве итератора используйте i пожалуйста. Спасибо =)")
 public class ArrayUtil {
     public static void main(String[] args) {
 

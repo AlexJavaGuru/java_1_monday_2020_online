@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "плохое название переменных. Исправить формат.")
+@CodeReview(approved = true)
 class Task_8 {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);

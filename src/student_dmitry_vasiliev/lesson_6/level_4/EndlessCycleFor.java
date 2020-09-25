@@ -1,7 +1,12 @@
 package student_dmitry_vasiliev.lesson_6.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.io.IOException;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Exceptions - отдельная тема, которая нас ждет")
 class EndlessCycleFor {
 
     public static void main(String[] args) throws InterruptedException, IOException {

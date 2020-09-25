@@ -1,8 +1,12 @@
 package student_artur_martinenko.homework.lesson_7.level_6_middle;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.math.BigDecimal;
 
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень хорошая работа.")
 class CreditCard {
     private int cardNumber;
     private int pinCode;

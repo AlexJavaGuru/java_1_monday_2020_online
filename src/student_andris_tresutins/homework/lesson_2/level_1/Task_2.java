@@ -1,7 +1,12 @@
 package student_andris_tresutins.homework.lesson_2.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Нужно исправить формат в классе.")
  class Task_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

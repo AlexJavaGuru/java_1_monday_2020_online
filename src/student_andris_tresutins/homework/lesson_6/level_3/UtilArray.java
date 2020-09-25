@@ -6,8 +6,7 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Andris, the method numberSearch MUST take two arguments -> Array and the number. This method is useless, because I can't use it for any other array." +
-        "Please remove these arrayOne, arraydupes methods. Fix the class so it could work with any arrays.")
+@CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests...")
 class UtilArray {
 
     public int[] arrayOne (){
@@ -85,7 +84,7 @@ class UtilArray {
 
         UtilArray victim = new UtilArray();
         int[] array = victim.arraydupes();
-        int[] array123 = {0,0,0,0,0}
+//        int[] array123 = {0,0,0,0,0}
 
 
         int i;
@@ -96,11 +95,11 @@ class UtilArray {
                 found = true;
             }
         }
-        if (found) {
+//        if (found) {
             return array;
-        } else {
-            return array123;
-        }
+//        } else {
+//            return array123;
+//        }
 
     }
 

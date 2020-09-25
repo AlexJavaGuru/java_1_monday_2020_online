@@ -3,8 +3,7 @@ package student_pjotrs_grezmanis.lesson_4.level_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Исправте формат. ")
+@CodeReview(approved = true)
 class Stock {
     private String nameCompany;
     private int currentPrice;

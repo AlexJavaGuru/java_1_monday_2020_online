@@ -12,8 +12,11 @@ Perimeter is = 47.12388980384689
 Area is = 176.71458676442586
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_10 {
 
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_7.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
  class PowerCalcTest {
     public static void main(String[] args) {
         PowerCalcTest test = new PowerCalcTest();

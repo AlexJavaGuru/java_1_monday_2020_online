@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_7_senior;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class WordService {
 
     // Такие методы надо разбивать на более мелкие методы!

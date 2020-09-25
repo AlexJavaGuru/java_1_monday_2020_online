@@ -1,7 +1,12 @@
 package student_regina_svistunov.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Знакомую ошибку вижу - findNumber = findNumber; точно не списали эти ошибки с кого-то? =) Надо исправить. Это строка не делает ничего. Весь блок else в том месте - лишний")
 public class ArrayUtil {
 
         public int[] createArray(int arrayLength) {

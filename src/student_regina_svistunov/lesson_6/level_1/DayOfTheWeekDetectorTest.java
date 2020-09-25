@@ -1,7 +1,10 @@
 package student_regina_svistunov.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorTest {
 
     public static void main(String[] args) {

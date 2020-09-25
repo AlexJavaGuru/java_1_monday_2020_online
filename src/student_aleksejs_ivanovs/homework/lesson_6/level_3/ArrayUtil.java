@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int arrayContainSpecifiedNumber(int[] array, int number) {

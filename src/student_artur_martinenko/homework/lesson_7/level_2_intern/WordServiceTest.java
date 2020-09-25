@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_2_intern;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class WordServiceTest {
     public static void main(String[] args) {
         WordServiceTest victim = new WordServiceTest();

@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
  class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest test = new LightColorDetectorTest();

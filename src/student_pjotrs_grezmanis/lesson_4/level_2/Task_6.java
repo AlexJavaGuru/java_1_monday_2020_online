@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "плохое название переменных. Сделать меньше проверок, использовав if else")
+@CodeReview(approved = true)
 class Task_6 {
 
     public static void main(String[] args) {

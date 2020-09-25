@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_5.task_19;
 
+import teacher.annotations.CodeReview;
+
 /*
 Дано поле игры крестики нолики размерностью три на три клетки.
 Поле представлено двумерным массивом целых чисел, где:
@@ -25,7 +27,7 @@ public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck).
 Создать класс TicTacToeTest
 и написать тесты для разработанного метода.
  */
-
+@CodeReview(approved = true)
 class TicTacToe {
 
     public int[][] createArray(int arrayLength) {

@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_6_middle;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PowerCalculatorTest {
     public static void main(String[] args) {
         PowerCalculatorTest victim = new PowerCalculatorTest();

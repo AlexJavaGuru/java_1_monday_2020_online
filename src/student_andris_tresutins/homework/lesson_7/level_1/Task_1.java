@@ -1,9 +1,16 @@
 package student_andris_tresutins.homework.lesson_7.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.Iterator;
 
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Fix the format. To be honest, returning a sentence is the bad idea in programming. It is very unreliable structure. Please, return only the word. And fix tests" +
+        "+1 for using collections.")
 class Task_1 {
 
 

@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_6_middle;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Copy {
 
     int[] copyInRange(int[] in, int numberFrom, int numberTo) {

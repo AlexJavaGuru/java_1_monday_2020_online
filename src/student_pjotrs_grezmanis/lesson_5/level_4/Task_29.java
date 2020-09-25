@@ -5,8 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Формат кода. Сделайте во всех конструкциях фигурные скобки - только на правельных местах.")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Исправил за вас =) Исправть формат - это не всегда нажать комбинацию. Надо еще скобки проставить и пробелы лишние убрать")
 class Task_29 {
     public static void main(String[] args) {
 
@@ -21,9 +21,9 @@ class Task_29 {
         }
         System.out.println("Even numbers:");
         for (int r = 0; r < randomNumber.length; r++) {
-            if (randomNumber[r] % 2 == 0)
-
+            if (randomNumber[r] % 2 == 0) {
                 System.out.println(randomNumber[r]);
+            }
         }
 
     }

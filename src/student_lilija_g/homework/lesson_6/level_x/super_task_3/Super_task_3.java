@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_x.super_task_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
 /*
@@ -14,6 +17,8 @@ java.util.Arrays.sort(arr);  ???
 Подсказка: найдите на YouTube ролики демонстрирующие
 работу этого алгоритма сортировки.
  */
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А что на счет его математической сложности?")
 public class Super_task_3 {
 
     public static void main(String[] args) {

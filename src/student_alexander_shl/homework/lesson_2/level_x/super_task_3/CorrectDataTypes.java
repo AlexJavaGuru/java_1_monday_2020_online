@@ -1,4 +1,7 @@
 package student_alexander_shl.homework.lesson_2.level_x.super_task_3;
+
+import teacher.annotations.CodeReview;
+
 /*
 Исправьте ошибки компиляции в данной программе.
 
@@ -19,6 +22,7 @@ public class CorrectDataTypes {
 
 }
  */
+@CodeReview(approved = true)
 class CorrectDataTypes {
     public static void main(String[] args) {
 

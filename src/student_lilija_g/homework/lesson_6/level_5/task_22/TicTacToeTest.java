@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_5.task_22;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class TicTacToeTest {
 
     public static void main(String[] args) {

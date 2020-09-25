@@ -1,5 +1,8 @@
 package student_pjotrs_grezmanis.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public static boolean numberExistsInArray(int[] array, int numberToFind) {

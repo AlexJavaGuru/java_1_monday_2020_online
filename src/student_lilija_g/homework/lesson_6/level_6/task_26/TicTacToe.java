@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_6.task_26;
+
+import teacher.annotations.CodeReview;
+
 /*
 Создайте в классе TicTacToe метод:
 
@@ -6,6 +9,7 @@ public void printFieldToConsole(int[][] field) {
     // распечатайте поле на консоль в читаемом формате
 }
  */
+@CodeReview(approved = true)
 class TicTacToe {
 
     int[][] createField() {

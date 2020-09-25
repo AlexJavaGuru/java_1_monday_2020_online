@@ -1,7 +1,12 @@
 package student_pjotrs_grezmanis.lesson_4.level_x;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Этот метод конечно можнобыло на много красивее упростить )")
 class FizzBuzz {
     public static void main(String[] args) {
         Scanner myInput = new Scanner(System.in);

@@ -1,5 +1,8 @@
 package student_regina_svistunov.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetector {
 
     public String detectDayName(int number) {

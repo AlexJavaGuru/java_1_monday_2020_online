@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_5.task_20;
+
+import teacher.annotations.CodeReview;
+
 /*
 В классе TicTacToe реализуйте
 метод для определения является ли данная позиция
@@ -17,6 +20,7 @@ public boolean isWinPositionForVerticals(int[][] field, int playerToCheck).
 
 В классе TicTacToeTest написать тесты для разработанного метода.
  */
+@CodeReview(approved = true)
 class TicTacToe {
 
     public int[][] createArray(int arrayLength) {

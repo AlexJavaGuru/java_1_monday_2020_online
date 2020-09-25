@@ -5,7 +5,9 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Почему все закоментировано? Надо чтобы все работало. Тут вы тоже используете чужие классы:" +
-        "teacher.lesson_3.homework.level_x.solutions.super_task_1.UserLoginService() - к примеру мой сервис. Внимательно смотрите, что вы используете у себя в программе.")
+        "teacher.lesson_3.homework.level_x.solutions.super_task_1.UserLoginService() - к примеру мой сервис. Внимательно смотрите, что вы используете у себя в программе." +
+        "" +
+        "Ничего не поменялось. ")
 class UserLoginServiceTest {
  public static void main(String[] args) {
 

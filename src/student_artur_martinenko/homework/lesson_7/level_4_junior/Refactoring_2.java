@@ -1,10 +1,13 @@
 package student_artur_martinenko.homework.lesson_7.level_4_junior;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 //Code refactoring from student_artur_martinenko.homework.lesson_5.level_4 Task_26.java
 
+@CodeReview(approved = true)
 class Refactoring_2 {
     public static Scanner scanner = new Scanner(System.in);
 

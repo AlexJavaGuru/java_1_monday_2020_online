@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_6.level_6.task_27;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Move {
 
     private int x;

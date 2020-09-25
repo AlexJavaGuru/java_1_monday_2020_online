@@ -1,8 +1,10 @@
 package student_andris_tresutins.homework.lesson_4.level_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
-//Плохое название переменных. Не жалейте буквы num = number. 1,2,3 в названиях, это тоже не лучшая идея. Отвыкайте писать цифры в названиях. Лучше пишите numberOne, numberTwo...
+@CodeReview(approved = true)
 class Task_10 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);

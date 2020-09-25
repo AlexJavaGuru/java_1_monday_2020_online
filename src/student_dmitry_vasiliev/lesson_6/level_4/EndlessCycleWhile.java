@@ -1,7 +1,10 @@
 package student_dmitry_vasiliev.lesson_6.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.io.IOException;
 
+@CodeReview(approved = true)
 class EndlessCycleWhile {
 
     public static void main(String[] args) throws InterruptedException, IOException {

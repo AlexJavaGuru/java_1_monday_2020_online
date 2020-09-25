@@ -1,5 +1,7 @@
 package student_alexander_shl.homework.lesson_2.level_2.task_8;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
 /*
@@ -7,6 +9,7 @@ import java.util.Scanner;
 имя пользователя и выводит на консоль текст:
 Hello имя пользователя!
  */
+@CodeReview(approved = true)
 class Task_8 {
     public static void main(String[] args) {
 

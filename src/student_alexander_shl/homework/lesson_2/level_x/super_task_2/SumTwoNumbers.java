@@ -22,6 +22,9 @@ public class SumTwoNumbers {
 }
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class SumTwoNumbers {
     public static void main(String[] args) {
 

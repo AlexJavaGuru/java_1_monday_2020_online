@@ -1,7 +1,13 @@
 package student_artur_martinenko.homework.lesson_7.level_6_middle;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.math.BigDecimal;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень много тестов. Это конечно хорошо, но у нас не цель покрыть все тестами на 100%. Вы могли бы смело обойтись половиной чтобы не нагружать себя лишний раз" +
+        "")
 class CreditCardTest {
 
     public static void main(String[] args) {

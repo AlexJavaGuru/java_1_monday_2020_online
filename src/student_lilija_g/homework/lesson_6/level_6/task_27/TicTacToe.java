@@ -43,8 +43,13 @@ public static void main(String[] args) {
 Сыграйте в игру крестики нолики!
  */
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Ну разве это не круто? =) Поиграть в свою написанную игру? =) Только вот одна проблема...я смог походить на поле, которое было не пустое =D")
 class TicTacToe {
     public int[][] createField() {
 

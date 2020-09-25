@@ -1,5 +1,8 @@
 package student_elizabete_ket.homework.lesson_4.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class StockTest {
 
     public static void main(String[] args) {

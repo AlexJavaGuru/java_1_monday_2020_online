@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Формат кода. Сделайте во всех конструкциях фигурные скобки - только на правельных местах.")
+@CodeReview(approved = true)
 class Task_30 {
     public static void main(String[] args) {
 

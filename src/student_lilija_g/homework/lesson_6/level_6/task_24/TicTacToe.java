@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_6.level_6.task_24;
+
+import teacher.annotations.CodeReview;
+
 /*
 В классе TicTacToe реализуйте метод:
 
@@ -9,7 +12,7 @@ public int[][] createField().
 
 В классе TicTacToeTest написать тесты для разработанного метода.
  */
-
+@CodeReview(approved = true)
 class TicTacToe {
 
     public int[][] createField() { // Переименовала с предыдущих задач createArray -> createField, без передаваемого параметра

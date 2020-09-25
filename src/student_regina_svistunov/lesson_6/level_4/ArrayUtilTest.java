@@ -1,9 +1,14 @@
 package student_regina_svistunov.lesson_6.level_4;
 
 import student_regina_svistunov.lesson_6.level_3.ArrayUtil;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Давайте разберемся. Вы сделали метод сортировки массива, а в тесте вы сделали сортировки нативным методом сортировки Arrays.sort? В чем смысл? Как" +
+        "этот тест тестирует сортировку вашего метода? Методы сортировки и reverse в вашем классе даже не вызваны")
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

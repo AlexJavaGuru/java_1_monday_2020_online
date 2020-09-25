@@ -1,5 +1,8 @@
 package student_elizabete_ket.homework.lesson_4.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Stock {
 
     private String companyName;

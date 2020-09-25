@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_1_intern;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class WordService {
 
     public String findMostFrequentWord(String text) {

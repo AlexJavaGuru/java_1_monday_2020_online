@@ -1,7 +1,10 @@
 package student_andris_tresutins.homework.lesson_2.level_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
  class Task_1 {
     public static void main(String[] args) {
         //TODO: У вас чуть-чуть уехали строки с виводом на экран. В данном случае, все должно быть выровнено по правому краю, как Scanner или int - они стоят правильно.

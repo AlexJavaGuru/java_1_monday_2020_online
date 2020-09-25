@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Надо сделать отдельный метод для проверки результатов. Делаем рефакторинг")
 public class FizzBuzzTest {
 
     public static void main(String[] args) {

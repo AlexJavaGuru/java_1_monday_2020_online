@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_4_junior;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,6 +10,8 @@ import java.util.Scanner;
 //@CodeReviewComment(comment = "Жаль, что все слито в один метод. Вы же уже умете методы писать? =D Что случилось?")
 //Code refactoring from student_artur_martinenko.homework.lesson_5.level_4 Task_25.java
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Другое дело =)")
 class Refactoring_1 {
     public static Scanner scanner = new Scanner(System.in);
 

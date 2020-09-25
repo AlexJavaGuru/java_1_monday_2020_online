@@ -1,7 +1,12 @@
 package student_andris_tresutins.homework.lesson_7.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Testtest? really? =D Create one more test, when you have two different words with same count ")
  class Testtest {
     public static void main(String[] args) {
         Testtest test = new Testtest();

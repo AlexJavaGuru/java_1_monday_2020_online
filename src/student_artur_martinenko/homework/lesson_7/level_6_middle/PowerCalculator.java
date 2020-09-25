@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_7.level_6_middle;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PowerCalculator {
 
     public double numberToPower(double number, int power) {
