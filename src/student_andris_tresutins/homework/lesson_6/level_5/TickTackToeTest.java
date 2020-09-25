@@ -1,9 +1,8 @@
 package student_andris_tresutins.homework.lesson_6.level_5;
 
-import teacher.annotations.CodeReview;
+import java.util.Arrays;
 
-@CodeReview(approved = true)
- class TickTackToeTest {
+class TickTackToeTest {
     public static void main(String[] args) {
         TickTackToeTest test = new TickTackToeTest();
         test.isWinPositionForHorizontalsTest();
@@ -16,6 +15,27 @@ import teacher.annotations.CodeReview;
         test.isWinPositionTest();
         test.isDrawPositionTest();
         test.isDrawPositionTestTwo();
+        test.createFieldTest();
+
+    }
+
+    public void createFieldTest(){
+        TickTackToe victim = new TickTackToe();
+        int[][] array = new int[3][3];
+        array[0][0] = -1;
+        array[0][1] = -1;
+        array[0][2] = -1;
+        array[1][0] = -1;
+        array[1][1] = -1;
+        array[1][2] = -1;
+        array[2][0] = -1;
+        array[2][1] = -1;
+        array[2][2] = -1;
+
+        boolean result = Arrays.deepEquals(array, victim.createField());
+        boolean expectedResult = true;
+
+        check(expectedResult, result, "Create Field with -1 test");
 
     }
 

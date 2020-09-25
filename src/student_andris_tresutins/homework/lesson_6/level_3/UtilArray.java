@@ -84,7 +84,7 @@ class UtilArray {
 
         UtilArray victim = new UtilArray();
         int[] array = victim.arraydupes();
-//        int[] array123 = {0,0,0,0,0}
+        int[] array123 = {0,0,0,0,0};
 
 
         int i;
@@ -95,11 +95,11 @@ class UtilArray {
                 found = true;
             }
         }
-//        if (found) {
+        if (found) {
             return array;
-//        } else {
-//            return array123;
-//        }
+        } else {
+            return array123;
+        }
 
     }
 
