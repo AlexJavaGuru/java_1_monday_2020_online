@@ -1,12 +1,48 @@
 package student_andris_tresutins.homework.lesson_6.level_5;
 
 
- class TickTackToe {
+import java.util.Scanner;
+
+class TickTackToe {
      public static void main(String[] args) {
          TickTackToe test = new TickTackToe();
          System.out.println(test.isDrawPosition(test.tickTackArrayThree()));
+         System.out.println(test.getNextMove());
      }
 
+     public Move getNextMove() {
+         // запросите у пользователя с консоли две координаты
+         Scanner scan = new Scanner(System.in);
+         System.out.println("enter y coordinate ( only 0 or 1 or 2)");
+             int y = scan.nextInt();
+             if (y != 0 && y != 1 && y != 2){
+                 System.out.println("error");
+             }
+
+         System.out.println("enter x coordinate ( only 0 or 1 or 2)");
+         int x = scan.nextInt();
+         if (x != 0 && x != 1 && x != 2){
+             System.out.println("error");
+
+         }
+
+         // клетки куда хочет походить игрок
+         // создайте экземпляр класса Move и передайте ему
+         // в конструктор введённые пользователем координаты
+         // верните созданный объект Move из метода.
+
+         return new Move(x,y);
+     }
+
+
+     public int[][] createField(){
+         int[][] arr = new int[3][3];
+         for(int i = 0; i< arr.length; i++)
+             for (int j = 0; j < arr.length; j++) {
+                 arr[i][j] = -1;
+             }
+         return arr;
+     }
 
     public int[][] tickTackArray(){
         int[][] array = new int[3][3];

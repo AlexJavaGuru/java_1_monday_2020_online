@@ -11,6 +11,7 @@ import java.util.Arrays;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Hey Adris, you cannot any *string-like arrays* to compare real array and string array. Please, don't use - [13, 13, 3, 13, 458]" +
         "Arrays cannot be compared with ==. If you want to compare arrays, please, create a method, which or use Arrays.sort if you lazy =). Remove method  public void check(int[] expectedRes, int[] result, String testName)")
+        //luchse pa ruski :D, tak bilo ponjatnei :DD
 class TestUtilArray {
     public static void main(String[] args) {
         TestUtilArray test = new TestUtilArray();
@@ -26,7 +27,7 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
         int searchNumber = 54;
 
-        Boolean actualResult = victim.numberSearch(searchNumber).equals("That number was found at index " + 1);
+        Boolean actualResult = victim.numberSearch( victim.arrayOne(), searchNumber).equals("That number was found at index " + 1);
         Boolean expectedResult = true;
 
         check(expectedResult, actualResult, "Search number in array test");
@@ -36,7 +37,7 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
         int searchNumber = 54;
 
-        int actualresult = victim.numberSearchMultiple(searchNumber);
+        int actualresult = victim.numberSearchMultiple(victim.arraydupes(), searchNumber);
         int expectedresult = 3;
 
         check(expectedresult, actualresult, "Multiple of the same value in array search test");
