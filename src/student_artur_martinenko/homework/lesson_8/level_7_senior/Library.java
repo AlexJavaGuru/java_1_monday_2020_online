@@ -1,8 +1,12 @@
 package student_artur_martinenko.homework.lesson_8.level_7_senior;
 
+
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.Date;
 
+@CodeReview(approved = true)
 class Library {
 
     //Не сделаны следующие пункты задания. Вернусь позже.
