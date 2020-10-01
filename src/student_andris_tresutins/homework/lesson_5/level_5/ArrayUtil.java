@@ -10,11 +10,6 @@ import java.util.Random;
 @CodeReviewComment(comment = "Внес поправки по формату. Метод CreateArray можно сократить до одной строчки")
 class ArrayUtil {
 
-    public static void main(String[] args) {
-        ArrayUtil victim = new ArrayUtil();
-        System.out.println(victim.printArrayToConsole(5));
-
-    }
 
     public int[] createArray(int arrayLength) {
         return new int[arrayLength];
@@ -42,44 +37,8 @@ class ArrayUtil {
 
     }
 
-    public String printArrayToConsole(int arrayLength) {
 
-        ArrayUtil victim = new ArrayUtil();
-        int[] print = victim.fillArray(arrayLength);
-        return Arrays.toString(print);
-    }
 
-    public int findMaxNumber() {
-
-        ArrayUtil victim = new ArrayUtil();
-        int[] myIntArray = victim.staticArray();
-
-        int max = myIntArray[1];
-        for (int i = 0; i < myIntArray.length; i++) {
-            if (myIntArray[i] > max) {
-                max = myIntArray[i];
-            }
-
-        }
-        return max;
-
-    }
-
-    public int findMinNumber() {
-
-        ArrayUtil victim = new ArrayUtil();
-        int[] myIntArray = victim.staticArray();
-
-        int min = myIntArray[1];
-        for (int i = 0; i < myIntArray.length; i++) {
-            if (myIntArray[i] < min) {
-                min = myIntArray[i];
-            }
-
-        }
-        return min;
-
-    }
 }
 
 

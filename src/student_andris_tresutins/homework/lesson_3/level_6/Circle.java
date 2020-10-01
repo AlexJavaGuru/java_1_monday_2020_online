@@ -8,7 +8,14 @@ import teacher.annotations.CodeReviewComment;
         "не должен принимать никаких аргументов. Смотрите задание внимательнее")
 class Circle {
 
-    public double calculateArea(double radius){
+    double radius;
+
+    Circle(double radius){
+        this.radius = radius;
+
+    }
+
+    public double calculateArea(){
 
         double result = Math.PI * (radius * radius);
 

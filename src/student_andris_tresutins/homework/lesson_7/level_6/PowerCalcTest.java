@@ -12,7 +12,7 @@ import teacher.annotations.CodeReview;
     public void test(){
         Task_10 victim = new Task_10();
 
-        double actualres = victim.raiseNumbertopower(6,3);
+        double actualres = victim.raiseNumberToPower(6,3);
         double expectedres = 216.0;
 
         check(expectedres,actualres, "test Raise num To Power");
