@@ -1,5 +1,10 @@
 package student_dmitry_vasiliev.lesson_7;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Смотреть коммент WordService")
 class WordServiceDemo {
 
     public static void main(String[] args) {
