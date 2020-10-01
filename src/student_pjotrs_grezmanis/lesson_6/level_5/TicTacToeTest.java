@@ -19,6 +19,7 @@ class TicTacToeTest {
         toeTest.TicTacToeTestIsWinPositionFirstPlayerFour();//Task_22
         toeTest.TicTacToeTestIsWinPositionSecondPlayerOne();//Task_22
         toeTest.TicTacToeTestIsDrawPositionOne();//Task_23
+        toeTest.TicTacToeTestIsDrawPositionTwo();//Task_23
 
     }
 
@@ -192,8 +193,18 @@ class TicTacToeTest {
 
     public void TicTacToeTestIsDrawPositionOne(){
         int[][] field = {{1, 1, 0},
+                         {0, 0, 1},
+                          {1, 1, 0}};
+        if (TicTacToe.isDrawPosition(field) == true) {
+            System.out.println("testTicTacToeIsWinPositionSecondPlayer() - OK");
+        } else {
+            System.out.println("testTicTacToeIsWinPositionSecondPlayer() - FAILED");
+        }
+    }
+    public void TicTacToeTestIsDrawPositionTwo(){
+        int[][] field = {{-1, 1, 0},
                 {0, 0, 1},
-                {1, 1, -1}};
+                {1, 1, 0}};
         if (TicTacToe.isDrawPosition(field) == false) {
             System.out.println("testTicTacToeIsWinPositionSecondPlayer() - OK");
         } else {

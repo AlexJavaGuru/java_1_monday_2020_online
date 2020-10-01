@@ -5,11 +5,13 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Не стоит писать конструкции в одну строку. Это очень трудно читать. Сделайте красивый if с фигурными скобками")
-public class Task_17_While {
+class Task_17_While {
     public static void main(String[] args) {
         int i = 0;
-        while ( i <= 100) {
-            if (i == 5) break;
+        while (i <= 100) {
+            if (i == 5) {
+                break;
+            }
             System.out.println(i);
             i++;
         }
