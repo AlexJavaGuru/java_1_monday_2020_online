@@ -8,6 +8,19 @@ import java.util.Arrays;
 @CodeReviewComment(comment = "It is unclear where is this method. Please move them into appropriate classes so I could find them.")
 public class Task_14 {
 
-    //added to utilArray
+    public int[] arrayOne (){
+        int[] array = {12, 54, 3, 7, 458};
+        return array;
+    }
+
+    public int[] sortArray(int[] array) {
+
+        Task_14 victim = new Task_14();
+
+        Arrays.sort(array);
+        return array;
+
+    }
+
 
 }

@@ -11,21 +11,21 @@ class Task_9 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
         System.out.println("enter number 1");
-        int num1 = input1.nextInt();
+        int numberOne = input1.nextInt();
 
         Scanner input2 = new Scanner(System.in);
         System.out.println("enter number 2");
-        int num2 = input2.nextInt();
+        int numberTwo = input2.nextInt();
 
         Scanner input3 = new Scanner(System.in);
-        System.out.println("enter number 2");
-        int num3 = input2.nextInt();
+        System.out.println("enter number 3");
+        int numberThree = input3.nextInt();
 
 
-        if(num1 < num2 && num2 < num3){
+        if(numberOne < numberTwo && numberTwo < numberThree){
             System.out.println("All numbers are increasing");
         }
-        else if (num1 > num2 && num2 > num3){
+        else if (numberOne > numberTwo && numberTwo > numberThree){
             System.out.println("All numbers are decreasing");
         }
         else{

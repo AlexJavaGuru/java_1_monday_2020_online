@@ -33,19 +33,19 @@ import teacher.annotations.CodeReviewComment;
      }
 
      public String getName(){
-        return this.companyName = companyName;
+        return companyName;
 
      }
      public int getCurentPrice(){
-        return this.currentPrice = currentPrice;
+        return currentPrice;
 
      }
      public int getMax(){
-         return this.maxPrice = maxPrice;
+         return maxPrice;
 
      }
      public int getMin(){
-         return this.minPrice = minPrice;
+         return minPrice;
 
      }
 

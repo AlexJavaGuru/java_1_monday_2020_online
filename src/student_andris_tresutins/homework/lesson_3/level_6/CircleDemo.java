@@ -9,8 +9,8 @@ import teacher.annotations.CodeReviewComment;
  class CircleDemo {
     public static void main(String[] args) {
 
-        Circle victim = new Circle();
-        double result = victim.calculateArea(4.2);
+        Circle victim = new Circle(4.2);
+        double result = victim.calculateArea();
 
         System.out.println(result);
     }

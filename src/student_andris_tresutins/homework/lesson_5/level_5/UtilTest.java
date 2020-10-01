@@ -12,8 +12,6 @@ import java.util.Arrays;
 
         test.shouldCreateArray();
         test.shouldFillArrayWithRandomNumbers();
-        test.shouldFindMaxNumber();
-        test.shouldFindMinNumber();
     }
 
     public void shouldCreateArray() {
@@ -39,25 +37,6 @@ import java.util.Arrays;
         check(expectedresult, actualresult, "Array is filled test");
     }
 
-    public void shouldFindMaxNumber() {
-        ArrayUtil victim = new ArrayUtil();
-
-        int actualresult = victim.findMaxNumber();
-        int expectedResult = 99;
-
-        check(expectedResult, actualresult, "should find max number");
-
-    }
-
-    public void shouldFindMinNumber() {
-        ArrayUtil victim = new ArrayUtil();
-
-        int actualresult = victim.findMinNumber();
-        int expectedResult = 15;
-
-        check(expectedResult, actualresult, "should find min number");
-
-    }
 
     public void check(int expectedRes, int result, String testName) {
 
