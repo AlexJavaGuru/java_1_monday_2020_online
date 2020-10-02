@@ -9,8 +9,8 @@ import java.util.Iterator;
 
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Fix the format. To be honest, returning a sentence is the bad idea in programming. It is very unreliable structure. Please, return only the word. And fix tests" +
-        "+1 for using collections.")
+@CodeReviewComment(comment = "Please read the task carefully. The authors want you to split the task into good named, understandable methods." +
+        "It's very hard to read your code here. Please try refactoring")
 class Task_1 {
 
 

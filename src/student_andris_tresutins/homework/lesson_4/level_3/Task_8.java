@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "input 3 is unused. num1 num2 num3 is a bad naming")
+@CodeReview(approved = true)
 class Task_8 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);

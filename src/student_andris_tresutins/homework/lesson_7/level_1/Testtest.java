@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Testtest? really? =D Create one more test, when you have two different words with same count ")
+@CodeReview(approved = true)
  class Testtest {
     public static void main(String[] args) {
         Testtest test = new Testtest();

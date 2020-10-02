@@ -171,9 +171,14 @@ class ArrayUtil {
 }
 */
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 import java.util.Arrays;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Отлично")
 class Task_8 {
 
     public int[] createArray(int arrayLength) {

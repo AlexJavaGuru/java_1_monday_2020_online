@@ -5,7 +5,9 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "It is unclear where is this method. Please move them into appropriate classes so I could find them.")
+@CodeReviewComment(comment = "It is unclear where is this method. Please move them into appropriate classes so I could find them." +
+        "" +
+        "why you create victim? and why arrayOne is here? ")
 public class Task_14 {
 
     public int[] arrayOne (){

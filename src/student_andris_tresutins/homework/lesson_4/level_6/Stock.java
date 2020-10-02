@@ -3,9 +3,7 @@ package student_andris_tresutins.homework.lesson_4.level_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Why all getters has these lines? return this.companyName = companyName; We don't need to use = when we simply want to return value. It can be turned into " +
-        "return this.companyName; and since there is no names conflicts, we can remove this. also.")
+@CodeReview(approved = true)
  class Stock {
     String companyName;
     int currentPrice;

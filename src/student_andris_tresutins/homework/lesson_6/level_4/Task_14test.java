@@ -6,8 +6,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "It is unclear where is this method. Please move them into appropriate classes so I could find them.")
+@CodeReview(approved = true)
 public class Task_14test {
 
     public static void main(String[] args) {

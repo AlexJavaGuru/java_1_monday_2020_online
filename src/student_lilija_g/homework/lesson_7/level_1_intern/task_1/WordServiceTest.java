@@ -1,5 +1,10 @@
 package student_lilija_g.homework.lesson_7.level_1_intern.task_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Нужен refactoring основного кода")
 public class WordServiceTest {
     public static void main(String[] args) {
         WordService wordService = new WordService();

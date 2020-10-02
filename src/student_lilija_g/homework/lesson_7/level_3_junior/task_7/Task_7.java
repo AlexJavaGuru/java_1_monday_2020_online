@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_7.level_3_junior.task_7;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -78,6 +81,8 @@ class Task_27 {
 }
 
  */
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Отлично")
 class Task_7 {
 
     public int[] createArray(int arrayLength) {

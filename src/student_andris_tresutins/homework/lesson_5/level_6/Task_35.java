@@ -13,7 +13,9 @@ import java.util.Arrays;
         "Your method is taking a length, creating array and then print." +
         "I don't want it. If method is called printArrayToConsole -> this method should" +
         "simply take an array and print it." +
-        "P.S. you can see method signatures in the task. ")
+        "P.S. you can see method signatures in the task. " +
+        "" +
+        "Still false. Why method printArrayToConsole does some strange actions? creating victim object? or save array into print? why to use this?")
 class Task_35 {
     public static void main(String[] args) {
         Task_35 victim = new Task_35();

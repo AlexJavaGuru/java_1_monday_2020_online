@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "для этой задачи на много удобнее было бы использовать switch case")
+@CodeReview(approved = true)
 class Task_3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

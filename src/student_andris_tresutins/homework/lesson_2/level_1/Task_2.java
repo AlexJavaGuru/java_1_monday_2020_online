@@ -5,8 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Нужно исправить формат в классе.")
+@CodeReview(approved = true)
 class Task_2 {
     public static void main(String[] args) {
 

@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_7.level_1_intern.task_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
 /*
@@ -7,6 +9,7 @@ import java.util.Arrays;
 Для этого создайте в классе WordService отдельные методы для каждой подзадачи.
 Напишите автоматические тесты для каждой подзадачи.
  */
+@CodeReview(approved = true)
 class WordService {
 
     public String replacementOfUnnecessaryCharacters(String text) {

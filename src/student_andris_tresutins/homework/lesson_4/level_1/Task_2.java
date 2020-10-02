@@ -5,9 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Программа не соответствует заданию. она ничего не запрашивает у пользователя")
- class Task_2 {
+@CodeReview(approved = true)
+class Task_2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -15,16 +14,11 @@ import java.util.Scanner;
 
         int number = input.nextInt();
 
-        if( number > 0 ){
-
+        if (number > 0) {
             System.out.println(number + " - number is positive");
-
-        } else if ( number == 0) {
-
+        } else if (number == 0) {
             System.out.println(number + " - number is not negative or positive");
-
-        }
-        else {
+        } else {
             System.out.println(number + " - number is negative");
         }
     }

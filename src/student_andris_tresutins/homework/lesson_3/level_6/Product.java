@@ -3,8 +3,7 @@ package student_andris_tresutins.homework.lesson_3.level_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Не понятно, что такое буква s...")
+@CodeReview(approved = true)
  class Product {
 
     String name;

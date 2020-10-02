@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_7.level_2_intern.task_5;
 
+import teacher.annotations.CodeReview;
+
 /*
 Попробовать применить на практике знания о функциях
 полученные из третьей главы ("Функции") книги Роберта Мартина "Чистый код" (Clean code).
@@ -9,7 +11,7 @@ package student_lilija_g.homework.lesson_7.level_2_intern.task_5;
 Критически оцените написанный вами код и если увидите те места,
 которые следует улучшить то сделайте это! Выполните рефакторинг!
  */
-
+@CodeReview(approved = true)
 class WordService {
 
     public String replacementOfUnnecessaryCharacters(String text) {

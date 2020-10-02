@@ -3,9 +3,7 @@ package student_andris_tresutins.homework.lesson_3.level_5;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Вы создали default конструктор. Его можно было не писать. Он (если вы не написали другой конструктор) всегда существует не явно в любом классе. Но если вы решили его написать," +
-        "расположите его в правильном месте. Конструкторы идут после переменных и перед методами. ФОРМАТ")
+@CodeReview(approved = true)
  class Dog {
 
     private String name="K-9 the dog";
