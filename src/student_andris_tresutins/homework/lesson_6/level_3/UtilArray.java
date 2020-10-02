@@ -6,7 +6,9 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests...")
+@CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests..." +
+        "" +
+        "? why you commit this?")
 class UtilArray {
 
 /*

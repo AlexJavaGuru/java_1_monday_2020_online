@@ -3,8 +3,7 @@ package student_aleksejs_ivanovs.homework.lesson_6.level_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Алексей, как этот код помогает дочровно завершить итерацию?")
+@CodeReview(approved = true)
 class Task_17 {
 
     public static void main(String[] args) {

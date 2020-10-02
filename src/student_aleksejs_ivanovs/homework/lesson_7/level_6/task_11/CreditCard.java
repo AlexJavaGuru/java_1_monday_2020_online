@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_7.level_6.task_11;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CreditCard {
 
     private final int cardNumber;

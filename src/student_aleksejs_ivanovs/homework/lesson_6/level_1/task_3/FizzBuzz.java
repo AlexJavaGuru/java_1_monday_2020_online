@@ -4,7 +4,9 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Я бы не сказал, что вы сильно упростили код )  Его все еще трудно читать")
+@CodeReviewComment(comment = "Я бы не сказал, что вы сильно упростили код )  Его все еще трудно читать" +
+        "" +
+        "Читать легче не стало =D Совершенно. Сделайте задание через старые добрые if else только используйте привильный формат!")
 class FizzBuzz {
 
     public String detect(int number) {

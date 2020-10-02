@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_7.level_6.task_10;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PowerCalculatorTest {
 
     public static void main(String[] args) {
