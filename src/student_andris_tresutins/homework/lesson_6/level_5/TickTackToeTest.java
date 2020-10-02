@@ -1,7 +1,10 @@
 package student_andris_tresutins.homework.lesson_6.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class TickTackToeTest {
     public static void main(String[] args) {
         TickTackToeTest test = new TickTackToeTest();

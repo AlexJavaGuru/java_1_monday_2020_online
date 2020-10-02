@@ -1,5 +1,8 @@
 package student_renars_ranka.homework.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();

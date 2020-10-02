@@ -9,6 +9,7 @@ import java.util.Arrays;
 @CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests...")
 class UtilArray {
 
+/*
     public int[] arrayOne (){
         int[] array = {12, 54, 3, 7, 458};
         return array;
@@ -129,6 +130,8 @@ class UtilArray {
 
     }
 
+
+ */
 
 }
 

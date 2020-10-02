@@ -24,8 +24,8 @@ import teacher.annotations.CodeReviewComment;
     }
 
     public double actualPrice(){
-        double s = 100 - discount;
-        return (s*price)/100;
+        double calculateDiscount = 100 - discount;
+        return (calculateDiscount * price)/100;
     }
 
     public void printInformation(){

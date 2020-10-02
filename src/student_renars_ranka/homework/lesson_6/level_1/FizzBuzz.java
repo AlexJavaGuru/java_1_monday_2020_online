@@ -1,5 +1,10 @@
 package student_renars_ranka.homework.lesson_6.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Данному классу совершенно не нужна переменная initialNumber. Задание как бы намекает на это. Этот метод можно реализовать без этого состояния")
 class FizzBuzz {
 
     private int initialNumber;

@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_8.level_7_senior;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Book {
     private String author;
     private String name;

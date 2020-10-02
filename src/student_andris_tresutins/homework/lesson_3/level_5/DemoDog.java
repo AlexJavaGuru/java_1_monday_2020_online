@@ -12,7 +12,6 @@ import teacher.annotations.CodeReview;
 
         System.out.println(klichka);
         System.out.println("Dog age : " + newdog.getAge());
-        System.out.println(Voicedo+newdog.getAge());
+        System.out.println(Voicedo + newdog.getAge());
     }
-//incomplete
 }

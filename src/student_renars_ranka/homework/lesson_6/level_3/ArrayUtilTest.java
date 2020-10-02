@@ -1,5 +1,10 @@
 package student_renars_ranka.homework.lesson_6.level_3;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А чего метод findNumber не тестируется? =)")
 public class ArrayUtilTest {
 
     public static void main(String[] args) {

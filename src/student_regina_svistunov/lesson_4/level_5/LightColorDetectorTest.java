@@ -1,7 +1,12 @@
 package student_regina_svistunov.lesson_4.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Не удаляйте мои комментарии! Спасибо =)")
 class LightColorDetectorTest {
 
     public static void main(String[] args) {

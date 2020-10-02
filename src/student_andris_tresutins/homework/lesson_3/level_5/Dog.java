@@ -7,9 +7,10 @@ import teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Вы создали default конструктор. Его можно было не писать. Он (если вы не написали другой конструктор) всегда существует не явно в любом классе. Но если вы решили его написать," +
         "расположите его в правильном месте. Конструкторы идут после переменных и перед методами. ФОРМАТ")
  class Dog {
-    Dog(){}
+
     private String name="K-9 the dog";
     private int age;
+
     public String getDogName(){
         return this.name;
 
@@ -30,5 +31,4 @@ import teacher.annotations.CodeReviewComment;
         return getDogName()+" ";
 
     }
-//incomplete
 }

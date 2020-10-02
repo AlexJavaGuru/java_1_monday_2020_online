@@ -13,22 +13,30 @@ class Task_3 {
         System.out.println("enter number of the day of the week");
         int number = input.nextInt();
 
-        if (number == 1) {
-            System.out.println(number + " - Monday");
-        } else if (number == 2) {
-            System.out.println(number + " - Tuesday");
-        } else if (number == 3) {
-            System.out.println(number + " - Wednesday");
-        } else if (number == 4) {
-            System.out.println(number + " - Thursday");
-        } else if (number == 5) {
-            System.out.println(number + " - Friday");
-        } else if (number == 6) {
-            System.out.println(number + " - Saturday");
-        } else if (number == 7) {
-            System.out.println(number + " - Sunday");
-        } else {
-            System.out.println("invalid number");
+        switch(number) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("invalid number");
         }
     }
 }

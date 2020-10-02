@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_6.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Бесконечный цикл есть, но зачем тут if?")
 class Task_15_While {
     public static void main(String[] args) {
         int number = 3;

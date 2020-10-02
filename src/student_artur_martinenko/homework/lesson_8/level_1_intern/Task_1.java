@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_8.level_1_intern;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_1 {
     private String name;
     private int age;

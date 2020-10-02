@@ -1,6 +1,11 @@
 package student_pjotrs_grezmanis.lesson_6.level_4;
 
-public class Task_16_While {
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Ну такой себе бесконечный цикл =) Всего одна итерация")
+class Task_16_While {
     public static void main(String[] args) {
         int number = 3;
         int result = 1;

@@ -15,6 +15,7 @@ public class User {
     public String getPassword() {
         return password;
     }
+
     public int getAttemptCount() {
         return attemptCount;
     }
@@ -22,20 +23,24 @@ public class User {
     public boolean isBlocked() {
         return isBlocked;
     }
+
     public int reduceAttemptCount() {
-        if (attemptCount >1 ) {
-            return attemptCount -=1;
-        } return -1;
+        if (attemptCount > 1) {
+            return attemptCount -= 1;
+        }
+        return -1;
     }
 
     public void resetAttemptCount() {
         this.attemptCount = 3;
     }
+
     public boolean blockUser() {
         return isBlocked = true;
     }
+
     public boolean unBlockUser() {
-        return isBlocked =false;
+        return isBlocked = false;
     }
 
 
