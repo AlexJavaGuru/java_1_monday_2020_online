@@ -13,7 +13,7 @@ import java.util.Arrays;
         "Arrays cannot be compared with ==. If you want to compare arrays, please, create a method, which or use Arrays.sort if you lazy =). Remove method  public void check(int[] expectedRes, int[] result, String testName)")
         //luchse pa ruski :D, tak bilo ponjatnei :DD
 class TestUtilArray {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         TestUtilArray test = new TestUtilArray();
         test.searchnumresult();
         test.searchnummultipletest();
@@ -131,4 +131,6 @@ class TestUtilArray {
             System.out.println("Expected result was : " + expectedRes + " but actual result was : " + result);
         }
     }
+
+    */
 }
