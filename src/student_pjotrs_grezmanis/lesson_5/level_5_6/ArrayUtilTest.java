@@ -29,8 +29,8 @@ public class ArrayUtilTest {
         arrayUtil.fillArrayWithRandomNumbers(arrayUntilTwo);
 
         int sum = 0;
-        for (int p = 0; p < arrayUntilTwo.length; p++) {
-            sum += arrayUntilTwo[p];
+        for (int i = 0; i < arrayUntilTwo.length; i++) {
+            sum += arrayUntilTwo[i];
         }
         if (sum > 0) {
             System.out.println("Test random numbers - OK");
