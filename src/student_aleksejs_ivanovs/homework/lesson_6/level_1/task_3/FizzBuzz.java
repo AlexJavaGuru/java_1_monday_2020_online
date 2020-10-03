@@ -10,7 +10,12 @@ import teacher.annotations.CodeReviewComment;
 class FizzBuzz {
 
     public String detect(int number) {
-            return (number % 3 == 0) ? (number % 5 == 0) ? "FizzBuzz" : "Fizz" : (number % 5 == 0) ? "Buzz" : number + "";
+        if ((number % 3 == 0) && (number % 5 == 0)) {
+            return "FizzBuzz";
+        } else if (number % 3 == 0) {
+            return "Fizz";
+        }
+        return (number % 5 == 0) ? "Buzz" : Integer.toString(number);
     }
 
 }
