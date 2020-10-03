@@ -14,15 +14,15 @@ class Task_28 {
 
         Random random = new Random();
         System.out.println("Random numbers:");
-        for (int r = 0; r < randomNumber.length; r++) {
+        for (int i = 0; i < randomNumber.length; i++) {
             int number = random.nextInt(1000);
-            randomNumber[r] = number;
-            System.out.println(randomNumber[r]);
+            randomNumber[i] = number;
+            System.out.println(randomNumber[i]);
         }
         int min = randomNumber[0];
-        for (int r = 0; r < randomNumber.length; r++) {
-            if (randomNumber[r] < min)
-                min = randomNumber[r];
+        for (int i = 0; i < randomNumber.length; i++) {
+            if (randomNumber[i] < min)
+                min = randomNumber[i];
         }
         System.out.println("Min: " + min);
 

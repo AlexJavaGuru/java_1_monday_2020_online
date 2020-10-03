@@ -20,10 +20,10 @@ class Task_26 {
         Random random = new Random();
         System.out.println("Random numbers:");
 
-        for (int p = 0; p < size; p++) {
+        for (int i = 0; i < size; i++) {
             int number = random.nextInt(1000);
-            randomNumber[p] = number;
-            System.out.println(randomNumber[p]);
+            randomNumber[i] = number;
+            System.out.println(randomNumber[i]);
         }
     }
 }
