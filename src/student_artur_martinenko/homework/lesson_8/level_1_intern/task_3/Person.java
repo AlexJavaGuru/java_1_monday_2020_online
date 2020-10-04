@@ -23,6 +23,8 @@ class Person {
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Я не совсем понимаю, как Демо к этому классу показывает, какие значения принимают переменные объекта при инициализации через" +
         "default constructor? ")
+//Согласен, не показал этого, вердикт справедлив. Теперь класс Демо показывает, какие значения у объекта с дефолтным конструктором.
+
 class Person {
 
     private String fullName;
@@ -36,5 +38,14 @@ class Person {
         this.fullName = fullName;
         this.age = age;
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", age=" + age +
+                ", address=" + address +
+                '}';
     }
 }

@@ -5,5 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "abstract класс тут оказался не сильно нужен =) Даже нет методов...")
+//Быстро делал, не написал никакого метода. Исправил.
 abstract class Vegetable {
+
+    abstract void canBeEaten();
 }
