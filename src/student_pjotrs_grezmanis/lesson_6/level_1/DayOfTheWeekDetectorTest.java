@@ -21,80 +21,87 @@ class DayOfTheWeekDetectorTest {
 
     public void testSuccessMonday() {
         DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Monday".equals(testObject.recognizeDayOfTheWeek(1))) {
-            System.out.println("testSuccessMonday() OK");
-        } else {
-            System.out.println("testSuccessMonday() Failed");
-        }
+        check("Monday",
+                testObject.recognizeDayOfTheWeek(1),
+                "testSuccessMonday()"
+        );
     }
 
     public void testSuccessTuesday() {
         DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-
-        if ("Tuesday".equals(testObject.recognizeDayOfTheWeek(2))) {
-            System.out.println("testSuccessTuesday() OK");
-        } else {
-            System.out.println("testSuccessTuesday() Failed");
-        }
+        check("Tuesday",
+                testObject.recognizeDayOfTheWeek(2),
+                "testSuccessTuesday()"
+        );
     }
+
     public void testSuccessWednesday() {
         DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Wednesday".equals(testObject.recognizeDayOfTheWeek(3))) {
-            System.out.println("testSuccessWednesday() OK");
-        } else {
-            System.out.println("testSuccessWednesday() Failed");
-        }
-    }
-    public void testSuccessThursday() {
-        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Thursday".equals(testObject.recognizeDayOfTheWeek(4))) {
-            System.out.println("testSuccessThursday() OK");
-        } else {
-            System.out.println("testSuccessThursday() Failed");
-        }
-    }
-    public void testSuccessFriday() {
-        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Friday".equals(testObject.recognizeDayOfTheWeek(5))) {
-            System.out.println("testSuccessFriday() OK");
-        } else {
-            System.out.println("testSuccessFriday() Failed");
-        }
-    }
-    public void testSuccessSaturday() {
-        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Saturday".equals(testObject.recognizeDayOfTheWeek(6))) {
-            System.out.println("testSuccessSaturday() OK");
-        } else {
-            System.out.println("testSuccessSaturday() Failed");
-        }
-    }
-    public void testSuccessSunday() {
-        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
-        if ("Sunday".equals(testObject.recognizeDayOfTheWeek(7))) {
-            System.out.println("testSuccessSunday() OK");
-        } else {
-            System.out.println("testSuccessSunday() Failed");
-        }
+        check("Wednesday",
+                testObject.recognizeDayOfTheWeek(3),
+                "testSuccessWednesday()"
+        );
     }
 
+    public void testSuccessThursday() {
+        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
+        check("Thursday",
+                testObject.recognizeDayOfTheWeek(4),
+                "testSuccessThursday()"
+        );
+    }
+
+    public void testSuccessFriday() {
+        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
+        check("Friday",
+                testObject.recognizeDayOfTheWeek(5),
+                "testSuccessFriday()"
+        );
+    }
+
+    public void testSuccessSaturday() {
+        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
+        check("Saturday",
+                testObject.recognizeDayOfTheWeek(6),
+                "testSuccessSaturday()"
+        );
+    }
+
+    public void testSuccessSunday() {
+        DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
+        check(
+                "Sunday",
+                testObject.recognizeDayOfTheWeek(7),
+                "testSuccessSunday()"
+        );
+
+    }
 
 
     public void testIncorrectDayOfWeek() {
         DayOfTheWeekDetector testObject = new DayOfTheWeekDetector();
         String expectedResult = "Please input a valid number between 1 and 7";
+        check(
+                expectedResult,
+                testObject.recognizeDayOfTheWeek(0),
+                "testIncorrectDayOfWeek with 0"
+        );
+        check(
+                expectedResult,
+                testObject.recognizeDayOfTheWeek(8),
+                "testIncorrectDayOfWeek with 8"
+        );
 
-        if (expectedResult.equals(testObject.recognizeDayOfTheWeek(0))) {
-            System.out.println("testIncorrectDayOfWeek with 0 OK");
-        } else {
-            System.out.println("testIncorrectDayOfWeek with 0 Failed");
-        }
+    }
 
-        if (expectedResult.equals(testObject.recognizeDayOfTheWeek(8))) {
-            System.out.println("testIncorrectDayOfWeek with 8 OK");
+    public void check(String expectedResult, String actualResult, String testName) {
+        if (expectedResult.equals(actualResult)) {
+            System.out.println(testName + " has passed");
         } else {
-            System.out.println("testIncorrectDayOfWeek with 8 Failed");
+            System.out.println(testName + " failed!");
+            System.out.println("Expected result was " + expectedResult + " but actual result " + actualResult);
         }
     }
+
 }
 
