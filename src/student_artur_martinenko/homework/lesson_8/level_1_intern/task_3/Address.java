@@ -14,4 +14,15 @@ class Address {
         this.houseNumber = houseNumber;
         this.aptNumber = aptNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", houseNumber=" + houseNumber +
+                ", aptNumber=" + aptNumber +
+                '}';
+    }
 }

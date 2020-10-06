@@ -1,8 +1,8 @@
-package student_pjotrs_grezmanis.lesson_7;
+package student_pjotrs_grezmanis.lesson_7.level_1;
 
-class Task_1 {
+class WordService {
     public static void main(String[] args) {
-        Task_1 task = new Task_1();
+        WordService task = new WordService();
 
         String result = task.findMostFrequentWord(" Hey, Hey, java программист java intern ");
         System.out.println(result);

@@ -8,23 +8,20 @@ import java.util.Random;
 @CodeReview(approved = true)
 class Task_30 {
     public static void main(String[] args) {
-
         int[] randomNumber = new int[10];
-
         Random random = new Random();
         System.out.println("Random numbers:");
-        for (int r = 0; r < randomNumber.length; r++) {
+        for (int i = 0; i < randomNumber.length; i++) {
             int number = random.nextInt(100);
-            randomNumber[r] = number;
-            System.out.println(randomNumber[r]);
+            randomNumber[i] = number;
+            System.out.println(randomNumber[i]);
         }
         System.out.println("Odd numbers:");
-        for (int r = 0; r < randomNumber.length; r++) {
+        for (int i = 0; i < randomNumber.length; i++) {
 
-            if (randomNumber[r] % 2 != 0) {
-                System.out.println(randomNumber[r]);
+            if (randomNumber[i] % 2 != 0) {
+                System.out.println(randomNumber[i]);
             }
         }
-
     }
 }
