@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_13;
+
+import teacher.annotations.CodeReview;
+
 /*
 Разработать класс с методом, который копирует числа в заданном диапазоне
 из одного массива в другой:
@@ -14,7 +17,7 @@ int[] copyInRange(int[] in, int numberFrom, int numberTo)
 Написать тестовые сценарии для класса Copy в классе CopyTest.
 Все тестовые сценарии должны отрабатывать без ошибок.
  */
-
+@CodeReview(approved = true)
 class Copy {
 
     int[] copyInRange(int[] in, int numberFrom, int numberTo) {

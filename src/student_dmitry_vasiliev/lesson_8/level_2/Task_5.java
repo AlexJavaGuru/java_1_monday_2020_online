@@ -1,7 +1,11 @@
 package student_dmitry_vasiliev.lesson_8.level_2;
+
+import teacher.annotations.CodeReview;
+
 /*Что такое множественное наследование
         в программировании?
         Разрешено ли множественное наследование в Java?*/
+@CodeReview(approved = true)
 class Task_5 {
 
     /*Множественное наследование - это наследование свойств класса от двух суперклассов.

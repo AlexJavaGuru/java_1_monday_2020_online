@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_8.level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Square_T17 extends Shape_T15 {
 
     private double side;

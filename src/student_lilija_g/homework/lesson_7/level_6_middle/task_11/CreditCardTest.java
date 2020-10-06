@@ -1,7 +1,10 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_11;
 
+import teacher.annotations.CodeReview;
+
 import java.math.BigDecimal;
 
+@CodeReview(approved = true)
 class CreditCardTest {
 
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_2_intern.task_9;
+
+import teacher.annotations.CodeReview;
+
 /*
 Создайте класс PrivateConstructor.
 Создайте класс PrivateConstructorDemo и в его main() методе создайте инстанцию класса PrivateConstructor.
@@ -6,6 +9,7 @@ package student_artur_martinenko.homework.lesson_9.level_2_intern.task_9;
 в демо классе. Подсказка кроется в названии класса!
 PS: не забудьте закоментировать не компилирующийся код в демо классе.
  */
+@CodeReview(approved = true)
 class PrivateConstructor {
     int number;
 

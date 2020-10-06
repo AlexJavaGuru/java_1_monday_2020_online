@@ -18,6 +18,9 @@ PS: в этом задании класс Person должен явно насл�
         от класса Object, пропишите наследование правильно.
         */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Person extends Object{
 
     public String fullName;

@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_8.level_1_intern.task_1;
+
+import teacher.annotations.CodeReview;
+
 /*
 Что такое дефолтный конструктор класса?
 Создайте класс и в нём объявите дефолтный конструктор.
@@ -14,6 +17,7 @@ package student_lilija_g.homework.lesson_8.level_1_intern.task_1;
 По сути конструктор нужен для автоматической инициализации переменных.
 
  */
+@CodeReview(approved = true)
 class DefaultConstructor {
     int argumentOne;
     String argumentTwo;

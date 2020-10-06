@@ -5,6 +5,9 @@ package student_artur_martinenko.homework.lesson_9.level_1_intern.task_4;
 Создайте класс демо и продемонстрируйте, что можно делать с публичными свойствами объекта.
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Safe {
     int balance;
     String pinCode;

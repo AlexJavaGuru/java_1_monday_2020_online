@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_5_middle.task_29;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
 /*
@@ -28,6 +30,7 @@ import java.util.ArrayList;
 //Александр, это пищет будующий Артур, выполнивший это задание до конца ))
 //Прошу не судить строго за нестандартность выбранного мною решений. Код эволюционирует с каждым новым заданием.
 
+@CodeReview(approved = true)
 class FraudDetector {
 
     public ArrayList<FraudRule> fraudRules;

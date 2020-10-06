@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_9.level_1_intern.task_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class SafeDemo {
 
     public static void main(String[] args) {

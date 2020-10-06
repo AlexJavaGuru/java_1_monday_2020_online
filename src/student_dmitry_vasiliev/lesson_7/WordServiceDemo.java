@@ -3,8 +3,8 @@ package student_dmitry_vasiliev.lesson_7;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Смотреть коммент WordService")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Как легко сразу стало все читать. Правда? =)")
 class WordServiceDemo {
 
     public static void main(String[] args) {

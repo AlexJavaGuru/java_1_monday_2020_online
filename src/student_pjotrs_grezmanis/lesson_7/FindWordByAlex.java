@@ -2,10 +2,10 @@ package student_pjotrs_grezmanis.lesson_7;
 
 public class FindWordByAlex {
     public static void main(String[] args) {
-        Task_1 task = new Task_1();
+//        Task_1 task = new Task_1();
 
-        String result = task.findMostFrequentWord(" Hey, Hey, java программист java intern ");
-        System.out.println(result);
+//        String result = task.findMostFrequentWord(" Hey, Hey, java программист java intern ");
+//        System.out.println(result);
     }
 
     public String findMostFrequentWord(String text) {

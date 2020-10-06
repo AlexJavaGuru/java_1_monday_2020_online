@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_9.level_4_junior.task_18;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;

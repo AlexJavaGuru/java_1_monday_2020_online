@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_7.level_7_senior.super_task_7;
 
+import teacher.annotations.CodeReview;
+
 /*
 Улучшить код приведённый ниже.
 Нужно разбить этот код на методы и сделать его более читабельным.
@@ -50,6 +52,7 @@ class WordService {
      }
 }
  */
+@CodeReview(approved = true)
 class WordService {
 
     public int[] createArray(int arrayLength) {

@@ -1,7 +1,9 @@
 package student_andris_tresutins.homework.lesson_8.level_5;
 
 import student_andris_tresutins.homework.lesson_8.level_4.*;
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class ShapeUtilTest {
 
     public static void main(String[] args) {

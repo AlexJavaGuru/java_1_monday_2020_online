@@ -1,4 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_1_intern.task_5;
+
+import teacher.annotations.CodeReview;
+
 /*
 Создайте класс сейф версии 2 с двумя свойствами: пароль и количество денег в сейфе.
 Начальные значения этим свойствам задавайте через публичный конструктор.
@@ -7,6 +10,7 @@ package student_artur_martinenko.homework.lesson_9.level_1_intern.task_5;
 Подсказка: реализуйте эту функциональность через публичные методы: getMoney(...), putMoney(...).
 Создайте класс демо и продемонстрируйте, принцып инкапсуляции в действии!
  */
+@CodeReview(approved = true)
 class Safe {
     private int balance;
     private String pinCode;

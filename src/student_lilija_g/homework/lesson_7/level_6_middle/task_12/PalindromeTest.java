@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_12;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PalindromeTest {
     public static void main(String[] args) {
 

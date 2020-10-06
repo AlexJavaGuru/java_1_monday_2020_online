@@ -1,7 +1,10 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_13;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class CopyTest {
 
     public static void main(String[] args) {
