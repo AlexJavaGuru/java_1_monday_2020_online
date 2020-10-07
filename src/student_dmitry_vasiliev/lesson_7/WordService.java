@@ -1,7 +1,6 @@
 package student_dmitry_vasiliev.lesson_7;
 
 import teacher.annotations.CodeReview;
-import teacher.annotations.CodeReviewComment;
 
 /*
 Дана строка с текстом.
@@ -31,59 +30,45 @@ PS: если вы не можете придумать как разбить э�
 Убедитесь, что вы сможете из решений всех подзадач
 собрать решение главной задачи.
 */
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Если в задание даны сигнатуры методов - используйте их. " +
-        "1 - метод changeDotCommToEmpty можно было бы назвать как удаление знаков пунктуации. Если хотите преобразовать строку, то не надо плодить её копии" +
-        "просто записывайте в нее." +
-        "2 - метод arrayOfWord можно сделать в одну строку." +
-        "3 - сам алгорит очень сложный. Попробуйте переделать. Смотрите, у вас задача, найти самое частое слово. Разбейте задачу на две части." +
-        "   1: Напишите метод, который принимает массив слов (который вы уже имеете) и слово. Алгоритм должен поискать данное слово по массиву и возвращать" +
-        "   количество вхождений этого слова в массив." +
-        "   2: Основной алгоритм пробегает по всем словам массива, вызывает метод описанный мной выше, передавая туда сам массив и слово на данной итерации." +
-        "   Далее, задача сводиться к нахождению максимума, только кроме максимального значения, еще надо записывать слово, на текущей итерации" +
-        "Самое плохое, что вы сделали, это то, как вы пользуетесь вашим сервисом. Зачем пользователю видеть весь этот ужос? words.findEntryMaxNumber(words.wordMaxEntry(words.arrayOfWord(words.changeDotCommToEmpty(sentence))));" +
-        "это очень сложно читать, а еще сложнее это дэбажить. Максимум, вы можете вызвать один метод у аргумента, передаваемого в другой метод." +
-        "Я вам рекомендую. спрятать всю эту логику в классе WordService. Вы должны просто вызвать сервис -> передать в него стринг с текстом -> получить результат")
+@CodeReview(approved = true)
 class WordService {
 
-    public String changeDotCommToEmpty(String sentence) {
+    public void findMostFrequentWord(String sentence) {
+        String[] array = arrayOfWord(removePunctMarks(sentence));
+        System.out.println("In sentence *" + sentence + "*, word *" + findMostCommWord(array) +
+                "* has most entries.");
+    }
+
+    public String removePunctMarks(String sentence) {
         sentence = sentence.replace(".", "");
         sentence = sentence.replace(",", "");
         return sentence;
     }
 
     public String[] arrayOfWord(String sentence) {
-        return sentence.split("\\s");
+        return removePunctMarks(sentence).split("\\s");
     }
 
-    public int[] wordMaxEntry(String[] array) {
-        int[] entryCounter = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i].equals(array[j])) {
-                    entryCounter[i] += 1;
-                }
+    public int wordEntry(String[] arrayOfWord, String word) {
+        int wordCounter = 0;
+        for (int i = 0; i < arrayOfWord.length; i++) {
+            if (arrayOfWord[i].equals(word)) {
+                wordCounter += 1;
             }
-            //int j = i;
         }
-        return entryCounter;
+        return wordCounter;
     }
 
-    public int findEntryMaxNumber(int[] array) {
+    public String findMostCommWord(String[] array) {
         int maxNumber = 0;
-        int indexNumber = 0;
+        String mostCommWord = new String();
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > maxNumber) {
-                maxNumber = array[i];
-                indexNumber = i;
+            if (wordEntry(array, array[i]) > maxNumber) {
+                maxNumber = wordEntry(array, array[i]);
+                mostCommWord = array[i];
             }
         }
-        return indexNumber;
-    }
-
-    public void printWord(String sentence, String[] wordArray, int indexNumber) {
-        System.out.println("In sentence //" + sentence + "//, word /" + wordArray[indexNumber] +
-                "/ has most entries.");
+        return mostCommWord;
     }
 }
 

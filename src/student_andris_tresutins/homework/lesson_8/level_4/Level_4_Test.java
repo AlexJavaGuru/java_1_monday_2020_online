@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_8.level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
  class Level_4_Test {
     public static void main(String[] args) {
         Level_4_Test test = new Level_4_Test();

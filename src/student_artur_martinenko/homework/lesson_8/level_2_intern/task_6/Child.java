@@ -5,5 +5,6 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Можно было бы использовать иерархическое наследование. Father от Mather, Child от Mather")
+//Смутила логика, что Father от Mother ))
 class Child extends Mother {   //multiple inheritance is forbidden in Java, only one.
 }

@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_11;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.math.BigDecimal;
 
 /*
@@ -38,7 +41,8 @@ import java.math.BigDecimal;
 Написать тестовые сценарии для класса CreditCard в классе CreditCardTest.
 Все тестовые сценарии должны отрабатывать без ошибок.
  */
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "cardNumber только оказался лишним у конструктора. Наверное хотелось бы чтобы карта имела какой-то свой номер?")
 class CreditCard {
     private final String cardPinCode;
     private BigDecimal cardBalance;

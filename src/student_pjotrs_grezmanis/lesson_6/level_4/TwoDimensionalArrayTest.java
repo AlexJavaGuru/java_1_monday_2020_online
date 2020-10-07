@@ -1,7 +1,10 @@
 package student_pjotrs_grezmanis.lesson_6.level_4;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
     public static void main(String[] args) {
         TwoDimensionalArrayTest twoDimensionalArrayTest = new TwoDimensionalArrayTest();

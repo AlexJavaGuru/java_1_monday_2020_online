@@ -3,8 +3,8 @@ package student_dmitry_vasiliev.lesson_7;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Смотреть коммент WordService")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Как легко сразу стало все читать. Правда? =)")
 class WordServiceDemo {
 
     public static void main(String[] args) {
@@ -12,9 +12,6 @@ class WordServiceDemo {
 
         String sentence = "Operators with higher precedence are, evaluated before " +
                 "operators with relatively lower precedence.";
-        words.findEntryMaxNumber(words.wordMaxEntry(words.arrayOfWord(words.changeDotCommToEmpty(sentence))));
-        words.printWord(sentence,words.arrayOfWord(words.changeDotCommToEmpty(sentence)),
-                words.findEntryMaxNumber(words.wordMaxEntry
-                        (words.arrayOfWord(words.changeDotCommToEmpty(sentence)))));
+        words.findMostFrequentWord(sentence);
     }
 }
