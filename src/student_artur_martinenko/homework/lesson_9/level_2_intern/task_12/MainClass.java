@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_2_intern.task_12;
 
+import teacher.annotations.CodeReview;
+
 /*
 Какой будет результат выполнения следующей программы?
 
@@ -27,6 +29,7 @@ public class MainClass {
     }
 }
  */
+@CodeReview(approved = true)
 public class MainClass {
     public static void main(String[] args) {
         //При создании объекта 'с', вызовутся автоматически все кострукторы родителей,

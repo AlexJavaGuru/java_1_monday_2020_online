@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_8.level_1_intern.task_3;
+
+import teacher.annotations.CodeReview;
+
 /*
 Какие значения принимают свойства класса
 (ссылки на объекты и примитивные типы данных)
@@ -15,6 +18,7 @@ class Person {
 Напишите программу, которая продемонстрирует
 ответ на этот вопрос.
  */
+@CodeReview(approved = true)
 class Person {
 
     private String fullName;

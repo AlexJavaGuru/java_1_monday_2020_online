@@ -17,6 +17,9 @@ boolean isPalindrome(String text) - метод возвращает true, есл
 Все тестовые сценарии должны отрабатывать без ошибок.
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Palindrome {
 
     boolean isPalindrome(String text){

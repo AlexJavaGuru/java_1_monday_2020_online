@@ -30,7 +30,7 @@ PS: если вы не можете придумать как разбить э�
 Убедитесь, что вы сможете из решений всех подзадач
 собрать решение главной задачи.
 */
-@CodeReview(approved = false)
+@CodeReview(approved = true)
 class WordService {
 
     public void findMostFrequentWord(String sentence) {

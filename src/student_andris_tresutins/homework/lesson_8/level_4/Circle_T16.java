@@ -1,5 +1,9 @@
 package student_andris_tresutins.homework.lesson_8.level_4;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
 public class Circle_T16 extends Shape_T15 {
 
     private double radius;

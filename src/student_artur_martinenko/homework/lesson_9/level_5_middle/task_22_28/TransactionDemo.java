@@ -1,7 +1,13 @@
 package student_artur_martinenko.homework.lesson_9.level_5_middle.task_22_28;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Все задание принимаю. Лень ставить аннотации на все классы =) Там все супер. Вы уже чувствуете, как задача усложнилась," +
+        "когда просто надо решить задачку из 5-ти правил?")
 class TransactionDemo {
     public static void main(String[] args) {
         TransactionDemo victim = new TransactionDemo();

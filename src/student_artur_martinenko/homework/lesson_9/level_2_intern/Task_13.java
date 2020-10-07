@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_2_intern;
 
+import teacher.annotations.CodeReview;
+
 /*
 В коде ниже допущена ошибка. Исправьте её.
 Вносить изменения можно только в класс ClassY.
@@ -19,6 +21,7 @@ class ClassY extends ClassX {
 class Task_13 {
 }
 
+@CodeReview(approved = true)
 class ClassX {
     public ClassX(int i) {
         System.out.println(1);

@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_9.level_4_junior.task_20;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class TransactionDemo {
     public static void main(String[] args) {
         TransactionDemo victim = new TransactionDemo();

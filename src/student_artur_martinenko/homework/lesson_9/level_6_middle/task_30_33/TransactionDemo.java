@@ -1,5 +1,10 @@
 package student_artur_martinenko.homework.lesson_9.level_6_middle.task_30_33;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень - круто. Все задание на 5+")
 class TransactionDemo {
     public static void main(String[] args) {
         TransactionDemo victim = new TransactionDemo();

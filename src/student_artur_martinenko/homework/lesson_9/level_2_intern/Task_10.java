@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_2_intern;
 
+import teacher.annotations.CodeReview;
+
 /*
 Дан класс ConstructorChaining.
 
@@ -24,6 +26,7 @@ class ConstructorChaining {
 class Task_10 {
 }
 
+@CodeReview(approved = true)
 class ConstructorChaining {
 
     private String constructorName;

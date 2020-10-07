@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_7.level_6_middle.task_10;
 
+import teacher.annotations.CodeReview;
+
 /*
 Разработать класс PowerCalculator, который реализует единственный функциональный метод
 для возведения заданного числа в заданную степень.
@@ -7,6 +9,7 @@ package student_lilija_g.homework.lesson_7.level_6_middle.task_10;
 Написать тестовые сценарии для класса PowerCalculator в классе PowerCalculatorTest.
 Все тестовые сценарии должны отрабатывать без ошибок.
  */
+@CodeReview(approved = true)
 class PowerCalculator {
 
     public double powerOfNumber(double number, int power) {
