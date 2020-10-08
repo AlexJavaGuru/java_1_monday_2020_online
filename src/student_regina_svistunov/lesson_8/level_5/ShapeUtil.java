@@ -20,6 +20,38 @@ import java.util.Random;
 //        Triangle createRandomTriangle();
 //        Этот метод создаёт равносторонний треугольник
 //        со случайно выбранной длиной стороны.
+//Task_24
+//В класе ShapeUtil реализуйте метод:
+//        Shape createRandomShape() {
+//        }
+//        Этот метод создаёт случайную геометрическую фигуру.
+//Task_25
+//В класе ShapeUtil реализуйте метод:
+//        double calculateArea(Shape[] shapes);
+//        Этот метод расчитывает объщую площадь
+//        геометрических фигур из массива.
+//Task_26
+//        В класе ShapeUtil реализуйте метод:
+//        double calculatePerimeter(Shape[] shapes);
+//        Этот метод расчитывает общий периметр
+//        геометрических фигур из массива.
+//Task_27
+//        В классе ShapeUtil создайте методы:
+//        double calculateArea(Shape shape) {
+//        return shape.calculateArea();
+//        }
+//        double calculatePerimeter(Shape shape) {
+//        return shape.calculatePerimeter();
+//        }
+//        Создайте ShapeUtilDemo класс и продемонстрируйте
+//        расчёт площади и переиметра
+//        любой геометрической фигуры.
+//        Пример для круга:
+//        ShapeUtil shapeUtil = new ShapeUtil();
+//        Shape circle = shapeUtil.createRandomCircle();
+//        double circleArea = shapeUtil.calculateArea(circle);
+//        double circlePerimeter = shapeUtil.calculatePerimeter(circle);
+
 
 public class ShapeUtil {
 
@@ -42,6 +74,36 @@ public class ShapeUtil {
         Random random = new Random();
         return new Triangle("Triangle", random.nextInt(50), random.nextInt(50), random.nextInt(50));
     }
+
+    public Shape createRandomShape() {
+        Random rnd = new Random();
+        int randomNumber = rnd.nextInt(4);
+        if (randomNumber == 0) {
+            return createRandomCircle();
+        } else if (randomNumber == 1) {
+            return createRandomSquare();
+        } else if (randomNumber == 2) {
+            return createRandomRectangle();
+        } else {
+            return createRandomTriangle();
+        }
+    }
+
+    public double calculateArea(Shape[] shapes) {
+        double shapesArea = 0;
+        for (Shape shape: shapes) {
+            shapesArea += shape.calculateArea();
+        } return shapesArea;
+    }
+
+    public double calculatePerimeter(Shape[] shapes) {
+        double shapesPerimeter = 0;
+        for (Shape shape: shapes) {
+            shapesPerimeter += shape.calculatePerimeter();
+        } return shapesPerimeter;
+    }
+
+
 
 
     public double calculateArea(Shape shape) {
