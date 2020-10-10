@@ -1,0 +1,53 @@
+Тема: Переменная среды окружения JAVA_HOME в операционной системе (OS).
+
+Найдите в интеренете, что такое JAVA_HOME.
+Установите на своём компьютере JAVA_HOME.
+
+Ответ:
+
+Что такое JAVA_HOME
+
+JAVA_HOME -это переменная окружения (в терминологии Unix)
+или переменная PATH (в терминологии Windows), указывающая на директорию
+с установленным JDK (Java Development Kit, комплект разработчика Java).
+
+JAVA_HOME это соглашение, используемое во многих программах из экосистемы Java.
+
+Какие программы используют JAVA_HOME
+Intellij IDEA, Eclipse, NetBeans
+Apache Maven, Apache Ant, Gradle
+Apache Tomcat
+Jenkins
+Некоторые игры, написанные на Java (например, Minecraft), тоже могут требовать
+установленной переменной JAVA_HOME.
+
+В основном JAVA_HOME используется для установки пути java.
+
+Многие хорошо работающие приложения Java (для запуска которых требуется JDK/JRE)
+ищут переменную JAVA_HOME в том месте, где может быть найден
+компилятор/интерпретатор Java.
+
+Вы должны добавить подкаталог bin вашего каталога установки JDK в PATH,
+чтобы вы могли использовать команды javac и java и другие инструменты JDK в окне
+командной строки.
+
+PATH -это переменная окружения, используемая операционной системой (Windows, Linux,
+Mac OS X), где она будет искать собственные исполняемые программы для запуска.
+
+Если вы не используете программное обеспечение, которое их требует,
+вам не нужно устанавливать JAVA_HOME и JRE_HOME .
+
+Установите на своём компьютере JAVA_HOME:
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Alexander>echo %JAVA_HOME%
+C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin
+
+C:\Users\Alexander>java --version
+openjdk 14.0.2 2020-07-14
+OpenJDK Runtime Environment AdoptOpenJDK (build 14.0.2+12)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 14.0.2+12, mixed mode, sharing)
+
+C:\Users\Alexander>

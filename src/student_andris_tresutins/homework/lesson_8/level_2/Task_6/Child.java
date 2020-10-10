@@ -8,8 +8,6 @@ import teacher.annotations.CodeReviewComment;
         "Чтобы решить эту задачу, можно унаследовать мать от отца а сына от матери.")
 public class Child extends Mother {
 
-        class Child2 extends Father {
 
-        }
 }
 

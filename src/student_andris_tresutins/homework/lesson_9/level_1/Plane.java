@@ -5,5 +5,5 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Название класса с маленькой буквы")
-public class plane {
+public class Plane {
 }
