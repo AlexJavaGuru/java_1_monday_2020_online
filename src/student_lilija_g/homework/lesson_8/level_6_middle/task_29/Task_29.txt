@@ -1,0 +1,28 @@
+Найти в интернете (javadoc) иерархию наследования
+для класса java.util.ArrayList.
+
+Иерархия наследования представляет собой особый тип объединения сущностей, которые
+разделяют общие характеристики.
+
+Наследование (англ. inheritance) — концепция ООП, согласно которой абстрактный тип
+данных может наследовать данные и функциональность некоторого существующего типа,
+способствуя повторному использованию компонентов программного обеспечения.
+
+Наследование — это процесс перенимания классом свойств (методов и полей) другого класса.
+С использованием в Java наследования информация становится управляемой в иерархическом порядке.
+
+Class ArrayList<E>
+    java.lang.Object
+        java.util.AbstractCollection<E>
+            java.util.AbstractList<E>
+                java.util.ArrayList<E>
+
+Все реализованные интерфейсы:
+Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess
+
+Прямые известные подклассы:
+AttributeList, RoleList, RoleUnresolvedList
+
+public class ArrayList<E>
+extends AbstractList<E>
+implements List<E>, RandomAccess, Cloneable, Serializable
