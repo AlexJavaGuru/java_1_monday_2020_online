@@ -1,4 +1,4 @@
-package student_artur_martinenko.homework.lesson_10.level_6_middle.task_24;
+package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
 import java.util.Objects;
 

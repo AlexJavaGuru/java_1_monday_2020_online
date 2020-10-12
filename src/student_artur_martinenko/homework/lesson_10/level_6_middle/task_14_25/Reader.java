@@ -1,6 +1,7 @@
-package student_artur_martinenko.homework.lesson_10.level_6_middle.task_23;
+package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 class Reader {
 
@@ -41,4 +42,13 @@ class Reader {
         }
         return false;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Reader reader = (Reader) o;
+        return Objects.equals(name.toLowerCase(), reader.name.toLowerCase());
+    }
+
 }

@@ -1,4 +1,4 @@
-package student_artur_martinenko.homework.lesson_10.level_6_middle.task_25;
+package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
 import java.util.ArrayList;
 
