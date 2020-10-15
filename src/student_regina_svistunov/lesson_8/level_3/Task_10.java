@@ -4,6 +4,9 @@ package student_regina_svistunov.lesson_8.level_3;
 //        Можно ли создать экземпляр абстрактного класса
 //        в момент выполнения программы?
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_10 {
 }
 

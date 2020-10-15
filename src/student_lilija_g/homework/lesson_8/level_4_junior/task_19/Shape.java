@@ -10,6 +10,9 @@ Shape: calculateArea() и calculatePerimeter().
 Напишите тесты для класса Triangle.
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 abstract class Shape {
 
     private String title;

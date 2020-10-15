@@ -4,7 +4,6 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Ну такой себе бесконечный цикл =) Всего одна итерация")
 class Task_16_While {
     public static void main(String[] args) {
         int number = 3;

@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_8.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class VarArgs {
 
     public static void main(String[] args) {

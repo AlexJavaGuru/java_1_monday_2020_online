@@ -6,7 +6,6 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Random;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Почему у вас итератор назван буквой r?")
 class Task_28 {
     public static void main(String[] args) {
 

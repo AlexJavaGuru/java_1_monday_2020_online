@@ -12,6 +12,9 @@ package student_regina_svistunov.lesson_8.level_2.Task_6;
 //PS: вносить изменения можно только в объявление класса Child.
 //        Правильных решений у этой задачи два, выбирайте любое.
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Child extends Mother {
 }
 

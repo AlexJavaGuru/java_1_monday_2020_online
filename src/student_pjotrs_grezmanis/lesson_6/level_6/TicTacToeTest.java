@@ -1,5 +1,8 @@
 package student_pjotrs_grezmanis.lesson_6.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest fieldTest = new TicTacToeTest();

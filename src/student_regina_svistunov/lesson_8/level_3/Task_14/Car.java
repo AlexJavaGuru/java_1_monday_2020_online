@@ -5,6 +5,9 @@ package student_regina_svistunov.lesson_8.level_3.Task_14;
 //        Классы ElectricCar и PetrolCar должны наследоваться
 //        от класса Car.
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 abstract class Car {
 
     abstract void accelerate();

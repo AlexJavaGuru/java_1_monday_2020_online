@@ -7,6 +7,9 @@ package student_regina_svistunov.lesson_8.level_2.Task_7;
 
 // Вызвать родительский класс можно с помощью ключевого слова super.
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Dog {
     private String breed;
     private String name;

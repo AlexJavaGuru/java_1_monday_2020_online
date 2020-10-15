@@ -15,7 +15,9 @@ package student_regina_svistunov.lesson_8.level_1;
 //    Напишите программу, которая продемонстрирует
 //        ответ на этот вопрос.
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class Person {
 
     private String fullName;

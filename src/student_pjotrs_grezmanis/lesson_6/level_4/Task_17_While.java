@@ -4,7 +4,6 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Не стоит писать конструкции в одну строку. Это очень трудно читать. Сделайте красивый if с фигурными скобками")
 class Task_17_While {
     public static void main(String[] args) {
         int i = 0;

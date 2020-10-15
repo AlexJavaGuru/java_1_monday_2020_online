@@ -1,5 +1,8 @@
 package student_regina_svistunov.lesson_8.level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class SquareTest {
     public static void main(String[] args) {
         SquareTest test = new SquareTest();

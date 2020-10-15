@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_8.level_3_junior.task_13;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_13 {
 
     public static void main(String[] args) {

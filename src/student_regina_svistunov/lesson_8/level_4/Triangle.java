@@ -8,7 +8,9 @@ package student_regina_svistunov.lesson_8.level_4;
 //        Shape: calculateArea() и calculatePerimeter().
 //        Напишите тесты для класса Triangle.
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class Triangle extends Shape{
 
     private double side;
