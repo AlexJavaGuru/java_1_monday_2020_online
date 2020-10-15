@@ -6,6 +6,9 @@ package student_alexander_shl.homework.lesson_3.level_1.task_4;
 виртуальный обьект робот напечатал на консоли слово "Hello!"
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class RobotDemo {
 
     public static void main(String[] args) {

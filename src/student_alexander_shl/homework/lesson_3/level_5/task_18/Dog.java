@@ -1,5 +1,8 @@
 package student_alexander_shl.homework.lesson_3.level_5.task_18;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
     private String dogName;
 

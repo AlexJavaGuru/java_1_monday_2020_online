@@ -1,5 +1,8 @@
 package student_alexander_shl.homework.lesson_3.level_1.task_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Robot {
     String name;
 

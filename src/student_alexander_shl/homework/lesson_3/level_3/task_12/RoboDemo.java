@@ -36,7 +36,9 @@ robot2.sayYourName();
  */
 
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class RoboDemo {
     public static void main(String[] args) {
         Robo myRobot = new Robo("Rider");

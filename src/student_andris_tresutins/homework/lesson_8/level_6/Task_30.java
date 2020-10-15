@@ -1,5 +1,10 @@
 package student_andris_tresutins.homework.lesson_8.level_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Мне не хватает фигурных скобок у цикла")
 public class Task_30 {
 
     public static void main(String[] args) {

@@ -24,6 +24,9 @@ sayYourName().
     }
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Robo {
     String name;
 

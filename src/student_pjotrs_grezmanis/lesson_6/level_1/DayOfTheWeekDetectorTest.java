@@ -3,8 +3,7 @@ package student_pjotrs_grezmanis.lesson_6.level_1;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Мы с вами уже так далеко прошли, а метод check делать так и не научились. Будем учиться =) Сделайте рефакторинг и вынесите все в метод check")
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorTest {
     public static void main(String[] args) {
 

@@ -11,6 +11,9 @@ package student_alexander_shl.homework.lesson_3.level_1.task_1;
     }
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Robot {
      public void sayHello() {
         System.out.println("Hello!");

@@ -18,6 +18,12 @@ package student_alexander_shl.homework.lesson_3.level_6.task_26;
 Класс с демонстрацией работы должен называться "ProductDemo".
  */
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Не совсем верно. Вы делаете вызов внутреннего метода, передавая туда атрибуты, которые и так видны в области видимости этому методу" +
+        "Нет смысла это делать, т.к. это просто лишний расход памяти. Вы можете просто в вашей формуле использовать состояния объекта, которые и так доступны.")
 class Product {
 
     public String name;

@@ -1,5 +1,7 @@
 package student_alexander_shl.homework.lesson_3.level_1.task_6;
 
+import teacher.annotations.CodeReview;
+
 /*
 Создаём свою армию роботов!
 
@@ -23,6 +25,7 @@ robot2.sayYourName();
 в вашей программе можно создавать сколько угодно виртуальных
 обьектов и управлять ими (вызывать у них разные методы).
  */
+@CodeReview(approved = true)
 class RobotDemo {
 
     public static void main(String[] args) {

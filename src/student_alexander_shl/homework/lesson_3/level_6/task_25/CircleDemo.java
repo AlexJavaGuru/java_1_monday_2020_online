@@ -1,5 +1,8 @@
 package student_alexander_shl.homework.lesson_3.level_6.task_25;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CircleDemo {
 
     public static void main(String[] args) {

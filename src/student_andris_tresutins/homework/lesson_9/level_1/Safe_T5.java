@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_9.level_1;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Safe_T5 {
     private String password;
     private int money;

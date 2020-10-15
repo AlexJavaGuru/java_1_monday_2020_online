@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_8.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Task_10 {
 
 //    An abstract class is like a regular class. An abstract class can also define fields and methods,

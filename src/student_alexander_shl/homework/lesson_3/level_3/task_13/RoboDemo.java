@@ -32,7 +32,9 @@ package student_alexander_shl.homework.lesson_3.level_3.task_13;
  */
 
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class RoboDemo {
     public static void main(String[] args) {
         Robo myRobot = new Robo("Lui");

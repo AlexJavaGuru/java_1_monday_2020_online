@@ -14,6 +14,9 @@ package student_alexander_shl.homework.lesson_3.level_2;
     System.out.println(myName);
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_7 {
     public static void main(String[] args) {
         String myName = "Aleksander";

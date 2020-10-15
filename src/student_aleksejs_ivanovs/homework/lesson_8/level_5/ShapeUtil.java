@@ -1,7 +1,10 @@
 package student_aleksejs_ivanovs.homework.lesson_8.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ShapeUtil {
 
     public Circle createRandomCircle() {

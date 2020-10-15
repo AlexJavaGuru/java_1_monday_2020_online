@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_8.level_3.task_13;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Circle extends Figure{
 
     private float radius;

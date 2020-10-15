@@ -1,5 +1,7 @@
 package student_alexander_shl.homework.lesson_3.level_3.task_11;
 
+import teacher.annotations.CodeReview;
+
 /*
 Дайте роботу имя!
 
@@ -24,6 +26,7 @@ sayYourName().
         ....
     }
  */
+@CodeReview(approved = true)
 class RoboDemo {
     public static void main(String[] args) {
         Robo myRobot = new Robo("Lui");

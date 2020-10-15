@@ -1,5 +1,7 @@
 package student_pjotrs_grezmanis.lesson_7.level_6;
 
+import teacher.annotations.CodeReview;
+
 /*Написать программу, которая определяет, является ли строка палиндромом.
 Палиндром - это буквосочетание, слово или текст, одинаково читающееся в обоих направлениях.
 Иногда палиндромом называют любой симметричный относительно своей середины набор символов,
@@ -17,6 +19,7 @@ boolean isPalindrome(String text) - метод возвращает true, есл
 Все тестовые сценарии должны отрабатывать без ошибок.
 
  */
+@CodeReview(approved = true)
 class Palindrome {
     public static void main(String[] args) {
         Palindrome task = new Palindrome();

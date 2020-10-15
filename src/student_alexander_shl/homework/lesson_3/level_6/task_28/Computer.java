@@ -1,5 +1,7 @@
 package student_alexander_shl.homework.lesson_3.level_6.task_28;
 
+import teacher.annotations.CodeReview;
+
 /*
 Дописать код программы, что бы она запускалась
 и выводила на консоль производителя и модель компьютера.
@@ -30,6 +32,7 @@ class ComputerDemo {
 }
 
  */
+@CodeReview(approved = true)
 class Computer {
 
     public String manufacturer;

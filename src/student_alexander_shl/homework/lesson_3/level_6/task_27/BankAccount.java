@@ -1,4 +1,7 @@
 package student_alexander_shl.homework.lesson_3.level_6.task_27;
+
+import teacher.annotations.CodeReview;
+
 /*
 Найти логическую ошибку в коде.
 Исправить и запустить программу так, что бы она выводила
@@ -39,6 +42,7 @@ class BankAccountDemo {
 Примечание: без изменения BankAccountDemo НЕ смог решить задачу!
 
  */
+@CodeReview(approved = true)
 class BankAccount {
 
     public String owner; // privateString -> public String

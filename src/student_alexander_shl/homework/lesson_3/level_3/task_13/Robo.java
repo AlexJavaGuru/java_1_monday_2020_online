@@ -31,6 +31,9 @@ package student_alexander_shl.homework.lesson_3.level_3.task_13;
 что каждый робот теперь запомнил своё имя!
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Robo {
     String name;
 
