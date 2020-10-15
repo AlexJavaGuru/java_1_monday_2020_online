@@ -20,6 +20,9 @@ package student_regina_svistunov.lesson_8.level_4;
 //    // implement here calculatePerimeter()
 //}
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Circle extends Shape {
 
     private double radius;

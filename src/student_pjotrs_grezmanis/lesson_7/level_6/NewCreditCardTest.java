@@ -1,5 +1,8 @@
 package student_pjotrs_grezmanis.lesson_7.level_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class NewCreditCardTest {
     public static void main(String[] args) {
         NewCreditCardTest newCreditCardTest = new NewCreditCardTest();

@@ -13,7 +13,11 @@ package student_regina_svistunov.lesson_8.level_1;
 // Если в классе не описан конструктор, компилятор автоматически добавляет в код конструктор без параметров.
 
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А почему вы не сделали еще default constructor? чтобы показаеть его работу?")
 public class Cat {
     private String name;
     private String color;

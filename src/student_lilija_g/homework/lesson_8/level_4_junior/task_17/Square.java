@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_8.level_4_junior.task_17;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Square extends Shape {
 
     private double side;

@@ -6,7 +6,6 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Random;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Исправил за вас =) Исправть формат - это не всегда нажать комбинацию. Надо еще скобки проставить и пробелы лишние убрать")
 class Task_29 {
     public static void main(String[] args) {
         int[] randomNumber = new int[10];

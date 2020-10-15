@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_7.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "findMostFrequentWord - этот метод можно было бы упростить, разбив его на два отдельных (или даже три)")
 class WordService {
     public static void main(String[] args) {
         WordService task = new WordService();

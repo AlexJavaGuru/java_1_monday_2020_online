@@ -1,7 +1,10 @@
 package student_pjotrs_grezmanis.lesson_7.level_6;
 
-import java.util.Scanner;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Зачем метод main?")
 class PowerCalculator {
     public static void main(String[] args) {
     }

@@ -1,5 +1,10 @@
 package student_pjotrs_grezmanis.lesson_6.level_5;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "У меня сомнения на счет метода -isWinPositionForDiagonals он точно работает правильно?")
 class TicTacToe {
 
     public static boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
@@ -72,10 +77,13 @@ class TicTacToe {
     }
 
     public static boolean isDrawPosition(int[][] field) {
-        for (int i = 0; i < field.length; i++)
-            for (int j = 0; j < field.length; j++)
-                if (field[i][j] == -1)
+        for (int i = 0; i < field.length; i++) {
+            for (int j = 0; j < field.length; j++) {
+                if (field[i][j] == -1) {
                     return false;
+                }
+            }
+        }
         return true;
     }
 

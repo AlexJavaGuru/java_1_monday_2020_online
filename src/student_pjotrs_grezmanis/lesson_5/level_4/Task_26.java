@@ -7,7 +7,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Почему у вас итератор назван буквой p?")
 class Task_26 {
 
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 package student_pjotrs_grezmanis.lesson_7.level_6;
+
+import teacher.annotations.CodeReview;
+
 /*Необходимо разработать класс "кредитная карта" CreditCard
 с учетом инкапсуляции, которая обладает следующими характеристиками:
 
@@ -35,6 +38,7 @@ package student_pjotrs_grezmanis.lesson_7.level_6;
 Все тестовые сценарии должны отрабатывать без ошибок.
 
  */
+@CodeReview(approved = true)
 class CreditCard {
 
     private long cardNumber;
