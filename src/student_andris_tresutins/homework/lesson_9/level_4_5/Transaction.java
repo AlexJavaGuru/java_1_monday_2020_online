@@ -1,4 +1,4 @@
-package student_andris_tresutins.homework.lesson_9.level_4;
+package student_andris_tresutins.homework.lesson_9.level_4_5;
 
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
@@ -7,20 +7,20 @@ import teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Ну где вы такие названия берете? =) Я же вас такому не учил. Не надо использовать любые _ в названиях чего либо. ")
 public class Transaction {
 
-    private Trader m_Trader;
-    private int m_Amount;
+    private Trader trader;
+    private int amount;
 
     Transaction(Trader trader, int amount) {
 
-         m_Trader = trader;
-         m_Amount = amount;
+         this.trader = trader;
+         this.amount = amount;
     }
 
     public Trader getTrader() {
-        return  m_Trader;
+        return  trader;
     }
 
     public int getAmount() {
-        return m_Amount;
+        return amount;
     }
 }

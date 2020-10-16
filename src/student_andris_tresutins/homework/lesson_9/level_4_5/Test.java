@@ -1,4 +1,4 @@
-package student_andris_tresutins.homework.lesson_9.level_4;
+package student_andris_tresutins.homework.lesson_9.level_4_5;
 
 import teacher.annotations.CodeReview;
 
@@ -23,11 +23,11 @@ class Test {
     //Task 21
     public void acceptGermanyTest() {
 
-        FraudDetectorConditionMoneyAndCountry_T21 detect = new FraudDetectorConditionMoneyAndCountry_T21();
+        FraudRule5 detect = new FraudRule5("test");
         Trader trader = new Trader("Jimmy", "Berlin", "Germany");
         Transaction transaction = new Transaction(trader, 999);
 
-        boolean actual = detect.deniedGermany1000(trader, transaction);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = false;
 
         check(expected, actual, "Accepts Germany Below 1000 Test");
@@ -36,11 +36,11 @@ class Test {
 
     public void denyGermanyTest() {
 
-        FraudDetectorConditionMoneyAndCountry_T21 detect = new FraudDetectorConditionMoneyAndCountry_T21();
+        FraudRule5 detect = new FraudRule5("test");
         Trader trader = new Trader("Jimmy", "Berlin", "Germany");
         Transaction transaction = new Transaction(trader, 1001);
 
-        boolean actual = detect.deniedGermany1000(trader, transaction);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = true;
 
         check(expected, actual, "Denies Germany above 1000 Test");
@@ -50,11 +50,11 @@ class Test {
     // Task 20
     public void denyJamaicaTest() {
 
-        FraudDetectorConditionCountry_T20 detect = new FraudDetectorConditionCountry_T20();
+        FraudRule4 detect = new FraudRule4("test");
         Trader trader = new Trader("Rodney", "Kingston", "Jamaica");
         Transaction transaction = new Transaction(trader, 999999);
 
-        boolean actual = detect.deniedCountry(trader);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = true;
 
         check(expected, actual, "Denies Jamaica Test");
@@ -64,11 +64,11 @@ class Test {
     // Task 19
     public void sydneyTest() {
 
-        FraudDetectorConditionCity_T19 detect = new FraudDetectorConditionCity_T19();
+        FraudRule3 detect = new FraudRule3("test");
         Trader trader = new Trader("Rodney", "Sydney", "Australia");
         Transaction transaction = new Transaction(trader, 999999);
 
-        boolean actual = detect.deniedCity(trader);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = true;
 
         check(expected, actual, "Denies Sydney Test");
@@ -78,11 +78,11 @@ class Test {
     // Task 18
     public void notTooMuchMoneyTest() {
 
-        FraudDetectorConditionMoney_T18 detect = new FraudDetectorConditionMoney_T18();
+        FraudRule2 detect = new FraudRule2("test");
         Trader trader = new Trader("Jeremy", "Capetown", "South Africa");
         Transaction transaction = new Transaction(trader, 999999);
 
-        boolean actual = detect.moneyAmount(transaction);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = false;
 
         check(expected, actual, "Enough Money Test");
@@ -91,11 +91,11 @@ class Test {
 
     public void tooMuchMoneyTest() {
 
-        FraudDetectorConditionMoney_T18 detect = new FraudDetectorConditionMoney_T18();
+        FraudRule2 detect = new FraudRule2("test");
         Trader trader = new Trader("Jessica", "London", "england");
         Transaction transaction = new Transaction(trader, 1000001);
 
-        boolean actual = detect.moneyAmount(transaction);
+        boolean actual = detect.isFraud(transaction);
         boolean expected = true;
 
         check(expected, actual, "Too Much Money Test");
@@ -105,7 +105,7 @@ class Test {
     // Task 17
     public void isNotFraudTest() {
 
-        FraudDetector detect = new FraudDetector();
+        FraudRule1 detect = new FraudRule1("test");
         Trader trader = new Trader("aRegularUser", "Riga", "Latvia");
         Transaction transaction = new Transaction(trader, 2000);
 
@@ -118,7 +118,7 @@ class Test {
 
     public void fraudTest() {
 
-        FraudDetector detect = new FraudDetector();
+        FraudRule1 detect = new FraudRule1("test");
         Trader trader = new Trader("Pokemon", "englandIsMyCity", "fakeInfo");
         Transaction transaction = new Transaction(trader, 2000);
 
