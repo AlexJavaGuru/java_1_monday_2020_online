@@ -1,7 +1,10 @@
 package student_lilija_g.homework.lesson_9.level_1_intern.task_4;
 
+import teacher.annotations.CodeReview;
+
 import java.math.BigDecimal;
 
+@CodeReview(approved = true)
 class SafeDemo {
     public static void main(String[] args) {
 

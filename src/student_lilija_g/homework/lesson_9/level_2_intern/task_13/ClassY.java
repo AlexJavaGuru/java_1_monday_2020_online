@@ -16,6 +16,9 @@ class ClassY extends ClassX {
 }
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ClassY extends ClassX {
     public ClassY(int i) {
         super(i);

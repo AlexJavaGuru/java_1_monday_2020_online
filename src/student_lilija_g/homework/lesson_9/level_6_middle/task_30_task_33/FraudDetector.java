@@ -1,7 +1,11 @@
 package student_lilija_g.homework.lesson_9.level_6_middle.task_30_task_33;
 
+
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class FraudDetector {
 
     public ArrayList<FraudRule> fraudRules;

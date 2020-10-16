@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_9.level_2_intern.task_10;
+
+import teacher.annotations.CodeReview;
+
 /*
 Дан класс ConstructorChaining.
 
@@ -20,6 +23,7 @@ class ConstructorChaining {
 
 Более подробно про этот подход можно прочитать: constructor chaining in Java.
  */
+@CodeReview(approved = true)
 class ConstructorChaining {
 
     private String constructorName;

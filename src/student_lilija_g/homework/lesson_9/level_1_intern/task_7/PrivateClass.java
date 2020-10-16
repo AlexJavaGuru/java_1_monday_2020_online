@@ -10,6 +10,9 @@ private class PrivateClass {
 }
  */
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PrivateClass {
 
     private String title;

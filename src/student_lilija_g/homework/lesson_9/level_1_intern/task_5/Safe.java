@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_9.level_1_intern.task_5;
 
+import teacher.annotations.CodeReview;
+
 import java.math.BigDecimal;
 
 /*
@@ -10,6 +12,7 @@ import java.math.BigDecimal;
 Подсказка: реализуйте эту функциональность через публичные методы: getMoney(...), putMoney(...).
 Создайте класс демо и продемонстрируйте, принцып инкапсуляции в действии!
  */
+@CodeReview(approved = true)
 class Safe {
     private String password;
     private BigDecimal amountOfMoney;

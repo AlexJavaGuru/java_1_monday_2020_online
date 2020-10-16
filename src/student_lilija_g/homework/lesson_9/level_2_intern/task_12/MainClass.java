@@ -27,6 +27,8 @@ public class MainClass {
 }
  */
 
+import teacher.annotations.CodeReview;
+
 /*
 Class A Constructor
 Class B Constructor
@@ -39,6 +41,7 @@ Class C Constructor
 и только потом будет выполнятся конструктор С.
 
  */
+@CodeReview(approved = true)
 class MainClass {
     public static void main(String[] args) {
         C c = new C();
