@@ -1,4 +1,4 @@
-package student_lilija_g.homework.lesson_9.level_4_junior.task_17;
+package student_lilija_g.homework.lesson_9.level_4_junior;
 
 class Transaction {
 
@@ -11,14 +11,15 @@ class Transaction {
 
     public Transaction(Trader trader, int amount) {
         FraudDetector fraudDetector = new FraudDetector();
-        if (!fraudDetector.isFraud(new Transaction(trader))) {
+        Transaction newTransaction = new Transaction(trader);
+        if (!fraudDetector.isFraud(newTransaction, amount)) {
             this.trader = trader;
             this.amount = amount;
         }
     }
 
     public Trader getTrader() {
-        return new Trader(trader.getFullName(), trader.getCity());
+        return new Trader(trader.getFullName(), trader.getCity(), trader.getCountry());
     }
 
     public int getAmount() {

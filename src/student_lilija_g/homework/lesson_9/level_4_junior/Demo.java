@@ -1,4 +1,4 @@
-package student_lilija_g.homework.lesson_9.level_4_junior.task_20;
+package student_lilija_g.homework.lesson_9.level_4_junior;
 
 class Demo {
 
@@ -18,6 +18,9 @@ class Demo {
         demo.notFraudRuleFour();
         demo.fraudRuleFour();
 
+        demo.notFraudRuleFive();
+        demo.fraudRuleFive();
+
     }
 
     void totalTest(int expectedValue, int actualValue, String testName) {
@@ -32,20 +35,21 @@ class Demo {
 
     void notFraudRuleOne() {
         Demo demo = new Demo();
-        Trader trader = new Trader("Jessica", "Los Angeles","USA");
+        Trader trader = new Trader("Jessica", "Los Angeles", "USA");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(1000, transaction.getAmount(), "Not Pokemon");
     }
 
     void fraudRuleOne() {
         Demo demo = new Demo();
-        Trader trader = new Trader("Pokemon", "Los Angeles","USA");
+        Trader trader = new Trader("Pokemon", "Los Angeles", "USA");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(0, transaction.getAmount(), "Pokemon");
     }
+
     void notFraudRuleTwo() {
         Demo demo = new Demo();
-        Trader trader = new Trader("Jessica", "Los Angeles","USA");
+        Trader trader = new Trader("Jessica", "Los Angeles", "USA");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(1000, transaction.getAmount(), "Amount < 1000000");
     }
@@ -56,28 +60,46 @@ class Demo {
         Transaction transaction = new Transaction(trader, 100000000);
         demo.totalTest(0, transaction.getAmount(), "Amount > 1000000");
     }
+
     void notFraudRuleThree() {
         Demo demo = new Demo();
         Trader trader = new Trader("Jessica", "Los Angeles", "USA");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(1000, transaction.getAmount(), "Not Sydney");
     }
+
     void fraudRuleThree() {
         Demo demo = new Demo();
-        Trader trader = new Trader("Pokemon", "Sydney","USA");
+        Trader trader = new Trader("Pokemon", "Sydney", "Australia");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(0, transaction.getAmount(), "Sydney");
     }
+
     void notFraudRuleFour() {
         Demo demo = new Demo();
         Trader trader = new Trader("Jessica", "Los Angeles", "USA");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(1000, transaction.getAmount(), "Not Jamaica");
     }
+
     void fraudRuleFour() {
         Demo demo = new Demo();
-        Trader trader = new Trader("Jessica", "Kingston","Jamaica");
+        Trader trader = new Trader("Jessica", "Kingston", "Jamaica");
         Transaction transaction = new Transaction(trader, 1000);
         demo.totalTest(0, transaction.getAmount(), "Jamaica");
+    }
+
+    void notFraudRuleFive() {
+        Demo demo = new Demo();
+        Trader trader = new Trader("Jessica", "Berlin", "Germany");
+        Transaction transaction = new Transaction(trader, 100);
+        demo.totalTest(100, transaction.getAmount(), "Germany, Amount < 1000");
+    }
+
+    void fraudRuleFive() {
+        Demo demo = new Demo();
+        Trader trader = new Trader("Jessica", "Berlin", "Germany");
+        Transaction transaction = new Transaction(trader, 10000);
+        demo.totalTest(0, transaction.getAmount(), "Germany, Amount > 1000");
     }
 }
