@@ -1,4 +1,4 @@
-package student_lilija_g.homework.lesson_8.level_5_middle.task_20;
+package student_lilija_g.homework.lesson_8.level_5_middle;
 
 abstract class Shape {
 
@@ -11,4 +11,9 @@ abstract class Shape {
     abstract double calculateArea();
 
     abstract double calculatePerimeter();
+
+    @Override
+    public String toString() {
+        return "Shape " + title + " ";
+    }
 }

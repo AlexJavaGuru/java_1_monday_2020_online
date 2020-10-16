@@ -1,4 +1,4 @@
-package student_lilija_g.homework.lesson_8.level_5_middle.task_24;
+package student_lilija_g.homework.lesson_8.level_5_middle;
 
 class Circle extends Shape {
 

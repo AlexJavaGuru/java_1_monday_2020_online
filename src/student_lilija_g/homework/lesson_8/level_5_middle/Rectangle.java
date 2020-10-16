@@ -1,4 +1,4 @@
-package student_lilija_g.homework.lesson_8.level_5_middle.task_27;
+package student_lilija_g.homework.lesson_8.level_5_middle;
 
 class Rectangle extends Shape {
     private double sideA;
