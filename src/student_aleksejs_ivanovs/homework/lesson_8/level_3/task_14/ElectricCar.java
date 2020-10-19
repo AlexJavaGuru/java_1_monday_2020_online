@@ -5,8 +5,13 @@ import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Нет =D Сделать все классы абстрактными, чтобы не реализовывать методы - это не правильное решение. Надо написать имлементацию")
-abstract class ElectricCar extends Car{
+class ElectricCar extends Car{
 
     private int batteryCharge;
+
+    @Override
+    void accelerate() {
+
+    }
 
 }
