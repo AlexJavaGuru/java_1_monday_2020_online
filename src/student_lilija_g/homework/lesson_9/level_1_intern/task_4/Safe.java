@@ -1,5 +1,7 @@
 package student_lilija_g.homework.lesson_9.level_1_intern.task_4;
 
+import teacher.annotations.CodeReview;
+
 import java.math.BigDecimal;
 
 /*
@@ -7,6 +9,7 @@ import java.math.BigDecimal;
 Сделайте эти свойства публично доступными.
 Создайте класс демо и продемонстрируйте, что можно делать с публичными свойствами объекта.
  */
+@CodeReview(approved = true)
 class Safe {
     int pinCode;
     BigDecimal amountOfMoney;

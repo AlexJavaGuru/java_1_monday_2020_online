@@ -1,11 +1,14 @@
 package student_lilija_g.homework.lesson_8.level_7_senior.super_task_2;
 
+import teacher.annotations.CodeReview;
+
 /*
 Разобраться в коде MathOperation, который находится в пакете super_task_2.
 Реализовать две дополнительные математические операции: умножение и деление.
 В демо программе сконструировать и вычислить выражение: (10 - 5) * (20 / 5).
 Написать тесты для данного кода.
  */
+@CodeReview(approved = true)
 class MAthOperationDemo {
 
 	public static void main(String[] args) {

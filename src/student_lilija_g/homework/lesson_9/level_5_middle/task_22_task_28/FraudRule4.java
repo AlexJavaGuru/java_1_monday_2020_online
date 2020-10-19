@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_9.level_5_middle.task_22_task_28;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FraudRule4 extends FraudRule {
     public FraudRule4(String ruleName) {
         super(ruleName);

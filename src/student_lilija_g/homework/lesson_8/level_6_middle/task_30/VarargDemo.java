@@ -1,9 +1,13 @@
 package student_lilija_g.homework.lesson_8.level_6_middle.task_30;
+
+import teacher.annotations.CodeReview;
+
 /*
 Узнать в интернете, что такое varargs.
 Придумайте пример кода, в котором продемонстрируйте
 использование varargs.
  */
+@CodeReview(approved = true)
 class VarargDemo {
 
     public int addAll(int ... numbers) {
