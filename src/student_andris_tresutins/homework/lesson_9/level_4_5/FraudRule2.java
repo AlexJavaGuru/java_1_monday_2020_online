@@ -12,9 +12,9 @@ import teacher.annotations.CodeReviewComment;
         super(ruleName);
     }
 
-    public boolean isFraud(Transaction t){
+    public boolean isFraud(Transaction transaction){
 
-        int amount = t.getAmount();
+        int amount = transaction.getAmount();
 
         return amount > 1000000;
     }
