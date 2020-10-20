@@ -11,15 +11,12 @@ import teacher.annotations.CodeReviewComment;
         "Still false. find number where? in static array? why? I want to use this method for any array...")
 public class Task_38 {
 
-    public int findMinNumber() {
+    public int findMinNumber(int[] array) {
 
-        Task_36 victim = new Task_36();
-        int[] myIntArray = victim.staticArray();
-
-        int min = myIntArray[1];
-        for (int i = 0; i < myIntArray.length; i++) {
-            if (myIntArray[i] < min) {
-                min = myIntArray[i];
+        int min = array[1];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
             }
 
         }
