@@ -1,4 +1,4 @@
-package student_andris_tresutins.homework.lesson_9.level_4_5;
+package student_andris_tresutins.homework.lesson_9.level_4_5_6;
 import java.util.ArrayList;
 
 class FraudDetector {
@@ -15,13 +15,17 @@ class FraudDetector {
 
     }
 
-    boolean isFraud(Transaction transaction){
+    FraudDetectionResult isFraud(Transaction transaction){
+        boolean fraud = false;
+        String fraudRule = null;
         for (FraudRule ruleX : fraudRuleX) {
             if(ruleX.isFraud(transaction)){
-                return true;
+                fraud = true;
+                fraudRule = ruleX.getRuleName();
+                System.out.println(transaction); break;
             }
         }
-        return false;
+        return new FraudDetectionResult(fraud, fraudRule);
     }
 
 }

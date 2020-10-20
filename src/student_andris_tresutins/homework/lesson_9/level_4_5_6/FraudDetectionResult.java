@@ -1,4 +1,4 @@
-package student_andris_tresutins.homework.lesson_9.level_4_5;
+package student_andris_tresutins.homework.lesson_9.level_4_5_6;
 
  class FraudDetectionResult {
 

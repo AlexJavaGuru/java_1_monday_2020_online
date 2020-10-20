@@ -26,8 +26,9 @@ public class Task_37_39_Test {
 
     public void shouldFindMinNumber() {
         Task_38 victim = new Task_38();
+        Task_36 victimone = new Task_36();
 
-        int actualresult = victim.findMinNumber();
+        int actualresult = victim.findMinNumber(victimone.staticArray());
         int expectedResult = 15;
 
         check(expectedResult, actualresult, "should find min number");

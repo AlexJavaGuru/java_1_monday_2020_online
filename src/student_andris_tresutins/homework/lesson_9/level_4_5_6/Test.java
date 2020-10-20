@@ -1,4 +1,4 @@
-package student_andris_tresutins.homework.lesson_9.level_4_5;
+package student_andris_tresutins.homework.lesson_9.level_4_5_6;
 
 import teacher.annotations.CodeReview;
 
@@ -27,6 +27,7 @@ class Test {
         Trader trader = new Trader("Jimmy", "Berlin", "Germany");
         Transaction transaction = new Transaction(trader, 999);
 
+
         boolean actual = detect.isFraud(transaction);
         boolean expected = false;
 
@@ -42,6 +43,7 @@ class Test {
 
         boolean actual = detect.isFraud(transaction);
         boolean expected = true;
+
 
         check(expected, actual, "Denies Germany above 1000 Test");
 

@@ -27,13 +27,10 @@ public class Task_36 {
     public int findMaxNumber(int[] array) {
 
 
-        Task_36 victim = new Task_36();
-        int[] myIntArray = victim.staticArray();
-
-        int max = myIntArray[1];
-        for (int i = 0; i < myIntArray.length; i++) {
-            if (myIntArray[i] > max) {
-                max = myIntArray[i];
+        int max = array[1];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
             }
 
         }
