@@ -22,8 +22,10 @@ import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Не совсем верно. Вы делаете вызов внутреннего метода, передавая туда атрибуты, которые и так видны в области видимости этому методу" +
-        "Нет смысла это делать, т.к. это просто лишний расход памяти. Вы можете просто в вашей формуле использовать состояния объекта, которые и так доступны.")
+@CodeReviewComment(comment = "Не совсем верно. Вы делаете вызов внутреннего метода, " +
+        "передавая туда атрибуты, которые и так видны в области видимости этому методу" +
+        "Нет смысла это делать, т.к. это просто лишний расход памяти. " +
+        "Вы можете просто в вашей формуле использовать состояния объекта, которые и так доступны.")
 class Product {
 
     public String name;
@@ -35,13 +37,23 @@ class Product {
         this.regularPrice = regularPrice;
         this.discount = discount;
     }
-    double actualPrice(double regularPrice, double discount){
+
+    public void setRegularPrice(double regularPrice) {
+        this.regularPrice = regularPrice;
+    }
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+
+    public double actualPrice(){
         return regularPrice*(100-discount)*0.01;
     }
+
     void printInformation(){
         System.out.println("Product:" + name);
         System.out.println("Regular price:" + regularPrice);
         System.out.println("Discount:" + discount);
-        System.out.println("Actual price:" + actualPrice(regularPrice,discount));
+        System.out.println("Actual price:" + actualPrice());
     }
 }
