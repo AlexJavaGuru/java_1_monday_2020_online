@@ -1,0 +1,5 @@
+
+The temperature format should be determined by the geo location of the user or there should be
+an option for the user to change to the preferred temperature of the user using formulas for
+conversion in the code and an implementation of a ui element that lets the user change to the specified
+temperature format.
