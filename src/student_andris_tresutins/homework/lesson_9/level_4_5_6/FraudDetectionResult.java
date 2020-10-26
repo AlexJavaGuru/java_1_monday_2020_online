@@ -1,0 +1,35 @@
+package student_andris_tresutins.homework.lesson_9.level_4_5_6;
+
+ class FraudDetectionResult {
+
+
+        private boolean fraud;
+        private String ruleName;
+
+        public FraudDetectionResult(boolean fraud, String ruleName){
+
+            this.fraud = fraud;
+            this.ruleName = ruleName;
+
+        }
+
+    public boolean getIsFraud() {
+        return fraud;
+    }
+
+    public void setFraud(boolean fraud) {
+        this.fraud = fraud;
+    }
+
+    public String getRuleName() {
+        return ruleName;
+    }
+
+    public void setRuleName(String ruleName) {
+        this.ruleName = ruleName;
+    }
+
+
+
+    }
+
