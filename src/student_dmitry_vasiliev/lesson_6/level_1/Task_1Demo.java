@@ -8,16 +8,29 @@ import teacher.annotations.CodeReviewComment;
 class Task_1Demo {
 
     public static void main(String[] args) {
+        Task_1Demo test = new Task_1Demo();
+        test.evenTest();
+        test.oddTest();
+    }
 
-        Task_1 test = new Task_1();
+    public void evenTest() {
+        int number = 2;
+        int result = Task_1.isEven(number);
+        printTestResult(result, 0, "EvenTest");
+    }
+
+    public void oddTest() {
         int number = 1;
-        int result = test.isEven(number);
-        if ( result==0 )  {
-            System.out.println("Test has passed.");
-             }
-        else {System.out.println("Test failed.");
-        System.out.println();
-        }
+        int result = Task_1.isEven(number);
+        printTestResult(result, 1, "OddTest");
+    }
 
+    public void printTestResult(int actualResult, int expectedResult, String testName) {
+        if (expectedResult == actualResult) {
+            System.out.println("Test " + testName + " has passed!");
+        } else {
+            System.out.println("Test " + testName + " failed!");
+            System.out.println("Expected:" + expectedResult + " but actual is: " + actualResult);
+        }
     }
 }

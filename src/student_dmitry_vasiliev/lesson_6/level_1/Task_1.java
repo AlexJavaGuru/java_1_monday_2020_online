@@ -13,7 +13,9 @@ class Task_1 {
 
     //class Calculator {
 
-        public int isEven(int number) {
-                int result = number % 2 ; return result;}
+        public static int isEven(int number) {
+                int result = number % 2 ;
+                return result;
+        }
 }
 
