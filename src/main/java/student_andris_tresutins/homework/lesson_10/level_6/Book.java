@@ -25,4 +25,9 @@ public class Book {
         return title.equals(that.title) &&
                 author.equals(that.author);
     }
+
+    @Override
+    public String toString() {
+        return "Book Title = " + title + ". Book Author = " + author + ". is Read ";
+    }
 }
