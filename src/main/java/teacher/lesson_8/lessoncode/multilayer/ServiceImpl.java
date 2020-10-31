@@ -2,13 +2,22 @@ package teacher.lesson_8.lessoncode.multilayer;
 
 public class ServiceImpl implements Service {
 
-    @Override
-    public void putIntoDB(String myString) {
-        System.out.println("Saved string:" + myString);
+    private Database db;
+
+    public ServiceImpl(Database db) {
+        this.db = db;
+    }
+
+    public ServiceImpl() {
     }
 
     @Override
-    public String readFromDB(int id) {
-        return "String by ID:" + id + " is " + "Hello";
+    public void putIntoDB(Integer input) {
+        db.save(input);
+    }
+
+    @Override
+    public Integer readFromDB(Integer id) {
+        return db.read(id);
     }
 }
