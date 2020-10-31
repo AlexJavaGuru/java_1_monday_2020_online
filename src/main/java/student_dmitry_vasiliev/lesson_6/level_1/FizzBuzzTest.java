@@ -25,7 +25,7 @@ class FizzBuzzTest {
             System.out.println("Test " + testName + " has passed.");
         } else {
             System.out.println("Test " + testName + " failed.");
-    }
+        }
     }
 }
 

@@ -17,17 +17,22 @@ import teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Дмитрий, я не вижу исправления класса. Он все так же не красиво выглядит. Надо ним надо поработать...не просто закомментить переменную =D")
 class FizzBuzz {
 
-        //private int initialNumber;
+    //private int initialNumber;
 
-        public String detect(int number) {
+    public String detect(int number) {
         boolean firstExpression = (number % 3 == 0);
         boolean secondExpression = (number % 5 == 0);
-            if (firstExpression && secondExpression) return "FizzBuzz";
-            else if (firstExpression) return "Fizz";
-            else if (secondExpression) return "Buzz";
-            else return "" + number; // Integer.toString(initialNumber);
-
+        if (firstExpression && secondExpression)
+            { return "FizzBuzz";
+            } else if
+                (firstExpression) { return "Fizz";
+            } else if
+                (secondExpression) { return "Buzz";
+            } else {
+                return "" + number;
         }
-
+        //return null;
+    }
 }
+
 

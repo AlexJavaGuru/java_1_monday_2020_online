@@ -130,5 +130,16 @@ class ArrayUtilTest {
             System.out.println("Test " + testName + " failed!");
         }
     }
+
+    public int twoAarraysCompare(int[][] testArray, int[][] newArray) {
+        ArrayUtilTest arrayUtil = new ArrayUtilTest();
+        int checkNumber = 0;
+        for (int i = 0; i < newArray.length; i++) {
+            if (newArray[i] == testArray[i]) {
+                checkNumber++;
+            }
+        }
+        return checkNumber;
+    }
 }
 
