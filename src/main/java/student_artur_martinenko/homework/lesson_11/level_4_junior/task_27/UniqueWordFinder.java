@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_4_junior.task_27;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -13,6 +15,7 @@ import java.util.Set;
 
 Реализуйте и протестируйте данный метод.
  */
+@CodeReview(approved = true)
 class UniqueWordFinder {
 
     Set<String> find(String text) {

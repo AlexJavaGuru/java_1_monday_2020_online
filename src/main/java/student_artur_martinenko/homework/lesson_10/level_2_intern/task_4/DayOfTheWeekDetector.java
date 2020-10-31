@@ -1,4 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_2_intern.task_4;
+
+import teacher.annotations.CodeReview;
+
 /*
 Несколько имплементаций одного интерфейса.
 
@@ -42,6 +45,7 @@ class DayOfTheWeekDetectorIfVersion {
 
 Протестируйте все имплементации.
  */
+@CodeReview(approved = true)
 interface DayOfTheWeekDetector {
     String detectDayName(int number);
 }

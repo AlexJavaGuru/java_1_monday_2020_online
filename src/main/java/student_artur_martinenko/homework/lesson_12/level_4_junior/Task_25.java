@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_4_junior;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +16,7 @@ import java.util.Map;
 
 Память JVM не безгранична!
  */
+@CodeReview(approved = true)
 class Task_25 {
     public static void main(String[] args) {
         Task_25 victim = new Task_25();

@@ -5,6 +5,9 @@ package student_aleksejs_ivanovs.homework.lesson_9.level_1.task_1;
 в этом пакете и в других пакетах.
 Каким оператором доступа для этого надо воспользоваться?*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Airplane {
     //Need to use the 'public' access operator before the class
 }

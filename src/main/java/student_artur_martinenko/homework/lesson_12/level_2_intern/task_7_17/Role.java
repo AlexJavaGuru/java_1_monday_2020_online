@@ -1,4 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_2_intern.task_7_17;
+
+import teacher.annotations.CodeReview;
+
 //Task_7
 /*
 Вам поручили разработать API (Application User Interface)
@@ -21,7 +24,7 @@ enum Role {
 
 }
  */
-
+@CodeReview(approved = true)
 enum Role {
 
     CAN_SEARCH_CLIENTS // эта роль должна быть у клиента, для того что бы он имел возможность делать поиск клиентов в базе данных банка

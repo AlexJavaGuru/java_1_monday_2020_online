@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_10;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Product {
 
     private String title;

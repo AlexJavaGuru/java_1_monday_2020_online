@@ -1,4 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_3_junior.task_21;
+
+import teacher.annotations.CodeReview;
+
 //Task_21
 /*
 Дано
@@ -29,6 +32,7 @@ class Main {
  */
 class TestException extends Exception { }
 
+@CodeReview(approved = true)
 class Main {
     public static void main(String args[]) {
         try {

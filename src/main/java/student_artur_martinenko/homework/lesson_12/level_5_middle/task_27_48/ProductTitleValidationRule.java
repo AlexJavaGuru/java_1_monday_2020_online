@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@CodeReview(approved = true)
 class ProductTitleValidationRule implements FieldValidationRule {
 
     public static final int TITLE_MIN_LENGTH = 3;

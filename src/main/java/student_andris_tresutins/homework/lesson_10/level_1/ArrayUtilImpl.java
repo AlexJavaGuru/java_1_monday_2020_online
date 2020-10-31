@@ -1,9 +1,12 @@
 package student_andris_tresutins.homework.lesson_10.level_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArrayUtilImpl implements ArrayUtil{
 
     @Override

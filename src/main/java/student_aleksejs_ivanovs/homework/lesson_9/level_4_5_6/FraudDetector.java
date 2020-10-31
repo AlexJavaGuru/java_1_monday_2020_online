@@ -87,8 +87,10 @@ getRuleName() у объекта FraudRule. Полученное таким об�
 обнаружении мошенничества в классе FraudDetector печатайте на консоль все свойства
 транзакции (включая те которые находятся в классе Trader).*/
 
-import java.util.ArrayList;
+import teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 class FraudDetector {
 
     /*boolean isFraud(Transaction t) {

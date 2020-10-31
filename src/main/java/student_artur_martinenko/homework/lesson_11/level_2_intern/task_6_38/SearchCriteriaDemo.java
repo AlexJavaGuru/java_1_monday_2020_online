@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
+import teacher.annotations.CodeReview;
+
 //Task_21
 /*
 Продолжаем разработку интерфейса BookDatabase.
@@ -16,6 +18,7 @@ SearchCriteria authorSearchCriteria = new AuthorSearchCriteria("Kuper");
 SearchCriteria titleSearchCriteria = new TitleSearchCriteria("Zveroboi");
 SearchCriteria searchCriteria = new AndSearchCriteria(authorSearchCriteria, titleSearchCriteria);
  */
+@CodeReview(approved = true)
 class SearchCriteriaDemo {
 
     public static void main(String[] args) {

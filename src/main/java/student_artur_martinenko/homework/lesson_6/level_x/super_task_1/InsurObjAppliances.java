@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_6.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class InsurObjAppliances extends InsurObjProperty implements RiskTypes {
     static final double FIRE_COEFFICIENT_HIGH = 0.04;
     static final double FIRE_COEFFICIENT_NORMAL = 0.03;

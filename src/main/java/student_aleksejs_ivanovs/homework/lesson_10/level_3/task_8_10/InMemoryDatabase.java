@@ -39,10 +39,12 @@ class Product {
 Сделайте в коде интерфейса необходимые изменения, а так же реализуйте
 новую версию этого интерфейса и протестируйте её.*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 class InMemoryDatabase implements Database{
 
     private List<Product> productList = new ArrayList<>();

@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class BookReaderImplDemo {
     public static void main(String[] args) {
         BookReaderImplDemo victim = new BookReaderImplDemo();

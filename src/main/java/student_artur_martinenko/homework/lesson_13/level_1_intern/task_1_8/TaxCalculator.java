@@ -1,7 +1,9 @@
 package student_artur_martinenko.homework.lesson_13.level_1_intern.task_1_8;
 
-import java.math.BigDecimal;
+import teacher.annotations.CodeReview;
 
+import java.math.BigDecimal;
+@CodeReview(approved = true)
 interface TaxCalculator {
 
     BigDecimal calculateTax(BigDecimal income);

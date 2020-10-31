@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_4.level_x;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;

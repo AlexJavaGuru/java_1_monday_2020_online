@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_1_intern.task_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
 /*
@@ -31,6 +33,7 @@ public class Book {
 
 PS: подсказка по функциональности в названии класса :).
  */
+@CodeReview(approved = true)
 class Book {
     private String author;
     private String title;

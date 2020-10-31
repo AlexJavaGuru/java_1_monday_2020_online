@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_1.task_3;
 
+import teacher.annotations.CodeReview;
+
 /*Создаём интерфейс для структуры данных список.
 
 Массив в Java это хорошая структура данных для хранения примитивных типов данных
@@ -15,7 +17,7 @@ package student_aleksejs_ivanovs.homework.lesson_10.level_1.task_3;
 Не подсматривайте имплементацию java.util.List и тому подобных интерфейсов и классов.
 
 Цель этого задания самостоятельно разработать свой интерфейс MyList.*/
-
+@CodeReview(approved = true)
 interface MyList {
 
     void addToList(Object o);

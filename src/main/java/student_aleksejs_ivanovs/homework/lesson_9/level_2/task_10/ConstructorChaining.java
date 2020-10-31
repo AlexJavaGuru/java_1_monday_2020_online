@@ -20,6 +20,11 @@ class ConstructorChaining {
 
 Более подробно про этот подход можно прочитать: constructor chaining in Java.*/
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Вам надо было вызвать конструктор передав туда параметр приходящий в первый конструктор, а не просто стринг")
 class ConstructorChaining {
 
     private String constructorName;

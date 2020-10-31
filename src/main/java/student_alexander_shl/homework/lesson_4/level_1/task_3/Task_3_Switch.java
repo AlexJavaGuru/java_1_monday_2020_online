@@ -13,8 +13,10 @@ package student_alexander_shl.homework.lesson_4.level_1.task_3;
  */
 
 
-import java.util.Scanner;
+import teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task_3_Switch {
     public static void main(String[] args) {
 

@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_11.level_1_intern.task_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class BookListContainsDemo {
     public static ArrayList<Book> bookList = new ArrayList<>();
 

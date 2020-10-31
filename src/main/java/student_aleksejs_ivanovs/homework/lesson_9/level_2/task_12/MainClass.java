@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_9.level_2.task_12;
 
+import teacher.annotations.CodeReview;
+
 /*Какой будет результат выполнения следующей программы?
 
 class A {
@@ -25,7 +27,7 @@ public class MainClass {
         C c = new C();
     }
 }*/
-
+@CodeReview(approved = true)
 class MainClass {
 
     public static void main(String[] args) {

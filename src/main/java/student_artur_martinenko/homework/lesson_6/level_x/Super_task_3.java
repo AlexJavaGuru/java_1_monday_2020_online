@@ -1,7 +1,9 @@
 package student_artur_martinenko.homework.lesson_6.level_x;
 
-import java.util.Arrays;
+import teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class Super_task_3 {
 
     public static void main(String[] args) {

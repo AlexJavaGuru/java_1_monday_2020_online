@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_8;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class InMemoryDatabaseDemo {
 
     public static void main(String[] args) {

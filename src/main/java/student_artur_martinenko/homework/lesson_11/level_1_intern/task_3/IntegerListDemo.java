@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_1_intern.task_3;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +14,7 @@ import java.util.List;
 - узнать пустой список или нет
 - обойти список и вывести на консоль каждый элемент.
  */
+@CodeReview(approved = true)
 class IntegerListDemo {
     public static void main(String[] args) {
         List<String> integerList = new ArrayList<>();

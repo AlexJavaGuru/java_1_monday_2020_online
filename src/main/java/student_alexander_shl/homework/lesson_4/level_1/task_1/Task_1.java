@@ -6,8 +6,11 @@ package student_alexander_shl.homework.lesson_4.level_1.task_1;
 положительное оно или отрицательное.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_1 {
 
     public static void main(String[] args) {

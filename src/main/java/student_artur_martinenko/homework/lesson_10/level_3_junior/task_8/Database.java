@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_8;
 
+import teacher.annotations.CodeReview;
+
 /*
 Создайте реализацию следующего интерфейса.
 Класс должен называться InMemoryDatabase и сохранять продукты в памяти
@@ -31,6 +33,7 @@ class Product {
     }
 
 } */
+@CodeReview(approved = true)
 interface Database {
 
     void save(Product product);

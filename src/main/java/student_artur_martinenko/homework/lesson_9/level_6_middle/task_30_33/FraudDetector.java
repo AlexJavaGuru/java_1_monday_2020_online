@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_9.level_6_middle.task_30_33;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 /*
 Продолжаем работу над системой автоматического обнаружения мошенничества.
@@ -13,6 +15,7 @@ getRuleName() у объекта FraudRule. Полученное таким об�
 вы вернёте в качестве результата в объекте FraudDetectionResult.
  */
 
+@CodeReview(approved = true)
 class FraudDetector {
 
     public ArrayList<FraudRule> fraudRules;

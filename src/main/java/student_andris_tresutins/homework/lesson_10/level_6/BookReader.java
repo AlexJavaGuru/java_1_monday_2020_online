@@ -1,8 +1,11 @@
 package student_andris_tresutins.homework.lesson_10.level_6;
 
 
+import teacher.annotations.CodeReview;
+
 import java.util.HashSet;
 
+@CodeReview(approved = true)
 public interface BookReader {
 
     int count();

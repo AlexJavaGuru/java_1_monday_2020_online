@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_1.task_1;
 
+import teacher.annotations.CodeReview;
+
 /*Дан класс:
 
 class JavaStarLoginServiceImpl {
@@ -20,6 +22,7 @@ class JavaStarLoginServiceImpl {
 Создать интерфейс для данного класса под названием JavaStarLoginService.
 Сделать так, чтобы класс JavaStarLoginServiceImpl имплементировал созданный вами интерфейс.*/
 
+@CodeReview(approved = true)
 class JavaStarLoginServiceImpl implements JavaStarLoginService{
 
     public boolean canLogin(String login, String password) {

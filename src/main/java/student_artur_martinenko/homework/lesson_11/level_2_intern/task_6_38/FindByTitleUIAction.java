@@ -6,9 +6,11 @@ package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 По аналогии с предыдущими классами создайте и реализуйте класс FindByTitleUIAction.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class FindByTitleUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

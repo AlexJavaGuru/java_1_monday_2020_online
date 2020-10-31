@@ -1,10 +1,13 @@
 package student_artur_martinenko.homework.lesson_12.level_2_intern.task_7_17;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 class BankApiImplTest {
     public static void main(String[] args) {
         BankApiImplTest victim = new BankApiImplTest();

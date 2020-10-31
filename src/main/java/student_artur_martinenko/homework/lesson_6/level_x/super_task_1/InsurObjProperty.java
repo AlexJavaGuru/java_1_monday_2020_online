@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_6.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class InsurObjProperty extends InsurObj {
     private Property property;
 

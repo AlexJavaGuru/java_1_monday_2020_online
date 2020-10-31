@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@CodeReview(approved = true)
 class ProductDescriptionValidationRule implements FieldValidationRule{
 
     public static final int DESCRIPTION_MAX_LENGTH = 2000;

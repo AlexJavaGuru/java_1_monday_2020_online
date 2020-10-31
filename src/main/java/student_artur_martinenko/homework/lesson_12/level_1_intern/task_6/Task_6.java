@@ -1,8 +1,12 @@
 package student_artur_martinenko.homework.lesson_12.level_1_intern.task_6;
+
+import teacher.annotations.CodeReview;
+
 /*
 Воспользуйтесь документацией Java (javadoc)
 и найдите информацию о иерархии наследования класса java.lang.RuntimeException.
  */
+@CodeReview(approved = true)
 class Task_6 {
     /*
     RuntimeException is the superclass of those exceptions that can be thrown during the normal

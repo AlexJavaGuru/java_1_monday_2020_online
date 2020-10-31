@@ -22,8 +22,11 @@ class SaveBookUIAction implements UIAction {
 }
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class SaveBookUIAction implements UIAction {
 
     private BookDatabase bookDatabase;

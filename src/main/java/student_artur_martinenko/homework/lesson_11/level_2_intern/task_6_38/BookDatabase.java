@@ -1,9 +1,12 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+@CodeReview(approved = true)
 interface BookDatabase {
 
     Long save(Book book);

@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_3_junior.task_20;
 
+import teacher.annotations.CodeReview;
+
 //Task_20
 /*
 Правильно ли написан try catch блок? Откомпилируется ли код?
@@ -15,6 +17,7 @@ try {
 Создайте класс MultiCatchExample и в его main() методе
 поместите правильный try catch блок и в коментариях напишите пояснение.
  */
+@CodeReview(approved = true)
 class MultiCatchExample {
     public static void main(String[] args) {
 

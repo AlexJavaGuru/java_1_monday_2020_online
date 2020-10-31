@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_12.level_2_intern.task_7_17;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 
+@CodeReview(approved = true)
 class UserCredentials {
 
     private List<Role> roles;

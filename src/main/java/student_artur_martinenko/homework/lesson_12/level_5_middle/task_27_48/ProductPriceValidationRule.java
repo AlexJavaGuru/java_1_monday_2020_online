@@ -1,5 +1,11 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень хорошо, но только надо не забывать про скобки у if конструкции. Методы rule5 так и могли называться - isPriceIsNotEmpty" +
+        "Вы называете метод, как бы задавая вопрос.")
 class ProductPriceValidationRule implements FieldValidationRule {
 
     @Override

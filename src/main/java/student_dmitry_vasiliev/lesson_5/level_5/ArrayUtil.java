@@ -5,11 +5,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Лишнее действие:" +
-        "else {\n" +
-        "                maxNumber = maxNumber;\n" +
-        "            }")
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

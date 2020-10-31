@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_9.level_4_5_6;
 
+import teacher.annotations.CodeReview;
+
 /*  Task_30
 Продолжаем работу над системой автоматического обнаружения мошенничества.
 
@@ -27,7 +29,7 @@ class FraudDetectionResult {
     // реализуйте get() и set() методы для каждого совйства
 
 }*/
-
+@CodeReview(approved = true)
 class FraudDetectionResult {
 
     private boolean fraud;

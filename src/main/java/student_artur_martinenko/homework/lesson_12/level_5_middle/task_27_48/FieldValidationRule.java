@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 interface FieldValidationRule {
 
     void validate(Product product) throws ValidationException;

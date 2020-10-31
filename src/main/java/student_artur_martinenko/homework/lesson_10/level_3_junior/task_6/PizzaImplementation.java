@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_6;
 
+import teacher.annotations.CodeReview;
+
 /*
 Что такое функциональный интерфейс в Java?
 
@@ -7,6 +9,7 @@ package student_artur_martinenko.homework.lesson_10.level_3_junior.task_6;
 Придумайте и реализуйте его в виде программного кода.
 В коментарии в коде напишите ответ на вопрос.
  */
+@CodeReview(approved = true)
 class PizzaImplementation implements CreatePizza {
 
     @Override

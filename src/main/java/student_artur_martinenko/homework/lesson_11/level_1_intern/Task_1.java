@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_1_intern;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,6 +12,7 @@ import java.util.Vector;
 Напишите программу, которая демонстрирует создание разных списков.
 PS: чем они отличаются друг от друга?
  */
+@CodeReview(approved = true)
 class Task_1 {
     public static void main(String[] args) {
         //содается определенным размером и потом увеличивается (1/2) путем копирования в новый увеличенный массив
