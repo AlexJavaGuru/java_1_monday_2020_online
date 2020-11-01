@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_8.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Circle extends Shape {
 
     private String title = "Circle";

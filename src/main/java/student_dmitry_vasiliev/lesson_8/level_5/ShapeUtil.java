@@ -61,8 +61,11 @@ package student_dmitry_vasiliev.lesson_8.level_5;
         shape[2] = shapeUtil.createRandomRectangle();
         shape[3] = shapeUtil.createRandomTriangle();*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ShapeUtil {
 
     public Circle createRandomCircle() {

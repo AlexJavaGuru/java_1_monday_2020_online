@@ -7,7 +7,11 @@ package student_dmitry_vasiliev.lesson_9.level_2;
 //по родственной линии, к классу А. Таким образом выполняется sout класса А, далее
 //классов В и С.
 //Но где это реально использовать, пока в голову не приходит))
+//Это принцип, который надо понимать, что джаве надо вызвать конструкторы родителей класса, при создании объектов наследников.
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class A {
     public A() {
         System.out.println("Class A Constructor");

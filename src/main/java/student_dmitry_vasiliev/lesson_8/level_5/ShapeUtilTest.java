@@ -1,9 +1,12 @@
 
 package student_dmitry_vasiliev.lesson_8.level_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ShapeUtilTest {
 
-    private static void main(String[] args) {
+    public static void main(String[] args) {
 
         ShapeUtilTest test = new ShapeUtilTest();
         test.shouldSumAllPerimeter();

@@ -1,5 +1,7 @@
 package student_dmitry_vasiliev.lesson_9.level_5;
 
+import teacher.annotations.CodeReview;
+
 /* - Task_23
         Изучаем Single Responsibility Principle.
 
@@ -13,6 +15,7 @@ package student_dmitry_vasiliev.lesson_9.level_5;
         Предлагаем код каждого правила реализовать в собственном классе!
 
         Для этого создайте абстрактный класс FraudRule.*/
+@CodeReview(approved = true)
 abstract class FraudRule {
 
     private String ruleName;

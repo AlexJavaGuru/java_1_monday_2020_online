@@ -1,5 +1,7 @@
 package student_dmitry_vasiliev.lesson_9.level_1;
 
+import teacher.annotations.CodeReview;
+
 /*
 - Task_5 Создайте класс сейф версии 2 с двумя свойствами: пароль и количество денег в сейфе.
         Начальные значения этим свойствам задавайте через публичный конструктор.
@@ -7,6 +9,7 @@ package student_dmitry_vasiliev.lesson_9.level_1;
         можно было только предоставя правильный пароль.
         Подсказка: реализуйте эту функциональность через публичные методы: getMoney(...), putMoney(...).
         Создайте класс демо и продемонстрируйте, принцып инкапсуляции в действии!*/
+@CodeReview(approved = true)
 class Safe_V2 {
 
     private int pincode = 1111;
