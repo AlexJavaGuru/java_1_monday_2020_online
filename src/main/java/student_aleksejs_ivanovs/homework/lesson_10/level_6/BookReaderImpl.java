@@ -3,7 +3,7 @@ package student_aleksejs_ivanovs.homework.lesson_10.level_6;
 import java.util.ArrayList;
 import java.util.List;
 
-class BookReaderImpl implements BookReader{   // Not finished
+class BookReaderImpl implements BookReader{
 
    private List<Book> bookStorage = new ArrayList<>();
 
@@ -19,29 +19,21 @@ class BookReaderImpl implements BookReader{   // Not finished
 
     @Override   //  Task_16
     public boolean removeBook(Book book) {
-        /*if (bookStorage.equals(book)) {
-            bookStorage.remove(book);
-            return true;
-        } else {
-            return false;
-        }*/
         return bookStorage.remove(book);
     }
 
     @Override   //  Task_17
     public void writeBookStorage() {
         for (Book book : bookStorage) {
-            System.out.println(book.toString());
+            System.out.print(book.toString() + ". ");
         }
     }
 
     @Override   //  Task_18_19
     public void searchBooksByAuthor(String author) {
-        /*Book books = new Book(author,"");
-        bookStorage.equals(books) &&*/
         for (Book book : bookStorage) {
             if (book.getAuthor().startsWith(author)) {
-                System.out.println(book.toString());
+                System.out.print(book.toString() + ". ");
             }
         }
     }
@@ -50,7 +42,7 @@ class BookReaderImpl implements BookReader{   // Not finished
     public void searchBooksByBooksName(String bookName) {
         for (Book book : bookStorage) {
             if (book.getBookName().startsWith(bookName)) {
-                System.out.println(book.toString());
+                System.out.print(book.toString() + ". ");
             }
         }
     }
@@ -77,7 +69,7 @@ class BookReaderImpl implements BookReader{   // Not finished
     public void writeReadBooks() {
         for (Book book : bookStorage) {
             if (book.getFinishedBook()) {
-                System.out.println(book.toString());
+                System.out.print(book.toString() + ". ");
             }
         }
     }
@@ -86,7 +78,7 @@ class BookReaderImpl implements BookReader{   // Not finished
     public void writeUnreadBooks() {
         for (Book book : bookStorage) {
             if (!book.getFinishedBook()) {
-                System.out.println(book.toString());
+                System.out.print(book.toString() + ". ");
             }
         }
     }
