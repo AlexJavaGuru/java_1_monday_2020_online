@@ -1,5 +1,36 @@
 package student_regina_svistunov.lesson_6.level_3;
 
+//Task_9
+//        Добавьте в класс ArrayUtil метод для проверки содержит
+//        ли массив целых чисел указынное число.
+//        Напишите автоматические тесты в классе ArrayUtilTest
+//        доказывающие, что ваша реализацяия метода работает правильно.
+//Task_10
+//        Добавьте в класс ArrayUtil метод для проверки сколько
+//        раз содержит массив целых чисел указынное число.
+//        Напишите автоматические тесты в классе
+//        ArrayUtilTest доказывающие,
+//        что ваша реализацяия метода работает правильно.
+//Task_11
+//        Добавьте в класс ArrayUtil метод для замены
+//        первого вхождения указанного числа в массиве целых чисел
+//        на другое число.
+//        Напишите автоматические тесты в классе ArrayUtilTest доказывающие,
+//        что ваша реализацяия метода работает правильно.
+//        Подсказка: void replace(int[] arr, int numberToReplace, int newNumber).
+//Task_12
+//        Добавьте в класс ArrayUtil метод для замены вхождений
+//        указанного числа в массиве целых чисел на другое число.
+//        Напишите автоматические тесты в классе ArrayUtilTest доказывающие,
+//        что ваша реализацяия метода работает правильно.
+//        Подсказка: void replaceAll(int[] arr, int numberToReplace, int newNumber).
+//Task_13
+//        Добавьте в класс ArrayUtil метод для
+//        переворота массива целых чисел.
+//        Напишите автоматические тесты в классе ArrayUtilTest доказывающие,
+//        что ваша реализацяия метода работает правильно.
+
+
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
@@ -14,24 +45,24 @@ public class ArrayUtil {
         }
 
         public void fillArrayWithRandomNumbers(int[] array) {
-
             Random random = new Random();
-
             for (int i=0; i < array.length; i++) {
                 array[i] = random.nextInt(50);
             }
         }
         public int findMaxNumber(int[] array) {
             int maxNumber = array[0];
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] > maxNumber) {
-                    maxNumber = array[i];
+            for (int i : array) {
+                int j = array[i];
+                if (j > maxNumber) {
+                    maxNumber = j;
                 }
-            }  return maxNumber;
+            }
+            return maxNumber;
         }
         public int findMinNumber (int[] array) {
             int minNumber = array[0];
-            for (int i = 0; i < array.length; i++) {
+            for (int i : array) {
                 if (array[i] < minNumber) {
                     minNumber = array[i];
                 }
@@ -39,20 +70,17 @@ public class ArrayUtil {
             return minNumber;
         }
 
-    public int findNumber(int[] newArray, int findNumber) {
-            int number = 0;
-        for (int i=0; i<newArray.length; i++) {
-            if (newArray[i] == findNumber) {
-                number = newArray[i];
-            } else {
-                findNumber = findNumber;
+    public boolean findNumber(int[] newArray, int findNumber) {
+        for (int i : newArray) {
+            if (i == findNumber) {
+                return true;
             }
         }
-        return number;
+        return false;
     }
     public int countNumber (int[] newArray, int countNumber) {
             int number =0;
-            for (int i =0; i<newArray.length; i++) {
+            for (int i : newArray) {
                 if (newArray[i] == countNumber) {
                     number++;
                 }
