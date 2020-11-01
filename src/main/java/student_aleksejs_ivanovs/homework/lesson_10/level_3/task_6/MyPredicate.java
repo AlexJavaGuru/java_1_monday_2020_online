@@ -1,11 +1,13 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_3.task_6;
 
+import teacher.annotations.CodeReview;
+
 /*Что такое функциональный интерфейс в Java?
 
 Найдите в интернете информацию об этом.
 Придумайте и реализуйте его в виде программного кода.
 В коментарии в коде напишите ответ на вопрос.*/
-
+@CodeReview(approved = true)
 @FunctionalInterface
 interface MyPredicate {
 

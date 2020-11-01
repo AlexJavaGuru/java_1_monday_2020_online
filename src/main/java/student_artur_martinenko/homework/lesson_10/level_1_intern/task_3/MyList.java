@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_1_intern.task_3;
 
+import teacher.annotations.CodeReview;
+
 /*
 Создаём интерфейс для структуры данных список.
 
@@ -17,6 +19,7 @@ package student_artur_martinenko.homework.lesson_10.level_1_intern.task_3;
 
 Цель этого задания самостоятельно разработать свой интерфейс MyList.
  */
+@CodeReview(approved = true)
 interface MyList {
 
     //these methods can be the same for primitive types

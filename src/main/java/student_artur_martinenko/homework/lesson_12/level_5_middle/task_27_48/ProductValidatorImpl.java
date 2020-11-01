@@ -1,19 +1,22 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class ProductValidatorImpl implements ProductValidator {
 
     private List<FieldValidationRule> validationRules = new ArrayList<>();
 
-public ProductValidatorImpl(ProductTitleValidationRule titleValidationRule,
-                            ProductPriceValidationRule priceValidationRule,
-                            ProductDescriptionValidationRule descriptionValidationRule) {
-    validationRules.add(titleValidationRule);
-    validationRules.add(priceValidationRule);
-    validationRules.add(descriptionValidationRule);
-}
+    public ProductValidatorImpl(ProductTitleValidationRule titleValidationRule,
+                                ProductPriceValidationRule priceValidationRule,
+                                ProductDescriptionValidationRule descriptionValidationRule) {
+        validationRules.add(titleValidationRule);
+        validationRules.add(priceValidationRule);
+        validationRules.add(descriptionValidationRule);
+    }
 
     public List<ValidationException> validate(Product product) {
         List<ValidationException> exceptions = new ArrayList<>();

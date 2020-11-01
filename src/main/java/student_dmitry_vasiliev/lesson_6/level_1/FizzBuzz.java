@@ -13,8 +13,7 @@ import teacher.annotations.CodeReviewComment;
         Или метод detect можно реализовать без него?
 
  */
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Дмитрий, я не вижу исправления класса. Он все так же не красиво выглядит. Надо ним надо поработать...не просто закомментить переменную =D")
+@CodeReview(approved = true)
 class FizzBuzz {
 
     //private int initialNumber;

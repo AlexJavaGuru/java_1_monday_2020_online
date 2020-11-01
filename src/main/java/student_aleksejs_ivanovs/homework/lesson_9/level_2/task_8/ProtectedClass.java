@@ -13,6 +13,9 @@ protected class ProtectedClass {
 Как вы думаете, почему protected классы создавать нельзя?
 Напиши свой ответ в коментарии над исправленным кодом.*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ProtectedClass {
 
     //You cannot use a 'protected' access operator because it will not be visible to Java Virtual Machine

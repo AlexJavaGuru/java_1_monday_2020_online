@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 
+@CodeReview(approved = true)
 class ProductValidatorImplTest {
     private ProductValidator validator = new ProductValidatorImpl(new ProductTitleValidationRule(),
             new ProductPriceValidationRule(), new ProductDescriptionValidationRule());

@@ -1,7 +1,9 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior;
 
-import java.util.Optional;
+import teacher.annotations.CodeReview;
 
+import java.util.Optional;
+@CodeReview(approved = true)
 class Task_9 {
 
 /*

@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_6.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class Policy {
     private String policyName;
     private ArrayList<InsurObjProperty> itemsInsured = new ArrayList<>();

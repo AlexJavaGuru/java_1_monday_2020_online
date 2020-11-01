@@ -21,6 +21,8 @@ interface BankApi {
 вернуть ("кинуть") ошибку типа AccessDeniedException.
  */
 
+import teacher.annotations.CodeReview;
+
 //Task_17
 /*
 Почему класс AccessDeniedException в нашем случае
@@ -30,7 +32,7 @@ class AccessDeniedException extends Exception {
 
 }
  */
-
+@CodeReview(approved = true)
 class AccessDeniedException extends Exception {
 //Task_17
 //Exception indicates conditions that a reasonable application might want to catch.

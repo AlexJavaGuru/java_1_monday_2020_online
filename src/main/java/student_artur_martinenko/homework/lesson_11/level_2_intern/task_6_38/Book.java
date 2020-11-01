@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Book {
     private Long id;
     private String title;

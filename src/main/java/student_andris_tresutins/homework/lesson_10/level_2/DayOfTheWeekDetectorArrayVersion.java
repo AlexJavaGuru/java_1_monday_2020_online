@@ -1,12 +1,14 @@
 package student_andris_tresutins.homework.lesson_10.level_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorArrayVersion {
 
     public String detectDayName(int number) {
         String[] day = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         String weekDay;
-        switch(number)
-        {
+        switch (number) {
             case 1:
                 weekDay = day[0];
                 break;

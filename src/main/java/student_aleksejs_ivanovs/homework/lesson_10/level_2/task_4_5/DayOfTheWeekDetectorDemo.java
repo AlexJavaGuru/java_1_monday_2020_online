@@ -25,8 +25,11 @@ package student_aleksejs_ivanovs.homework.lesson_10.level_2.task_4_5;
 Убедитесь, что в не зависимости от того, какая реализация алгоритма используется для определения
 названия дня недели, программа DayOfTheWeekDetectorDemo работает одинаково.*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo {
 
     private DayOfTheWeekDetector dayDetector;

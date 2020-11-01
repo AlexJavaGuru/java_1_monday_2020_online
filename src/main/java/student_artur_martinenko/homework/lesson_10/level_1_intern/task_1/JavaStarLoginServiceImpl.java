@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_1_intern.task_1;
 
+import teacher.annotations.CodeReview;
+
 /*
 Дан класс:
 
@@ -21,6 +23,7 @@ class JavaStarLoginServiceImpl {
 Создать интерфейс для данного класса под названием JavaStarLoginService.
 Сделать так, чтобы класс JavaStarLoginServiceImpl имплементировал созданный вами интерфейс.
  */
+@CodeReview(approved = true)
 class JavaStarLoginServiceImpl implements JavaStarLoginService {
 
     @Override

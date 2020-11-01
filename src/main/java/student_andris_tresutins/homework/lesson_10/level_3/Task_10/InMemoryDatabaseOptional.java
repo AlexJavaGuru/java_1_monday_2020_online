@@ -1,9 +1,12 @@
 package student_andris_tresutins.homework.lesson_10.level_3.Task_10;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 class InMemoryDatabaseOptional implements Database {
 
    public static List<Product> list = new ArrayList<>();

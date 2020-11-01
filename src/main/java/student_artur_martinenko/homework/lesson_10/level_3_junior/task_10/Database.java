@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_10;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Optional;
 
 /*
@@ -31,6 +33,7 @@ class Product {
 
 }
  */
+@CodeReview(approved = true)
 interface Database {
 
     void save(Product product);

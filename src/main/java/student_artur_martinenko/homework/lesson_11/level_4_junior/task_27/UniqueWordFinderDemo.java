@@ -1,7 +1,10 @@
 package student_artur_martinenko.homework.lesson_11.level_4_junior.task_27;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Set;
 
+@CodeReview(approved = true)
 class UniqueWordFinderDemo {
     public static void main(String[] args) {
         UniqueWordFinderDemo victim = new UniqueWordFinderDemo();

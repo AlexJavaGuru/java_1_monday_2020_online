@@ -1,7 +1,9 @@
 package student_artur_martinenko.homework.lesson_12.level_5_middle.task_27_48;
 
-import java.util.List;
+import teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 interface ProductValidator {
 
     List<ValidationException> validate(Product product);

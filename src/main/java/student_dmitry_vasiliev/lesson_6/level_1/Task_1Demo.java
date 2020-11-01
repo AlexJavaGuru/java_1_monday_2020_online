@@ -3,8 +3,7 @@ package student_dmitry_vasiliev.lesson_6.level_1;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Надо покрыть еще хотябы пару сценариев. Сделать общий check метод для проверки результатов тестов.")
+@CodeReview(approved = true)
 class Task_1Demo {
 
     public static void main(String[] args) {

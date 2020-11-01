@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_10.level_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorTest {
     public static void main(String[] args) {
         DayOfTheWeekDetectorTest test = new DayOfTheWeekDetectorTest();

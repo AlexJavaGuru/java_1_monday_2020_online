@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_9.level_4_5_6;
 
+import teacher.annotations.CodeReview;
+
 /* Task_24
 Изучаем Single Responsibility Principle.
 
@@ -20,7 +22,7 @@ class FraudRule1 extends FraudRule {
 }
 
 Напишите югит тесты для класса FraudRule1!*/
-
+@CodeReview(approved = true)
 class FraudRule1 extends FraudRule{
 
     public FraudRule1(String ruleName) {

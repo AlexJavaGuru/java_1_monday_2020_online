@@ -4,6 +4,9 @@ package student_aleksejs_ivanovs.homework.lesson_9.level_2.task_11;
 Продемонстрируйте использование протектед конструктора в родительском классе.
 Продемонстрируйте вызов протектед конструктора из класса потомка.*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class B extends A {
 
     public B(String symbol) {

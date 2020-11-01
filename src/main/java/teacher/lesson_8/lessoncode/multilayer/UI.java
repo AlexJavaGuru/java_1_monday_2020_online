@@ -2,13 +2,17 @@ package teacher.lesson_8.lessoncode.multilayer;
 
 public class UI {
 
-    private Service service = new v2ServiceImpl();
+    private Service service;
 
-    public void askUser(String userString) {
-        service.putIntoDB(userString);
+    public UI(Service service) {
+        this.service = service;
     }
 
-    public String giveUserInfo(int userInt) {
-        return service.readFromDB(userInt);
-    }
+//    public void askUser(String userString) {
+//        service.putIntoDB(userString);
+//    }
+
+//    public String giveUserInfo(int userInt) {
+//        return service.readFromDB(userInt);
+//    }
 }

@@ -1,5 +1,8 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_9 {
 
 /*

@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_8.level_4_junior;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ShapeTest {
     public static void main(String[] args) {
         ShapeTest victim = new ShapeTest();

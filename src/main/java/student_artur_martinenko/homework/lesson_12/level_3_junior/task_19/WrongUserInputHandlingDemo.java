@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_3_junior.task_19;
 
+import teacher.annotations.CodeReview;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -11,6 +13,7 @@ import java.util.Scanner;
 - если пользователь введёт не число а строку программа должна сообщить
   пользователю о допущенной ошибке и запросить ввести целое число еще раз.
  */
+@CodeReview(approved = true)
 class WrongUserInputHandlingDemo {
 
 

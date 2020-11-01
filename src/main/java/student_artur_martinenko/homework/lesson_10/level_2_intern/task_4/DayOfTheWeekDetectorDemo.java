@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_10.level_2_intern.task_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo {
     public static void main(String[] args) {
         DayOfTheWeekDetectorDemo victim = new DayOfTheWeekDetectorDemo();

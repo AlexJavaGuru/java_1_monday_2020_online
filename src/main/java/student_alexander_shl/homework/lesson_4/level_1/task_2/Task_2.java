@@ -5,8 +5,11 @@ package student_alexander_shl.homework.lesson_4.level_1.task_2;
 положительное оно, отрицательное или равно нулю.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_2 {
 
     public static void main(String[] args) {

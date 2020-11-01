@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ import java.util.Scanner;
 
 Так как UIAction кдассов будет много, советуем для них создать свой пакет.
  */
-
+@CodeReview(approved = true)
 class FindByAuthorUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

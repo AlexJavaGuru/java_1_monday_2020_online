@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -54,6 +56,7 @@ class BookLibrary {
 В классе BookLibrary с помощью структуры данных мап реализован
 дизайн паттерн Strategy (стратегия).
  */
+@CodeReview(approved = true)
 class BookLibrary {
 
     private Map<Integer, UIAction> menuNumberToActionMap;

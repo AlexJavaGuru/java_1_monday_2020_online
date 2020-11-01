@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_12.level_2_intern.task_7_17;
 
+import teacher.annotations.CodeReview;
+
 //Task_9
 /*
 Для описания клиентов банка, данных к которым мы хотим дать доступ,
@@ -16,6 +18,7 @@ class BankClient {
 
 }
  */
+@CodeReview(approved = true)
 class BankClient {
 
     private String uid;

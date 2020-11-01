@@ -18,8 +18,15 @@ PS: перед решением этой задачи распишите на б
 Это поможет вам правильно написать программу!
  */
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Вам надо пересмотреть тему про условыне переходы if else. Попробуйте сделать" +
+        "через else if конструкцию" +
+        "")
 class tasks_8_9_10 {
 
 

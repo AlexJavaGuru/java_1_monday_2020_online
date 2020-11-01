@@ -1,10 +1,13 @@
 package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
 
     private List<Book> electronicLibrary;

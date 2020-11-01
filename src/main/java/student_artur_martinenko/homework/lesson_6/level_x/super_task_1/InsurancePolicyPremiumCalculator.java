@@ -1,6 +1,9 @@
 package student_artur_martinenko.homework.lesson_6.level_x.super_task_1;
 
+import teacher.annotations.CodeReview;
+
 //Можно было больше тестов и проверок в методах, все упирается во время. Надеюсь программа выполнена корректно.
+@CodeReview(approved = true)
 class InsurancePolicyPremiumCalculator {
 
     public static void main(String[] args) {

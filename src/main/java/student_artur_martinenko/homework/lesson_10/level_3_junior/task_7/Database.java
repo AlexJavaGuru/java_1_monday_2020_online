@@ -1,5 +1,7 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_7;
 
+import teacher.annotations.CodeReview;
+
 /*
 Является ли следующий интерфейс функциональным?
 
@@ -26,6 +28,7 @@ class Product {
 
 }
  */
+@CodeReview(approved = true)
 interface Database {
 
     //this interface is not functional because it has two abstract methods.

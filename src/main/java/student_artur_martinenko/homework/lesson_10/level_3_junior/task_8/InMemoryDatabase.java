@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_10.level_3_junior.task_8;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class InMemoryDatabase implements Database {
 
     public static List<Product> productList = new ArrayList<>();

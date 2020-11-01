@@ -44,8 +44,10 @@ interface BankApi {
 что бы реализовать требование описанное выше
  */
 
-import java.util.Optional;
+import teacher.annotations.CodeReview;
 
+import java.util.Optional;
+@CodeReview(approved = true)
 interface BankApi {
 
     Optional<BankClient> findByUid(UserCredentials credentials, String uid) throws AccessDeniedException;

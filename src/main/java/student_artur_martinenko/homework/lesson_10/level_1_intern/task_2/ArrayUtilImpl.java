@@ -45,10 +45,13 @@ class ArrayUtilImpl {
 которые вляются реализацией методов объявленных в интерфейсе.
  */
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtilImpl implements ArrayUtil {
 
     @Override

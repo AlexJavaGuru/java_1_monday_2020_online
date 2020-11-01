@@ -1,7 +1,11 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 
-import java.util.*;
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
 
+import java.util.*;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Наверное не очень правильно, что findById возвращает Object. Или была какая-то задумка для этого?")
 class BookDatabaseImpl implements BookDatabase {
 
     private Long bookIdGenerator;

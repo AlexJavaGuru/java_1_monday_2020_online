@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_9.level_4_5_6;
 
+import teacher.annotations.CodeReview;
+
 /* Task_23
 Изучаем Single Responsibility Principle.
 
@@ -32,7 +34,7 @@ abstract class FraudRule {
 В абстрактном классе FraudRule реализуйте get() метод для свойства ruleName:
 
     String getRuleName();*/
-
+@CodeReview(approved = true)
 abstract class FraudRule {
 
     private String ruleName;

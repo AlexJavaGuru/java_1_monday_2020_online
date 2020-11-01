@@ -1,6 +1,8 @@
 package student_artur_martinenko.homework.lesson_11.level_2_intern.task_6_38;
 //Task_31
 
+import teacher.annotations.CodeReview;
+
 import java.util.Optional;
 import java.util.Scanner;
 
@@ -25,6 +27,7 @@ class FindByIdUIAction implements UIAction {
 
 }
  */
+@CodeReview(approved = true)
 class FindByIdUIAction implements UIAction {
 
     private BookDatabase bookDatabase;

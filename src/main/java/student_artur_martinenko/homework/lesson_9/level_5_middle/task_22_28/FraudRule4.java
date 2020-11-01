@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_9.level_5_middle.task_22_28;
 
+import teacher.annotations.CodeReview;
+
 import java.io.File;
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class FraudRule4 extends FraudRule {
     public static ArrayList<String> bannedCountries = new ArrayList<>();
 

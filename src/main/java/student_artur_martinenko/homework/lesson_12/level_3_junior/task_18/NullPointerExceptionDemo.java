@@ -7,8 +7,10 @@ package student_artur_martinenko.homework.lesson_12.level_3_junior.task_18;
 В комментариях напишите, когда происходит NullPointerException.
  */
 
-import java.util.List;
+import teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class NullPointerExceptionDemo {
     public static void main(String[] args) {
         List<String> list = null;

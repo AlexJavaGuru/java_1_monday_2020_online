@@ -7,6 +7,9 @@ package student_aleksejs_ivanovs.homework.lesson_9.level_1.task_5;
 Подсказка: реализуйте эту функциональность через публичные методы: getMoney(...), putMoney(...).
 Создайте класс демо и продемонстрируйте, принцып инкапсуляции в действии!*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class SafeTwo {
 
     private String pin;

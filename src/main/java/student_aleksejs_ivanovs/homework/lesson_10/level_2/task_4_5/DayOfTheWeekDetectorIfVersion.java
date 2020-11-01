@@ -1,5 +1,7 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_2.task_4_5;
 
+import teacher.annotations.CodeReview;
+
 /*Несколько имплементаций одного интерфейса.
 
 Одну и ту же задачу можно решить разными способами.
@@ -41,7 +43,7 @@ class DayOfTheWeekDetectorIfVersion {
 дня недели.
 
 Протестируйте все имплементации.*/
-
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector{
 
     @Override

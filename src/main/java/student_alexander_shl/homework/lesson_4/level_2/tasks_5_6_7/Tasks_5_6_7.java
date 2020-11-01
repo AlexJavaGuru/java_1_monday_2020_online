@@ -8,8 +8,10 @@ package student_alexander_shl.homework.lesson_4.level_2.tasks_5_6_7;
 - "Numbers are different" - если числа не равны // task_7
  */
 
-import java.util.Scanner;
+import teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Tasks_5_6_7 {
 
     public static void main(String[] args) {

@@ -8,8 +8,10 @@ package student_alexander_shl.homework.lesson_4.level_1.task_4;
 равен нулю то число чётное, иначе не чётное.
  */
 
-import java.util.Scanner;
+import teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task_4 {
 
     public static void main(String[] args) {

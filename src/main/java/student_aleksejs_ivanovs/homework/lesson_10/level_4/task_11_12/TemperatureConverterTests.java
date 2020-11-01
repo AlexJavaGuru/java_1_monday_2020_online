@@ -48,6 +48,9 @@ class KelvinConverter implements TemperatureConverter {
   (формула: 1.8 * celsiusTemperature + 32);
 - написать юнит тесты для классов KelvinConverter и FahrenheitConverter.*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class TemperatureConverterTests {
 
     public static void main(String[] args) {

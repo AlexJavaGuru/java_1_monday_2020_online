@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_10.level_6_middle.task_14_25;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Reader {
 
     private String name;

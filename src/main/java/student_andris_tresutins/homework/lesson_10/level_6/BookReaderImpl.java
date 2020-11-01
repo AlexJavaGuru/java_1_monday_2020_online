@@ -1,7 +1,10 @@
 package student_andris_tresutins.homework.lesson_10.level_6;
 
+import teacher.annotations.CodeReview;
+
 import java.util.*;
 
+@CodeReview(approved = true)
 public class BookReaderImpl implements BookReader {
 
 

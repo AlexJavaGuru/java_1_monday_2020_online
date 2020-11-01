@@ -8,8 +8,10 @@ package student_artur_martinenko.homework.lesson_12.level_1_intern.task_5;
 разные способы создания экземпляра класса Exception.
  */
 
-import java.util.EmptyStackException;
+import teacher.annotations.CodeReview;
 
+import java.util.EmptyStackException;
+@CodeReview(approved = true)
 class ExceptionDemo extends Exception {
     /*
     Checked exceptions need to be declared in a method or constructor's throws clause if they can be thrown

@@ -4,12 +4,12 @@ public class v2ServiceImpl implements Service{
 
 
     @Override
-    public void putIntoDB(String myString) {
+    public void putIntoDB(Integer myString) {
         System.out.println("v2 service string saved: " + myString);
     }
 
     @Override
-    public String readFromDB(int id) {
-        return "id " + id;
+    public Integer readFromDB(Integer id) {
+        return id;
     }
 }
