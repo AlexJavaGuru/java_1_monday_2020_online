@@ -21,35 +21,28 @@ public class FruitStore {
 
     // Требование 1: отобрать все яблоки
     public List<Fruit> getAllApples() {
+        return findFruitsByName("apple");
+    }
+
+    // Требование 2: отобрать все груши
+    public List<Fruit> getAllPears() {
+        return findFruitsByName("pear");
+    }
+
+    // Требование 3: отобрать все помидоры
+    public List<Fruit> getAllTomatos() {
+        return findFruitsByName("tomato");
+    }
+
+    public List<Fruit> findFruitsByName(String name) {
         List<Fruit> found = new ArrayList<>();
         for (Fruit fruit : fruits) {
-            if ("apple".equals(fruit.getTitle())) {
+            if (name.equals(fruit.getTitle())) {
                 found.add(fruit);
             }
         }
         return found;
     }
-
-    // Требование 2: отобрать все груши
-    public List<Fruit> getAllPears() {
-        return null;
-    }
-
-    // Требование 3: отобрать все помидоры
-    public List<Fruit> getAllTomatos() {
-        return null;
-    }
-
-
-
-
-
-
-
-
-
-
-
 
     // Требование 4: красные фрукты
     public List<Fruit> findAllFruitsByColor(String fruitColor) {
@@ -61,6 +54,7 @@ public class FruitStore {
         }
         return foundFruits;
     }
+
 
 
     // Требование 5: красные помидоры

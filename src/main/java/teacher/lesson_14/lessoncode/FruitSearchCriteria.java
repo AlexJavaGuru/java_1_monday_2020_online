@@ -7,74 +7,36 @@ public interface FruitSearchCriteria {
 
 }
 
+class AppleSearchCriteria implements FruitSearchCriteria {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class ApplesSearchCriteria implements FruitSearchCriteria {
     @Override
     public boolean test(Fruit fruit) {
         return "apple".equals(fruit.getTitle());
     }
 }
 
-class PearsSearchCriteria implements FruitSearchCriteria {
+class PearSearchCriteria implements FruitSearchCriteria {
+
     @Override
     public boolean test(Fruit fruit) {
         return "pear".equals(fruit.getTitle());
     }
 }
 
-class TomatosSearchCriteria implements FruitSearchCriteria {
+class TomatoSearchCriteria implements FruitSearchCriteria {
+
     @Override
     public boolean test(Fruit fruit) {
         return "tomato".equals(fruit.getTitle());
     }
 }
 
+class RedTomatoWithWeightSearchCriteria implements FruitSearchCriteria {
 
-class RedTomatosSearchCriteria implements FruitSearchCriteria {
     @Override
     public boolean test(Fruit fruit) {
-        return "tomato".equals(fruit.getTitle())
-                && "red".equals(fruit.getColor());
-    }
-}
-
-class RedTomatosBiggerThen100SearchCriteria implements FruitSearchCriteria {
-    @Override
-    public boolean test(Fruit fruit) {
-        return "tomato".equals(fruit.getTitle())
-                && "red".equals(fruit.getColor())
-                && fruit.getWeight() > 100;
+        return "tomato".equals(fruit.getTitle()) &&
+                "red".equals(fruit.getColor()) &&
+                fruit.getWeight() > 100;
     }
 }
