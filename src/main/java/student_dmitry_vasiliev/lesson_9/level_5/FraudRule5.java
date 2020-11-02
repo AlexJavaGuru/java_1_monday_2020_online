@@ -1,11 +1,14 @@
 package student_dmitry_vasiliev.lesson_9.level_5;
 
+import teacher.annotations.CodeReview;
+
 /* - Task_28
 Изучаем Single Responsibility Principle.
 
         По аналогии с предыдущим заданием, выполните то же самое для
         второго правила автоматического определения мошенничества (class FraudRule5).
 */
+@CodeReview(approved = true)
 class FraudRule5 extends FraudRule {
 
     public FraudRule5(String ruleName) {

@@ -15,6 +15,7 @@ package student_lilija_g.homework.lesson_10.level_1_intern.task_3;
 Не подсматривайте имплементацию java.util.List и тому подобных интерфейсов и классов.
 
 Цель этого задания самостоятельно разработать свой интерфейс MyList.
+
  */
 
 interface MyList {

@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_9.level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;

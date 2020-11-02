@@ -6,8 +6,11 @@ package student_dmitry_vasiliev.lesson_9.level_5;
 //в класс FraudDetector будут подаваться все автоматические правила
 //определения мошенничества, которые реализованы отдельными классами.
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 
+@CodeReview(approved = true)
 class FraudDetector {
 
     public ArrayList<FraudRule> fraudRules;

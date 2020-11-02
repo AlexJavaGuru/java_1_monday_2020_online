@@ -21,6 +21,7 @@ class JavaStarLoginServiceImpl {
 Создать интерфейс для данного класса под названием JavaStarLoginService.
 Сделать так, чтобы класс JavaStarLoginServiceImpl имплементировал созданный вами интерфейс.
  */
+
 class JavaStarLoginServiceImpl implements JavaStarLoginService {
 
     @Override

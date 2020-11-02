@@ -31,21 +31,26 @@ package student_dmitry_vasiliev.lesson_8.level_4;
     Shape: calculateArea() и calculatePerimeter().
     Напишите тесты для класса Triangle.*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 abstract class Shape {
 
-        private String title;
+    private String title;
 
-        Shape(String title) {
-            this.title = title;
-        }
-        Shape() {
+    Shape(String title) {
+        this.title = title;
+    }
 
-        }
-
-        abstract double calculateArea();
-        abstract double calculatePerimeter();
+    Shape() {
 
     }
+
+    abstract double calculateArea();
+
+    abstract double calculatePerimeter();
+
+}
 
 
 

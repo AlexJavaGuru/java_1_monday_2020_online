@@ -3,7 +3,7 @@ package student_arturs_arusanovs.lesson_5.level_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
+@CodeReview(approved = true)
 @CodeReviewComment(comment = "Нет заполнения случайными числами.")
 class Task_28 {
 

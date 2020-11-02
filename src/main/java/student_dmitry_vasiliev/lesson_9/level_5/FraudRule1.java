@@ -9,6 +9,9 @@ package student_dmitry_vasiliev.lesson_9.level_5;
 
         Напишите югит тесты для класса FraudRule1!*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FraudRule1 extends FraudRule {
 
     public FraudRule1(String ruleName) {

@@ -1,9 +1,17 @@
 package student_dmitry_vasiliev.lesson_9.level_1;
+
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 /*
 - Task_4 Создайте класс сейф с двумя свойствами: пинкод и количество денег в сейфе.
         Сделайте эти свойства публично доступными.
         Создайте класс демо и продемонстрируйте, что можно делать с публичными свойствами объекта.*/
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А чего у вас атрибуты в самом конце? ")
 class Safe {
+    public int pincode = 1111;
+    public double moneyAmount = 100.0;
 
     public int getPincode() {
         return pincode;
@@ -21,6 +29,4 @@ class Safe {
         this.moneyAmount = moneyAmount;
     }
 
-    public int pincode = 1111;
-    public double moneyAmount = 100.0;
 }

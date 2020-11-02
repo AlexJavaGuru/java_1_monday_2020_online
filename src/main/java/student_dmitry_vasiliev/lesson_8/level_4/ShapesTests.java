@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_8.level_4;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ShapesTests {
 
     public static void main(String[] args) {

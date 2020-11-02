@@ -3,9 +3,7 @@ package student_lilija_g.homework.lesson_4.level_4;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Слишком много надублировали кода. Переделайте. Выносите в методы код, который можно переиспользовать. " +
-        "Тесты, которые что-то пишут в консоль - это не тесты. Это я про maxOfTwoNumbersTest - переделать.")
+@CodeReview(approved = true)
 class CalculatorTest {
 
     Calculator calculator = new Calculator();
