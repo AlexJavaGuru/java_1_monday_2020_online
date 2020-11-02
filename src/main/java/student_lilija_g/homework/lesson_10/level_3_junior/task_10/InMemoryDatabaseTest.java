@@ -1,6 +1,7 @@
 package student_lilija_g.homework.lesson_10.level_3_junior.task_10;
 
 class InMemoryDatabaseTest {
+
     public static void main(String[] args) {
 
         Database database = new InMemoryDatabase();

@@ -7,4 +7,5 @@ interface DayOfTheWeekDetector {
     String detectDayNameBySwitch(int number);
 
     String detectDayNameFromList(int number);
+
 }

@@ -2,6 +2,7 @@ package student_lilija_g.homework.lesson_10.level_2_intern.task_5;
 
 import java.util.Scanner;
 
+
 class DayOfTheWeekDetectorDemo {
 
     DayOfTheWeekDetector myDayOfTheWeekDetector;

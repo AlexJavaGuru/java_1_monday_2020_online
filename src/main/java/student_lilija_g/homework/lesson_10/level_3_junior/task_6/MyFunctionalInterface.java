@@ -36,4 +36,5 @@ interface MyFunctionalInterface { // MyFunctionalInterface
     default void myPrint(String text) { // Может иметь любое количество методов default или static.
         System.out.println(text);
     }
+
 }

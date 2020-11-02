@@ -11,5 +11,6 @@ abstract class MyFunctionalInterfaceTest implements MyFunctionalInterface{
         String resultText = "Result square with number " + numberTest + " is " + resultTest;
         mySquare.myPrint(resultText);
     }
+
 }
 

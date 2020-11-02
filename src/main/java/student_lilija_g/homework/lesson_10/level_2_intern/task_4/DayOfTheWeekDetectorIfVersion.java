@@ -25,6 +25,7 @@ class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector {
 
     @Override
     public String detectDayNameBySwitch(int number) {
+//        Так красивее:
 //        return switch (number) {
 //            case 1 -> "Monday";
 //            case 2 -> "Tuesday";

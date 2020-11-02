@@ -5,4 +5,5 @@ interface Database { // Нет, так как интерфейс содержи�
     void save(Product product);
 
     Product findByTitle(String productTitle);
+
 }

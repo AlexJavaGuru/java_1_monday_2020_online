@@ -1,6 +1,7 @@
 package student_lilija_g.homework.lesson_10.level_2_intern.task_4;
 
 class DayOfTheWeekDetectorDemo {
+
     public static void main(String[] args) {
 
         DayOfTheWeekDetectorDemo myDayOfTheWeekDetectorDemo = new DayOfTheWeekDetectorDemo();
