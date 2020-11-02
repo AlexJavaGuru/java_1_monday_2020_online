@@ -10,6 +10,8 @@ import teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "А чего у вас атрибуты в самом конце? ")
 class Safe {
+    public int pincode = 1111;
+    public double moneyAmount = 100.0;
 
     public int getPincode() {
         return pincode;
@@ -27,6 +29,4 @@ class Safe {
         this.moneyAmount = moneyAmount;
     }
 
-    public int pincode = 1111;
-    public double moneyAmount = 100.0;
 }
