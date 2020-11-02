@@ -6,6 +6,6 @@ import teacher.annotations.CodeReview;
 class PrivateConstructorDemo {
 
     public static void main(String[] args) {
-        PrivateConstructor privateConstructor = new PrivateConstructor();
+       // PrivateConstructor privateConstructor = new PrivateConstructor();
     }
 }

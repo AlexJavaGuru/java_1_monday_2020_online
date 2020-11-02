@@ -10,16 +10,14 @@ import teacher.annotations.CodeReviewComment;
         в демо классе. Подсказка кроется в названии класса!
         PS: не забудьте закоментировать не компилирующийся код в демо классе.*/
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Вам надо сделать такой конструктор, который нельзя будет вызвать в demo классе. Однако, я могу это сделать =)")
+@CodeReviewComment(comment = "Вам надо сделать такой конструктор, который нельзя " +
+        "будет вызвать в demo классе. Однако, я могу это сделать =)")
 class PrivateConstructor {
 
 
-/*    private PrivateConstructor() {
-
-    }*/
-
-    PrivateConstructor() {
+    private PrivateConstructor() {
 
     }
+
 }
 
