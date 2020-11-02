@@ -1,6 +1,8 @@
 package student_lilija_g.homework.lesson_9.level_7_senior.super_task_2;
 
+
 class BeforeBuilderClassTwo {
+
     private int obligatoryFieldOne = 10;
     private int obligatoryFieldTwo = 20;
     private int optionalFieldThree = 0;

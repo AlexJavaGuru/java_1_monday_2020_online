@@ -1,5 +1,6 @@
 package student_lilija_g.homework.lesson_9.level_7_senior.super_task_2;
 
+
 class WithBuilderClass {
 
     private final int obligatoryFieldOne;
