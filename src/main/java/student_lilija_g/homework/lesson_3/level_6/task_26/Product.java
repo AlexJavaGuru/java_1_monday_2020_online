@@ -6,34 +6,36 @@ import teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Похоже на списанное задание ))) Для чего вы инициализируете productName как Book? Я бы не хотел чтобы все мои продукты имели одно и то же занвание...")
 class Product {
-/*
-    Свойства:
-            - Наименование (String name)
-- Стандартная цена (double regularPrice)
-- Скидка в процентах (double discount)
+    /*
+        Свойства:
+                - Наименование (String name)
+    - Стандартная цена (double regularPrice)
+    - Скидка в процентах (double discount)
 
-    Методы:
-            1. Расчет актуальной стоимости с учетом скидки (double actualPrice())
-    Вывод информации о продукте в консоль (void printInformation())1P
-2. Название продукта нужно задавать через конструктор, а стоимость и скидку через оператор ".".
-*/
-    String productName = "Book";
+        Методы:
+                1. Расчет актуальной стоимости с учетом скидки (double actualPrice())
+        Вывод информации о продукте в консоль (void printInformation())1P
+    2. Название продукта нужно задавать через конструктор, а стоимость и скидку через оператор ".".
+    */
+    String productName; // Я просто по началу думала, что так можно устанавливать default значение для переменных :((( Но не списывала...
     double regularPrice;
     double discount;
 
-    Product(double regularPrice,double discount){
+    Product(String productName, double regularPrice, double discount) {
+        this.productName = productName;
         this.regularPrice = regularPrice;
         this.discount = discount;
     }
 
-    double actualPrice(double regularPrice, double discount){
-        return(regularPrice * discount / 100);
+    double actualPrice(double regularPrice, double discount) {
+        return (regularPrice * discount / 100);
     }
-    void printInformation(){
-        System.out.println("Product name: "+'"'+productName+'"');
-        System.out.println("Regular price: "+regularPrice+" €");
-        System.out.println("Discount: "+discount+"% \n");
-        System.out.println("Actual price: "+actualPrice(regularPrice, discount)+" €");
-        }
+
+    void printInformation() {
+        System.out.println("Product name: " + '"' + productName + '"');
+        System.out.println("Regular price: " + regularPrice + " €");
+        System.out.println("Discount: " + discount + "% \n");
+        System.out.println("Actual price: " + actualPrice(regularPrice, discount) + " €");
+    }
 
 }
