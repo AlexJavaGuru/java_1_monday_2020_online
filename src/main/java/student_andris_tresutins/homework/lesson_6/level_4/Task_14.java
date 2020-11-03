@@ -8,8 +8,8 @@ import java.util.Arrays;
 @CodeReviewComment(comment = "It is unclear where is this method. Please move them into appropriate classes so I could find them." +
         "" +
         "why you create victim? and why arrayOne is here? ")
-
 public class Task_14 {
+
 
     public int[] sortArray(int[] array) {
 

@@ -88,7 +88,7 @@ class UtilArray {
     public int[] replaceAllNumbers(int numberToReplace, int newNumber) {
 
         UtilArray victim = new UtilArray();
-        int[] array = victim.arraydupes();
+        int[] array = victim.arrayDupes();
         int[] array123 = {0,0,0,0,0};
 
 

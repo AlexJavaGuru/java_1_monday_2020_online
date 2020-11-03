@@ -14,11 +14,17 @@ public class Task_14test {
         test.sortArrayTest();
     }
 
+    public int[] arrayOne (){
+        int[] array = {12, 54, 3, 7, 458};
+        return array;
+    }
+
     public void sortArrayTest(){
         Task_14 victim = new Task_14();
 
+
         int[] array = {3, 7, 12, 54, 458};
-        int[] arraycompare = victim.sortArray(victim.arrayOne());
+        int[] arraycompare = victim.sortArray(arrayOne());
 
 
         boolean actualresult = Arrays.equals(array, arraycompare);
