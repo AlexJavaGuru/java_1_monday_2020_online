@@ -9,25 +9,27 @@ import java.util.Arrays;
 @CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests..." +
         "" +
         "? why you commit this?")
+        //all methods are used in TestUtilArray class
+
 class UtilArray {
 
-/*
+
     public int[] arrayOne (){
         int[] array = {12, 54, 3, 7, 458};
         return array;
     }
 
-    public int[] arraydupes (){
+    public int[] arrayDupes (){
         int[] array = {54, 54, 3, 54, 458};
         return array;
     }
 
-    public String numberSearch(int[] array, int searchnum) {
+    public String numberSearch(int[] array, int searchNum) {
 
         int i;
         boolean found = false;
         for (i = 0; i < array.length; i++) {
-            if (searchnum == array[i]) {
+            if (searchNum == array[i]) {
                 found = true;
                 break;
             }
@@ -41,19 +43,19 @@ class UtilArray {
     }
 
 
-    public int numberSearchMultiple(int[] array, int searchnum) {
+    public int numberSearchMultiple(int[] array, int searchNum) {
 
         int i;
-        int foundnumcount = 0;
+        int foundNumCount = 0;
         boolean found = false;
         for (i = 0; i < array.length; i++) {
-            if (searchnum == array[i]) {
-                foundnumcount++;
+            if (searchNum == array[i]) {
+                foundNumCount++;
                 found = true;
             }
         }
         if (found) {
-            return foundnumcount;
+            return foundNumCount;
         } else {
             return 0;
         }
@@ -133,7 +135,7 @@ class UtilArray {
     }
 
 
- */
+
 
 }
 

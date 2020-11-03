@@ -16,6 +16,7 @@ import java.util.Arrays;
         "P.S. you can see method signatures in the task. " +
         "" +
         "Still false. Why method printArrayToConsole does some strange actions? creating victim object? or save array into print? why to use this?")
+
 class Task_35 {
     public static void main(String[] args) {
         Task_35 victim = new Task_35();
@@ -30,9 +31,7 @@ class Task_35 {
 
     public void printArrayToConsole(int[] array) {
 
-        Task_35 victim = new Task_35();
-        int[] print = array;
+        System.out.println(Arrays.toString(array));
 
-        System.out.println(Arrays.toString(print));
     }
 }

@@ -13,18 +13,19 @@ import java.util.Arrays;
         "" +
         "? why you commit this?")
         //luchse pa ruski :D, tak bilo ponjatnei :DD
+
 class TestUtilArray {
-   /* public static void main(String[] args) {
+    public static void main(String[] args) {
         TestUtilArray test = new TestUtilArray();
-        test.searchnumresult();
-        test.searchnummultipletest();
+        test.searchNumResult();
+        test.searchNumMultipleTest();
         test.replaceNumberTest();
         test.replaceAllNumbersTest();
         test.reverseArray();
         test.sortArrayTest();
     }
 
-    public void searchnumresult() {
+    public void searchNumResult() {
         UtilArray victim = new UtilArray();
         int searchNumber = 54;
 
@@ -34,40 +35,40 @@ class TestUtilArray {
         check(expectedResult, actualResult, "Search number in array test");
     }
 
-    public void searchnummultipletest() {
+    public void searchNumMultipleTest() {
         UtilArray victim = new UtilArray();
         int searchNumber = 54;
 
-        int actualresult = victim.numberSearchMultiple(victim.arraydupes(), searchNumber);
-        int expectedresult = 3;
+        int actualResult = victim.numberSearchMultiple(victim.arrayDupes(), searchNumber);
+        int expectedResult = 3;
 
-        check(expectedresult, actualresult, "Multiple of the same value in array search test");
+        check(expectedResult, actualResult, "Multiple of the same value in array search test");
     }
 
     public void replaceNumberTest() {
         UtilArray victim = new UtilArray();
-        int numbertoreplace = 7;
+        int numberToReplace = 7;
         int newNumber = 13;
 
-        int actualresult = victim.replaceNumber(numbertoreplace, newNumber);
-        int expectedresult = 13;
+        int actualResult = victim.replaceNumber(numberToReplace, newNumber);
+        int expectedResult = 13;
 
-        check(expectedresult, actualresult, "Replace Number in Array test");
+        check(expectedResult, actualResult, "Replace Number in Array test");
 
     }
 
     public void replaceAllNumbersTest() {
         UtilArray victim = new UtilArray();
-        int numberstoreplace = 54;
+        int numbersToReplace = 54;
         int newNumber = 13;
 
         int[] array = {13, 13, 3, 13, 458};
-        int[] arraycompare = victim.replaceAllNumbers(numberstoreplace, newNumber);
+        int[] arrayCompare = victim.replaceAllNumbers(numbersToReplace, newNumber);
 
-        boolean actualresult = Arrays.equals(array, arraycompare);
-        boolean expectedresult = true;
+        boolean actualResult = Arrays.equals(array, arrayCompare);
+        boolean expectedResult = true;
 
-        check(expectedresult, actualresult, "Replace All specific Numbers in Array test");
+        check(expectedResult, actualResult, "Replace All specific Numbers in Array test");
 
     }
 
@@ -75,12 +76,12 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
 
         int[] array = {458, 7, 3, 54, 12};
-        int[] arraycompare = victim.reverseArray();
+        int[] arrayCompare = victim.reverseArray();
 
-        boolean actualresult = Arrays.equals(array, arraycompare);
-        boolean expectedresult = true;
+        boolean actualResult = Arrays.equals(array, arrayCompare);
+        boolean expectedResult = true;
 
-        check(expectedresult, actualresult, "Reverse Array test");
+        check(expectedResult, actualResult, "Reverse Array test");
 
 
     }
@@ -89,14 +90,14 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
 
         int[] array = {3, 7, 12, 54, 458};
-        int[] arraycompare = victim.sortArray();
+        int[] arrayCompare = victim.sortArray();
 
 
-    boolean actualresult = Arrays.equals(array, arraycompare);
-    boolean expectedresult = true;
+    boolean actualResult = Arrays.equals(array, arrayCompare);
+    boolean expectedResult = true;
 
 
-        check(expectedresult, actualresult, "Sort Array test");
+        check(expectedResult, actualResult, "Sort Array test");
 
 
     }
@@ -133,5 +134,5 @@ class TestUtilArray {
         }
     }
 
-    */
+
 }

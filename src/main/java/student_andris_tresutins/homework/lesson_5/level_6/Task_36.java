@@ -11,6 +11,7 @@ import teacher.annotations.CodeReviewComment;
         "" +
         "Still false. your method findMaxNumber is not working with argument you pass to it...it creates a new array instead? Read my comment carefully" +
         "The method MUST work with any arrays...not only with created inside")
+
 public class Task_36 {
 
     public static void main(String[] args) {
@@ -26,8 +27,8 @@ public class Task_36 {
 
     public int findMaxNumber(int[] array) {
 
-
         int max = array[1];
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];

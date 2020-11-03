@@ -7,7 +7,6 @@ import teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "уже столько уроков позади. Нельзя писать с таким плохим форматом =)")
  class FraudDetectionResult {
 
-
         private boolean fraud;
         private String ruleName;
 
@@ -18,23 +17,21 @@ import teacher.annotations.CodeReviewComment;
 
         }
 
-    public boolean getIsFraud() {
+        public boolean getIsFraud() {
         return fraud;
-    }
+        }
 
-    public void setFraud(boolean fraud) {
+        public void setFraud(boolean fraud) {
         this.fraud = fraud;
-    }
+        }
 
-    public String getRuleName() {
+        public String getRuleName() {
         return ruleName;
-    }
+        }
 
-    public void setRuleName(String ruleName) {
+        public void setRuleName(String ruleName) {
         this.ruleName = ruleName;
-    }
-
-
+        }
 
     }
 
