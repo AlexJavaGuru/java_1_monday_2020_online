@@ -8,6 +8,7 @@ package student_regina_svistunov.lesson_9.level_1.task_5;
 //        Создайте класс демо и продемонстрируйте, принцып инкапсуляции в действии!
 
 
+
 public class Safe {
 
     String pinCode;

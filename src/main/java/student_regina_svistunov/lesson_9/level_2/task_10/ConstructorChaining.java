@@ -16,6 +16,7 @@ package student_regina_svistunov.lesson_9.level_2.task_10;
 //        Внутри этого конструктора первой строкой вызовите приватный конструктор с одним параметром.
 //        Более подробно про этот подход можно прочитать: constructor chaining in Java.
 
+
 public class ConstructorChaining {
 
     private String constructorName;
