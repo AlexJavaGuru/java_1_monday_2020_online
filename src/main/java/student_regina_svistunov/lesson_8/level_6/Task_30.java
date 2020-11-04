@@ -4,6 +4,7 @@ package student_regina_svistunov.lesson_8.level_6;
 //        Придумайте пример кода, в котором продемонстрируйте
 //        использование varargs.
 
+
 import java.util.Arrays;
 
 class Calculator {

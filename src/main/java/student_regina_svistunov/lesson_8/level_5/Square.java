@@ -1,5 +1,6 @@
 package student_regina_svistunov.lesson_8.level_5;
 
+
 public class Square extends Shape{
 
     private double side;
