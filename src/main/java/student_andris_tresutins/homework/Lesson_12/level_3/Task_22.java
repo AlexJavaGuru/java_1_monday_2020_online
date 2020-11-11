@@ -1,0 +1,17 @@
+package student_andris_tresutins.homework.Lesson_12.level_3;
+
+public class Task_22 {
+    /*
+    Какой класс в Java является главным в иерархии классов ошибок
+
+1. Raise
+
+2. Exception
+
+3. Error
+
+4. Throwable
+
+Answer: Throwable
+     */
+}
