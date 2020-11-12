@@ -2,6 +2,7 @@ package student_artur_martinenko.homework.lesson_14.level_3_6_junior.task18_38;
 
 import org.junit.Before;
 import org.junit.Test;
+import teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.*;
 
+@CodeReview(approved = true)
 public class TransactionAnalysisServiceTest {
     TransactionAnalysisService transactionAnalysisService;
     List<Transaction> transactionList = (new TransactionTestData()).getTransactions();

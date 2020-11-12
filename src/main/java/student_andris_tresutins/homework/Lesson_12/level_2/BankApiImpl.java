@@ -1,8 +1,11 @@
 package student_andris_tresutins.homework.Lesson_12.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 class BankApiImpl implements BankApi {
 
     private List<BankClient> clients;

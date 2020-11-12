@@ -1,10 +1,13 @@
 package student_andris_tresutins.homework.lesson_11.level_1;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Vector;
 
+@CodeReview(approved = true)
 public class Task_1 {
     public static void main(String[] args) {
         //Array list Implements all optional list operations, and permits all elements, including null.

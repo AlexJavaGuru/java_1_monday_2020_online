@@ -1,9 +1,12 @@
 package student_aleksejs_ivanovs.homework.lesson_11.level_2_6;
 
+import teacher.annotations.CodeReview;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class BookLibrary {    //   Task_36
 
     private Map<Integer, UIAction> menuNumberToActionMap;

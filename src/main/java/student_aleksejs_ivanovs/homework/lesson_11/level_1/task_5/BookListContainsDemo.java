@@ -28,9 +28,12 @@ public class Book {
 
 PS: подсказка по функциональности в названии класса :).*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class BookListContainsDemo {
 
     public static void main(String[] args) {

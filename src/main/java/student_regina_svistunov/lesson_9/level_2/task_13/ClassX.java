@@ -15,7 +15,9 @@ package student_regina_svistunov.lesson_9.level_2.task_13;
 //    }
 //}
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class ClassX {
     public ClassX(int i) {
         System.out.println(1);

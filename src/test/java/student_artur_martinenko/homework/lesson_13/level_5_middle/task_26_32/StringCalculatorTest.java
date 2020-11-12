@@ -2,9 +2,11 @@ package student_artur_martinenko.homework.lesson_13.level_5_middle.task_26_32;
 
 import org.junit.Before;
 import org.junit.Test;
+import teacher.annotations.CodeReview;
 
 import static org.junit.Assert.*;
 
+@CodeReview(approved = true)
 public class StringCalculatorTest {
 
     private StringCalculator stringCalculator;

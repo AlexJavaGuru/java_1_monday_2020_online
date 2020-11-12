@@ -8,9 +8,12 @@ package student_aleksejs_ivanovs.homework.lesson_11.level_1.task_3;
 - узнать пустой список или нет
 - обойти список и вывести на консоль каждый элемент.*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class IntegerListDemo {
 
     public static void main(String[] args) {

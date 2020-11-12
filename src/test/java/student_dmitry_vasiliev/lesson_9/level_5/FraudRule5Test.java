@@ -1,9 +1,10 @@
 package student_dmitry_vasiliev.lesson_9.level_5;
 
 import org.junit.Test;
+import teacher.annotations.CodeReview;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class FraudRule5Test {
 
     @Test

@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class YearOfIssueSearchCriteria implements SearchCriteria {
 
     private String yearOfIssueToSearch;
@@ -9,11 +12,7 @@ class YearOfIssueSearchCriteria implements SearchCriteria {
     }
 
     public boolean match(Book book) {
-
-        if(book.getYearOfIssue().equals(this.yearOfIssueToSearch)){
-            return true;
-        }
-        return false;
+        return book.getYearOfIssue().equals(this.yearOfIssueToSearch);
 
     }
 

@@ -1,7 +1,10 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Book {
     private Long id;
     private String title;
@@ -30,7 +33,9 @@ public class Book {
         return this.author;
     }
 
-    public String getYearOfIssue(){return this.yearOfIssue;}
+    public String getYearOfIssue() {
+        return this.yearOfIssue;
+    }
 
 
     @Override

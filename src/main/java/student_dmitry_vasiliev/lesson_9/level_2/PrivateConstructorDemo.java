@@ -2,7 +2,7 @@ package student_dmitry_vasiliev.lesson_9.level_2;
 
 import teacher.annotations.CodeReview;
 
-@CodeReview(approved = false)
+@CodeReview(approved = true)
 class PrivateConstructorDemo {
 
     public static void main(String[] args) {

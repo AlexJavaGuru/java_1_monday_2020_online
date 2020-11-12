@@ -1,7 +1,9 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
-import java.util.*;
+import teacher.annotations.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 public class BookDatabaseTest {
     public static void main(String[] args) {
         BookDatabaseTest test = new BookDatabaseTest();

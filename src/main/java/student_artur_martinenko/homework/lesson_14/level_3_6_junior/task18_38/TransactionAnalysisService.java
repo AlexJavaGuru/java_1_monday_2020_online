@@ -1,10 +1,13 @@
 package student_artur_martinenko.homework.lesson_14.level_3_6_junior.task18_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@CodeReview(approved = true)
 class TransactionAnalysisService {
 
     //Task_20-21

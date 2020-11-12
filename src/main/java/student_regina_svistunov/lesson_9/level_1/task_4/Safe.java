@@ -5,7 +5,9 @@ package student_regina_svistunov.lesson_9.level_1.task_4;
 //        Сделайте эти свойства публично доступными.
 //        Создайте класс демо и продемонстрируйте, что можно делать с публичными свойствами объекта.
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class Safe {
 
     private String pinCode;

@@ -1,11 +1,13 @@
 package student_andris_tresutins.homework.lesson_14.level_1;
 
 import org.junit.Test;
+import teacher.annotations.CodeReview;
 
 import java.util.List;
 
 import static org.junit.Assert.*;
 
+@CodeReview(approved = true)
 public class FruitStorageTest {
 
 

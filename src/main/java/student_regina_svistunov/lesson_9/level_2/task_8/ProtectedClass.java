@@ -12,7 +12,9 @@ package student_regina_svistunov.lesson_9.level_2.task_8;
 //        Напиши свой ответ в коментарии над исправленным кодом.
 
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class ProtectedClass { // можно и без Public
 
     private String title;

@@ -1,8 +1,11 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class FindByAuthorUIAction implements UIAction {
 
         private BookDatabase bookDatabase;

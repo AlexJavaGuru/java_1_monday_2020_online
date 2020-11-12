@@ -1,5 +1,7 @@
 package student_regina_svistunov.lesson_4.level_x.super_task_4;
 
+import teacher.annotations.CodeReview;
+
 //Дан класс LightColorDetector и его тест LightColorDetectorTest.
 //        Найдите способ упростить тесты в LightColorDetectorTest.
 //
@@ -14,7 +16,7 @@ package student_regina_svistunov.lesson_4.level_x.super_task_4;
 //        она stateless. Найдите в интернете, что такое stateless класс
 //        в программировании. Найдите способ использовать одну
 //        инстанцию класса LightColorDetector для всех тестов.
-
+@CodeReview(approved = true)
 public class LightColorDetectorTest {
 
     LightColorDetector lightColorDetector = new LightColorDetector();

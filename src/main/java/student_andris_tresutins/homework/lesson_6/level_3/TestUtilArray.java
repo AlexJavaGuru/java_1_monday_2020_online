@@ -7,13 +7,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Hey Adris, you cannot any *string-like arrays* to compare real array and string array. Please, don't use - [13, 13, 3, 13, 458]" +
-        "Arrays cannot be compared with ==. If you want to compare arrays, please, create a method, which or use Arrays.sort if you lazy =). Remove method  public void check(int[] expectedRes, int[] result, String testName)" +
-        "" +
-        "? why you commit this?")
-        //luchse pa ruski :D, tak bilo ponjatnei :DD
-
+@CodeReview(approved = true)
 class TestUtilArray {
     public static void main(String[] args) {
         TestUtilArray test = new TestUtilArray();

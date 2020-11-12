@@ -5,7 +5,9 @@ package student_regina_svistunov.lesson_6.level_4;
 //        Найдите ответ в интернете и напишите пример кода
 //        для циклов while и for.
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class Task_17 {
 
     public static void main(String[] args) {

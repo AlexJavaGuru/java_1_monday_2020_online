@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_10.level_1_intern.task_3;
+
+import teacher.annotations.CodeReview;
+
 /*
 Создаём интерфейс для структуры данных список.
 
@@ -17,7 +20,7 @@ package student_lilija_g.homework.lesson_10.level_1_intern.task_3;
 Цель этого задания самостоятельно разработать свой интерфейс MyList.
 
  */
-
+@CodeReview(approved = true)
 interface MyList {
 
     void addElementToList(Object o);                  // Add element to List

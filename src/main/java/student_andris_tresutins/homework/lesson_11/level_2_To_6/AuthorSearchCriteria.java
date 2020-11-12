@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class AuthorSearchCriteria implements SearchCriteria{
     //Task_16
 
@@ -11,9 +14,6 @@ public class AuthorSearchCriteria implements SearchCriteria{
 
     @Override
     public boolean match(Book book) {
-        if(book.getAuthor().equals(this.authorToSearch)){
-            return true;
-        }
-        return false;
+        return book.getAuthor().equals(this.authorToSearch); //Можно было упростить вот до такого
     }
 }

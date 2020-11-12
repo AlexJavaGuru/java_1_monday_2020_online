@@ -3,8 +3,7 @@ package student_andris_tresutins.homework.lesson_9.level_4_5_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "уже столько уроков позади. Нельзя писать с таким плохим форматом =)")
+@CodeReview(approved = true)
  class FraudDetectionResult {
 
         private boolean fraud;

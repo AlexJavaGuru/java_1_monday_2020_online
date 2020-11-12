@@ -1,5 +1,7 @@
 package student_regina_svistunov.lesson_8.level_5;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
 //Task_20
@@ -53,7 +55,7 @@ import java.util.Random;
 //        double circlePerimeter = shapeUtil.calculatePerimeter(circle);
 
 
-
+@CodeReview(approved = true)
 public class ShapeUtil {
 
     public Circle createRandomCircle() {

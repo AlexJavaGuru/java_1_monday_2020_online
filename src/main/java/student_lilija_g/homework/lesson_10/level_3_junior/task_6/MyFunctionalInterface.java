@@ -1,4 +1,7 @@
 package student_lilija_g.homework.lesson_10.level_3_junior.task_6;
+
+import teacher.annotations.CodeReview;
+
 /*
 Что такое функциональный интерфейс в Java?
 
@@ -27,7 +30,7 @@ Runnable , ActionListener , Comparable - вот некоторые из прим
 определенные в классе Object.
 
 */
-
+@CodeReview(approved = true)
 @FunctionalInterface
 interface MyFunctionalInterface { // MyFunctionalInterface
 

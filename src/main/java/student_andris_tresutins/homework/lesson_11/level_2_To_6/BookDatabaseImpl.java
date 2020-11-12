@@ -1,7 +1,17 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.*;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Плохо, что вы используете класс HashSet, а не интерфейс. Это делает вашу программу" +
+        "менее гибкой. " +
+        "Если вы используете Set, то можно не переживать, найдете ли вы такой объект в коллекции или нет" +
+        "Для проверки можно было использовать метод add - он сам вернет boolean в зависимости от того, был добавлен элемент или нет" +
+        "public boolean delete(Long bookId) - очень сложно. Вам не надо самому использовать итератор." +
+        "Думаю, вы пытались решить проблему с модификацией коллекции в процессе итерации. Думаю, что у вас бы работало и просто с .delete")
 public class BookDatabaseImpl implements BookDatabase {
 
     HashSet<Book> list = new HashSet<>();

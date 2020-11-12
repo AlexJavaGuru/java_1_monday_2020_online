@@ -10,7 +10,9 @@ import java.util.Iterator;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Please read the task carefully. The authors want you to split the task into good named, understandable methods." +
-        "It's very hard to read your code here. Please try refactoring")
+        "It's very hard to read your code here. Please try refactoring" +
+        "" +
+        "Андрис, нужно разбить эту логику на два метода. Вы уже близко =)")
 class Task_1 {
 
 

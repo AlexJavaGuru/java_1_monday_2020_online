@@ -6,9 +6,8 @@ import teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "searchnum, foundnumcount - no camelCase style. Methods numberSearch(), numberSearchMultiple() are not used from tests..." +
-        "" +
-        "? why you commit this?")
+@CodeReviewComment(comment = "replaceAllNumbers - зачем у вас массив array123? У вас проблемы в методах: replaceNumber, replaceAllNumbers, reverseArray, sortArray" +
+        "Зачем вы создаете там какие-то объекты victim? Эти методы должны работать с ходными аргументами, а не создавать массивы внутри себя. ")
         //all methods are used in TestUtilArray class
 
 class UtilArray {

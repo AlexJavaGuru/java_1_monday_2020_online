@@ -1,8 +1,11 @@
 package student_andris_tresutins.homework.Lesson_12.level_2;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class BankApiImplTest {
 
     public static void main(String[] args) {

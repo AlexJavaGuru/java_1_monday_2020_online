@@ -1,8 +1,16 @@
 package student_aleksejs_ivanovs.homework.lesson_10.level_6;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Попробуйте подправить вашу реализацию. В задании говорилось, что " +
+        "мы должны добавлять книгу, если она существует. Для этого, лучше подходит Интерфейс Set. " +
+        "Попробуйте реализовать через коллекцию Set. Обратите внимание, что метод add у Set-a возвращает" +
+        "true или false")
 class BookReaderImpl implements BookReader{
 
    private List<Book> bookStorage = new ArrayList<>();

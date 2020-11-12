@@ -23,8 +23,13 @@ package student_regina_svistunov.lesson_7.level1;
 //        Убедитесь, что вы сможете из решений всех подзадач
 //        собрать решение главной задачи.
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Какой код некрасивый. Надо зарефакторить ) Разбить на пару методов, чтобы все все красиво и понятно )")
 class WordService {
 
     public String findMostFrequentWord(String text) {

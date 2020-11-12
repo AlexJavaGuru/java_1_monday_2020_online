@@ -1,6 +1,8 @@
 package student_lilija_g.homework.lesson_10.level_2_intern.task_5;
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector {
 
     @Override

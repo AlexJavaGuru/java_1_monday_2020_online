@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class TitleSearchCriteria implements SearchCriteria {
 
     private String titleToSearch;
@@ -9,10 +12,6 @@ public class TitleSearchCriteria implements SearchCriteria {
     }
 
     public boolean match(Book book) {
-
-        if(book.getTitle().equals(this.titleToSearch)){
-            return true;
-        }
-        return false;
+        return book.getTitle().equals(this.titleToSearch);
     }
 }

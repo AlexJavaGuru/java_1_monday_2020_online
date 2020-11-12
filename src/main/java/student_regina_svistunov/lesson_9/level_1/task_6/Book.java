@@ -6,7 +6,9 @@ package student_regina_svistunov.lesson_9.level_1.task_6;
 //    String author;
 //}
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class Book {
     private String title;
     private String author;

@@ -1,7 +1,11 @@
 package student_andris_tresutins.homework.lesson_11.level_2_To_6;
 
+
+import teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class DeleteByIdUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

@@ -6,8 +6,7 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Вы перекопировали ошибки из одного класса в другой?")
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

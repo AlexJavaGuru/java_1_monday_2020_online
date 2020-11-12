@@ -6,6 +6,9 @@ package student_dmitry_vasiliev.lesson_10.level_1;
         Сделать так, чтобы класс JavaStarLoginServiceImpl имплементировал
         созданный вами интерфейс.*/
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class JavaStarLoginServiceImpl implements JavaStarLoginService {
 
     @Override

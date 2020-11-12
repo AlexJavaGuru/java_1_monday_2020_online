@@ -1,5 +1,8 @@
 package student_artur_martinenko.homework.lesson_14.level_3_6_junior.task18_38;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Trader {
     private String name;
     private String city;

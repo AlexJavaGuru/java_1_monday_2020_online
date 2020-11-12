@@ -3,8 +3,7 @@ package student_lilija_g.homework.lesson_3.level_6.task_26;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Похоже на списанное задание ))) Для чего вы инициализируете productName как Book? Я бы не хотел чтобы все мои продукты имели одно и то же занвание...")
+@CodeReview(approved = true)
 class Product {
     /*
         Свойства:

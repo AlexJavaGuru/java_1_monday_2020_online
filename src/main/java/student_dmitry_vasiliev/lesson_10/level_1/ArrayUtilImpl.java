@@ -7,10 +7,13 @@ package student_dmitry_vasiliev.lesson_10.level_1;
         Не забудьте про аннотицию @Override. Её очень желательно "вешать" на методы,
         которые вляются реализацией методов объявленных в интерфейсе.*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtilImpl implements ArrayUtil {
 
     @Override

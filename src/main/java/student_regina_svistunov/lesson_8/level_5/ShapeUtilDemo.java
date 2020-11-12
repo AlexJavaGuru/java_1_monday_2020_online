@@ -1,6 +1,8 @@
 package student_regina_svistunov.lesson_8.level_5;
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class ShapeUtilDemo {
 
     public static void main(String[] args) {

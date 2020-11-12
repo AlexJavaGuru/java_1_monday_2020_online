@@ -1,4 +1,7 @@
 package student_dmitry_vasiliev.lesson_10.level_1;
+
+import teacher.annotations.CodeReview;
+
 /* - Task_3
 Создаём интерфейс для структуры данных список.
 
@@ -15,6 +18,7 @@ package student_dmitry_vasiliev.lesson_10.level_1;
         Не подсматривайте имплементацию java.util.List и тому подобных интерфейсов и классов.
 
         Цель этого задания самостоятельно разработать свой интерфейс MyList.*/
+@CodeReview(approved = true)
 public interface MyList {
 
     int arrayDynamicExpansion(int[] array, int ind);

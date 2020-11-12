@@ -1,8 +1,10 @@
  package student_regina_svistunov.lesson_4.level_x.super_task_2;
 
-//    Создать класс для тестов LeapYearTest
-//        и покрыть тестами весь функционал класса LeapYear.
+ import teacher.annotations.CodeReview;
 
+ //    Создать класс для тестов LeapYearTest
+//        и покрыть тестами весь функционал класса LeapYear.
+@CodeReview(approved = true)
 public class LeapYearTest {
 
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package student_dmitry_vasiliev.lesson_10.level_2;
 
+import teacher.annotations.CodeReview;
+
 /* - Task_4
 Несколько имплементаций одного интерфейса.
         Одну и ту же задачу можно решить разными способами.
@@ -13,7 +15,7 @@ package student_dmitry_vasiliev.lesson_10.level_2;
         Индекс массива = номеру дня недели, а значение в ячейке массива это название соответствующего
         дня недели.
         Протестируйте все имплементации.*/
-
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector{
 
     // Try to use switch here!!

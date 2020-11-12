@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_14.level_3_6_junior.task18_38;
 
+import teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.List;
 
+@CodeReview(approved = true)
 class TransactionTestData {
 
     public List<Transaction> getTransactions() {

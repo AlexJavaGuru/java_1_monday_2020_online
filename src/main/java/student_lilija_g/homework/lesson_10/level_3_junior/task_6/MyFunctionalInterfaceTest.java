@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_10.level_3_junior.task_6;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 abstract class MyFunctionalInterfaceTest implements MyFunctionalInterface{
 
     public static void main(String[] args) {

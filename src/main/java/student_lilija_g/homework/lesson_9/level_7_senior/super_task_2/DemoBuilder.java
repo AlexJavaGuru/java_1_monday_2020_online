@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_9.level_7_senior.super_task_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class DemoBuilder {
 
     public static void main(String[] args) {

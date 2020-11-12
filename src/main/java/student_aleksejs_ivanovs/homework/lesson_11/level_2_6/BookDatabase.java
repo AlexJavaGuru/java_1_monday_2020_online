@@ -1,10 +1,13 @@
 package student_aleksejs_ivanovs.homework.lesson_11.level_2_6;
 
+import teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
+@CodeReview(approved = true)
 interface BookDatabase {
 
     Long save(Book book);

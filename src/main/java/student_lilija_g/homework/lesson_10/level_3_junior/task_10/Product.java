@@ -1,5 +1,8 @@
 package student_lilija_g.homework.lesson_10.level_3_junior.task_10;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Product {
 
     private final String title;

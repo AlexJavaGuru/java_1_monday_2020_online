@@ -6,7 +6,9 @@ package student_regina_svistunov.lesson_9.level_2.task_9;
 //        в демо классе. Подсказка кроется в названии класса!
 //        PS: не забудьте закоментировать не компилирующийся код в демо классе.
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class PrivateConstructor {
 
     String constructor;

@@ -11,7 +11,9 @@ package student_regina_svistunov.lesson_9.level_3.task_16;
 //    }
 //}
 
+import teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {
         System.out.println(1);

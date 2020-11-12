@@ -4,11 +4,14 @@ package student_aleksejs_ivanovs.homework.lesson_11.level_1;
 Напишите программу, которая демонстрирует создание разных списков.
 PS: чем они отличаются друг от друга?*/
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
+@CodeReview(approved = true)
 class Task_1 {
 
     public static void main(String[] args) {

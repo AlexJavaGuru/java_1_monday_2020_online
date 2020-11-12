@@ -1,5 +1,8 @@
 package student_regina_svistunov.lesson_9.level_1.task_5;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class SafeDemo {
 
 

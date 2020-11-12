@@ -1,8 +1,11 @@
 package student_artur_martinenko.homework.lesson_14.level_1_2_intern.task_1_17;
 
+import teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class FruitStorage {
 
     public List<Apple> getAllApples() {

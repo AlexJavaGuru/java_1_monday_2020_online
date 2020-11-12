@@ -11,29 +11,32 @@ package student_regina_svistunov.lesson_6.level_4;
 //        чисел в массиве.
 
 
+import teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class TwoDimensionalArray {
 
- public void randomArrays(int[][] array) {
+    public void randomArrays(int[][] array) {
 
-     Random random = new Random();
+        Random random = new Random();
 
-     for (int i = 0; i < array.length; i++) {
-         for (int j=0; j < array[i].length; j++) {
-             array[i][j]= random.nextInt(9) +1;
-         }
-     }
- }
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = random.nextInt(9) + 1;
+            }
+        }
+    }
 
- public int sumArrays(int[][] array) {
-     int sum =0;
-     for (int[] ints : array) {
-         for (int j = 0; j < array.length; j++) {
-             sum += ints[j];
-         }
-     }
-     return sum;
- }
+    public int sumArrays(int[][] array) {
+        int sum = 0;
+        for (int[] ints : array) {
+            for (int j = 0; j < array.length; j++) {
+                sum += ints[j];
+            }
+        }
+        return sum;
+    }
 
 }

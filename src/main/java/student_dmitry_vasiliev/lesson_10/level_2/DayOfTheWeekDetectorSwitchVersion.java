@@ -1,5 +1,8 @@
 package student_dmitry_vasiliev.lesson_10.level_2;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorSwitchVersion implements DayOfTheWeekDetector {
 
     // Try to use switch here!!

@@ -1,11 +1,13 @@
 package student_aleksejs_ivanovs.homework.lesson_11.level_2_6;
 
 import junit.framework.TestCase;
+import teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+@CodeReview(approved = true)
 public class BookDatabaseImplTest extends TestCase {
 
     public void testDelete() {   //    Task_7

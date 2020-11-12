@@ -7,8 +7,7 @@ import teacher.annotations.CodeReviewComment;
 - Task_4 Создайте класс сейф с двумя свойствами: пинкод и количество денег в сейфе.
         Сделайте эти свойства публично доступными.
         Создайте класс демо и продемонстрируйте, что можно делать с публичными свойствами объекта.*/
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "А чего у вас атрибуты в самом конце? ")
+@CodeReview(approved = true)
 class Safe {
     public int pincode = 1111;
     public double moneyAmount = 100.0;

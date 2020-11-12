@@ -9,9 +9,7 @@ import teacher.annotations.CodeReviewComment;
         После этого сделайте так, что бы инстанцию класса PrivateConstructor нельзя было создать
         в демо классе. Подсказка кроется в названии класса!
         PS: не забудьте закоментировать не компилирующийся код в демо классе.*/
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Вам надо сделать такой конструктор, который нельзя " +
-        "будет вызвать в demo классе. Однако, я могу это сделать =)")
+@CodeReview(approved = true)
 class PrivateConstructor {
 
 

@@ -1,9 +1,14 @@
 package student_andris_tresutins.homework.lesson_14.level_1;
 
+import teacher.annotations.CodeReview;
+import teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Ну ок ) Вы сделали через стримы, но свой функциональный интерфейс вы не использовали :P")
 class FruitStorage {
 
     public List<Apple> getAllApples() {
