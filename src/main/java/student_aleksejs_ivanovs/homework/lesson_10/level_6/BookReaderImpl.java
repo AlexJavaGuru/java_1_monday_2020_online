@@ -3,8 +3,7 @@ package student_aleksejs_ivanovs.homework.lesson_10.level_6;
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Попробуйте подправить вашу реализацию. В задании говорилось, что " +
@@ -13,15 +12,14 @@ import java.util.List;
         "true или false")
 class BookReaderImpl implements BookReader{
 
-   private List<Book> bookStorage = new ArrayList<>();
+    private Set<Book> bookStorage = new HashSet<>();
 
     @Override   //  Task_14_15
     public boolean addBook(Book book) {
         if (bookStorage.contains(book) || book.getAuthor() == null || book.getBookName() == null) {
             return false;
         } else {
-            bookStorage.add(book);
-            return true;
+            return bookStorage.add(book);
         }
     }
 
