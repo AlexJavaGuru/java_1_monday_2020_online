@@ -16,8 +16,7 @@ import java.util.Iterator;
 class Task_1 {
 
 
-    public String findMostFrequentWord(String text) {
-        //text = "a set of words that is complete in itself, typically containing a subject and predicate, conveying a statement, question, exclamation, or command, and consisting of a main clause and sometimes one or more subordinate clauses.";
+    public HashMap<String, Integer> createHashMapOfWords(String text) {
 
         String[] splitText = text.split(" ");
 
@@ -34,14 +33,16 @@ class Task_1 {
                 wordCount.put(splitText[i], newCount);
             }
         }
+        return wordCount ;
+    }
 
-        //find the highest occurrence of a word
+    public String findMostFrequentWord(String text) {
 
         String highestOccurrence = "";
 
         int max = 0;
 
-        for (HashMap.Entry<String, Integer> entry : wordCount.entrySet()) {
+        for (HashMap.Entry<String, Integer> entry : createHashMapOfWords(text).entrySet()) {
 
             if(max == entry.getValue()) {
                 highestOccurrence += " " + entry.getKey();

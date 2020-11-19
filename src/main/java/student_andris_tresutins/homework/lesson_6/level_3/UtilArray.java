@@ -8,7 +8,6 @@ import java.util.Arrays;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "replaceAllNumbers - зачем у вас массив array123? У вас проблемы в методах: replaceNumber, replaceAllNumbers, reverseArray, sortArray" +
         "Зачем вы создаете там какие-то объекты victim? Эти методы должны работать с ходными аргументами, а не создавать массивы внутри себя. ")
-        //all methods are used in TestUtilArray class
 
 class UtilArray {
 
@@ -60,11 +59,7 @@ class UtilArray {
         }
     }
 
-    public int replaceNumber(int numberToReplace, int newNumber) {
-
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arrayOne();
-
+    public int replaceNumber(int[] array, int numberToReplace, int newNumber) {
 
         int i;
         boolean found = false;
@@ -84,11 +79,7 @@ class UtilArray {
 
     }
 
-    public int[] replaceAllNumbers(int numberToReplace, int newNumber) {
-
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arrayDupes();
-        int[] array123 = {0,0,0,0,0};
+    public int[] replaceAllNumbers(int[] array, int numberToReplace, int newNumber) {
 
 
         int i;
@@ -102,16 +93,14 @@ class UtilArray {
         if (found) {
             return array;
         } else {
-            return array123;
+            return null;
         }
 
     }
 
 
-    public int[] reverseArray() {
+    public int[] reverseArray(int[] array) {
 
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arrayOne();
 
         for (int i = 0; i < array.length / 2; i++) {
             int arr = array[i];
@@ -123,17 +112,12 @@ class UtilArray {
 
     }
 
-    public int[] sortArray() {
-
-        UtilArray victim = new UtilArray();
-        int[] array = victim.arrayOne();
+    public int[] sortArray(int[] array) {
 
         Arrays.sort(array);
         return array;
 
     }
-
-
 
 
 }

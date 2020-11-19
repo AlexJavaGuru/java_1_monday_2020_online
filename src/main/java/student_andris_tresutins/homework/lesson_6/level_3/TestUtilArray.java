@@ -44,7 +44,7 @@ class TestUtilArray {
         int numberToReplace = 7;
         int newNumber = 13;
 
-        int actualResult = victim.replaceNumber(numberToReplace, newNumber);
+        int actualResult = victim.replaceNumber(victim.arrayOne(),numberToReplace, newNumber);
         int expectedResult = 13;
 
         check(expectedResult, actualResult, "Replace Number in Array test");
@@ -57,7 +57,7 @@ class TestUtilArray {
         int newNumber = 13;
 
         int[] array = {13, 13, 3, 13, 458};
-        int[] arrayCompare = victim.replaceAllNumbers(numbersToReplace, newNumber);
+        int[] arrayCompare = victim.replaceAllNumbers(victim.arrayDupes(),numbersToReplace, newNumber);
 
         boolean actualResult = Arrays.equals(array, arrayCompare);
         boolean expectedResult = true;
@@ -70,7 +70,7 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
 
         int[] array = {458, 7, 3, 54, 12};
-        int[] arrayCompare = victim.reverseArray();
+        int[] arrayCompare = victim.reverseArray(victim.arrayOne());
 
         boolean actualResult = Arrays.equals(array, arrayCompare);
         boolean expectedResult = true;
@@ -84,7 +84,7 @@ class TestUtilArray {
         UtilArray victim = new UtilArray();
 
         int[] array = {3, 7, 12, 54, 458};
-        int[] arrayCompare = victim.sortArray();
+        int[] arrayCompare = victim.sortArray(victim.arrayOne());
 
 
     boolean actualResult = Arrays.equals(array, arrayCompare);
