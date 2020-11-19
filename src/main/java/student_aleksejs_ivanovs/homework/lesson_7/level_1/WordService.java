@@ -1,5 +1,32 @@
 package student_aleksejs_ivanovs.homework.lesson_7.level_1;
 
+/*Дана строка с текстом.
+Написать метод, который найдёт слово, которое в тексте встречается больше всего раз.
+
+class WordService {
+
+    public String findMostFrequentWord(String text) {
+           // write solution here
+    }
+
+}
+
+Если несколько слов в тексте встречаются одинаково максимальное число раз,
+то возвращаем то слово, которое стоит в тексте первым.
+
+Подумайте на какие подзадачи можно разбить эту задачу?
+Распишите на бумаге каждую подзадачу в отдельности:
+- как она называется,
+- что её надо передать на вход (параметры),
+- что будет возвращать в качестве результата.
+
+PS: если вы не можете придумать как разбить эту задачу на подзадачи,
+пожалуйста попросите помощи! Умение попросить помощи, когда это нужно
+навес золота в ИТ.
+
+Убедитесь, что вы сможете из решений всех подзадач
+собрать решение главной задачи.*/
+
 import teacher.annotations.CodeReview;
 import teacher.annotations.CodeReviewComment;
 
@@ -14,23 +41,25 @@ class WordService {
 
     public String findMostFrequentWord(String text) {
         String[] array = text.split(" ");
-        int[] additionalArray = {-1, 0};
-
-        for (int i = 0; i < array.length; i++) {
-            if (!array[additionalArray[1]].equals(array[i]) || additionalArray[0] < 0) {
-                int count = 1;
-                for (int j = i + 1; j < array.length; j++) {
-                    if (array[i].equals(array[j])) {
-                        count++;
-                    }
-                }
-                if (additionalArray[0] < count) {
-                    additionalArray[0] = count;
-                    additionalArray[1] = i;
-                }
+        String wordReturn = array[0];
+        int repeatedCount = 1;
+        for (String repeat : array) {
+            if (repeatedCount < wordRepeats(array, repeat)) {
+                repeatedCount = wordRepeats(array, repeat);
+                wordReturn = repeat;
             }
         }
-        return array[additionalArray[1]];
+        return wordReturn;
+    }
+
+    public int wordRepeats(String[] array, String wordFind) {
+        int count = 0;
+        for (String word : array) {
+            if (word.equals(wordFind)) {
+                count++;
+            }
+        }
+        return count;
     }
 
 }
