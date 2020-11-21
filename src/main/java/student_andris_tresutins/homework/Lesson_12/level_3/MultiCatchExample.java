@@ -1,5 +1,8 @@
 package student_andris_tresutins.homework.Lesson_12.level_3;
 
+import teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class MultiCatchExample {
     public static void main(String[] args) {
         try {
