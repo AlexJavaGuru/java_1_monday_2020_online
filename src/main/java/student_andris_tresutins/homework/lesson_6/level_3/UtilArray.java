@@ -5,9 +5,8 @@ import teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "replaceAllNumbers - зачем у вас массив array123? У вас проблемы в методах: replaceNumber, replaceAllNumbers, reverseArray, sortArray" +
-        "Зачем вы создаете там какие-то объекты victim? Эти методы должны работать с ходными аргументами, а не создавать массивы внутри себя. ")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо!")
 
 class UtilArray {
 

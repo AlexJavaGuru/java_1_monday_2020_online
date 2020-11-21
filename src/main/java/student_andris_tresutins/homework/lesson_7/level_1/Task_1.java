@@ -8,11 +8,8 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Please read the task carefully. The authors want you to split the task into good named, understandable methods." +
-        "It's very hard to read your code here. Please try refactoring" +
-        "" +
-        "Андрис, нужно разбить эту логику на два метода. Вы уже близко =)")
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Уже лучше =)")
 class Task_1 {
 
 

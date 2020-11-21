@@ -6,10 +6,9 @@ import teacher.annotations.CodeReviewComment;
 import java.util.*;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Попробуйте подправить вашу реализацию. В задании говорилось, что " +
-        "мы должны добавлять книгу, если она существует. Для этого, лучше подходит Интерфейс Set. " +
-        "Попробуйте реализовать через коллекцию Set. Обратите внимание, что метод add у Set-a возвращает" +
-        "true или false")
+@CodeReviewComment(comment = "Ну почти. Давайте уже до конца доделаем пример. Смотрите, метод addBook проверяет на contains перед тем как добавить книгу," +
+        "но если вы используете set, то вам не надо этого делать. Операция добавления даст false если вы попробуете добавить туда элемент, который там есть." +
+        "Уберите проверку на contains")
 class BookReaderImpl implements BookReader{
 
     private Set<Book> bookStorage = new HashSet<>();
