@@ -15,10 +15,10 @@ class ProductDemo {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Please enter discount in %...");
-        double discount = in.nextInt();
+        product.discount = in.nextInt();
 
-        double newPrice = product.regularPrice - ((product.regularPrice / 100) * discount);
-        System.out.println("Discount " + discount + " %, new price - " + newPrice + " eur." );
+        double newPrice = product.regularPrice - ((product.regularPrice / 100) * product.discount);
+        System.out.println("Discount " + product.discount + " %, new price - " + newPrice + " eur." );
 
 
     }

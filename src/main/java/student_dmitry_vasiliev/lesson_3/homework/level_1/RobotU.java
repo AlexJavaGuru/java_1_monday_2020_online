@@ -8,29 +8,27 @@ import teacher.annotations.CodeReviewComment;
         "sayHello1 плохое название. Но это не критично для задачи.")
 public class RobotU {
 
-        public String name;
+    public String name;
 
-        public RobotU(String name)
-        {
-            this.name = name;
-        }
+    public RobotU(String name) {
+        this.name = name;
+    }
 
-        public RobotU() {
+    public RobotU() {
 
-        }
-    public void sayHello1()
-    {
+    }
+
+    public void sayHello() {
         System.out.println("Hello!!!");
     }
-        public void sayHello()
-        {
-            System.out.println("Hello from " + name);
-        }
 
-        public void sayYourName()
-        {
-            System.out.println("My name is " + name); // == this.name
-
-        }
+    public void sayHelloFrom() {
+        System.out.println("Hello from " + name);
     }
+
+    public void sayYourName() {
+        System.out.println("My name is " + name); // == this.name
+
+    }
+}
 

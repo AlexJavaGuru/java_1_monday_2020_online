@@ -10,28 +10,32 @@ import java.util.Scanner;
 @CodeReviewComment(comment = "То же самое, что в DogColor. Что тут происходит? В демо должна быть работа с объектом класса. А объект собаки вы тут даже не создали. ")
 public class DogDemo {
     public static void main(String[] args) {
+        Dog dog = new Dog();
         Scanner in = new Scanner(System.in);
+
         System.out.println("Please enter a dog name...");
-        String name = in.next();
-        String voice = name;
+        dog.setName(in.next());
+        String voice = dog.getName();
+
         System.out.println("How old is a dog...");
-        int old = in.nextInt();
+        dog.setAge(in.nextInt());
+        int old = dog.getAge();
 
         System.out.println("My name is: " + voice + ", " + voice + ", " + voice + "!");
         System.out.println("I am " + old + " years old.");
-
         System.out.println("Today is my birthday? YES - 1 / NO - 2");
         int birthday = in.nextInt();
+
         boolean stat = 1 == birthday;
         if (stat) {
-            int old1 = old+1;
+            int old1 = old + 1;
             System.out.println("My name is: " + voice + ", " + voice + ", " + voice + "!");
-            System.out.println("I am " + old1 + " years old.");}
-            else {
-                System.out.println(voice + ", " + voice + ", " + voice + "!");
+            System.out.println("I am " + old1 + " years old.");
+        } else {
+            System.out.println(voice + ", " + voice + ", " + voice + "!");
         }
 
-        }
+    }
 
 }
 
