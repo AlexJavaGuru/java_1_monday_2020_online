@@ -48,39 +48,28 @@ class tasks_8_9_10 {
         myTask.findEqualsDifferentNumber(number1, number2, number3);
         myTask.findIncreasingDecreasing(number1, number2, number3);
         myTask.findMaximalNumber(number1, number2, number3);
-
     }
 
     void findEqualsDifferentNumber(int inputNumber1, int inputNumber2, int inputNumber3) {
         if (inputNumber1 == inputNumber2 && inputNumber1 == inputNumber3) {
-            System.out.println("All numbers are equals");
-        } else {
-            if (inputNumber1 == inputNumber2) {
-                System.out.println("Neither all are equal or different");
-            } else {
-                if (inputNumber2 == inputNumber3) {
-                    System.out.println("Neither all are equal or different");
-                } else {
-                    if (inputNumber1 == inputNumber3) {
-                        System.out.println("Neither all are equal or different");
-                    } else {
-                        System.out.println("All numbers are different");
-                    }
-                }
-            }
-        }
+            System.out.print("All numbers are equal.");
+        } else if (inputNumber1 != inputNumber2
+                && inputNumber1 != inputNumber3
+                && inputNumber2 != inputNumber3) {
+            System.out.print("All numbers are different.");}
+        else
+            System.out.print("Neither all are equal or different.");
     }
 
     void findIncreasingDecreasing(int inputNumber1, int inputNumber2, int inputNumber3) {
-        if (inputNumber1 < inputNumber2 && inputNumber2 < inputNumber3)  {
-            System.out.println("increasing");
-        } else {
-            if (inputNumber1 > inputNumber2 && inputNumber2 > inputNumber3) {
-                System.out.println("decreasing");
-            } else {
-                System.out.println("Neither increasing or decreasing order");
-            }
-        }
+
+        if (inputNumber1 < inputNumber2 && inputNumber2 < inputNumber3) {
+            System.out.print("increasing");
+        } else if (inputNumber1 > inputNumber2
+                && inputNumber2 > inputNumber3) {
+            System.out.print("decreasing.");
+        } else
+            System.out.print("Neither increasing or decreasing order.");
     }
 
     void findMaximalNumber(int inputNumber1, int inputNumber2, int inputNumber3) {
