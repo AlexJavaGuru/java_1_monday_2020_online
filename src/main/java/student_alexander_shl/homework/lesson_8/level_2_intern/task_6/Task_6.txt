@@ -1,0 +1,50 @@
+Исправьте код программы:
+
+class Mother {
+
+}
+
+class Father {
+
+}
+
+class Child extends Mother, Father {
+
+}
+
+PS: вносить изменения можно только в объявление класса Child.
+Правильных решений у этой задачи два, выбирайте любое.
+
+Ответ:
+
+Решение Nr.1:
+------------
+
+Class Mother {
+
+}
+
+class Father {
+
+}
+
+class Child extends Mother {
+
+}
+
+==========================================================================================
+
+Решение Nr.2:
+-------------
+
+Class Mother {
+
+}
+
+class Father {
+
+}
+
+class Child extends Father {
+
+}
